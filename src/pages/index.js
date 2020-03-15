@@ -30,6 +30,9 @@ const IndexPage = () => {
 
   return (
     <Layout>
+      <div className={styles.languages}>
+        <p><span>en</span><span> / </span><span>es</span><span> / </span><span>ca</span><span> / </span><span>de</span></p>
+      </div>
       {/* <SEO title="Home" /> */}
 
       {/* <!-- HOME --> */}
@@ -40,7 +43,7 @@ const IndexPage = () => {
         <div className={styles.greeting}>
           Hello, I'm <span className={styles.greeting__name}>Diana Moreno</span>.
           <br></br>
-          I'm Full Stack Web Developer.
+          I'm a Full Stack Web Developer.
         </div>
         <div className={styles.more} dest="about">
           <p>View more</p>
@@ -62,25 +65,16 @@ const IndexPage = () => {
             </div>
             <div className={styles.circle_text}>
               <h3>Responsiveness</h3>
-              <p>Taking care the way it looks on devices with both large and small screens</p>
+              <p>Procuro que mis proyectos se vean bien en todos los dispositivos aplicando el concepto de móvil primero. </p>
             </div>
           </div>
-          {/* <div className={styles.circle_container}>
-            <div className={styles.circle}>
-              <Light className={styles.responsive_icon}/>
-            </div>
-            <div className={styles.circle_text}>
-            <h3>Intuitive</h3>
-              <p>Websites user-friendly and easy to use.</p>
-            </div>
-          </div> */}
           <div className={styles.circle_container}>
             <div className={styles.circle}>
               <Focus className={styles.responsive_icon} />
             </div>
             <div className={styles.circle_text}>
               <h3>Simplicity</h3>
-              <p>Nice design avoiding overdone it. Less is more.</p>
+              <p>Apuesto por interfaces atractivas para el usuario pero sin perder la simplicidad. Menos es más.</p>
             </div>
           </div>
           <div className={styles.circle_container}>
@@ -88,8 +82,8 @@ const IndexPage = () => {
               <Code className={styles.responsive_icon} />
             </div>
             <div className={styles.circle_text}>
-              <h3>Clean code</h3>
-              <p>I understand the importance of the clean code and reusable components.</p>
+              <h3>Good practices</h3>
+              <p>Aplico principios SOLID, de código limpio, construyo componentes reusables y entiendo la importancia de testear.</p>
             </div>
           </div>
           <div className={styles.circle_container}>
@@ -98,7 +92,7 @@ const IndexPage = () => {
             </div>
             <div className={styles.circle_text}>
               <h3>Latest technologies</h3>
-              <p>Being technological update with the latest technologies.</p>
+              <p>Me intereso por las nuevas tecnologías y procuro estar siempre al día.</p>
             </div>
           </div>
         </div>
