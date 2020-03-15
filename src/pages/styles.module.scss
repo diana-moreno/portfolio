@@ -1,0 +1,35 @@
+body {
+  font-family: "Raleway";
+}
+
+.home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  // background-color: #252934;
+  background-color: #1b242f;
+  color: white;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.greeting__name {
+  color: #d36668;
+  font-weight: 600;
+}
+
+  .more {
+    color: white;
+    background: none;
+    font-size: 1.5rem;
+    outline: none;
+    position: absolute;
+    bottom: 3rem;
+    
+  p {
+    margin-bottom: 0;
+  }
+}
