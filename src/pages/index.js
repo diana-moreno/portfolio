@@ -11,6 +11,9 @@ import Focus from '../assets/focus.svg'
 import Light from '../assets/light.svg'
 import Code from '../assets/code.svg'
 import Tendency from '../assets/tendency.svg'
+import Github from '../assets/github.svg'
+import Linkedin from '../assets/linkedin.svg'
+import Email from '../assets/email.svg'
 import WhiteTriangle from '../assets/white_triangle.svg'
 
 
@@ -125,37 +128,33 @@ const IndexPage = () => {
           <div className={styles.title_section_line}></div>
         </div>
         <WhiteTriangle className={styles.white_triangle}/>
-        {/* <form className={styles.contact_form} action="mailto:d7@hotmail.es" method="post" enctype="multipart/form-data">
-            <input placeholder="Name" type="text" name="name" required=""/>
-            <input placeholder="Email" type="email" name="email" required=""/>
-            <textarea placeholder="Your Message" type="text" name="message"></textarea>
-            <div id="success">
-              <div>
-                Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span>
-              </div>
-            </div>
-            <input class="button" type="submit" id="submit" value="SUBMIT"/>
-          </form> */}
 
-<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action='/page-2' className={styles.form}>
-  <input type="hidden" name="bot-field" />
-  <input type="hidden" name="form-name" value="contact" />
-  <div className={styles.form_inputs}>
-    <input type="text" name="name" id="name" placeholder='Name' />
-    <input type="text" name="email" id="email" placeholder='Email' />
-    <textarea name="message" id="message" rows="6" placeholder='Your message' />
-  </div>
-
-  <ul className={styles.form_buttons}>
-    <li>
-      <input type="submit" value="Send Message" className={styles.form_button_send} />
-    </li>
-    <li>
-      <input type="reset" value="Clear" className={styles.form_button_clear} />
-    </li>
-  </ul>
-</form>
+        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action='/page-2' className={styles.form}>
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
+          <div className={styles.form_inputs}>
+            <input type="text" name="name" id="name" placeholder='Name' />
+            <input type="text" name="email" id="email" placeholder='Email' />
+            <textarea name="message" id="message" rows="6" placeholder='Your message' />
+          </div>
+          <ul className={styles.form_buttons}>
+            <li>
+              <input type="submit" value="Send Message" className={styles.form_button_send} />
+            </li>
+            <li>
+              <input type="reset" value="Clear" className={styles.form_button_clear} />
+            </li>
+          </ul>
+        </form>
       </section>
+      <footer>
+        <div className={styles.social}>
+          <Github />
+          <Linkedin />
+          <Email />
+        </div>
+        <p className={styles.footer_text}>Diana Moreno, 2020</p>
+      </footer>
 
     </Layout>
   )

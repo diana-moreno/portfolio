@@ -217,3 +217,30 @@ input:focus {
     }
   }
 }
+
+footer {
+  background: #151b22;
+}
+.social {
+  display: flex;
+  max-width: 20rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+
+  svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+
+    path {
+      fill: #d1d1d1;;
+    }
+  }
+}
+.footer_text {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 1rem;
+}
