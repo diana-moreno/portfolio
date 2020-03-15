@@ -137,27 +137,21 @@ const IndexPage = () => {
             <input class="button" type="submit" id="submit" value="SUBMIT"/>
           </form> */}
 
-<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action='/page-2'>
+<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action='/page-2' className={styles.form}>
   <input type="hidden" name="bot-field" />
   <input type="hidden" name="form-name" value="contact" />
-  <div className="field half first">
-    <label htmlFor="name">Name</label>
-    <input type="text" name="name" id="name" />
+  <div className={styles.form_inputs}>
+    <input type="text" name="name" id="name" placeholder='Name' />
+    <input type="text" name="email" id="email" placeholder='Email' />
+    <textarea name="message" id="message" rows="6" placeholder='Your message' />
   </div>
-  <div className="field half">
-    <label htmlFor="email">Email</label>
-    <input type="text" name="email" id="email" />
-  </div>
-  <div className="field">
-    <label htmlFor="message">Message</label>
-    <textarea name="message" id="message" rows="6" />
-  </div>
-  <ul className="actions">
+
+  <ul className={styles.form_buttons}>
     <li>
-      <input type="submit" value="Send Message" className="special" />
+      <input type="submit" value="Send Message" className={styles.form_button_send} />
     </li>
     <li>
-      <input type="reset" value="Clear" />
+      <input type="reset" value="Clear" className={styles.form_button_clear} />
     </li>
   </ul>
 </form>

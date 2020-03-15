@@ -169,3 +169,47 @@ p {
   position: absolute;
   top: 0;
 }
+
+.form {
+  margin: 4rem auto;
+}
+.form_inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 26rem;
+  margin: 0 auto;
+
+  input, textarea {
+    border-color: transparent;
+    margin: 0.1rem;
+    padding: 0.4rem;
+    resize: none;
+  }
+}
+
+.form_buttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  margin: 0 auto;
+  
+  li {
+    list-style: none;
+    margin: 1rem;
+    
+    .form_button_send {
+      background: none;
+      padding: 0.5rem;
+      color: white;
+      cursor: pointer;
+    }
+    .form_button_clear {
+      background: none;
+      padding: 0.5rem;
+      color: #d36667;
+      cursor: pointer;
+      border: 2px solid #d36667;
+    }
+  }
+}
