@@ -92,7 +92,7 @@ const IndexPage = () => {
             </div>
             <div className={styles.circle_text}>
               <h3>Latest technologies</h3>
-              <p>Me intereso por las nuevas tecnologías y procuro estar siempre al día.</p>
+              <p>Me intereso por las nuevas tecnologías y apuesto por estar siempre al día.</p>
             </div>
           </div>
         </div>
@@ -108,8 +108,7 @@ const IndexPage = () => {
             <p>All signs were appointing to programming and I felt an irresistible need to explore this field so, the beginning of 2019, I quit my job and started learning by myself. From september-19 to december-19 I was enrolled in a programming bootcamp in Skylab to consolidate and expand my knowledge.</p>
             <h3>Nowadays</h3>
             <p>Curently, I'm working for Interficie: a company that develops custum ecommerce and creative solutions for a big companies.<br></br>
-              I am focused on Javascript and my tools are React, Gatsby, Node, SQL and Express.<br></br>
-              In my spare time, I enjoy learning new technologies and implementing personal projects like this web site.</p>
+              I am focused on Javascript and my tools are React, Gatsby, Node, SQL and Express.</p>
             <h3>Passions</h3>
             <p>Besides programming, I am dedicated to following a healthy lifestyle. I pay close attention to what I eat, and regularly exercise. Moreover, I love dancing, up to the point that I joined an amateur salsa dance company.</p>
           </div>
