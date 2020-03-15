@@ -24,7 +24,6 @@ p {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  // background-color: #252934;
   background-color: #1b242f;
   color: white;
   font-size: 2.5rem;
@@ -60,11 +59,11 @@ p {
 }
 .title_section_line {
   width: 5rem;
-  border-bottom: 5px solid;
+  border-bottom: 5px solid #d36667;
   margin: 0 auto;
 }
 .about {
-  height: 94vh;
+  // height: 94vh;
   padding: 1rem;
 }
 .circles_container {
@@ -109,6 +108,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 4rem;
 }
 
 .aboutme_text {
@@ -149,4 +149,23 @@ p {
     z-index: 1;
     margin: 0;
   }
+}
+
+
+// CONTACT
+
+.contact {
+  // background-color: #f5f5f5;
+  padding: 1rem;
+  background-color: #1b242f;
+  position: relative;
+
+  .title_section {
+    margin-top: 7rem;
+    color: white;
+  }
+}
+.white_triangle {
+  position: absolute;
+  top: 0;
 }

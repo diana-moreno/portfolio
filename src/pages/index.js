@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles from './styles.module.scss'
@@ -10,7 +11,7 @@ import Focus from '../assets/focus.svg'
 import Light from '../assets/light.svg'
 import Code from '../assets/code.svg'
 import Tendency from '../assets/tendency.svg'
-import { graphql, useStaticQuery } from 'gatsby'
+import WhiteTriangle from '../assets/white_triangle.svg'
 
 
 const IndexPage = () => {
@@ -113,6 +114,53 @@ const IndexPage = () => {
             <p>Besides programming, I am dedicated to following a healthy lifestyle. I pay close attention to what I eat, and regularly exercise. Moreover, I love dancing, up to the point that I joined an amateur salsa dance company.</p>
           </div>
         </div>
+      </section>
+
+
+
+      {/* <!-- CONTACT --> */}
+      <section className={styles.contact}>
+        <div className={styles.title_section}>
+          <h1>CONTACT</h1>
+          <div className={styles.title_section_line}></div>
+        </div>
+        <WhiteTriangle className={styles.white_triangle}/>
+        {/* <form className={styles.contact_form} action="mailto:d7@hotmail.es" method="post" enctype="multipart/form-data">
+            <input placeholder="Name" type="text" name="name" required=""/>
+            <input placeholder="Email" type="email" name="email" required=""/>
+            <textarea placeholder="Your Message" type="text" name="message"></textarea>
+            <div id="success">
+              <div>
+                Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span>
+              </div>
+            </div>
+            <input class="button" type="submit" id="submit" value="SUBMIT"/>
+          </form> */}
+
+<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+  <input type="hidden" name="bot-field" />
+  <input type="hidden" name="form-name" value="contact" />
+  <div className="field half first">
+    <label htmlFor="name">Name</label>
+    <input type="text" name="name" id="name" />
+  </div>
+  <div className="field half">
+    <label htmlFor="email">Email</label>
+    <input type="text" name="email" id="email" />
+  </div>
+  <div className="field">
+    <label htmlFor="message">Message</label>
+    <textarea name="message" id="message" rows="6" />
+  </div>
+  <ul className="actions">
+    <li>
+      <input type="submit" value="Send Message" className="special" />
+    </li>
+    <li>
+      <input type="reset" value="Clear" />
+    </li>
+  </ul>
+</form>
       </section>
 
     </Layout>
