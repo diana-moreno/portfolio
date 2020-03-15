@@ -1,6 +1,12 @@
 body {
   font-family: "Raleway";
+  color: #444649;
 }
+p {
+  line-height: 1.5rem;
+}
+
+// home
 
 .home {
   text-align: center;
@@ -31,5 +37,107 @@ body {
     
   p {
     margin-bottom: 0;
+  }
+}
+
+// about
+.title_section {
+  text-align: center;
+  color: #444649;
+  font-family: "raleway-bold";
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+.title_section_line {
+  width: 5rem;
+  border-bottom: 5px solid;
+  margin: 0 auto;
+}
+.about {
+  height: 94vh;
+  padding: 1rem;
+}
+.circles_container {
+  display: flex;
+  margin: 4rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.circle_container {
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.circle {
+  width: 6rem;
+  height: 6rem;
+  background: #04c2c9;
+  border-radius: 50%;
+  position: relative;
+}
+.circle_text {
+  margin-top: 2rem;
+  font-size: 16px;
+}
+.responsive_icon {
+  width: 4rem;
+  position: absolute;
+  top: 1rem;
+  height: auto;
+  left: 1rem;
+  
+  path {
+    fill: white;
+  }
+}
+
+
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.aboutme_text {
+  max-width: 36rem;
+}
+
+.aboutme_image_container {
+  width: 18rem;
+  padding: 0.5em;
+  border: 0.25em solid #04c2c9;
+  position: relative;
+  margin: 3rem;
+
+  &::before, &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #fff;
+  }
+  
+  &::before {
+    top: -0.3em; // let it overlap a bit to prevent thin line which could appear during scaling in some browsers etc.
+    bottom: -0.3em;
+    left: 1em;
+    right: 1em;
+  }
+  
+  &::after{
+    left: -0.3em;
+    right: -0.3em;
+    top: 1em;
+    bottom: 1em;
+  }
+  
+  // you need this to move the text in front of the ::after overlay
+  .aboutme_image {
+    position: relative;
+    z-index: 1;
+    margin: 0;
   }
 }
