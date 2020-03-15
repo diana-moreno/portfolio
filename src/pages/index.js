@@ -8,6 +8,7 @@ import styles from './styles.module.scss'
 import Navbar from '../components/Navbar'
 import DoubleArrowDown from '../assets/double_arrow_down.svg'
 import ArrowBounce from '../components/ArrowBounce'
+import './background.sass'
 
 const IndexPage = () => (
   <Layout>
@@ -20,7 +21,10 @@ const IndexPage = () => (
     </div>
     <Link to="/page-2/">Go to page 2</Link> */}
       {/* <!-- HOME --> */}
-      <section className={styles.home}>
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+      <section id='home-container' className={styles.home}>
         <div className={styles.greeting}>
           Hello, I'm <span className={styles.greeting__name}>Diana Moreno</span>.
           <br></br>
@@ -28,7 +32,6 @@ const IndexPage = () => (
         </div>
         <div className={styles.more} dest="about">
           <p>View more</p>
-          {/* <DoubleArrowDown /> */}
           <ArrowBounce />
         </div>
       </section>
