@@ -1,0 +1,21 @@
+
+.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
+  &__list {
+    display: flex;
+    background-color: #1b242f;
+    color: white;
+    border-bottom: 5px solid #d36667;
+    margin-left: 0;
+    padding-left: 3rem;
+    margin-bottom: 0;
+    
+    li {
+      list-style: none;
+      margin: 1rem;
+    }
+}
+}
