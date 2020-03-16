@@ -17,6 +17,13 @@
     li {
       list-style: none;
       margin: 1rem;
+      cursor: pointer;
+    }
+    li:hover {
+      color: #d36667;
+    }
+    li:active {
+      color: #d36667;
     }
 }
 }

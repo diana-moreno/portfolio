@@ -6,7 +6,7 @@ body {
 p {
   line-height: 1.5rem;
 }
-input:focus {
+input:focus, button:focus {
   outline: transparent;
 }
 
@@ -17,6 +17,10 @@ input:focus {
   color: white;
   z-index: 3;
   cursor: pointer;
+}
+.language_item:active,
+.language_item:hover {
+  color: #d36667;
 }
 
 // home

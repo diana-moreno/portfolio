@@ -61,7 +61,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <div className={styles.languages}>
-        <p><span>en</span><span> / </span><span>es</span><span> / </span><span>ca</span><span> / </span><span>de</span></p>
+        <p><span className={styles.language_item}>en</span><span> / </span><span className={styles.language_item}>es</span><span> / </span><span className={styles.language_item}>ca</span><span> / </span><span className={styles.language_item}>de</span></p>
       </div>
       {/* <SEO title="Home" /> */}
 
