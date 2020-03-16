@@ -284,12 +284,16 @@ footer {
   justify-content: center;
   margin: 0 auto;
   padding: 4rem 0;
+  div {
+    margin-bottom: 2rem;
+  }
 }
 .project_image_container {
   width: 17rem;
   height: 13rem;
   background-color: white; 
-  margin: 2rem 3rem;
+  margin: 1.5rem 3rem;
+  margin-bottom: 4rem;
 }
 .project_title {
   text-align: center;
