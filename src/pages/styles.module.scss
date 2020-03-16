@@ -294,6 +294,7 @@ footer {
   background-color: white; 
   margin: 1.5rem 3rem;
   margin-bottom: 4rem;
+  text-align: center;
 }
 .project_title {
   text-align: center;
@@ -301,7 +302,31 @@ footer {
 
 .project_image {
   object-fit: cover;
-  width: 100%;
+  // width: 100%;
   height: auto;
   height: 13rem;
+}
+.project_details {
+  display: none;
+  background: none;
+  border: 2px solid #d36667;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.project_image_container:hover {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  
+  .project_image {
+    display: none;
+  }
+  .project_details {
+    display: block;
+    cursor: pointer;
+  }
+  .project_details:hover {
+    background-color: #d36667;
+    color: white;
+  }
 }

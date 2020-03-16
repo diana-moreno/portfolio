@@ -157,6 +157,7 @@ const IndexPage = () => {
               <h3 className={styles.project_title}>Project title</h3>
               <div className={styles.project_image_container}>
                 <img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name}/>
+                <button className={styles.project_details}>VIEW DETAILS</button>
               </div> 
           </div>
           )
