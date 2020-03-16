@@ -207,13 +207,14 @@ input:focus {
       padding: 0.5rem;
       color: white;
       cursor: pointer;
+      border: 1px solid;
     }
     .form_button_clear {
       background: none;
       padding: 0.5rem;
       color: #d36667;
       cursor: pointer;
-      border: 2px solid #d36667;
+      border: 1px solid #d36667;
     }
   }
 }
@@ -243,4 +244,31 @@ footer {
   margin: 0;
   text-align: center;
   padding-bottom: 1rem;
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1b242f;
+  color: #fff;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+  p {
+    margin: 3rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  .goBack {
+    text-decoration: none;
+    padding: 0.8rem;
+    font-weight: bold;
+    color: white;
+    border: 1px solid;
+  }
 }
