@@ -18,7 +18,7 @@ import WhiteTriangle from '../assets/white_triangle.svg'
 
 
 const IndexPage = () => {
-  const { image } = useStaticQuery(graphql`
+  const { image, projects } = useStaticQuery(graphql`
     query {
       image: file(relativePath: {eq: "profile.png"}) {
         childImageSharp {
@@ -27,10 +27,36 @@ const IndexPage = () => {
           }
         }
       }
+      projects: allFile(filter: {relativeDirectory: {eq: "projects"}}) {
+        edges {
+          node {
+            name
+            publicURL
+          }
+        }
+      }
     }
   `)
-  const imageUrl = image.childImageSharp.fluid.src
-  console.log(imageUrl)
+  console.log(image, projects)
+  console.log(projects.edges[0].node.name)
+   const imageUrl = image.childImageSharp.fluid.src
+   
+  // console.log(imageUrl)
+  // console.log(projects)
+
+  // const { projects } = useStaticQuery(graphql`
+  //   query {
+  //     projects: allFile(filter: {relativeDirectory: {eq: "projects"}}) {
+  //       edges {
+  //         node {
+  //           name
+  //           relativePath
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
+  // console.log(projects)
 
   return (
     <Layout>
@@ -119,7 +145,19 @@ const IndexPage = () => {
         </div>
       </section>
 
-
+      {/* <!-- PROJECTS --> */}
+      <section className={styles.projects}>
+      <div className={styles.title_section}>
+          <h1>PROJECTS</h1>
+          <div className={styles.title_section_line}></div>
+        </div>
+        <div className={styles.projects_container}>
+        { projects.edges.map(elem => 
+          <div><img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name}/></div> 
+        )}
+        </div>
+        
+      </section>
 
       {/* <!-- CONTACT --> */}
       <section className={styles.contact}>
@@ -129,7 +167,7 @@ const IndexPage = () => {
         </div>
         <WhiteTriangle className={styles.white_triangle}/>
 
-        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action='/confirmation' className={styles.form}>
+        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action='/' className={styles.form}>
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
           <div className={styles.form_inputs}>
