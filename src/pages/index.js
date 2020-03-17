@@ -1,5 +1,6 @@
-import React from "react"
-import { graphql, useStaticQuery } from 'gatsby'
+import React, { useState } from "react"
+import { navigate, graphql, useStaticQuery } from 'gatsby'
+import { navigateTo } from "gatsby-link";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles from './styles.module.scss'
@@ -15,7 +16,7 @@ import Github from '../assets/github.svg'
 import Linkedin from '../assets/linkedin.svg'
 import Email from '../assets/email.svg'
 import WhiteTriangle from '../assets/white_triangle.svg'
-
+import sendMessage from "../logic/send-message";
 
 const IndexPage = () => {
   const { image, projects } = useStaticQuery(graphql`
@@ -37,26 +38,52 @@ const IndexPage = () => {
       }
     }
   `)
-  console.log(image, projects)
-  console.log(projects.edges[0].node.name)
-   const imageUrl = image.childImageSharp.fluid.src
-   
-  // console.log(imageUrl)
-  // console.log(projects)
+  const imageUrl = image.childImageSharp.fluid.src
 
-  // const { projects } = useStaticQuery(graphql`
-  //   query {
-  //     projects: allFile(filter: {relativeDirectory: {eq: "projects"}}) {
-  //       edges {
-  //         node {
-  //           name
-  //           relativePath
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
-  // console.log(projects)
+  const [name, setName] = useState('Name')
+  const [email, setEmail] = useState('Email')
+  const [message, setMessage] = useState('Message')
+  const [errorName, setErrorName] = useState(false)
+  const [errorEmail, setErrorEmail] = useState(false)
+  const [errorMessage, setErrorMessage] = useState(false)
+ 
+  const handleSubmit = async (event) => { 
+    event.preventDefault()
+    const { name: { value: name }, email: { value: email }, message: { value: message } } = event.target
+
+    if(!name) {
+      setErrorName(true) 
+      setName('Name is required')
+    }
+    if(!email) {
+      setErrorEmail(true)
+      setEmail('Email is required')
+    }
+    if(!message) {
+      setErrorMessage(true)
+      setMessage('Message is required')
+    }
+    if(name && email && message && !errorName && !errorEmail && !errorMessage) {
+      await sendMessage(name, email, message)
+      navigate('/confirmation')
+    }
+  }
+  
+  const handleChange = (event) => {
+    const id = event.target.id
+    id === 'name' && setErrorName(false)
+    id === 'email' && setErrorEmail(false)
+    id === 'message' && setErrorMessage(false)
+  }
+
+  const clear = () => {
+    setName('Name')
+    setEmail('Email')
+    setMessage('Your message')
+    setErrorName(false)
+    setErrorEmail(false)
+    setErrorMessage(false)
+  }
 
   return (
     <Layout>
@@ -173,21 +200,43 @@ const IndexPage = () => {
           <div className={styles.title_section_line}></div>
         </div>
         <WhiteTriangle className={styles.white_triangle}/>
-
-        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action='/' className={styles.form}>
-          <input type="hidden" name="bot-field" />
-          <input type="hidden" name="form-name" value="contact" />
+        <form 
+          onSubmit={handleSubmit}
+          className={styles.form}
+        >
           <div className={styles.form_inputs}>
-            <input type="text" name="name" id="name" placeholder='Name' />
-            <input type="text" name="email" id="email" placeholder='Email' />
-            <textarea name="message" id="message" rows="6" placeholder='Your message' />
+            <input
+              className={errorName ? styles.hola : styles.adios}
+              type="text" 
+              name="name" 
+              id="name" 
+              placeholder={name}
+              onChange={handleChange}
+              />
+            <input 
+              className={errorEmail ? styles.hola : styles.adios}
+              type="text" 
+              name="email" 
+              id="email" 
+              placeholder={email}
+              onChange={handleChange}
+              // pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+              />
+            <textarea 
+              className={errorMessage ? styles.hola : styles.adios}
+              name="message" 
+              id="message" 
+              rows="6" 
+              placeholder={message}
+              onChange={handleChange}
+            />
           </div>
           <ul className={styles.form_buttons}>
             <li>
-              <input type="submit" value="Send Message" className={styles.form_button_send} />
+              <input type="submit" value="Send message" className={styles.form_button_send} />
             </li>
             <li>
-              <input type="reset" value="Clear" className={styles.form_button_clear} />
+              <input type="reset" value="Clear" onClick={clear} className={styles.form_button_clear} />
             </li>
           </ul>
         </form>
