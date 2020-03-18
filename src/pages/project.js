@@ -34,7 +34,7 @@ const SecondPage = () => {
         </div>
         <div className={styles.project_container}>
           <div className={styles.project_container_side}>
-            <div className={styles.project_image_container}>
+            <div className={styles.project_image}>
               <img className={styles.project_image} src={calculatorURL} />
               <button className={styles.project_details}>RUN PROJECT</button>
             </div>
