@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { navigate, graphql, useStaticQuery } from 'gatsby'
-import { navigateTo } from "gatsby-link";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles from './styles.module.scss'
@@ -206,7 +205,7 @@ const IndexPage = () => {
         >
           <div className={styles.form_inputs}>
             <input
-              className={errorName ? styles.hola : styles.adios}
+              className={errorName ? styles.form_input_error : styles.form_input}
               type="text" 
               name="name" 
               id="name" 
@@ -214,7 +213,7 @@ const IndexPage = () => {
               onChange={handleChange}
               />
             <input 
-              className={errorEmail ? styles.hola : styles.adios}
+              className={errorEmail ? styles.form_input_error : styles.form_input}
               type="text" 
               name="email" 
               id="email" 
@@ -223,7 +222,7 @@ const IndexPage = () => {
               // pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
               />
             <textarea 
-              className={errorMessage ? styles.hola : styles.adios}
+              className={errorMessage ? styles.form_input_error : styles.form_input}
               name="message" 
               id="message" 
               rows="6" 
