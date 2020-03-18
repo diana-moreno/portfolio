@@ -1,5 +1,5 @@
 // const API_URL = `https://${process.env.API_NAME}.netlify.com` 
-const API_URL = `https://sendmeanemail.netlify.com` 
+const API_URL = "https://sendmeanemail.herokuapp.com"
 // const API_URL = 'https://sendmeanemail.herokuapp.com'
 
 export default function(name, email, message) {
