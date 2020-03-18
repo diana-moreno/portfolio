@@ -34,8 +34,9 @@ const SecondPage = () => {
         </div>
         <div className={styles.project_container}>
           <div className={styles.project_container_side}>
-            <div className={styles.project_image}>
+            <div className={styles.project_image_container}>
               <img className={styles.project_image} src={calculatorURL} />
+              <button className={styles.project_details}>RUN PROJECT</button>
             </div>
             <p>In this project, I made a functional calculator. The purpose was to practice with the mix of CSS, HTML, the DOM, logic Javascript and mouse and keyboard events.</p>
             <p><strong>Source code</strong></p>
@@ -69,6 +70,10 @@ const SecondPage = () => {
                 <li>Apply keyboard and mouse events.</li>
                 <li>How to implement hover and active to change style.</li>
               </ul>
+            </div>
+            <div className={styles.project_text}>
+              <p><strong>Date</strong></p>
+              <p>June 2019</p>
             </div>
           </div>
         </div>
