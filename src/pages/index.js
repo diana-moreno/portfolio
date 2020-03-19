@@ -182,7 +182,7 @@ const IndexPage = () => {
           <div className={styles.filter_active}>ALL</div>
           <div className={styles.filter}>REACT</div>
           <div className={styles.filter}>GATSBY</div>
-          <div className={styles.filter}>JS</div>
+          <div className={styles.filter}>JS/EXPRESS</div>
         </div>
 
         <div className={styles.projects_container}>
