@@ -296,7 +296,7 @@ footer {
 .projects_container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1350px;
+  max-width: 1450px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -318,7 +318,7 @@ footer {
 
 .project_title {
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem 0;
 }
 .project_details {
   display: none;
@@ -413,8 +413,8 @@ footer {
 .project_card {
   background: #fff;
   box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
-  padding-bottom: 1rem;
   padding: 1rem;
+  padding-bottom: 0;
 }
 
 .card {
