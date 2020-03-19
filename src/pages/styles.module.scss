@@ -130,6 +130,11 @@ input:focus, button:focus {
   position: relative;
   margin: 3rem;
 
+  &:hover {
+    transform: scale(1.2, 1.2) rotate(0deg);
+    transition: all 0.35s;
+  }
+
   &::before, &::after {
     content: '';
     display: block;
@@ -156,8 +161,10 @@ input:focus, button:focus {
     position: relative;
     z-index: 1;
     margin: 0;
+    box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
   }
 }
+
 
 
 // CONTACT
@@ -283,25 +290,25 @@ footer {
 .projects_container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1300px;
+  max-width: 1350px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   padding: 4rem 0;
-  div {
-    margin-bottom: 2rem;
-  }
 }
 .project_image_container {
   width: 17rem;
   height: 13rem;
-  background-color: white; 
-  margin: 1.5rem 3rem;
-  margin-bottom: 4rem;
+  background-color: white;
   text-align: center;
+  margin: 1rem 0;
+  margin-top: 0;
 }
+
+
 .project_title {
   text-align: center;
+  padding: 1rem;
 }
 
 .project_image {
@@ -372,4 +379,59 @@ footer {
   path {
     fill: #58c2c9;
   }
+}
+
+.project_sections {
+  display: flex;
+  justify-content: center;
+}
+
+.project_section_left {
+  width: 12rem;
+}
+.project_section_right {
+  width: 32rem;
+  ul {
+    margin-left: 0;
+    li {
+      list-style: none;
+    }
+  }
+}
+
+.project_sections {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+
+.project_card {
+  background: #fff;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  padding-bottom: 1rem;
+  padding: 1rem;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card {
+  position: relative;
+  margin: 2rem 3rem;
+}
+
+
+.card:hover .project_card {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+}
+
+.back {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
 }

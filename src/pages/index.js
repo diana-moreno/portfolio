@@ -179,13 +179,24 @@ const IndexPage = () => {
         </div>
         <div className={styles.projects_container}>
         { projects.edges.map(elem => (
-            <div>
-              <h3 className={styles.project_title}>Project title</h3>
-              <div className={styles.project_image_container}>
-                <img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name}/>
-                <button className={styles.project_details}>VIEW DETAILS</button>
+            <div className={styles.card}>
+              <div className={styles.project_card}>
+                <div className={styles.front}>
+                  <div className={styles.project_image_container}>
+                    <img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name}/>
+                  </div>
+                  <div className={styles.project_title}>{elem.node.name}</div>
+                </div>
+                <div className={styles.back}>
+                  <button className={styles.project_details}>VIEW DETAILS</button>
+                </div>
               </div> 
           </div>
+        //   <div className={styles.item}>
+        //   <div className={styles.polaroid}><img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name}/>
+        //     <div className={styles.caption}>{elem.node.name}</div>
+        //   </div>
+        // </div>
           )
         )}
         </div>
