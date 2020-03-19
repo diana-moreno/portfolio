@@ -184,7 +184,7 @@ input:focus, button:focus {
 }
 .white_triangle {
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 0;
   path {
     fill: #f8f8f8;
@@ -304,7 +304,7 @@ footer {
 }
 .project_image_container {
   width: 14rem;
-  height: 12rem;
+  height: 11rem;
   background-color: white;
   text-align: center;
   margin-top: 0;
@@ -372,7 +372,7 @@ footer {
   margin-bottom: 0;
   object-fit: cover;
   height: auto;
-  height: 10rem;
+  height: 11rem;
 }
 .technologies_icon {
   width: 2.5rem;
