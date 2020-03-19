@@ -71,7 +71,6 @@ input:focus, button:focus {
   margin: 0 auto;
 }
 .about {
-  // height: 94vh;
   padding: 1rem;
 }
 .circles_container {
@@ -172,7 +171,6 @@ input:focus, button:focus {
 // CONTACT
 
 .contact {
-  // background-color: #f5f5f5;
   padding: 1rem;
   background-color: #1b242f;
   position: relative;
@@ -289,7 +287,6 @@ footer {
   }
 }
 .projects {
-  // background-color: #f5f5f5;
   padding: 1rem;
   background: #f8f8f8;
 }
@@ -301,7 +298,6 @@ footer {
   justify-content: center;
   margin: 0 auto;
   padding-bottom: 4rem;
-  cursor: pointer;
 }
 .project_image_container {
   width: 14rem;
@@ -323,7 +319,6 @@ footer {
 .project_details {
   opacity: 0;
   position: absolute;
-  // display: none;
   background: none;
   border: 2px solid #d36667;
   padding: 1rem;
