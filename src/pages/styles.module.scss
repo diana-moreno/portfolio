@@ -93,6 +93,7 @@ input:focus, button:focus {
   background: #04c2c9;
   border-radius: 50%;
   position: relative;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
 }
 .circle_text {
   margin-top: 2rem;
@@ -129,6 +130,7 @@ input:focus, button:focus {
   border: 0.25em solid #04c2c9;
   position: relative;
   margin: 3rem;
+  transition: all 0.35s;
 
   &:hover {
     transform: scale(1.2, 1.2) rotate(0deg);
@@ -184,6 +186,9 @@ input:focus, button:focus {
   position: absolute;
   top: 0;
   left: 0;
+  path {
+    fill: #f8f8f8;
+  }
 }
 
 .form {
@@ -286,6 +291,7 @@ footer {
 .projects {
   // background-color: #f5f5f5;
   padding: 1rem;
+  background: #f8f8f8;
 }
 .projects_container {
   display: flex;
@@ -297,25 +303,20 @@ footer {
   padding: 4rem 0;
 }
 .project_image_container {
-  width: 17rem;
-  height: 13rem;
+  width: 14rem;
+  height: 12rem;
   background-color: white;
   text-align: center;
-  margin: 1rem 0;
   margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .project_title {
   text-align: center;
   padding: 1rem;
-}
-
-.project_image {
-  object-fit: cover;
-  // width: 100%;
-  height: auto;
-  height: 13rem;
 }
 .project_details {
   display: none;
@@ -325,7 +326,6 @@ footer {
   margin: 0 auto;
 }
 .project_image_container:hover, .project_image:hover {
-  // background-color: #f5f5f5;
   display: flex;
   align-items: center;
   
@@ -369,7 +369,10 @@ footer {
 }
 .project_image {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
+  object-fit: cover;
+  height: auto;
+  height: 10rem;
 }
 .technologies_icon {
   width: 2.5rem;
@@ -410,28 +413,26 @@ footer {
   box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
   padding-bottom: 1rem;
   padding: 1rem;
-  transition: transform 1s;
-  transform-style: preserve-3d;
 }
 
 .card {
   position: relative;
-  margin: 2rem 3rem;
+  margin: 2rem 2rem;
 }
 
 
-.card:hover .project_card {
-  transform: rotateY( 180deg ) ;
-  transition: transform 0.5s;
-}
+// .card:hover .project_card {
+//   transform: rotateY( 180deg ) ;
+//   transition: transform 0.5s;
+// }
 
-.front,
-.back {
-  backface-visibility: hidden;
-}
+// .front,
+// .back {
+//   backface-visibility: hidden;
+// }
 
-.back {
-  background: #03446A;
-  color: white;
-  transform: rotateY( 180deg );
-}
+// .back {
+//   background: #03446A;
+//   color: white;
+//   transform: rotateY( 180deg );
+// }

@@ -6,7 +6,7 @@ const Navbar = () => (
     <ul className={styles.menu__list}>
       <li className="page-link" dest="home">HOME</li>
       <li className="page-link" dest="about">ABOUT</li>
-      <li className="page-link active" dest="portfolio">PORTFOLIO</li>
+      <li className="page-link active" dest="portfolio">PROJECTS</li>
       <li className="page-link" dest="contact">CONTACT</li>
     </ul>
     <i className="mdi mdi-menu"></i>
