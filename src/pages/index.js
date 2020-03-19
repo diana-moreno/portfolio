@@ -177,6 +177,14 @@ const IndexPage = () => {
           <h1>PROJECTS</h1>
           <div className={styles.title_section_line}></div>
         </div>
+      {/* <!-- FILTER --> */}
+        <div className={styles.filters}>
+          <div className={styles.filter_active}>ALL</div>
+          <div className={styles.filter}>REACT</div>
+          <div className={styles.filter}>GATSBY</div>
+          <div className={styles.filter}>JS</div>
+        </div>
+
         <div className={styles.projects_container}>
         { projects.edges.map(elem => (
             <div className={styles.card}>
