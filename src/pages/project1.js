@@ -23,42 +23,31 @@ const SecondPage = () => {
     }
   }
 `)
-  const calculatorURL = projects.edges[20].node.publicURL
+  const calculatorURL = projects.edges[18].node.publicURL
   return (
     <Layout>
       <Navbar />
       <section>
+        <div className={styles.title_section}>
+          <h1>Calculator</h1>
+          <div className={styles.title_section_line}></div>
+        </div>
         <div className={styles.project_container}>
           <div className={styles.project_container_side}>
-            <div className={styles.project_text}>
-              <div className={styles.title_section}>
-                <div class={styles.project_title_container}>
-                  <h2>Calculator</h2>
-                  <div className={styles.title_section_line}></div>
-                </div>
-                <p className={styles.date}>June 2019</p>
-              </div>
-              <div className={styles.project_image_wrap}>
-                <img className={styles.project_detail_image} src={calculatorURL} />
-              </div>
-              <p>In this project, I made a functional calculator. The purpose was to practice with the mix of CSS, HTML, the DOM, logic Javascript and mouse and keyboard events.</p>
-              <div className={styles.icons_container}>
-                <div>
-                  <p><strong>Source code</strong></p>
-                  <a href="https://github.com/diana-moreno/calculator-basic" target="_blank">
-                    <React_icon className={styles.technologies_icon} />
-                  </a>
-                </div>
-                <div>
-                  <p><strong>Technologies</strong></p>
-                  <div className={styles.technologies_container}>
-                    <Gatsby_icon className={styles.technologies_icon} />
-                    <React_icon className={styles.technologies_icon} />
-                  </div>
-                </div>
-              </div>
+            <div className={styles.project_image_wrap}>
+              <img className={styles.project_detail_image} src={calculatorURL} />
+              {/* <button className={styles.project_run}>RUN PROJECT</button> */}
             </div>
-            {/* <button className={styles.button}>Open project</button> */}
+            <p>In this project, I made a functional calculator. The purpose was to practice with the mix of CSS, HTML, the DOM, logic Javascript and mouse and keyboard events.</p>
+            <p><strong>Source code</strong></p>
+            <a href="https://github.com/diana-moreno/calculator-basic" target="_blank">
+              <React_icon className={styles.technologies_icon} />
+            </a>
+            <p><strong>Technologies</strong></p>
+            <div className={styles.technologies_container}>
+              <Gatsby_icon className={styles.technologies_icon} />
+              <React_icon className={styles.technologies_icon} />
+            </div>
           </div>
           <div className={styles.project_container_side}>
             <div className={styles.project_text}>
@@ -81,6 +70,10 @@ const SecondPage = () => {
                 <li>Apply keyboard and mouse events.</li>
                 <li>How to implement hover and active to change style.</li>
               </ul>
+            </div>
+            <div className={styles.project_text}>
+              <p><strong>Date</strong></p>
+              <p>June 2019</p>
             </div>
           </div>
         </div>

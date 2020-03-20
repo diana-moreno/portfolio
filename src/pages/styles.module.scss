@@ -489,3 +489,19 @@ footer {
     text-align: center;
   }
 }
+
+.project_image_wrap:hover {
+  .project_detail_image {
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+  .project_details {
+    transition: visibility 2s, opacity 0.5s linear;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .project_details:hover {
+    background-color: #d36667;
+    color: white;
+  }
+}
