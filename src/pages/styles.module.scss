@@ -308,7 +308,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 
 
@@ -321,15 +320,13 @@ footer {
   position: absolute;
   background: none;
   border: 2px solid #d36667;
-  padding: 1rem;
+  // padding: 1rem;
   margin: 0 auto;
+  padding: 0.5rem 1rem;
 }
-.project_image_container:hover, .project_image:hover {
-  display: flex;
-  align-items: center;
+.project_card:hover {
   
   .project_image {
-
     opacity: 0;
     transition: visibility 0s, opacity 0.3s linear;
   }

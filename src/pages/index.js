@@ -186,7 +186,7 @@ const IndexPage = () => {
         </div>
 
         <div className={styles.projects_container}>
-        { projects.edges.map(elem => (
+        { projects.edges.sort().map(elem => (
             <div className={styles.card}>
               <div className={styles.project_card}>
                   <div className={styles.project_image_container}>
