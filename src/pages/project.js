@@ -23,11 +23,11 @@ const SecondPage = () => {
     }
   }
 `)
-  const calculatorURL = projects.edges[0].node.publicURL
+  const calculatorURL = projects.edges[13].node.publicURL
   return (
     <Layout>
       <Navbar />
-      <section className={styles.projects}>
+      <section>
         <div className={styles.title_section}>
           <h1>Calculator</h1>
           <div className={styles.title_section_line}></div>
@@ -35,8 +35,8 @@ const SecondPage = () => {
         <div className={styles.project_container}>
           <div className={styles.project_container_side}>
             <div className={styles.project_image_wrap}>
-              <img className={styles.project_image} src={calculatorURL} />
-              <button className={styles.project_details}>RUN PROJECT</button>
+              <img className={styles.project_detail_image} src={calculatorURL} />
+              {/* <button className={styles.project_run}>RUN PROJECT</button> */}
             </div>
             <p>In this project, I made a functional calculator. The purpose was to practice with the mix of CSS, HTML, the DOM, logic Javascript and mouse and keyboard events.</p>
             <p><strong>Source code</strong></p>
