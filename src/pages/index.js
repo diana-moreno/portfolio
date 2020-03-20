@@ -194,7 +194,7 @@ const IndexPage = () => {
                     {/* <h3 className={styles.project_details}>{elem.node.name}</h3> */}
                     <button className={styles.project_details}>VIEW DETAILS</button>
                   </div>
-                  <div className={styles.project_title}>{elem.node.name}</div>
+                  <div className={styles.project_title}>The alphabet game</div>
               </div> 
           </div>
           )
