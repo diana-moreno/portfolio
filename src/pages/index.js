@@ -191,6 +191,7 @@ const IndexPage = () => {
               <div className={styles.project_card}>
                   <div className={styles.project_image_container}>
                     <img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name}/>
+                    {/* <h3 className={styles.project_details}>{elem.node.name}</h3> */}
                     <button className={styles.project_details}>VIEW DETAILS</button>
                   </div>
                   <div className={styles.project_title}>{elem.node.name}</div>
