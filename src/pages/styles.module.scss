@@ -184,9 +184,9 @@ input:focus, button:focus {
   position: absolute;
   top: -1px;
   left: 0;
-  path {
-    fill: #f8f8f8;
-  }
+  // path {
+  //   fill: #f8f8f8;
+  // }
 }
 
 .form {
@@ -465,7 +465,6 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 1rem;
 }
 
 .project_title_container {
