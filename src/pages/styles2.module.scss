@@ -1,0 +1,517 @@
+body {
+  font-family: "Raleway";
+  color: #444649;
+  -webkit-tap-highlight-color: transparent
+}
+p {
+  line-height: 1.5rem;
+}
+input:focus, button:focus {
+  outline: transparent;
+}
+
+.languages {
+  position: fixed;
+  right: 1rem;
+  top: 0.8rem;
+  color: white;
+  z-index: 3;
+  cursor: pointer;
+}
+.language_item:active,
+.language_item:hover {
+  color: #d36667;
+}
+
+// home
+
+.home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1b242f;
+  color: white;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.greeting__name {
+  color: #d36668;
+  font-weight: 600;
+}
+
+  .more {
+    color: white;
+    background: none;
+    font-size: 1.5rem;
+    outline: none;
+    position: absolute;
+    bottom: 3rem;
+    
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// about
+.title_section {
+  text-align: center;
+  color: #444649;
+  font-family: "raleway-bold";
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+.title_section_line {
+  width: 5rem;
+  border-bottom: 5px solid #d36667;
+  margin: 0 auto;
+}
+.about {
+  padding: 1rem;
+}
+.circles_container {
+  display: flex;
+  margin: 4rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.circle_container {
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.circle {
+  width: 6rem;
+  height: 6rem;
+  background: #04c2c9;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+.circle_text {
+  margin-top: 2rem;
+  font-size: 16px;
+}
+.responsive_icon {
+  width: 4rem;
+  position: absolute;
+  top: 1rem;
+  height: auto;
+  left: 1rem;
+  
+  path {
+    fill: white;
+  }
+}
+
+
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.aboutme_text {
+  max-width: 36rem;
+}
+
+.aboutme_image_container {
+  width: 18rem;
+  padding: 0.5em;
+  border: 0.25em solid #04c2c9;
+  position: relative;
+  margin: 3rem;
+  transition: all 0.35s;
+
+  &:hover {
+    transform: scale(1.2, 1.2) rotate(0deg);
+    transition: all 0.35s;
+  }
+
+  &::before, &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #fff;
+  }
+  
+  &::before {
+    top: -0.3em; // let it overlap a bit to prevent thin line which could appear during scaling in some browsers etc.
+    bottom: -0.3em;
+    left: 1em;
+    right: 1em;
+  }
+  
+  &::after{
+    left: -0.3em;
+    right: -0.3em;
+    top: 1em;
+    bottom: 1em;
+  }
+  
+  // you need this to move the text in front of the ::after overlay
+  .aboutme_image {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+
+// CONTACT
+
+.contact {
+  padding: 1rem;
+  background-color: #1b242f;
+  position: relative;
+
+  .title_section {
+    margin-top: 7rem;
+    color: white;
+  }
+}
+.white_triangle {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  path {
+    fill: #f8f8f8;
+  }
+}
+
+.form {
+  margin: 4rem auto;
+}
+.form_inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 26rem;
+  margin: 0 auto;
+
+  input, textarea {
+    border-color: transparent;
+    margin: 0.1rem;
+    padding: 0.4rem;
+    resize: none;
+  }
+}
+
+.form_buttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  
+  li {
+    list-style: none;
+    margin: 1rem;
+    
+    .form_button_send {
+      background: none;
+      padding: 0.5rem;
+      color: white;
+      cursor: pointer;
+      border: 1px solid;
+    }
+    .form_button_clear {
+      background: none;
+      padding: 0.5rem;
+      color: #d36667;
+      cursor: pointer;
+      border: 1px solid #d36667;
+    }
+  }
+}
+
+footer {
+  background: #151b22;
+}
+.social {
+  display: flex;
+  max-width: 16rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+
+  svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+
+    path {
+      fill: #d1d1d1;;
+    }
+  }
+}
+.footer_text {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1b242f;
+  color: #fff;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+  p {
+    margin: 3rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  .goBack {
+    text-decoration: none;
+    padding: 0.8rem;
+    font-weight: bold;
+    color: white;
+    border: 1px solid;
+  }
+}
+.projects {
+  padding: 1rem;
+  // background: #f8f8f8;
+}
+.projects_container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1450px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+.project_image_container {
+  width: 14rem;
+  height: 11rem;
+  background-color: white;
+  text-align: center;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.project_title {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-style: italic;
+}
+.project_details {
+  opacity: 0;
+  position: absolute;
+  background: none;
+  border: 2px solid #d36667;
+  // padding: 1rem;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+}
+.project_image {
+  cursor: pointer;
+}
+.project_card {
+  transition: all 0.35s;
+  cursor: pointer;
+  
+  &:hover {
+    transform: scale(1.1, 1.1) rotate(0deg);
+    transition: all 0.35s;
+  }
+  // .project_image {
+  //   opacity: 0;
+  //   transition: visibility 0s, opacity 0.3s linear;
+  // }
+  // .project_details {
+  //   transition: visibility 2s, opacity 0.5s linear;
+  //   opacity: 1;
+  //   cursor: pointer;
+  // }
+  // .project_details:hover {
+  //   background-color: #d36667;
+  //   color: white;
+  // }
+}
+
+.form_input_error {
+  color: red
+}
+.form_input {
+  color: black;
+}
+
+.project_text {
+  background: white;
+  padding: 2rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,.2);
+  margin: 1rem;
+  ul {
+    margin-left: 0;
+    
+    li {
+      list-style: none;
+    }
+  }
+}
+.project_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  // padding: 3rem 1rem 1rem 1rem;
+}
+.project_container_side {
+  max-width: 32rem;
+}
+.project_image {
+  text-align: center;
+  margin-bottom: 0;
+  object-fit: cover;
+  height: auto;
+  height: 11rem;
+}
+.technologies_icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0rem 0.5rem 0rem 0;
+
+  // path {
+  //   fill: #58c2c9;
+  // }
+}
+
+.project_sections {
+  display: flex;
+  justify-content: center;
+}
+
+.project_section_left {
+  width: 12rem;
+}
+.project_section_right {
+  width: 32rem;
+  ul {
+    margin-left: 0;
+    li {
+      list-style: none;
+    }
+  }
+}
+
+.project_sections {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+
+.project_card {
+  //descomentar para crear las tarjetas de los proyectos
+  background: #fff;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.card {
+  position: relative;
+  margin: 2rem 2rem;
+}
+
+
+.filters {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.filter {
+  width: 7rem;
+  text-align: center;
+  margin: 0.5rem 1rem;
+  color: #616161;
+  font-weight: 700;
+  padding: 0.3rem 0rem;
+  background-color: none;
+  text-align: center;
+}
+
+.filter_active {
+  width: 7rem;
+  text-align: center;
+  margin: 0.5rem 1rem;
+  color: #616161;
+  font-weight: 700;
+  padding: 0.3rem 0rem;
+  background-color: none;
+  text-align: center;
+  background-color: #57c1c7;
+  color: white;
+}
+
+.project_image_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.project_title_container {
+  text-align: center;
+  width: fit-content;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+.date {
+  text-align: right;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+.icons_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  div {
+    text-align: center;
+  }
+}
+
+.project_image_wrap:hover {
+  .project_detail_image {
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+  .project_details {
+    transition: visibility 2s, opacity 0.5s linear;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .project_details:hover {
+    background-color: #d36667;
+    color: white;
+  }
+}

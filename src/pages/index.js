@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { navigate, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import styles from './styles.module.scss'
+import styles from './styles2.module.scss'
 import Navbar from '../components/Navbar'
 import ArrowBounce from '../components/ArrowBounce'
 // import './background.sass'
