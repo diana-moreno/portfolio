@@ -1,12 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import styles from './styles.module.scss'
+import styles from './styles2.module.scss'
 import { graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
 import Navbar from '../components/Navbar'
-import Gatsby_icon from '../assets/gatsby_icon.svg'
-import React_icon from '../assets/react_icon.svg'
-import Github from '../assets/github.svg'
+import GatsbyIcon from '../assets/gatsby_icon.svg'
+import ReactIcon from '../assets/react_icon.svg'
+import GithubIcon from '../assets/github.svg'
 import Linkedin from '../assets/linkedin.svg'
 import Email from '../assets/email.svg'
 
@@ -47,14 +47,14 @@ const SecondPage = () => {
                 <div>
                   <p><strong>Source code</strong></p>
                   <a href="https://github.com/diana-moreno/calculator-basic" target="_blank">
-                    <React_icon className={styles.technologies_icon} />
+                    <GithubIcon className={styles.technologies_icon} />
                   </a>
                 </div>
                 <div>
                   <p><strong>Technologies</strong></p>
                   <div className={styles.technologies_container}>
-                    <Gatsby_icon className={styles.technologies_icon} />
-                    <React_icon className={styles.technologies_icon} />
+                    <GatsbyIcon className={styles.technologies_icon} />
+                    <ReactIcon className={styles.technologies_icon} />
                   </div>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const SecondPage = () => {
       </section>
       <footer>
         <div className={styles.social}>
-          <Github />
+          <GithubIcon />
           <Linkedin />
           <Email />
         </div>

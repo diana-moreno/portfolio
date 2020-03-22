@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@brainhubeu/react-carousel": "^1.13.12-alpha.0",
     "@wardpeet/gatsby-plugin-static-site": "^0.2.3",
     "dotenv": "^8.2.0",
     "gatsby": "^2.19.7",
@@ -19,12 +20,19 @@
     "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-sharp": "^2.3.13",
+    "i": "^0.3.6",
     "node-sass": "^4.13.1",
+    "npm": "^6.14.3",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-grid-carousel": "^1.0.0",
     "react-helmet": "^5.2.1",
-    "react-router-dom": "^5.1.2"
+    "react-js-pagination": "^3.0.3",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "react-slick": "^0.25.2"
   },
   "devDependencies": {
     "postcss-scss": "^2.0.0",

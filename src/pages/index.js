@@ -16,6 +16,8 @@ import Linkedin from '../assets/linkedin.svg'
 import Email from '../assets/email.svg'
 import WhiteTriangle from '../assets/white_triangle.svg'
 import sendMessage from "../logic/send-message";
+import LeftArrow from '../assets/left_arrow.svg'
+import RightArrow from '../assets/right_arrow.svg'
 
 const IndexPage = () => {
   const { image, projects } = useStaticQuery(graphql`
@@ -45,35 +47,37 @@ const IndexPage = () => {
   const [errorName, setErrorName] = useState(false)
   const [errorEmail, setErrorEmail] = useState(false)
   const [errorMessage, setErrorMessage] = useState(false)
- 
-  const handleSubmit = async (event) => { 
+
+  const handleSubmit = async (event) => {
     event.preventDefault()
     const { name: { value: name }, email: { value: email }, message: { value: message } } = event.target
 
-    if(!name) {
-      setErrorName(true) 
+    if (!name) {
+      setErrorName(true)
       setName('Name is required')
     }
-    if(!email) {
+    if (!email) {
       setErrorEmail(true)
       setEmail('Email is required')
     }
-    if(!message) {
+    if (!message) {
       setErrorMessage(true)
       setMessage('Message is required')
     }
-    if(name && email && message && !errorName && !errorEmail && !errorMessage) {
+    if (name && email && message && !errorName && !errorEmail && !errorMessage) {
       await sendMessage(name, email, message)
       navigate('/confirmation')
     }
   }
-  
+
   const handleChange = (event) => {
     const id = event.target.id
     id === 'name' && setErrorName(false)
     id === 'email' && setErrorEmail(false)
     id === 'message' && setErrorMessage(false)
   }
+
+
 
   const clear = () => {
     setName('Name')
@@ -83,6 +87,56 @@ const IndexPage = () => {
     setErrorEmail(false)
     setErrorMessage(false)
   }
+
+
+  const lastDefault = (window.innerWidth < 500) ? 4 : 8
+
+  const [initial, setInitial] = useState(0)
+  const [last, setLast] = useState(lastDefault)
+  const totalItems = 24
+  const totalPages = totalItems / 8
+  const [actualPage, setActualPage] = useState(0)
+
+  const goToNextSlide = () => {
+    console.log(window.innerWidth)
+    if(window.innerWidth < 500) {
+      if(last < 24) {
+        setInitial(initial + 4)
+        setLast(last + 4)
+        setActualPage(actualPage + 1)
+      }
+      return    
+    }
+    if(last < 24) {
+      setInitial(initial + 8)
+      setLast(last + 8)
+      setActualPage(actualPage + 1)
+    }
+  }
+  const goToPreviousSlide = () => {
+    console.log(window.innerWidth)
+    if(window.innerWidth < 500) {
+      if(initial > 1) {
+        setInitial(initial - 4)
+        setLast(last - 4)
+        setActualPage(actualPage - 1)
+      }
+      return    
+    }
+    if(initial > 1) {
+      setInitial(initial - 8)
+      setLast(last - 8)
+      setActualPage(actualPage - 1)
+    }
+  }
+
+  const switchToPage = (index) => {
+    setInitial(index)
+    setLast(index + 8)
+    setActualPage(index)
+  }
+
+  console.log(window.innerWidth)
 
   return (
     <Layout>
@@ -160,7 +214,7 @@ const IndexPage = () => {
           <div className={styles.aboutme_text}>
             <h3>My story</h3>
             <p>I obtained a Bachelor in Business Administration and Management at the University of Barcelona in 2012. Once I finished my studies, I took up a career path as Accountant, growing up until I became Team Manager.<br></br>
-            Six years later, I realized that this path no longer fulfilled me. I needed a new challenge where I could keep on growing as a profesional.</p>
+              Six years later, I realized that this path no longer fulfilled me. I needed a new challenge where I could keep on growing as a profesional.</p>
             <p>All signs were appointing to programming and I felt an irresistible need to explore this field so, the beginning of 2019, I quit my job and started learning by myself. From september-19 to december-19 I was enrolled in a programming bootcamp in Skylab to consolidate and expand my knowledge.</p>
             <h3>Nowadays</h3>
             <p>Curently, I'm working for Interficie: a company that develops custum ecommerce and creative solutions for a big companies.<br></br>
@@ -173,11 +227,11 @@ const IndexPage = () => {
 
       {/* <!-- PROJECTS --> */}
       <section className={styles.projects}>
-      <div className={styles.title_section}>
+        <div className={styles.title_section}>
           <h1>PROJECTS</h1>
           <div className={styles.title_section_line}></div>
         </div>
-      {/* <!-- FILTER --> */}
+        {/* <!-- FILTER --> */}
         <div className={styles.filters}>
           <div className={styles.filter_active}>ALL</div>
           <div className={styles.filter}>REACT</div>
@@ -186,21 +240,27 @@ const IndexPage = () => {
         </div>
 
         <div className={styles.projects_container}>
-        { projects.edges.sort().map(elem => (
+
+          {projects.edges.sort().slice(initial, last).map(elem => (
             <div className={styles.card}>
-              <div className={styles.project_card}>
-                  <div className={styles.project_image_container}>
-                    <img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name}/>
-                    {/* <h3 className={styles.project_details}>{elem.node.name}</h3> */}
-                    {/* <button className={styles.project_details}>View details</button> */}
-                  </div>
-                  <div className={styles.project_title}>The alphabet game</div>
-              </div> 
-          </div>
+              {/* <div className={styles.project_card}> */}
+              <div className={styles.project_image_container}>
+                <img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name} />
+                {/* <p className={styles.project_details}>{elem.node.name}</p>
+                <button className={styles.project_details}>View details</button> */}
+              </div>
+              <div className={styles.project_title}>The alphabet game</div>
+            </div>
+             // </div>
           )
-        )}
+          )}
+          <div className={styles.dots_container}>
+            {[...Array(totalPages)].map((page, i) => <button onClick={() => switchToPage(i)} className={actualPage === i ? `${styles.dot_active} ${styles.dot}` : styles.dot} ></button>)}
+          </div>
+          { initial > 0 && <LeftArrow className={styles.left_arrow} onClick={goToPreviousSlide}></LeftArrow> }  
+          { last < totalItems && <RightArrow className={styles.right_arrow} onClick={goToNextSlide }></RightArrow> }
         </div>
-        
+
       </section>
 
       {/* <!-- CONTACT --> */}
@@ -209,34 +269,34 @@ const IndexPage = () => {
           <h1>CONTACT</h1>
           <div className={styles.title_section_line}></div>
         </div>
-        <WhiteTriangle className={styles.white_triangle}/>
-        <form 
+        <WhiteTriangle className={styles.white_triangle} />
+        <form
           onSubmit={handleSubmit}
           className={styles.form}
         >
           <div className={styles.form_inputs}>
             <input
               className={errorName ? styles.form_input_error : styles.form_input}
-              type="text" 
-              name="name" 
-              id="name" 
+              type="text"
+              name="name"
+              id="name"
               placeholder={name}
               onChange={handleChange}
-              />
-            <input 
+            />
+            <input
               className={errorEmail ? styles.form_input_error : styles.form_input}
-              type="text" 
-              name="email" 
-              id="email" 
+              type="text"
+              name="email"
+              id="email"
               placeholder={email}
               onChange={handleChange}
-              // pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
-              />
-            <textarea 
+            // pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+            />
+            <textarea
               className={errorMessage ? styles.form_input_error : styles.form_input}
-              name="message" 
-              id="message" 
-              rows="6" 
+              name="message"
+              id="message"
+              rows="6"
               placeholder={message}
               onChange={handleChange}
             />

@@ -293,15 +293,16 @@ footer {
 .projects_container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1450px;
+  max-width: 1350px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   padding-bottom: 4rem;
+  position: relative;
 }
 .project_image_container {
-  width: 14rem;
-  height: 11rem;
+  width: 12rem;
+  height: 9rem;
   background-color: white;
   text-align: center;
   margin-top: 0;
@@ -325,31 +326,28 @@ footer {
   margin: 0 auto;
   padding: 0.5rem 1rem;
 }
-.project_image {
-  cursor: pointer;
-}
-.project_card {
-  transition: all 0.35s;
-  cursor: pointer;
+// .project_card {
+//   transition: all 0.35s;
+//   cursor: pointer;
   
-  &:hover {
-    transform: scale(1.1, 1.1) rotate(0deg);
-    transition: all 0.35s;
-  }
-  // .project_image {
-  //   opacity: 0;
-  //   transition: visibility 0s, opacity 0.3s linear;
-  // }
-  // .project_details {
-  //   transition: visibility 2s, opacity 0.5s linear;
-  //   opacity: 1;
-  //   cursor: pointer;
-  // }
-  // .project_details:hover {
-  //   background-color: #d36667;
-  //   color: white;
-  // }
-}
+//   &:hover {
+//     transform: scale(1.1, 1.1) rotate(0deg);
+//     transition: all 0.35s;
+//   }
+//   // .project_image {
+//   //   opacity: 0;
+//   //   transition: visibility 0s, opacity 0.3s linear;
+//   // }
+//   // .project_details {
+//   //   transition: visibility 2s, opacity 0.5s linear;
+//   //   opacity: 1;
+//   //   cursor: pointer;
+//   // }
+//   // .project_details:hover {
+//   //   background-color: #d36667;
+//   //   color: white;
+//   // }
+// }
 
 .form_input_error {
   color: red
@@ -360,11 +358,12 @@ footer {
 
 .project_text {
   background: white;
-  padding: 2rem;
-  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,.2);
-  margin: 1rem;
+  padding: 1rem 2rem;
+  // box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,.2);
+  // margin: 1rem;
   ul {
     margin-left: 0;
+    margin-bottom: 0;
     
     li {
       list-style: none;
@@ -375,7 +374,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 1rem;
+  margin: 2rem;
   // padding: 3rem 1rem 1rem 1rem;
 }
 .project_container_side {
@@ -386,7 +385,14 @@ footer {
   margin-bottom: 0;
   object-fit: cover;
   height: auto;
-  height: 11rem;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.35s;
+  
+  &:hover {
+    transform: scale(1.1, 1.1) rotate(0deg);
+    transition: all 0.35s;
+  }
 }
 .technologies_icon {
   width: 2.5rem;
@@ -432,7 +438,7 @@ footer {
 
 .card {
   position: relative;
-  margin: 2rem 2rem;
+  margin: 0.2rem 2rem;
 }
 
 
@@ -443,6 +449,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   font-size: 20px;
+  margin-bottom: 2rem;
 }
 
 .filter {
@@ -512,5 +519,79 @@ footer {
   .project_details:hover {
     background-color: #d36667;
     color: white;
+  }
+}
+
+.dot {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  opacity: 1;
+  padding: 5px 5px 5px 5px;
+  box-shadow: none;
+  // -webkit-transition: background .5s;
+  // transition: background .5s;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #57c1c7;
+  padding: 0;
+  margin: 0;
+  margin-right: 17px;
+  background: #5ac0c6;
+  outline: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.35s;
+  cursor: pointer;
+  
+  &:hover {
+    transform: scale(1.4, 1.4) rotate(0deg);
+    transition: all 0.35s;
+  }
+}
+.dots_container {
+  position: absolute;
+  bottom: 1rem
+}
+
+.dot_active {
+  background: #444649;
+  border: 2px solid #444649;
+}
+.left_arrow {
+  position: absolute;
+  width: 3rem;
+  left: -1rem;
+  cursor: pointer;
+  g g path {
+    fill: #616161;
+  }
+  transition: all 0.35s;
+  
+  &:hover {
+    transform: scale(1.1, 1.1) rotate(0deg);
+    transition: all 0.35s;
+    g g path {
+      fill: #57c1c7;
+    }
+    
+  }
+}
+.right_arrow {
+  position: absolute;
+  width: 3rem;
+  right: -1rem;
+  cursor: pointer;
+  g g path {
+    fill: #616161;
+  }
+  transition: all 0.35s;
+  
+  &:hover {
+    transform: scale(1.1, 1.1) rotate(0deg);
+    transition: all 0.35s;
+    g g path {
+      fill: #57c1c7;
+    }
   }
 }
