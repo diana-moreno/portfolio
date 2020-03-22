@@ -89,10 +89,10 @@ const IndexPage = () => {
   }
 
 
-  const lastDefault = (window.innerWidth < 500) ? 4 : 8
+  // const lastDefault = (window.innerWidth < 500) ? 4 : 8
 
   const [initial, setInitial] = useState(0)
-  const [last, setLast] = useState(lastDefault)
+  const [last, setLast] = useState(8)
   const totalItems = 24
   const totalPages = totalItems / 8
   const [actualPage, setActualPage] = useState(0)
@@ -108,7 +108,6 @@ const IndexPage = () => {
     //   return    
     // }
     if(last < 24) {
-      console.log(initial, last)
       setInitial(initial + 8)
       setLast(last + 8)
       setActualPage(actualPage + 1)
@@ -125,7 +124,6 @@ const IndexPage = () => {
     //   return    
     // }
     if(initial > 1) {
-      console.log(initial, last)
       setInitial(initial - 8)
       setLast(last - 8)
       setActualPage(actualPage - 1)
@@ -144,10 +142,8 @@ const IndexPage = () => {
       setLast(24)
     }
       setActualPage(index)
-    console.log(initial, last)
   }
 
-  console.log(window.innerWidth)
 
   return (
     <Layout>
