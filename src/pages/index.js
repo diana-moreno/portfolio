@@ -108,6 +108,7 @@ const IndexPage = () => {
       return    
     }
     if(last < 24) {
+      console.log(initial, last)
       setInitial(initial + 8)
       setLast(last + 8)
       setActualPage(actualPage + 1)
@@ -124,16 +125,26 @@ const IndexPage = () => {
       return    
     }
     if(initial > 1) {
+      console.log(initial, last)
       setInitial(initial - 8)
       setLast(last - 8)
       setActualPage(actualPage - 1)
     }
   }
-
+  
   const switchToPage = (index) => {
-    setInitial(index)
-    setLast(index + 8)
-    setActualPage(index)
+    if(index === 0) {
+      setInitial(0)
+      setLast(8)
+    } else if (index === 1) {
+      setInitial(8)       
+      setLast(16)
+    } else if (index === 2) {
+      setInitial(16)       
+      setLast(24)
+    }
+      setActualPage(index)
+    console.log(initial, last)
   }
 
   console.log(window.innerWidth)
