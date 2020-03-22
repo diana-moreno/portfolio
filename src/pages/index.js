@@ -98,15 +98,15 @@ const IndexPage = () => {
   const [actualPage, setActualPage] = useState(0)
 
   const goToNextSlide = () => {
-    console.log(window.innerWidth)
-    if(window.innerWidth < 500) {
-      if(last < 24) {
-        setInitial(initial + 4)
-        setLast(last + 4)
-        setActualPage(actualPage + 1)
-      }
-      return    
-    }
+    // console.log(window.innerWidth)
+    // if(window.innerWidth < 500) {
+    //   if(last < 24) {
+    //     setInitial(initial + 4)
+    //     setLast(last + 4)
+    //     setActualPage(actualPage + 1)
+    //   }
+    //   return    
+    // }
     if(last < 24) {
       console.log(initial, last)
       setInitial(initial + 8)
@@ -115,15 +115,15 @@ const IndexPage = () => {
     }
   }
   const goToPreviousSlide = () => {
-    console.log(window.innerWidth)
-    if(window.innerWidth < 500) {
-      if(initial > 1) {
-        setInitial(initial - 4)
-        setLast(last - 4)
-        setActualPage(actualPage - 1)
-      }
-      return    
-    }
+    // console.log(window.innerWidth)
+    // if(window.innerWidth < 500) {
+    //   if(initial > 1) {
+    //     setInitial(initial - 4)
+    //     setLast(last - 4)
+    //     setActualPage(actualPage - 1)
+    //   }
+    //   return    
+    // }
     if(initial > 1) {
       console.log(initial, last)
       setInitial(initial - 8)
