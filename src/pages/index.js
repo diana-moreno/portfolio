@@ -18,6 +18,7 @@ import WhiteTriangle from '../assets/white_triangle.svg'
 import sendMessage from "../logic/send-message";
 import LeftArrow from '../assets/left_arrow.svg'
 import RightArrow from '../assets/right_arrow.svg'
+import Img from 'gatsby-image'
 
 const IndexPage = () => {
   const { image, projects } = useStaticQuery(graphql`
@@ -33,7 +34,12 @@ const IndexPage = () => {
         edges {
           node {
             name
-            publicURL
+            publicURL,
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
         }
       }
@@ -252,7 +258,8 @@ const IndexPage = () => {
             <div className={styles.card}>
               {/* <div className={styles.project_card}> */}
               <div className={styles.project_image_container}>
-                <img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name} />
+                {/* <img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name} /> */}
+                <img className={styles.project_image} src={elem.node.childImageSharp.fluid.src} alt={elem.node.name} />
                 {/* <p className={styles.project_details}>{elem.node.name}</p>
                 <button className={styles.project_details}>View details</button> */}
               </div>
