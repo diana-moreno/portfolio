@@ -71,11 +71,12 @@ input:focus, button:focus {
   margin: 0 auto;
 }
 .about {
-  padding: 1rem;
+  max-width: 1450px;
+  margin: 3rem auto;
 }
 .circles_container {
   display: flex;
-  margin: 4rem;
+  margin: 4rem auto;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -287,7 +288,9 @@ footer {
   }
 }
 .projects {
-  padding: 1rem;
+  max-width: 1450px;
+  margin: 7rem auto;
+
   // background: #f8f8f8;
 }
 .projects_container {
