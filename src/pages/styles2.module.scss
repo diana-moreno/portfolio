@@ -389,6 +389,8 @@ footer {
   cursor: pointer;
   transition: all 0.35s;
   
+  width: 100%;
+  
   &:hover {
     transform: scale(1.1, 1.1) rotate(0deg);
     transition: all 0.35s;
