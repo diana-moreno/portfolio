@@ -293,7 +293,7 @@ footer {
 .projects_container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1350px;
+  max-width: 1500px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -301,8 +301,8 @@ footer {
   position: relative;
 }
 .project_image_container {
-  width: 12rem;
-  height: 9rem;
+  width: 15rem;
+  height: 11rem;
   background-color: white;
   text-align: center;
   margin-top: 0;
@@ -388,7 +388,7 @@ footer {
   height: 100%;
   cursor: pointer;
   transition: all 0.35s;
-  
+
   width: 100%;
   
   &:hover {

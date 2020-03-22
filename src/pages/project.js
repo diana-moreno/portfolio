@@ -23,7 +23,7 @@ const SecondPage = () => {
     }
   }
 `)
-  const calculatorURL = projects.edges[20].node.publicURL
+  const calculatorURL = projects.edges[23].node.publicURL
   return (
     <Layout>
       <Navbar />

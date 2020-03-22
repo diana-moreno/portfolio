@@ -36,8 +36,8 @@ const IndexPage = () => {
             name
             publicURL,
             childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
+              fixed(height: 200, width: 270) {
+                ...GatsbyImageSharpFixed
               }
             }
           }
@@ -259,7 +259,7 @@ const IndexPage = () => {
               {/* <div className={styles.project_card}> */}
               <div className={styles.project_image_container}>
                 {/* <img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name} /> */}
-                <Img className={styles.project_image} fluid={elem.node.childImageSharp.fluid} alt={elem.node.name} />
+                <Img className={styles.project_image} fixed={elem.node.childImageSharp.fixed} alt={elem.node.name} />
                 {/* <p className={styles.project_details}>{elem.node.name}</p>
                 <button className={styles.project_details}>View details</button> */}
               </div>
