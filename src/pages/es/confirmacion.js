@@ -1,8 +1,8 @@
 import React from "react"
-import Layout from "../components/layout"
-import Confirmation from "../components/Confirmation"
+import Layout from "../../components/layout"
+import Confirmation from "../../components/Confirmation"
 
-const lang = 'en'
+const lang = 'es'
 
 const ConfirmationPage = ({ pageContext }) => {
   const [urls] = pageContext.urls.filter(obj => {

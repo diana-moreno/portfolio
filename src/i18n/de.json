@@ -547,5 +547,11 @@
   },
   "contact": {
     "title":"Contact"
+  },
+  "confirmation": {
+    "title": "Thank you!",
+    "message_1": "Your message has been successfully sent.",
+    "message_2": "I will contact you very soon!",
+    "button_back": "Go back"
   }
 }

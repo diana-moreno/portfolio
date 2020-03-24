@@ -9,11 +9,14 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet"
-
-import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, locale }) => {
+
+  // const messages = locale === 'es' ? esMessages : enMessages
+  // const { intl } = new IntlProvider({ locale, messages }, {}).getChildContext()
+  // const t = (id, args) => intl.formatMessage({ id }, args)
+  
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -26,6 +29,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      {/* <IntlProvider locale={locale} messages={messages[locale]}> */}
+  
+
       {/* <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -41,9 +47,10 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer> 
       </div>*/}
+
+
       <Helmet>
         <title>Diana Moreno</title>
-        {/* <meta name="description" content={description} /> */}
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
           rel="stylesheet"
@@ -55,7 +62,6 @@ const Layout = ({ children }) => {
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet"></link>
         <script src="https://kit.fontawesome.com/c0a664ee11.js" crossorigin="anonymous"></script>
       </Helmet>
-
     </>
   )
 }

@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import { navigate, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import styles from './styles2.module.scss'
 import Navbar from '../components/Navbar'
 import ArrowBounce from '../components/ArrowBounce'
@@ -15,12 +14,12 @@ import Github from '../assets/github.svg'
 import Linkedin from '../assets/linkedin.svg'
 import Email from '../assets/email.svg'
 import WhiteTriangle from '../assets/white_triangle.svg'
-import sendMessage from "../logic/send-message";
+import sendMessage from "../api/send-message";
 import LeftArrow from '../assets/left_arrow.svg'
 import RightArrow from '../assets/right_arrow.svg'
 import Img from 'gatsby-image'
 
-const IndexPage = () => {
+const IndexPage = ({ pageContext }) => {
   const { image, projects } = useStaticQuery(graphql`
     query {
       image: file(relativePath: {eq: "profile.png"}) {
