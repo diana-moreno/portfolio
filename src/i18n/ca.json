@@ -531,7 +531,8 @@
       "title": "PARADISE HOTEL",
       "main": "Paradise Hotel is a simple hotel website developed with server-side rendering with Gatsby. The only purpose of the project was to learn Gatsby and try to improve SEO and performance on a website.",
       "features": {
-        "feature_1": "The website has a navbar to move between ‘Home’ and ‘About us’ sections. When clicking in every room, another page is opened showing the room in detail."
+        "feature_1": "The website has a navbar to move between ‘Home’ and ‘About us’ sections.", 
+        "feature_2": "When clicking in every room, another page is opened showing the room in detail."
       },
       "learned": {
         "learned_1": "How to build a website with Gatsby (server-side rendering).",
