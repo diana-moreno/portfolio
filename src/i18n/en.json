@@ -1,30 +1,44 @@
 {
   "home": {
-    "title": "home",
-    "homepage": {
-      "author": "DIANA MORENO",
-      "author_position": "Full Stack Developer",
-      "preview": "Preview my projects",
-      "hide": "Hide my projects",
-      "more": "More details at"
-    }
+    "title": "HOME",
+    "greeting": "Hello, I'm ",
+    "author": "Diana Moreno",
+    "author_position": "I'm a Full Stack Web Developer",
+    "view_more": "View more"
   },
-  "about_me": {
-    "title":"About me", 
+  "about": {
+    "title": "ABOUT",
+    "concepts_key": {
+      "concept_key_1": {
+        "title": "Responsiveness",
+        "description": "Procuro que mis proyectos se vean bien en todos los dispositivos aplicando el concepto de móvil primero."
+      },
+      "concept_key_2": {
+        "title": "Simplicity",
+        "description": "Apuesto por interfaces atractivas para el usuario pero sin perder la simplicidad. Menos es más"
+      },
+      "concept_key_3": {
+        "title": "Good practices",
+        "description": "Aplico principios SOLID, de código limpio, construyo componentes reusables y entiendo la importancia de testear."
+      },
+      "concept_key_4": {
+        "title": "Latest technologies",
+        "description": "Me intereso por las nuevas tecnologías y apuesto por estar siempre al día."
+      }
+    },
     "my_story": { 
-      "title": "MY STORY", 
+      "title": "My story", 
       "section_1": "I obtained a Bachelor in Business Administration and Management at the University of Barcelona in 2012. Once I finished my studies, I took up a career path as Accountant, growing up until I became Team Manager.",
-      "section_2": "Six years later, I realized that this path no longer fulfilled me. I needed a new challenge where I could keep on growing as a professional.",
-      "section_3": "Coincidentally, in that period, I met someone who introduced me to programming and showed me a new way of creating, thinking and doing. I felt an irresistible need to explore this field so, at the beginning of 2019, I quitted my job and started learning by myself. From september 2019 to december 2019, I was enrolled in a programming bootcamp in Skylab to consolidate and expand my knowledge."
+      "section_2": "Six years later, I realized that this path no longer fulfilled me. I needed a new challenge where I could keep on growing as a profesional.",
+      "section_3": "All signs were appointing to programming and I felt an irresistible need to explore this field so, the beginning of 2019, I quit my job and started learning by myself. From september-19 to december-19 I was enrolled in a programming bootcamp in Skylab to consolidate and expand my knowledge."
     },
     "nowadays": {
-      "title":"NOWADAYS",
-      "section_1": "Currently, I am working for Interficie: a company that develops custom e-commerce and creative solutions for a big companies.",
-      "section_2": "In my daily life, I utilize technologies and frameworks focused on Javascript like React, Gatsby, Node, SQL and Express.",
-      "section_3": "In my spare time, I enjoy learning new technologies and implementing personal projects like this website."
+      "title":"Nowadays",
+      "section_1": "Curently, I'm working for Interficie: a company that develops custum ecommerce and creative solutions for a big companies.",
+      "section_2": "I am focused on Javascript and my tools are React, Gatsby, Node, SQL and Express."
     },
     "passions": {
-      "title": "PASSIONS", 
+      "title": "Passions", 
       "section_1": "Besides programming, I am dedicated to following a healthy lifestyle. I pay close attention to what I eat, and regularly exercise. Moreover, I love dancing, up to the point that I joined an amateur salsa dance company."
     }
   },
@@ -36,6 +50,7 @@
     }
   },
   "projects": { 
+    "title": "PROJECTS",
     "link_message": "Click the picture to run the project!",
     "source_message": "Source code",
     "features": {
@@ -547,7 +562,7 @@
     }
   },
   "contact": {
-    "title":"Contact"
+    "title":"CONTACT"
   },
   "confirmation": {
     "title": "Thank you!",

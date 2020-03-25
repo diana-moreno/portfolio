@@ -9,8 +9,26 @@
       "more": "More details at"
     }
   },
-  "about_me": {
+  "about": {
     "title":"About me", 
+    "concepts_key": {
+      "concept_key_1": {
+        "title": "Responsiveness",
+        "description": "Procuro que mis proyectos se vean bien en todos los dispositivos aplicando el concepto de móvil primero."
+      },
+      "concept_key_2": {
+        "title": "Simplicity",
+        "description": "Apuesto por interfaces atractivas para el usuario pero sin perder la simplicidad. Menos es más"
+      },
+      "concept_key_3": {
+        "title": "Good practices",
+        "description": "Aplico principios SOLID, de código limpio, construyo componentes reusables y entiendo la importancia de testear."
+      },
+      "concept_key_4": {
+        "title": "Latest technologies",
+        "description": "Me intereso por las nuevas tecnologías y apuesto por estar siempre al día."
+      }
+    },
     "my_story": { 
       "title": "MY STORY", 
       "section_1": "I obtained a Bachelor in Business Administration and Management at the University of Barcelona in 2012. Once I finished my studies, I took up a career path as Accountant, growing up until I became Team Manager.",
