@@ -9,6 +9,7 @@ import { t } from '../../i18n';
 const Footer = ({ urls, lang }) => {
   return (
     <footer>
+      {/* TODO LINKS */}
       <div className={styles.social}>
         <GithubIcon />
         <LinkedinIcon />

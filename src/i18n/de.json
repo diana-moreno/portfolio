@@ -572,5 +572,15 @@
     "message_1": "Your message has been successfully sent.",
     "message_2": "I will contact you very soon!",
     "button_back": "Go back"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Your message",
+    "name_error": "Name is required",
+    "email_error": "Email is required",
+    "message_error": "Message is required",
+    "submit_button": "Send message",
+    "clear_button": "Clear"
   }
 }

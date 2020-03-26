@@ -2,11 +2,12 @@ import React, { useState } from "react"
 import { navigate } from 'gatsby'
 import styles from '../../pages/styles2.module.scss'
 import sendMessage from "../../api/send-message";
+import { t } from '../../i18n'
 
-const Form = () => {
-  const [name, setName] = useState('Name')
-  const [email, setEmail] = useState('Email')
-  const [message, setMessage] = useState('Your message')
+const Form = ({ lang }) => {
+  const [name, setName] = useState(t('form.name', lang))
+  const [email, setEmail] = useState(t('form.email', lang))
+  const [message, setMessage] = useState(t('form.message', lang))
   const [errorName, setErrorName] = useState(false)
   const [errorEmail, setErrorEmail] = useState(false)
   const [errorMessage, setErrorMessage] = useState(false)
@@ -17,21 +18,24 @@ const Form = () => {
 
     if (!name) {
       setErrorName(true)
-      setName('Name is required')
+      setName(t('form.name_error', lang))
     }
-    if (!email) {
+    if (!email || !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/.test(email)) {
       setErrorEmail(true)
-      setEmail('Email is required')
+      setEmail(t('form.email_error', lang))
     }
     if (!message) {
       setErrorMessage(true)
-      setMessage('Message is required')
+      setMessage(t('form.message_error', lang))
     }
     if (name && email && message && !errorName && !errorEmail && !errorMessage) {
       await sendMessage(name, email, message)
-      navigate('/confirmation')
+      navigate('/confirmation') 
+      // TODO LINK
     }
   }
+  // add spinner loading?
+  // add error message?
 
   const handleChange = (event) => {
     const id = event.target.id
@@ -41,9 +45,9 @@ const Form = () => {
   }
 
   const clear = () => {
-    setName('Name')
-    setEmail('Email')
-    setMessage('Your message')
+    setName(t('form.name', lang))
+    setEmail(t('form.email', lang))
+    setMessage(t('form.message', lang))
     setErrorName(false)
     setErrorEmail(false)
     setErrorMessage(false)
@@ -70,7 +74,6 @@ const Form = () => {
         id="email"
         placeholder={email}
         onChange={handleChange}
-      // pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
       />
       <textarea
         className={errorMessage ? styles.form_input_error : styles.form_input}

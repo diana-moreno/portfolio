@@ -227,7 +227,7 @@ const IndexPage = ({ pageContext }) => {
           <div className={styles.title_section_line}></div>
         </div>
         <WhiteTriangle className={styles.white_triangle} />
-        <Form />
+        <Form lang={lang} />
       </section>
       {/* <!-- FOOTER --> */}
       <Footer />
