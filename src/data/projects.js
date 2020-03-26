@@ -264,7 +264,7 @@ const projects = [
   },
   {
     project: 11,
-    title: 'projects.project_111.title',
+    title: 'projects.project_11.title',
     main: "projects.project_11.main",
     image: 'events-hunter',
     project_link: "https://diana-moreno.github.io/events-searcher-React-API",

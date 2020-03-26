@@ -13,6 +13,7 @@ import Footer from '../components/Footer'
 import ConceptKey from '../components/ConceptKey'
 import conceptsKey from '../data/concepts_key'
 import { t } from '../i18n'
+import projectsData from '../data/projects'
 
 const lang = 'en'
 
@@ -42,8 +43,6 @@ const IndexPage = ({ pageContext }) => {
     }
   `)
   const imageUrl = image.childImageSharp.fluid.src
-
-
 
   // const lastDefault = (window.innerWidth < 500) ? 4 : 8
 
@@ -182,19 +181,19 @@ const IndexPage = ({ pageContext }) => {
 
         <div className={styles.projects_container}>
 
-          {projects.edges.sort().slice(initial, last).map(elem => (
+          {projectsData.reverse().slice(initial, last).map(elem => (
             <div className={styles.card}>
-              {/* <div className={styles.project_card}> */}
               <div className={styles.project_image_container}>
-                {/* <img className={styles.project_image} src={elem.node.publicURL} alt={elem.node.name} /> */}
-                <Img className={styles.project_image} fixed={elem.node.childImageSharp.fixed} alt={elem.node.name} />
-                {/* <p className={styles.project_details}>{elem.node.name}</p>
-                <button className={styles.project_details}>View details</button> */}
+                <Img 
+                  className={styles.project_image} 
+                  fixed={projects.edges.find(img => img.node.childImageSharp.fixed.src.indexOf(elem.image) > 1).node.childImageSharp.fixed} 
+                  alt={t(elem.title, lang)} />
+
+                  {/* TODO LINKS */}
               </div>
-              <div className={styles.project_title}>The alphabet game</div>
+              <div className={styles.project_title}>{t(elem.title, lang)}</div>
             </div>
-            // </div>
-            ))}
+          ))}
 
           {/* <!-- PROJECT DOTS --> */}
           <div className={styles.dots_container}>
@@ -229,6 +228,7 @@ const IndexPage = ({ pageContext }) => {
         <WhiteTriangle className={styles.white_triangle} />
         <Form lang={lang} />
       </section>
+      
       {/* <!-- FOOTER --> */}
       <Footer />
     </Layout>
