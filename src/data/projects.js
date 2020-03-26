@@ -3,7 +3,7 @@ const projects = [
     project: 1,
     title: 'projects.project_1.title',
     main: "projects.project_1.main",
-    image: 'calculator-basic',
+    image: 'basic-calc',
     project_link: "https://diana-moreno.github.io/calculator-basic",
     github_link: "https://github.com/diana-moreno/calculator-basic",
     features: {
