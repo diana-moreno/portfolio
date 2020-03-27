@@ -181,7 +181,7 @@ const IndexPage = ({ pageContext }) => {
 
         <div className={styles.projects_container}>
 
-          {projectsData.reverse().slice(initial, last).map(elem => (
+          {projectsData.slice(initial, last).map(elem => (
             <div className={styles.card}>
               <div className={styles.project_image_container}>
                 <Img 
@@ -190,6 +190,7 @@ const IndexPage = ({ pageContext }) => {
                   alt={t(elem.title, lang)} />
 
                   {/* TODO LINKS */}
+                  {/* cuando haces click a un punto, se desordenan los proyectos */}
               </div>
               <div className={styles.project_title}>{t(elem.title, lang)}</div>
             </div>
@@ -228,7 +229,7 @@ const IndexPage = ({ pageContext }) => {
         <WhiteTriangle className={styles.white_triangle} />
         <Form lang={lang} />
       </section>
-      
+
       {/* <!-- FOOTER --> */}
       <Footer />
     </Layout>
