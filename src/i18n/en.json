@@ -51,14 +51,11 @@
   },
   "projects": { 
     "title": "PROJECTS",
-    "link_message": "Click the picture to run the project!",
-    "source_message": "Source code",
-    "features": {
-      "title": "Features:"
-    },
-    "learned": {
-      "title": "What I learned:"
-    },
+    "demo": "Demo",
+    "source_code": "Source code",
+    "features": "Features:",
+    "learned": "What I learned:",
+    "technologies": "Technologies",
     "project_1": {
       "title": "Basic Calculator",
       "main": "In this project, I made a functional calculator. The purpose was to practice with the mix of CSS, HTML, the DOM, logic JavaScript and mouse and keyboard events.",

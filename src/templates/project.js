@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import styles from './project.module.scss'
 import { graphql, useStaticQuery } from 'gatsby'
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import Navbar from '../components/Navbar'
 import GithubIcon from '../assets/github.svg'
 import Img from 'gatsby-image'
@@ -62,32 +61,32 @@ const ProjectPage = ({ path }) => {
           </p>
           <div className={styles.buttons_container}>
             <div>
-              <p><strong>Source code</strong></p>
-              <a target="_blank" href={t(currentProject.github_link, lang)}>
+              <p><strong>{t('projects.source_code', lang)}</strong></p>
+              <a target="_blank" rel="noopener noreferrer" href={t(currentProject.github_link, lang)}>
                 <GithubIcon className={styles.technologies_icon} />
               </a>
             </div>
             <div>
-              <p><strong>Demo</strong></p>
-              <a target="_blank" className={styles.button_demo} href={t(currentProject.project_link, lang)}>Open demo</a>
+              <p><strong>{t('projects.demo', lang)}</strong></p>
+              <a target="_blank" rel="noopener noreferrer" className={styles.button_demo} href={t(currentProject.project_link, lang)}>Open demo</a>
             </div>
           </div>
         </div>
         <div className={styles.project_container_side}>
           <div className={styles.text_container}>
-            <p><strong>Features</strong></p>
+            <p><strong>{t('projects.features', lang)}</strong></p>
             <ul>
               {currentProject.features.map(elem => <li>{t(elem, lang)}</li>)}
             </ul>
           </div>
           <div className={styles.text_container}>
-            <p><strong>What I learned</strong></p>
+            <p><strong>{t('projects.learned', lang)}</strong></p>
             <ul>
               {currentProject.learned.map(elem => <li>{t(elem, lang)}</li>)}
             </ul>
           </div>
           <div className={styles.text_container}>
-            <p><strong>Technologies</strong></p>
+            <p><strong>{t('projects.technologies', lang)}</strong></p>
             <ul>
               <li>HTML</li>
               <li>CSS</li>

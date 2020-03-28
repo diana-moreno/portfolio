@@ -20,7 +20,7 @@ const Form = ({ lang }) => {
       setErrorName(true)
       setName(t('form.name_error', lang))
     }
-    if (!email || !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/.test(email)) {
+    if (!email) {
       setErrorEmail(true)
       setEmail(t('form.email_error', lang))
     }

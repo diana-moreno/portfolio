@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import styles from '../../pages/index.module.scss'
 import { t } from '../../i18n';
 

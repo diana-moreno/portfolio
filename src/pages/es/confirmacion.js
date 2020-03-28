@@ -1,5 +1,4 @@
 import React from "react"
-import Layout from "../../components/layout"
 import Confirmation from "../../components/Confirmation"
 
 const lang = 'es'
@@ -10,9 +9,7 @@ const ConfirmationPage = ({ pageContext }) => {
   })
 
   return (
-    <Layout>
-      <Confirmation urls={urls} lang={lang} />
-    </Layout>
+    <Confirmation urls={urls} lang={lang} />
 )}
 
 export default ConfirmationPage

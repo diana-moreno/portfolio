@@ -1,5 +1,4 @@
 import React from "react"
-import Layout from "../components/layout"
 import Confirmation from "../components/Confirmation"
 
 const lang = 'en'

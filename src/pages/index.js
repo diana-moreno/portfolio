@@ -1,6 +1,6 @@
 import React, { useState } from "react"
-import { Link, navigate, graphql, useStaticQuery } from 'gatsby'
-import Layout from "../components/layout"
+import { Link, graphql, useStaticQuery } from 'gatsby'
+import Layout from "../components/Layout"
 import styles from './index.module.scss'
 import Navbar from '../components/Navbar'
 import ArrowBounce from '../components/ArrowBounce'
