@@ -1,11 +1,9 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const slash = require('slash')
+const path = require('path')
 
-// You can delete this file if you're not using it
 const urls = require('./src/urls.json');
+const projectsData = require('./src/data/jsonProjects.json');
+
 
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage, deletePage } = actions
@@ -18,6 +16,15 @@ exports.onCreatePage = ({ page, actions }) => {
       ...page.context,
       urls
     }
+  })
+
+  projectsData.forEach(elem => {
+    createPage({
+      path: elem.image,
+      component: slash(path.resolve('./src/templates/project.js')),
+      urls,
+      name: elem.image
+    })
   })
 }
       

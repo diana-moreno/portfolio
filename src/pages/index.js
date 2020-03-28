@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { navigate, graphql, useStaticQuery } from 'gatsby'
+import { Link, navigate, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
 import styles from './index.module.scss'
 import Navbar from '../components/Navbar'
@@ -12,7 +12,7 @@ import Form from '../components/Form'
 import ConceptKey from '../components/ConceptKey'
 import conceptsKey from '../data/concepts_key'
 import { t } from '../i18n'
-import projectsData from '../data/projects'
+import projectsData from '../data/projects.js'
 
 const lang = 'en'
 
@@ -183,10 +183,13 @@ const IndexPage = ({ pageContext }) => {
           {projectsData.slice(initial, last).map(elem => (
             <div className={styles.card}>
               <div className={styles.project_image_container}>
-                <Img
-                  className={styles.project_image}
-                  fixed={projects.edges.find(img => img.node.childImageSharp.fixed.src.indexOf(elem.image) > 1).node.childImageSharp.fixed}
-                  alt={t(elem.title, lang)} />
+                <Link to='/calculator' project={elem} >
+                  <Img
+                    className={styles.project_image}
+                    fixed={projects.edges.find(img => img.node.childImageSharp.fixed.src.indexOf(elem.image) > 1).node.childImageSharp.fixed}
+                    alt={t(elem.title, lang)} 
+                  />
+                </Link>
 
                 {/* TODO LINKS */}
                 {/* cuando haces click a un punto, se desordenan los proyectos */}
