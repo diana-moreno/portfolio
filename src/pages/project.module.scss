@@ -1,0 +1,117 @@
+body {
+  font-family: "Raleway";
+  color: #444649;
+  -webkit-tap-highlight-color: transparent
+}
+p {
+  line-height: 1.5rem;
+}
+input:focus, button:focus {
+  outline: transparent;
+}
+
+.project_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+.title_section {
+  text-align: center;
+  color: #444649;
+  h1 {
+    margin-bottom: 1rem;
+  }
+  div {
+    width: fit-content;
+    text-align: left;
+    .title_section_line {
+      width: 5rem;
+      border-bottom: 5px solid #d36667;
+      margin: 0 auto;
+    }
+  }
+}
+
+.date {
+  text-align: right;
+  font-style: italic;
+}
+.icons_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  a svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+.project_container_side {
+  max-width: 32rem;
+  margin: 1rem;
+}
+.button_demo {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  background: none;
+  border: 1px solid #727272;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  &:hover {
+   background-color: #d36667;
+   color: white; 
+   border: 1px solid;
+  }
+}
+.tab_box_menu_inactive {
+  color: #616161 !important;
+  background: none !important;
+  cursor: pointer;
+  &:hover {
+    background-color: #57c1c71f !important;
+  }
+}
+.tab_box_menu {
+  display: flex;
+  margin: 0;
+  border-bottom: 3px solid #57c1c7;
+  padding-bottom: 0;
+  justify-content: space-between;
+  li {
+    list-style: none;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #57c1c7;
+    color: #fff;
+    height: fit-content;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 14px;
+    @media (min-width: 550px) {
+      width: 9rem;
+      font-size: 18px;
+    }
+  }
+}
+.tab_box_content {
+  margin: 1rem 0;
+  margin-bottom: 4rem;
+  li {
+    list-style: none;
+    margin-bottom: 0;
+    line-height: 1.7rem;
+  }
+}
+.try_demo {
+  text-align: center;
+  margin: 6rem 0;
+  margin-top: 0;
+  @media screen and (min-width: 1220px) {
+    margin-top: 7.5rem;
+  }
+  h3 {
+    margin: 2rem 0;
+    margin-top: 0;
+  }
+}
