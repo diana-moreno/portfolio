@@ -86,10 +86,10 @@ const Form = ({ lang }) => {
     </div>
     <ul className={styles.form_buttons}>
       <li>
-        <input type="submit" value="Send message" className={styles.form_button_send} />
+        <button type="submit" value="Send message" className={styles.button_send}>Send</button>
       </li>
       <li>
-        <input type="reset" value="Clear" onClick={clear} className={styles.form_button_clear} />
+        <button type="reset" value="Clear" onClick={clear} className={styles.button_clear}>Clear</button>
       </li>
     </ul>
   </form>
