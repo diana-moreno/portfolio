@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import styles from '../../pages/styles2.module.scss'
+import styles from '../../pages/index.module.scss'
 import GithubIcon from '../../assets/github.svg'
 import LinkedinIcon from '../../assets/linkedin.svg'
 import EmailIcon from '../../assets/email.svg'

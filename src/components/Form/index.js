@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { navigate } from 'gatsby'
-import styles from '../../pages/styles2.module.scss'
+import styles from '../../pages/index.module.scss'
 import sendMessage from "../../api/send-message";
 import { t } from '../../i18n'
 

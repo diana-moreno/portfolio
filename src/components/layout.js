@@ -10,13 +10,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet"
 import "./layout.css"
+import Footer from '../components/Footer'
 
 const Layout = ({ children, locale }) => {
-
-  // const messages = locale === 'es' ? esMessages : enMessages
-  // const { intl } = new IntlProvider({ locale, messages }, {}).getChildContext()
-  // const t = (id, args) => intl.formatMessage({ id }, args)
-  
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -29,26 +25,8 @@ const Layout = ({ children, locale }) => {
 
   return (
     <>
-      {/* <IntlProvider locale={locale} messages={messages[locale]}> */}
-  
-
-      {/* <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      > */}
-        <main>{children}</main>
-        {/* <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer> 
-      </div>*/}
-
-
+      <main>{children}</main>
+      <Footer />
       <Helmet>
         <title>Diana Moreno</title>
         <link

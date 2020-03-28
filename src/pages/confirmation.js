@@ -10,9 +10,7 @@ const ConfirmationPage = ({ pageContext }) => {
   })
 
   return (
-    <Layout>
-      <Confirmation urls={urls} lang={lang} />
-    </Layout>
+    <Confirmation urls={urls} lang={lang} />
 )}
 
 export default ConfirmationPage

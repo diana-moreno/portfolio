@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { navigate, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
-import styles from './styles2.module.scss'
+import styles from './index.module.scss'
 import Navbar from '../components/Navbar'
 import ArrowBounce from '../components/ArrowBounce'
 import WhiteTriangle from '../assets/white_triangle.svg'
@@ -9,7 +9,6 @@ import LeftArrow from '../assets/left_arrow.svg'
 import RightArrow from '../assets/right_arrow.svg'
 import Img from 'gatsby-image'
 import Form from '../components/Form'
-import Footer from '../components/Footer'
 import ConceptKey from '../components/ConceptKey'
 import conceptsKey from '../data/concepts_key'
 import { t } from '../i18n'
@@ -132,16 +131,16 @@ const IndexPage = ({ pageContext }) => {
           <div className={styles.title_section_line}></div>
         </div>
         <div className={styles.circles_container}>
-        {
-          conceptsKey.map(concept =>
-            <ConceptKey
-              title={concept.title}
-              description={concept.description}
-              icon={concept.icon}
-              lang={lang}
-            />
-          )
-        }
+          {
+            conceptsKey.map(concept =>
+              <ConceptKey
+                title={concept.title}
+                description={concept.description}
+                icon={concept.icon}
+                lang={lang}
+              />
+            )
+          }
         </div>
         <div className={styles.aboutme}>
           <div className={styles.aboutme_image_container}>
@@ -184,13 +183,13 @@ const IndexPage = ({ pageContext }) => {
           {projectsData.slice(initial, last).map(elem => (
             <div className={styles.card}>
               <div className={styles.project_image_container}>
-                <Img 
-                  className={styles.project_image} 
-                  fixed={projects.edges.find(img => img.node.childImageSharp.fixed.src.indexOf(elem.image) > 1).node.childImageSharp.fixed} 
+                <Img
+                  className={styles.project_image}
+                  fixed={projects.edges.find(img => img.node.childImageSharp.fixed.src.indexOf(elem.image) > 1).node.childImageSharp.fixed}
                   alt={t(elem.title, lang)} />
 
-                  {/* TODO LINKS */}
-                  {/* cuando haces click a un punto, se desordenan los proyectos */}
+                {/* TODO LINKS */}
+                {/* cuando haces click a un punto, se desordenan los proyectos */}
               </div>
               <div className={styles.project_title}>{t(elem.title, lang)}</div>
             </div>
@@ -198,22 +197,22 @@ const IndexPage = ({ pageContext }) => {
 
           {/* <!-- PROJECT DOTS --> */}
           <div className={styles.dots_container}>
-            {[...Array(totalPages)].map((page, i) => 
-              <button 
-              onClick={() => switchToPage(i)} 
-              className={actualPage === i ? `${styles.dot_active} ${styles.dot}` : styles.dot} 
+            {[...Array(totalPages)].map((page, i) =>
+              <button
+                onClick={() => switchToPage(i)}
+                className={actualPage === i ? `${styles.dot_active} ${styles.dot}` : styles.dot}
               />
-              )}
+            )}
           </div>
-          
+
           {/* <!-- PROJECT ARROWS --> */}
-          {initial > 0 && <LeftArrow 
-            className={styles.left_arrow} 
+          {initial > 0 && <LeftArrow
+            className={styles.left_arrow}
             onClick={goToPreviousSlide}
           />}
 
-          {last < totalItems && <RightArrow 
-            className={styles.right_arrow} 
+          {last < totalItems && <RightArrow
+            className={styles.right_arrow}
             onClick={goToNextSlide}
           />}
         </div>
@@ -229,9 +228,6 @@ const IndexPage = ({ pageContext }) => {
         <WhiteTriangle className={styles.white_triangle} />
         <Form lang={lang} />
       </section>
-
-      {/* <!-- FOOTER --> */}
-      <Footer />
     </Layout>
   )
 }
