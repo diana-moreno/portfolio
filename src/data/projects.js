@@ -19,6 +19,11 @@ const projects = [
       "projects.project_23.learned.learned_6",
       "projects.project_23.learned.learned_7",
       "projects.project_23.learned.learned_8"
+    ],
+    technologies: [
+      "projects.project_23.technologies.technologies_1",
+      "projects.project_23.technologies.technologies_2",
+      "projects.project_23.technologies.technologies_3"
     ]
   },
   {
@@ -42,6 +47,10 @@ const projects = [
       "projects.project_22.learned.learned_3",
       "projects.project_22.learned.learned_4",
       "projects.project_22.learned.learned_5"
+    ],
+    technologies: [
+      "projects.project_22.technologies.technologies_1",
+      "projects.project_22.technologies.technologies_2"
     ]
   },
   {
@@ -60,6 +69,11 @@ const projects = [
     learned: [
       "projects.project_21.learned.learned_1",
       "projects.project_21.learned.learned_2"
+    ],
+    technologies: [
+      "projects.project_21.technologies.technologies_1",
+      "projects.project_21.technologies.technologies_2",
+      "projects.project_21.technologies.technologies_3"
     ]
   },
   {
@@ -84,6 +98,11 @@ const projects = [
       "projects.project_20.learned.learned_2",
       "projects.project_20.learned.learned_3",
       "projects.project_20.learned.learned_4"
+    ],
+    technologies: [
+      "projects.project_20.technologies.technologies_1",
+      "projects.project_20.technologies.technologies_2",
+      "projects.project_20.technologies.technologies_3"
     ]
   },
   {
@@ -103,6 +122,11 @@ const projects = [
       "projects.project_19.learned.learned_1",
       "projects.project_19.learned.learned_2",
       "projects.project_19.learned.learned_3"
+    ],
+    technologies: [
+      "projects.project_19.technologies.technologies_1",
+      "projects.project_19.technologies.technologies_2",
+      "projects.project_19.technologies.technologies_3"
     ]
   },
   {
@@ -129,6 +153,11 @@ const projects = [
       "projects.project_18.learned.learned_6",
       "projects.project_18.learned.learned_7",
       "projects.project_18.learned.learned_8"
+    ],
+    technologies: [
+      "projects.project_18.technologies.technologies_1",
+      "projects.project_18.technologies.technologies_2",
+      "projects.project_18.technologies.technologies_3"
     ]
   },
   {
@@ -182,32 +211,11 @@ const projects = [
       "projects.project_17.learned.learned_18",
       "projects.project_17.learned.learned_19",
       "projects.project_17.learned.learned_20"
-    ]
-  },
-  {
-    project: 15,
-    title: 'projects.project_15.title',
-    main: "projects.project_15.main",
-    image: 'duck-store',
-    project_link: "https://diana-moreno.github.io/duck-store-react",
-    github_link: "https://github.com/diana-moreno/duck-store-OOP",
-    github_link_2: "https://github.com/diana-moreno/duck-store-react",
-    github_link_3: "https://github.com/diana-moreno/duck-store-express",
-    features: [
-      "projects.project_15.features.feature_1",
-      "projects.project_15.features.feature_2",
-      "projects.project_15.features.feature_3",
-      "projects.project_15.features.feature_4",
-      "projects.project_15.features.feature_5"
     ],
-    learned: [
-      "projects.project_15.learned.learned_1",
-      "projects.project_15.learned.learned_2",
-      "projects.project_15.learned.learned_3",
-      "projects.project_15.learned.learned_4",
-      "projects.project_15.learned.learned_5",
-      "projects.project_15.learned.learned_6",
-      "projects.project_15.learned.learned_7"
+    technologies: [
+      "projects.project_17.technologies.technologies_1",
+      "projects.project_17.technologies.technologies_2",
+      "projects.project_17.technologies.technologies_3"
     ]
   },
   {
@@ -236,6 +244,43 @@ const projects = [
       "projects.project_16.learned.learned_5",
       "projects.project_16.learned.learned_6",
       "projects.project_16.learned.learned_7"
+    ],
+    technologies: [
+      "projects.project_16.technologies.technologies_1",
+      "projects.project_16.technologies.technologies_2"
+    ]
+  },
+  {
+    project: 15,
+    title: 'projects.project_15.title',
+    main: "projects.project_15.main",
+    image: 'duck-store',
+    project_link: "https://diana-moreno.github.io/duck-store-react",
+    github_link: "https://github.com/diana-moreno/duck-store-OOP",
+    github_link_2: "https://github.com/diana-moreno/duck-store-react",
+    github_link_3: "https://github.com/diana-moreno/duck-store-express",
+    features: [
+      "projects.project_15.features.feature_1",
+      "projects.project_15.features.feature_2",
+      "projects.project_15.features.feature_3",
+      "projects.project_15.features.feature_4",
+      "projects.project_15.features.feature_5"
+    ],
+    learned: [
+      "projects.project_15.learned.learned_1",
+      "projects.project_15.learned.learned_2",
+      "projects.project_15.learned.learned_3",
+      "projects.project_15.learned.learned_4",
+      "projects.project_15.learned.learned_5",
+      "projects.project_15.learned.learned_6",
+      "projects.project_15.learned.learned_7"
+    ],
+    technologies: [
+      "projects.project_15.technologies.technologies_1",
+      "projects.project_15.technologies.technologies_2",
+      "projects.project_15.technologies.technologies_3",
+      "projects.project_15.technologies.technologies_4",
+      "projects.project_15.technologies.technologies_5"
     ]
   },
   {
@@ -261,6 +306,9 @@ const projects = [
       "projects.project_14.learned.learned_6",
       "projects.project_14.learned.learned_7",
       "projects.project_14.learned.learned_8"
+    ],
+    technologies: [
+      "projects.project_14.technologies.technologies_1"
     ]
   },
   {
@@ -286,6 +334,9 @@ const projects = [
       "projects.project_13.learned.learned_5",
       "projects.project_13.learned.learned_6",
       "projects.project_13.learned.learned_7"
+    ],
+    technologies: [
+      "projects.project_13.technologies.technologies_1"
     ]
   },
   {
@@ -306,6 +357,11 @@ const projects = [
       "projects.project_12.learned.learned_1",
       "projects.project_12.learned.learned_2",
       "projects.project_12.learned.learned_3"
+    ],
+    technologies: [
+      "projects.project_12.technologies.technologies_1",
+      "projects.project_12.technologies.technologies_2",
+      "projects.project_12.technologies.technologies_3"
     ]
   },
   {
@@ -330,6 +386,10 @@ const projects = [
       "projects.project_11.learned.learned_3",
       "projects.project_11.learned.learned_4",
       "projects.project_11.learned.learned_5"
+    ],
+    technologies: [
+      "projects.project_11.technologies.technologies_1",
+      "projects.project_11.technologies.technologies_2"
     ]
   },
   {
@@ -360,6 +420,10 @@ const projects = [
       "projects.project_10.learned.learned_7",
       "projects.project_10.learned.learned_8",
       "projects.project_10.learned.learned_9"
+    ],
+    technologies: [
+      "projects.project_10.technologies.technologies_1",
+      "projects.project_10.technologies.technologies_2"
     ]
   },
   {
@@ -385,6 +449,11 @@ const projects = [
       "projects.project_9.learned.learned_4",
       "projects.project_9.learned.learned_5",
       "projects.project_9.learned.learned_6"
+    ],
+    technologies: [
+      "projects.project_9.technologies.technologies_1",
+      "projects.project_9.technologies.technologies_2",
+      "projects.project_9.technologies.technologies_3"
     ]
   },
   {
@@ -414,6 +483,11 @@ const projects = [
       "projects.project_8.learned.learned_6",
       "projects.project_8.learned.learned_7",
       "projects.project_8.learned.learned_8"
+    ],
+    technologies: [
+      "projects.project_8.technologies.technologies_1",
+      "projects.project_8.technologies.technologies_2",
+      "projects.project_8.technologies.technologies_3"
     ]
   },
   {
@@ -440,6 +514,11 @@ const projects = [
       "projects.project_7.learned.learned_2",
       "projects.project_7.learned.learned_3",
       "projects.project_7.learned.learned_4"
+    ],
+    technologies: [
+      "projects.project_7.technologies.technologies_1",
+      "projects.project_7.technologies.technologies_2",
+      "projects.project_7.technologies.technologies_3"
     ]
   },
   {
@@ -467,6 +546,11 @@ const projects = [
       "projects.project_6.learned.learned_5",
       "projects.project_6.learned.learned_6",
       "projects.project_6.learned.learned_7"
+    ],
+    technologies: [
+      "projects.project_6.technologies.technologies_1",
+      "projects.project_6.technologies.technologies_2",
+      "projects.project_6.technologies.technologies_3"
     ]
   },
   {
@@ -494,6 +578,11 @@ const projects = [
       "projects.project_5.learned.learned_5",
       "projects.project_5.learned.learned_6",
       "projects.project_5.learned.learned_7"
+    ],
+    technologies: [
+      "projects.project_5.technologies.technologies_1",
+      "projects.project_5.technologies.technologies_2",
+      "projects.project_5.technologies.technologies_3"
     ]
   },
   {
@@ -524,6 +613,11 @@ const projects = [
       "projects.project_4.learned.learned_9",
       "projects.project_4.learned.learned_10",
       "projects.project_4.learned.learned_11"
+    ],
+    technologies: [
+      "projects.project_4.technologies.technologies_1",
+      "projects.project_4.technologies.technologies_2",
+      "projects.project_4.technologies.technologies_3"
     ]
   },
   {
@@ -544,6 +638,11 @@ const projects = [
      "projects.project_3.learned.learned_3",
       "projects.project_3.learned.learned_4",
       "projects.project_3.learned.learned_5"
+    ],
+    technologies: [
+      "projects.project_3.technologies.technologies_1",
+      "projects.project_3.technologies.technologies_2",
+      "projects.project_3.technologies.technologies_3"
     ]
   },
   {
@@ -570,6 +669,11 @@ const projects = [
       "projects.project_2.learned.learned_3",
       "projects.project_2.learned.learned_4",
       "projects.project_2.learned.learned_5"
+    ],
+    technologies: [
+      "projects.project_2.technologies.technologies_1",
+      "projects.project_2.technologies.technologies_2",
+      "projects.project_2.technologies.technologies_3"
     ]
   },
   {
@@ -593,6 +697,11 @@ const projects = [
       "projects.project_1.learned.learned_2",
       "projects.project_1.learned.learned_3",
       "projects.project_1.learned.learned_4"
+    ],
+    technologies: [
+      "projects.project_1.technologies.technologies_1",
+      "projects.project_1.technologies.technologies_2",
+      "projects.project_1.technologies.technologies_3"
     ]
   }
 ]

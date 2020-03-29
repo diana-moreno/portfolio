@@ -50,7 +50,7 @@ const ProjectPage = ({ path }) => {
         </div>
       </div>
       <div className={styles.project_container}>
-        <div className={styles.project_container_side}>
+        <div className={`${styles.project_container_side} ${styles.project_container_side_left}`}>
           <div className={styles.project_image_container}>
             <p>June 2019</p>
             {/* FALTA DATE EN I18N */}
@@ -88,9 +88,7 @@ const ProjectPage = ({ path }) => {
           <div className={styles.text_container}>
             <p><strong>{t('projects.technologies', lang)}</strong></p>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript (ES6)</li>
+              {currentProject.technologies.map(elem => <li>{t(elem, lang)}</li>)}
             </ul>
           </div>
         </div>

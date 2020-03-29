@@ -53,8 +53,8 @@
     "title": "PROJECTS",
     "demo": "Demo",
     "source_code": "Source code",
-    "features": "Features:",
-    "learned": "What I learned:",
+    "features": "Features",
+    "learned": "What I learned",
     "technologies": "Technologies",
     "project_1": {
       "title": "Basic Calculator",
@@ -73,6 +73,11 @@
         "learned_2": "How to access and manipulate the DOM.",
         "learned_3": "How to apply keyboard and mouse events.",
         "learned_4": "How to implement hover and active to change style."
+      },
+      "technologies" : {
+        "technologies_1": "Javascript (ES6)",
+        "technologies_2": "HTML",
+        "technologies_3": "CSS"
       }
     },
     "project_2": {
@@ -95,6 +100,11 @@
         "learned_3": "How to apply keyboard and mouse events.",
         "learned_4": "How to implement hover and active to change style.",
         "learned_5": "How to develop math logic with JavaScript."
+      },
+      "technologies" : {
+        "technologies_1": "Javascript (ES6)",
+        "technologies_2": "HTML",
+        "technologies_3": "CSS"
       }
     },
     "project_3": {
@@ -111,6 +121,11 @@
         "learned_3": "How to implement conditional JavaScript logic.",
         "learned_4": "How to access and manipulate the DOM.",
         "learned_5": "How to add sounds in DOM events without needing a server."
+      },
+      "technologies" : {
+        "technologies_1": "Javascript (ES6)",
+        "technologies_2": "HTML",
+        "technologies_3": "CSS"
       }
     },
     "project_4": {
@@ -137,6 +152,11 @@
         "learned_9": "How to create local and remote repositories, push and pull, backtrack, create, remove and merge branches with Git and GitHub.",
         "learned_10": "How to deploy a project with Github pages.",
         "learned_11": "How to create a Readme and to understand Markdown."
+      },
+      "technologies" : {
+        "technologies_1": "Javascript (ES6)",
+        "technologies_2": "HTML",
+        "technologies_3": "CSS-Bootstrap"
       }
     },
     "project_5": {
@@ -160,6 +180,11 @@
         "learned_5": "How to change style with CSS before and after.",
         "learned_6": "How to create gitignore to hide some unnecessary local folders.",
         "learned_7": "How to link and edit a JSON file."
+      },
+      "technologies" : {
+        "technologies_1": "Javascript (ES6)",
+        "technologies_2": "HTML",
+        "technologies_3": "CSS"
       }
     },
     "project_6": {
@@ -183,6 +208,11 @@
         "learned_5": "How to utilize CSS Grid and Flex properly.",
         "learned_6": "How to understand the logic behind it.",
         "learned_7": "How to split the code in different files to be more organized."
+      },
+      "technologies" : {
+        "technologies_1": "Javascript (ES6)",
+        "technologies_2": "HTML",
+        "technologies_3": "CSS"
       }
     },
     "project_7": {
@@ -205,6 +235,11 @@
         "learned_2": "How to develop stack and queues data structure logic.",
         "learned_3": "How to create a visual layout to show how stacks and queues work.",
         "learned_4": "How to split code in different files."
+      },
+      "technologies" : {
+        "technologies_1": "Javascript (ES6)",
+        "technologies_2": "HTML",
+        "technologies_3": "CSS"
       }
     },
     "project_8": {
@@ -230,6 +265,11 @@
         "learned_6": "How to set a layout with absolute and relative positions.",
         "learned_7": "How to take advantage of input(s) radio to allow the user to customize the game.",
         "learned_8": "How to keep the code organized and separated following the MVC (model, view, controller)."
+      }, 
+      "technologies" : {
+        "technologies_1": "Javascript (ES6)",
+        "technologies_2": "HTML",
+        "technologies_3": "CSS"
       }
     },
     "project_9": {
@@ -251,6 +291,11 @@
         "learned_4": "How to create HTML elements and classes dynamically with JavaScript.",
         "learned_5": "How to make logic code independent, working properly in the Browser console.",
         "learned_6": "How to create a grid layout with absolute positions and floats."
+      }, 
+      "technologies" : {
+        "technologies_1": "Javascript (ES6)",
+        "technologies_2": "HTML",
+        "technologies_3": "CSS"
       }
     },
     "project_10": {
@@ -277,6 +322,10 @@
         "learned_7": "How to store data in LocalStorage and update the state.",
         "learned_8": "How to document the App with PropTypes.",
         "learned_9": "How to deploy the project to production in GitHub pages through a branch."
+      },
+      "technologies" : {
+        "technologies_1": "React",
+        "technologies_3": "CSS-Bootstrap"
       }
     },
     "project_11": {
@@ -297,6 +346,10 @@
         "learned_3": "How to make queries to the API with NPM Axios.",
         "learned_4": "How to build a ‘Favorites’ section and synchronize them with new searches.",
         "learned_5": "How to save ‘Favorites’ data with LocalStorage."
+      },
+      "technologies" : {
+        "technologies_1": "React",
+        "technologies_3": "CSS-UIkit"
       }
     },
     "project_12": {
@@ -313,6 +366,11 @@
         "learned_1": "How to draw basic elements with CSS like a tree, a building, a sun, some clouds, etc.",
         "learned_2": "How to animate an element to make it move side to side.",
         "learned_3": "How to demonstrate the DOM and Node's asynchrony (due to the asynchrony, when the lift is managing several passengers at the same time, is processing more stuff in the same second, so in DOM, I could not fix that the elevator went faster)."
+      },
+      "technologies" : {
+        "technologies_1": "Javascript (ES6)",
+        "technologies_2": "HTML",
+        "technologies_3": "CSS"
       }
     },
     "project_13": {
@@ -334,6 +392,9 @@
         "learned_5": "Knowing when and how to use req.query and req.params.",
         "learned_6": "How to read official API documentation.",
         "learned_7": "How to deploy a back-end project with Heroku."
+      },
+      "technologies" : {
+        "technologies_1": "Node with Express and Handlebars"
       }
     },
     "project_14": {
@@ -355,6 +416,9 @@
         "learned_6": "How to deploy the project to production in Github pages configuring the routes.",
         "learned_7": "How to add proptypes support to enforce some props.",
         "learned_8": "How to add eslint support to help keep the code clean."
+      },
+      "technologies" : {
+        "technologies_1": "React"
       }
     },
     "project_15": {
@@ -375,6 +439,13 @@
         "learned_5": "How to separate the logic in different files.",
         "learned_6": "Server side rendering with Pug.",
         "learned_7": "Continuous code refactoring."
+      },
+      "technologies" : {
+        "technologies_1": "React",
+        "technologies_2": "Node with Express and Pug",
+        "technologies_3": "Javascript (ES6)",
+        "technologies_4": "HTML",
+        "technologies_5": "CSS-SASS"
       }
     },
     "project_16": {
@@ -399,6 +470,10 @@
         "learned_5": "How to document a project with UML.",
         "learned_6": "How to access a blocked API from another country through a VPN.",
         "learned_7": "How to separate the logic in files."
+      },
+      "technologies" : {
+        "technologies_1": "React",
+        "technologies_2": "CSS-SASS"
       }
     },
     "project_17": {
@@ -448,6 +523,11 @@
         "learned_18": "How to deploy the back-end in Heroku.",
         "learned_19": "How to deploy the front-end in GitHub pages.",
         "learned_20": "How to connect back-end and front-end deployed."
+      },
+      "technologies" : {
+        "technologies_1": "React",
+        "technologies_2": "CSS-SASS",
+        "technologies_3": "Node with Express"
       }
     },
     "project_18": {
@@ -455,11 +535,11 @@
       "main": "Kasaz is a simple website to search for apartments. It is possible to search by location, price, square meters, number of bedrooms or bathrooms.",
       "features": {
         "feature_1": "The user can search for apartments and filter the search with some criteria:",
-        "feature_2": "-Location",
-        "feature_3": "-Minimum and maximum price",
-        "feature_4": "-Square meters",
-        "feature_5": "-Bedrooms",
-        "feature_6": "-Bathrooms"
+        "feature_2": "Location",
+        "feature_3": "Minimum and maximum price",
+        "feature_4": "Square meters",
+        "feature_5": "Bedrooms",
+        "feature_6": "Bathrooms"
       },
       "learned": {
         "learned_1": "How to develop a Full Stack project in 4 days.",
@@ -470,6 +550,11 @@
         "learned_6": "How to deploy the back-end in Heroku.",
         "learned_7": "How to deploy the front-end in GitHub pages.",
         "learned_8": "How to connect back-end and front-end deployed."
+      },
+      "technologies" : {
+        "technologies_1": "React",
+        "technologies_2": "CSS-SASS",
+        "technologies_3": "Node with Express"
       }
     },
     "project_19": {
@@ -485,6 +570,11 @@
         "learned_1": "Consuming GitHub API.",
         "learned_2": "AJAX.",
         "learned_3": "JavaScript Vanilla"
+      },
+      "technologies" : {
+        "technologies_1": "Javascript",
+        "technologies_1": "HTML",
+        "technologies_2": "CSS-SASS"
       }
     },
     "project_20": {
@@ -505,6 +595,11 @@
         "learned_2": "How to manage positions with drag and drop and persist changes in the database.",
         "learned_3": "React Hooks (useRef, useEffect, useState).",
         "learned_4": "Users system."
+      },
+      "technologies" : {
+        "technologies_1": "React",
+        "technologies_2": "CSS-SASS",
+        "technologies_3": "Node with Express"
       }
     },
     "project_21": {
@@ -519,6 +614,11 @@
       "learned": {
         "learned_1": "How to create a modal window in React.",
         "learned_2": "Responsive layout with Grid and Flex."
+      },
+      "technologies" : {
+        "technologies_1": "React",
+        "technologies_2": "CSS-SASS",
+        "technologies_3": "Node with Express"
       }
     },
     "project_22": {
@@ -526,10 +626,10 @@
       "main": "Simple products CRUD developed to learn React Redux in the two versions, Thunk and Saga.",
       "features": {
         "feature_1": "The user can:",
-        "feature_2": "-Create products",
-        "feature_3": "-Read products",
-        "feature_4": "-Update products",
-        "feature_5": "-Delete products"
+        "feature_2": "Create products",
+        "feature_3": "Read products",
+        "feature_4": "Update products",
+        "feature_5": "Delete products"
       },
       "learned": {
         "learned_1": "How to manage React state with Redux.",
@@ -537,6 +637,10 @@
         "learned_3": "How to control the asynchronous with the middleware Redux-saga.",
         "learned_4": "How to create easy modals with sweetalert2.",
         "learned_5": "How to create a fake API Rest with JSON-Server."
+      },
+      "technologies" : {
+        "technologies_1": "React with Redux",
+        "technologies_2": "CSS-SASS"
       }
     },
     "project_23": {
@@ -555,6 +659,11 @@
         "learned_6": "How to align the footer always at the bottom with Grid.",
         "learned_7": "How to deploy an application to Netlify.",
         "learned_8": "How to analyze and audit performance and SEO."
+      },
+      "technologies" : {
+        "technologies_1": "Gastby with React",
+        "technologies_2": "CSS-SASS",
+        "technologies_3": "DatoCMS"
       }
     }
   },
