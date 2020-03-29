@@ -24,7 +24,7 @@ const Layout = ({ children, locale }) => {
   // `)
 
   return (
-    <div class='main_container'>
+    <div className='main_container'>
       <main>{children}</main>
       <Footer />
       <Helmet>

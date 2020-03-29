@@ -57,21 +57,23 @@
     "learned": "Qué he aprendido",
     "technologies": "Tecnologías",
     "project_1": {
-      "title": "Calculadora básica",
+      "title": "Calculadora",
       "main": "En este proyecto he desarrollado una calculadora que realiza operaciones matemáticas sencillas.",
       "features": {
-        "feature_1": "Realiza cálculos matemáticos sencillos, como son las suma, resta, multiplicación y división, tanto para números enteros como decimales.",
-        "feature_2": "Dispone de función de borrado por si nos hemos equivocado y de reset para comenzar una nueva operación.",
-        "feature_3": "Mientras no se pulse la tecla AC, los valores se acumulan para las próximas operaciones.",
-        "feature_4": "Tiene una pantalla que nos informa de la acción que estamos realizando, ya sea escribiendo u obteniendo un resultado y nos alerta mostrando un mensaje de error en el caso de que se haya construido incorrectamente la expresión.",
-        "feature_5": "Está preparado para funcionar tanto con el ratón como con el teclado."
+        "feature_1":  "Realiza operaciones sencillas como suma, resta, multiplicación y división.",
+        "feature_2": "Permite operaciones con paréntesis y números enteros y decimales.",
+        "feature_3": "Dispone de función de borrado y de reset.",
+        "feature_4": "Puede acumular resultados para la siguiente operación.",
+        "feature_5": "Dispone de una pantalla informativa en caso de acciones o errores.",
+        "feature_6":  "Si la expresión es demasiado larga, el tamaño se encoge para caber.",
+        "feature_7": "Está preparado para funcionar tanto con el ratón como con el teclado."
       },
       "learned": {
         "learned_1": "A desarrollar lógica operacional.",
-        "learned_1": "A crear estructuras de cuadrícula con CSS Grid.",
-        "learned_2": "A acceder y manipular el DOM con Javascript Vanilla.",
-        "learned_3": "A aplicar eventos de ratón y de teclado.",
-        "learned_4": "A crear efectos visuales con \"hover\" y \"active\"."
+        "learned_2": "A crear estructuras de cuadrícula con CSS Grid.",
+        "learned_3": "A acceder y manipular el DOM con Javascript Vanilla.",
+        "learned_4": "A aplicar eventos de ratón y de teclado.",
+        "learned_5": "A crear efectos visuales con pseudoclases como \"hover\" y \"active\"."
       },
       "technologies" : {
         "technologies_1": "Frontend: Javascript (ES6), HTML, CSS",
@@ -79,143 +81,100 @@
       }
     },
     "project_2": {
-      "title": "Calculator",
-      "main": "This is the second version of the calculator. I have focused on adding additional functionality like parentheses and calculating all mathematical operations.",
+      "title": "Escapa de la muerte",
+      "main": "Este es un juego de horror en el que tu amigo y tu habéis sido secuestrados. El objetivo es rescatar a tu amigo y escapar juntos. ¡Cuidado con el asesino!",
       "features": {
-        "feature_1": "Allows operating with nested parentheses expressions.",
-        "feature_2": "There is a button to delete the last character introduced.",
-        "feature_3": "It includes a reset button to start new calculations.",
-        "feature_4": "It is able to accumulate values for the next operation.",
-        "feature_5": "If the expression is malformed, it shows a message.",
-        "feature_6": "If the expression is too long, the font size is reduced to fit in display.",
-        "feature_7": "It has been configured for many sizes of screen and dispositives.",
-        "feature_8": "It has intuitive colors when operating to be easily used.",
-        "feature_9": "Works properly both with keyboard and mouse."
+        "feature_1": "Los elementos detrás de las puertas son: amigo, asesino y salida.",
+        "feature_2": "Los personajes se colocan aleatoriamente en cada partida.",
+        "feature_3": "Es necesario encontrar primero al amigo para poder escapar.",
+        "feature_4": "Según avanza el juego, aparecen mensajes que guían la historia.",
+        "feature_5": "Toparse con el asesino significa perder el juego."
       },
       "learned": {
-        "learned_1": "How to create a visual interface with CSS Grid Layout.",
-        "learned_2": "How to access and manipulate the DOM.",
-        "learned_3": "How to apply keyboard and mouse events.",
-        "learned_4": "How to implement hover and active to change style.",
-        "learned_5": "How to develop math logic with JavaScript."
+        "learned_1": "A importar fuentes externas.",
+        "learned_2": "A manipular imágenes y crear composiciones con GIMP.",
+        "learned_3": "A renderizar condicionalmente elementos con Javascript.",
+        "learned_4": "A añadir sonidos en el DOM."
       },
       "technologies" : {
-        "technologies_1": "Javascript (ES6)",
-        "technologies_2": "HTML",
-        "technologies_3": "CSS"
+        "technologies_1": "Frontend: Javascript (ES6), HTML, CSS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_3": {
-      "title": "Escape from death",
-      "main": "Escape from Death is a horror game where you and your friend have been kidnapped. The goal is to rescue your friend and escape both together. Be careful with the killer!",
+      "title": "Personal Website 1",
+      "main": "Este proyecto es mi primera página web personal. Creada con la finalidad de disponer de un espacio donde poder coleccionar mis propios proyectos y darme a conocer frente a empresas.",
       "features": {
-        "feature_1": "There are three closed doors: in one is your friend isolated, in the other the killer, and in the other, the exit.",
-        "feature_2": "If you find the exit, you will not be able to leave without your friend, you must rescue him first to leave together.",
-        "feature_3": "If while trying to find the exit or your friend, you bump into the killer, the game is over."
+        "feature_1": "Se compone de cuatro secciones: inicio, sobre mi, portafolio y contacto.", 
+        "feature_2": "La página \"Sobre mi\" cuenta con una pequeña imagen y biografía del autor.",
+        "feature_3": "Desde \"Portafolio\" puede accederse a todos los proyectos disponibles.",
+        "feature_4": "La página de contacto tiene enlaces a Linkedin, Github y email.",
+        "feature_5": "Es responsiva, puede visualizarse desde cualquier dispositivo."
       },
       "learned": {
-        "learned_1": "How to create a layout with basic CSS.",
-        "learned_2": "How to manipulate images with Gimp.",
-        "learned_3": "How to implement conditional JavaScript logic.",
-        "learned_4": "How to access and manipulate the DOM.",
-        "learned_5": "How to add sounds in DOM events without needing a server."
+        "learned_1": "A utilizar Bootstrap, una librería responsiva de CSS.",
+        "learned_2": "A utilizar Animate.css, una librería de animaciones avanzadas.",
+        "learned_3": "A centrar elementos tanto vertical como horizontalmente con CSS.",
+        "learned_4": "A crear varias páginas interconectadas con links.",
+        "learned_5": "A aplicar media queries para crear una página responsiva priorizando los dispositivos móviles.",
+        "learned_6": "A utilizar Git con Github.",
+        "learned_7": "A crear un fichero Leeme y entender Markdown.",
+        "learned_8": "A realizar deploys de frontend en Github-pages."
       },
       "technologies" : {
-        "technologies_1": "Javascript (ES6)",
-        "technologies_2": "HTML",
-        "technologies_3": "CSS"
+        "technologies_1": "Frontend: Javascript (ES6), HTML, CSS-Boostrap",
+        "technologies_2": "Backend: -"
       }
     },
     "project_4": {
-      "title": "Personal website v1",
-      "main": "This project is about this current website I created with the finality to letting know a little about me and my projects. There, I talk about who I am, what I do, how I arrived here and what my motivations and passions are. In the portfolio section, a few of my best projects are shown.",
+      "title": "Few Seconds Math",
+      "main": "Esta es una versión alternativa al juego original 10 Seconds Math, creado por Michael Jakob, creado para desafiar las habilidades matemáticas de una persona contra reloj. En esta versión, el tiempo añadido por respuesta correcta no son 10 segundos, sino que varía dependiendo de la dificultad.",
       "features": {
-        "feature_1": "The website is divided in four linked sections and all of them share the same navigation bar.", 
-        "feature_2": "Every page has an animation to make it look friendlier and visual.",
-        "feature_3": "It is built responsive, so it can be opened in several dispositives.",
-        "feature_4": "Portfolio pages allow you to select the project you are interested in through a menu.",
-        "feature_5": "The contact page has linked email, Github and Linkedin contacts to their own logos.",
-        "feature_6": "The navbar (navigation bar) menu has hover and active implemented to change style when clicking in another section.",
-        "feature_7": "The website keeps the simplicity, sharing background, being organized and easy-reading."
+        "feature_1": "El usuario puede configurar la dificultad del juego limitando operaciones o las cifras máximas de cada número.",
+        "feature_2": "El juego comienza con 10 segundos para responder a la primera pregunta.",
+        "feature_3": "Cada respuesta correcta suma segundos dependiendo de la dificultad (4 puntos por cada división, 3 por cada multiplicación, 2 por resta y 1 por suma).",
+        "feature_4": "Es necesario responder correctamente para poder continuar.",
+        "feature_5": "El juego termina cuando se agota el tiempo."
       },
       "learned": {
-        "learned_1": "CSS flexbox layout.",
-        "learned_2": "Some CSS design and styles.",
-        "learned_3": "How to implement libraries like Animate.css to make advanced animations.",
-        "learned_4": "How to add some Bootstrap pieces to the project.",
-        "learned_5": "How to center elements both vertically and horizontally in layout.",
-        "learned_6": "How to hide the scroll bar or change its style.",
-        "learned_7": "How to create a mobile first responsive design CSS with media queries.",
-        "learned_8": "How to define website behaviour with JavaScript.",
-        "learned_9": "How to create local and remote repositories, push and pull, backtrack, create, remove and merge branches with Git and GitHub.",
-        "learned_10": "How to deploy a project with Github pages.",
-        "learned_11": "How to create a Readme and to understand Markdown."
+        "learned_1": "A correr el proyecto en un servidor local de Node (Serve).",
+        "learned_2": "A importar sonidos de una librería externa y sincronizarlos con el DOM.",
+        "learned_3": "A utilizar funciones asíncronas y \"callbacks\".",
+        "learned_4": "A reescribir el contenido dinámicamente en una sola página (SPA).",
+        "learned_5": "A añadir estilos con las pseudoclases \"before\" y \"hover\".",
+        "learned_6": "A crear un fichero \"gitignore\" para proteger algunos ficheros.",
+        "learned_7": "A crear un fichero JSON con la configuración del proyecto."
       },
       "technologies" : {
-        "technologies_1": "Javascript (ES6)",
-        "technologies_2": "HTML",
-        "technologies_3": "CSS-Bootstrap"
+        "technologies_1": "Frontend: Javascript (ES6), HTML, CSS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_5": {
-      "title": "Few Seconds Math Game",
-      "main": "Few Seconds Math is a game created by Michael Jakob to challenge a person’s mathematical skills against the clock. In this project, I made my own version of this game changing some of its features.",
+      "title": "Juego de parejas",
+      "main": "Juego de parejas es un juego tradicional de memoria. Para ganar, necesitas recordar la posición de cada carta y emparejarla con su igual.",
       "features": {
-        "feature_1": "At the beginning, the user has ten seconds to answer the first math problem.",
-        "feature_2": "The user chooses what type/s of math operations they will face: addition, subtraction, multiplication or division.",
-        "feature_3": "The user can limit the maximum number that will appear.",
-        "feature_4": "The most difficult operations provide more points (4 points for each division, 3 for multiplication, 2 for subtraction and 1 for addition).",
-        "feature_5": "The clock will start running once the first question is shown.",
-        "feature_6": "The current question must be correctly answered in order to be allowed to answer the next one.",
-        "feature_7": "Every correct answer will add a few seconds more to the clock, depending on the difficulty selected.",
-        "feature_8": "The user loses the game when the time is up! Do not let the clock run out!"
+        "feature_1": "Detrás de cada cofre se colocan aleatoriamente los personajes.",
+        "feature_2": "El jugador tiene que abrir dos cofres buscando que sean iguales.",
+        "feature_3": "Si los dos personajes son diferentes, los cofres se volverán a cerrar y se sumará un fallo.",
+        "feature_4": "Si los personajes son iguales, se quedarán visibles y se sumará un acierto.",
+        "feature_5": "La finalidad del juego es que el usuario recuerde las posiciones de los personajes.",
+        "feature_6": "Hay un contador que informa de aciertos y fallos durante el juego.",
+        "feature_7": "Al final del juego aparece un resumen de los resultados."
       },
       "learned": {
-        "learned_1": "How to run the project into a local server.",
-        "learned_2": "How to add sound from a library adding scripts and to synchronize audios with DOM’s behaviour.",
-        "learned_3": "How to implement async and callback functions.",
-        "learned_4": "How to switch to the next screen game with JavaScript and CSS.",
-        "learned_5": "How to change style with CSS before and after.",
-        "learned_6": "How to create gitignore to hide some unnecessary local folders.",
-        "learned_7": "How to link and edit a JSON file."
+        "learned_1": "A manipular el DOM con jQuery.",
+        "learned_2": "A entender la lógica detrás de un juego de parejas.",
+        "learned_3": "A separar el código en diferentes ficheros para mantener un orden."
       },
       "technologies" : {
-        "technologies_1": "Javascript (ES6)",
-        "technologies_2": "HTML",
-        "technologies_3": "CSS"
+        "technologies_1": "Frontend: Javascript (ES6), HTML, CSS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_6": {
-      "title": "Fairytale Matching Game",
-      "main": "Fairytale Matching Game is a traditional memory game. To win, you need to remember the position of every card and match it with its pair.",
-      "features": {
-        "feature_1": "When the game starts, 24 closed coffers appear.",
-        "feature_2": "Inside every coffer there are fairytale characters hidden.",
-        "feature_3": "The player has to open two coffers searching for a pair.",
-        "feature_4": "If the characters are different, the coffers will close, hiding the cards.",
-        "feature_5": "The user has to remember the position of every character and try to make pairs with the cards.",
-        "feature_6": "When a pair is found, it will remain visible.",
-        "feature_7": "The counter informs about the number of matching and failures.",
-        "feature_8": "When the user has matched all pairs, a resume will appear with the final score."
-      },
-      "learned": {
-        "learned_1": "How to access and manipulate the DOM with jQuery to select and trigger changes in the page.",
-        "learned_2": "How to add effects with jQuery.",
-        "learned_3": "How to achieve graphical behaviour throughout async and callback functions.",
-        "learned_4": "How to dynamically change the look of an HTML element.",
-        "learned_5": "How to utilize CSS Grid and Flex properly.",
-        "learned_6": "How to understand the logic behind it.",
-        "learned_7": "How to split the code in different files to be more organized."
-      },
-      "technologies" : {
-        "technologies_1": "Javascript (ES6)",
-        "technologies_2": "HTML",
-        "technologies_3": "CSS"
-      }
-    },
-    "project_7": {
-      "title": "Data Structure",
-      "main": "Stacks and queues are two types of linear data structure we can easily find in real life. In this project, I am showing both models in a graphical and dynamical representation.",
+      "title": "Estructura de Datos",
+      "main": "Las pilas y las colas son dos tipos de estructura de datos lineal que podemos encontrar fácilmente en la vida real. En este proyecto, estoy mostrando ambos modelos en una representación gráfica y dinámica.",
       "features": {
         "feature_1": "Stack",
         "feature_2": "Every time an element is added, it goes on the top of the stack.",
@@ -235,12 +194,11 @@
         "learned_4": "How to split code in different files."
       },
       "technologies" : {
-        "technologies_1": "Javascript (ES6)",
-        "technologies_2": "HTML",
-        "technologies_3": "CSS"
+        "technologies_1": "Frontend: Javascript (ES6), HTML, CSS",
+        "technologies_2": "Backend: -"
       }
     },
-    "project_8": {
+    "project_7": {
       "title": "The Alphabet Game",
       "main": "This game is a mix between the famous Spanish game “Pasapalabra”, broadcast on television for years, and the original British comedy panel game show The Alphabet Game.",
       "features": {
@@ -270,7 +228,7 @@
         "technologies_3": "CSS"
       }
     },
-    "project_9": {
+    "project_8": {
       "title": "2048 Game",
       "main": "2048 is a single-player sliding block puzzle game designed by Gabriele Cirulli. The game’s objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048. This project is a 2048 clone.",
       "features": {
@@ -296,7 +254,7 @@
         "technologies_3": "CSS"
       }
     },
-    "project_10": {
+    "project_9": {
       "title": "TO DO",
       "main": "This task manager is my first project made with Bootstrap Classes and React. It's easy to add, delete or complete tasks that will remain sorted by date and time, showing always the nearest event first.",
       "features": {
@@ -326,7 +284,7 @@
         "technologies_3": "CSS-Bootstrap"
       }
     },
-    "project_11": {
+    "project_10": {
       "title": "Event Hunter",
       "main": "In this page you can obtain information about events of several categories and places. You can save in ‘Favorites’ all the events you have liked the most. Project developed with React, layout applied with UIkit and data obtained from Eventbrite API.", 
       "features": {
@@ -350,7 +308,7 @@
         "technologies_3": "CSS-UIkit"
       }
     },
-    "project_12": {
+    "project_11": {
       "title": "The lift",
       "main": "A traditional lift where multiple people could call it from any floor. The floor will pick the users up and drop them off in the selected floor. The aim of this project is to demonstrate the asynchrony of Node, and then translate it to the DOM.",
       "features": {
@@ -371,7 +329,7 @@
         "technologies_3": "CSS"
       }
     },
-    "project_13": {
+    "project_12": {
       "title": "Spotify Express",
       "main": "This is my first back-end project, made with Express.js. You can search on Spotify for artists and see their albums and play a 30 seconds preview of the available tracks.",
       "features": {
@@ -395,7 +353,7 @@
         "technologies_1": "Node with Express and Handlebars"
       }
     },
-    "project_14": {
+    "project_13": {
       "title": "Four in a Row",
       "main": "Four in a Row is an online version of the classic two-player connection game. Every player starts with one color and plays by turns. When selecting a column, the piece will drop to the available place in bottom. The first who connects four pieces (vertically, horizontally or diagonally) before the rival, wins.",
       "features": {
@@ -419,7 +377,7 @@
         "technologies_1": "React"
       }
     },
-    "project_15": {
+    "project_14": {
       "title": "Duck Store",
       "main": "This project was developed within the Skylab Bootcamp in 3 different ways: with JavaScript Vanilla, with React, and with Express and Pug. Duck Store is an e-commerce SPA that brings information about rubber ducks. The user can also register, and login to access his account and select favorite restaurants that the app will save into 'Favorites' section.",
       "features": {
@@ -446,7 +404,7 @@
         "technologies_5": "CSS-SASS"
       }
     },
-    "project_16": {
+    "project_15": {
       "title": "Eat the World",
       "main": "This project is the result of hard teamwork during a week, developed within Skylab Bootcamp. The app brings information about restaurants around the world when the user specifies a city and/or a type of food. The user can also register, access to his account and select favorite restaurants that the app will save into 'Favorites' section.",
       "features": {
@@ -474,7 +432,7 @@
         "technologies_2": "CSS-SASS"
       }
     },
-    "project_17": {
+    "project_16": {
       "title": "Wheely",
       "main": "Wheely is an application born from a real need in driving schools. This tool pretends to make the daily job of booking a practice easier. This application allows the student to book a practice with any instructor in any available time thanks to a system of online reservations, notifications and reviews in real time that can be consulted by both teachers and students. This was the final project developed in Skylab Bootcamp in two and a half weeks and my first Full Stack project. The design is responsive but thought for mobile.",
       "features": {
@@ -528,7 +486,7 @@
         "technologies_3": "Node with Express"
       }
     },
-    "project_18": {
+    "project_17": {
       "title": "Kasaz",
       "main": "Kasaz is a simple website to search for apartments. It is possible to search by location, price, square meters, number of bedrooms or bathrooms.",
       "features": {
@@ -555,7 +513,7 @@
         "technologies_3": "Node with Express"
       }
     },
-    "project_19": {
+    "project_18": {
       "title": "Github Repositories",
       "main": "This front-end project brings information about GitHub repositories. there is a searcher where you can introduce a GitHub username and it returns a repositories list with access links, besides, some public data like the avatar, name or username is shown.",
       "features": {
@@ -575,7 +533,7 @@
         "technologies_2": "CSS-SASS"
       }
     },
-    "project_20": {
+    "project_19": {
       "title": "Kanban",
       "main": "This Full Stack project reproduces a Kanban. Kanban is a visual system for managing work and tasks as it moves through a process. It is really easy to use because you only have to drag and drop the tasks to the correct column when they change the status. Just create an account and start working!",
       "features": {
@@ -600,7 +558,7 @@
         "technologies_3": "Node with Express"
       }
     },
-    "project_21": {
+    "project_20": {
       "title": "Canvas",
       "main": "Business Model Canvas is a strategic management and lean startup template for developing new or documenting existing business models. It is a visual chart with elements describing a firm's or product's value proposition, infrastructure, customers and finances. It assists firms in aligning their activities by illustrating potential trade-offs.",
       "features": {
@@ -619,7 +577,7 @@
         "technologies_3": "Node with Express"
       }
     },
-    "project_22": {
+    "project_21": {
       "title": "Juice Store",
       "main": "Simple products CRUD developed to learn React Redux in the two versions, Thunk and Saga.",
       "features": {
@@ -641,7 +599,7 @@
         "technologies_2": "CSS-SASS"
       }
     },
-    "project_23": {
+    "project_22": {
       "title": "Paradise Hotel",
       "main": "Paradise Hotel is a simple hotel website developed with server-side rendering with Gatsby. The only purpose of the project was to learn Gatsby and try to improve SEO and performance on a website.",
       "features": {
@@ -662,6 +620,18 @@
         "technologies_1": "Gastby with React",
         "technologies_2": "CSS-SASS",
         "technologies_3": "DatoCMS"
+      }
+    },
+    "project_23": {
+      "title": "Personal website 2",
+      "main": "",
+      "features": {
+      },
+      "learned": {
+      },
+      "technologies" : {
+        "technologies_1": "Frontend: Gastby with React, SASS-modules",
+        "technologies_2": "Backend: Node with Express"
       }
     }
   },

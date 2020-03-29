@@ -9,25 +9,28 @@ p {
 input:focus, button:focus {
   outline: transparent;
 }
-// main {
-//   display: flex;
-//   justify-content: space-between;
-//   flex-direction: column;
-//   min-height: 100vh;
-// }
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 82vh;
+}
 .project_container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 3rem auto;
+  margin-bottom: 1rem;
   max-width: 1450px;
+  width: 100%;
 }
 .project_container_side {
   max-width: 32rem;
   margin: 1rem;
 }
 .project_container_side_left {
-  max-width: 27rem;
+  max-width: 25rem;
 }
 .title_section {
   text-align: center;
@@ -53,13 +56,14 @@ input:focus, button:focus {
       list-style: none;
       font-size: 16px;
       text-align: justify;
+      line-height: 1.5;
     }
   }
 }
 .project_image_container {
   position: relative;
   div {
-    height: 20rem;
+    height: 18rem;
   }
   p {
     position: absolute;
@@ -130,4 +134,9 @@ input:focus, button:focus {
 .button_demo:hover:after, .button_demo:hover:before {
   width: 100%;
   height: 100%;
+}
+
+.underline {
+  text-decoration: underline;
+  margin-top: 1rem;
 }

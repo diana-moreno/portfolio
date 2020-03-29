@@ -1,5 +1,8 @@
 [
   {
+    "image": "personal-website-2"
+  },
+  {
     "image": "paradise-hotel"
   },
   {
@@ -64,8 +67,5 @@
   },
   {
     "image": "calculator"
-  },
-  {
-    "image": "basic-calc"
   }
 ]

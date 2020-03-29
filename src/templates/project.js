@@ -43,16 +43,17 @@ const ProjectPage = ({ path }) => {
   return (
     <Layout>
       <Navbar />
-      <div className={styles.title_section}>
-        <div className={styles.project_title_container}>
-          <h1>{t(currentProject.title, lang)}</h1>
-          <div className={styles.title_section_line}></div>
+      <div className={styles.main}>
+        <div className={styles.title_section}>
+          <div className={styles.project_title_container}>
+            <h1>{t(currentProject.title, lang)}</h1>
+            <div className={styles.title_section_line}></div>
+          </div>
         </div>
-      </div>
-      <div className={styles.project_container}>
+        <div className={styles.project_container}>
         <div className={`${styles.project_container_side} ${styles.project_container_side_left}`}>
           <div className={styles.project_image_container}>
-            <p>June 2019</p>
+            {/* <p>June 2019</p> */}
             {/* FALTA DATE EN I18N */}
             <Img fluid={urlProject} />
           </div>
@@ -62,13 +63,13 @@ const ProjectPage = ({ path }) => {
           <div className={styles.buttons_container}>
             <div>
               <p><strong>{t('projects.source_code', lang)}</strong></p>
-              <a target="_blank" rel="noopener noreferrer" href={t(currentProject.github_link, lang)}>
+              <a target="_blank" rel="noopener noreferrer" href={currentProject.github_link}>
                 <GithubIcon className={styles.technologies_icon} />
               </a>
             </div>
             <div>
               <p><strong>{t('projects.demo', lang)}</strong></p>
-              <a target="_blank" rel="noopener noreferrer" className={styles.button_demo} href={t(currentProject.project_link, lang)}>Open demo</a>
+              <a target="_blank" rel="noopener noreferrer" className={styles.button_demo} href={currentProject.project_link}>Open demo</a>
             </div>
           </div>
         </div>
@@ -76,7 +77,11 @@ const ProjectPage = ({ path }) => {
           <div className={styles.text_container}>
             <p><strong>{t('projects.features', lang)}</strong></p>
             <ul>
-              {currentProject.features.map(elem => <li>{t(elem, lang)}</li>)}
+              {currentProject.features.map(elem =>
+                <li className={elem.underline ? styles.underline : ''}>
+                  {t(elem.text, lang)}
+                </li>
+              )}
             </ul>
           </div>
           <div className={styles.text_container}>
@@ -92,6 +97,7 @@ const ProjectPage = ({ path }) => {
             </ul>
           </div>
         </div>
+      </div>
       </div>
     </Layout>
   )
