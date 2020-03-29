@@ -24,11 +24,11 @@ const Layout = ({ children, locale }) => {
   // `)
 
   return (
-    <>
+    <div class='main_container'>
       <main>{children}</main>
       <Footer />
       <Helmet>
-        <title>Diana Moreno</title>
+        <title>Diana Moreno Portfolio</title>
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
           rel="stylesheet"
@@ -40,7 +40,7 @@ const Layout = ({ children, locale }) => {
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet"></link>
         <script src="https://kit.fontawesome.com/c0a664ee11.js" crossorigin="anonymous"></script>
       </Helmet>
-    </>
+    </div>
   )
 }
 

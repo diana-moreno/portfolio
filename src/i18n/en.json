@@ -75,9 +75,8 @@
         "learned_4": "How to implement hover and active to change style."
       },
       "technologies" : {
-        "technologies_1": "Javascript (ES6)",
-        "technologies_2": "HTML",
-        "technologies_3": "CSS"
+        "technologies_1": "Frontend: Javascript (ES6), HTML, CSS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_2": {

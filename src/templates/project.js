@@ -8,7 +8,7 @@ import Img from 'gatsby-image'
 import projectsData from '../data/projects'
 import { t } from '../i18n'
 
-const lang = 'en'
+const lang = 'es'
 
 const ProjectPage = ({ path }) => {
   const projectName = path.split('').splice(1).join('')

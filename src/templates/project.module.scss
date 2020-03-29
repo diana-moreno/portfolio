@@ -9,12 +9,12 @@ p {
 input:focus, button:focus {
   outline: transparent;
 }
-main {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  min-height: 100vh;
-}
+// main {
+//   display: flex;
+//   justify-content: space-between;
+//   flex-direction: column;
+//   min-height: 100vh;
+// }
 .project_container {
   display: flex;
   justify-content: space-evenly;
@@ -51,6 +51,8 @@ main {
     li {
       margin-left: 0;
       list-style: none;
+      font-size: 16px;
+      text-align: justify;
     }
   }
 }
@@ -69,6 +71,7 @@ main {
 }
 .description {
   margin-top: 2rem;
+  text-align: justify;
 }
 .buttons_container {
   display: flex;
