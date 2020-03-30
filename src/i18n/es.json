@@ -615,18 +615,6 @@
         "technologies_2": "CSS-SASS",
         "technologies_3": "DatoCMS"
       }
-    },
-    "project_23": {
-      "title": "Personal website 2",
-      "main": "",
-      "features": {
-      },
-      "learned": {
-      },
-      "technologies" : {
-        "technologies_1": "Frontend: Gastby with React, SASS-modules",
-        "technologies_2": "Backend: Node with Express"
-      }
     }
   },
   "contact": {

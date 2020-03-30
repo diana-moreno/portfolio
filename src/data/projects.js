@@ -1,29 +1,5 @@
 const projects = [
   {
-    project: 23,
-    title: 'projects.project_23.title',
-    main: "projects.project_23.main",
-    image: 'personal-website-2',
-    project_link: "",
-    github_link: "",
-    features: [
-    ],
-    learned: [
-      "projects.project_23.learned.learned_1",
-      "projects.project_23.learned.learned_2",
-      "projects.project_23.learned.learned_3",
-      "projects.project_23.learned.learned_4",
-      "projects.project_23.learned.learned_5",
-      "projects.project_23.learned.learned_6",
-      "projects.project_23.learned.learned_7",
-      "projects.project_23.learned.learned_8"
-    ],
-    technologies: [
-      "projects.project_23.technologies.technologies_1",
-      "projects.project_23.technologies.technologies_2"
-    ]
-  },
-  {
     project: 22,
     title: 'projects.project_22.title',
     main: "projects.project_22.main",
