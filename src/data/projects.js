@@ -487,8 +487,7 @@ const projects = [
       { text: "projects.project_7.features.feature_5", underline: false },
       { text: "projects.project_7.features.feature_6", underline: false },
       { text: "projects.project_7.features.feature_7", underline: false },
-      { text: "projects.project_7.features.feature_8", underline: false },
-      { text: "projects.project_7.features.feature_9", underline: false }
+      { text: "projects.project_7.features.feature_8", underline: false }
     ],
     learned: [
       "projects.project_7.learned.learned_1",
@@ -496,9 +495,7 @@ const projects = [
       "projects.project_7.learned.learned_3",
       "projects.project_7.learned.learned_4",
       "projects.project_7.learned.learned_5",
-      "projects.project_7.learned.learned_6",
-      "projects.project_7.learned.learned_7",
-      "projects.project_7.learned.learned_8"
+      "projects.project_7.learned.learned_6"
     ],
     technologies: [
       "projects.project_7.technologies.technologies_1",
@@ -526,9 +523,7 @@ const projects = [
     ],
     learned: [
       "projects.project_6.learned.learned_1",
-      "projects.project_6.learned.learned_2",
-      "projects.project_6.learned.learned_3",
-      "projects.project_6.learned.learned_4"
+      "projects.project_6.learned.learned_2"
     ],
     technologies: [
       "projects.project_6.technologies.technologies_1",

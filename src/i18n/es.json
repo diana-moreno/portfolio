@@ -168,7 +168,7 @@
         "learned_3": "A separar el código en diferentes ficheros para mantener un orden."
       },
       "technologies" : {
-        "technologies_1": "Frontend: Javascript (ES6), HTML, CSS",
+        "technologies_1": "Frontend: Javascript (ES6) con jQuery, HTML, CSS",
         "technologies_2": "Backend: -"
       }
     },
@@ -176,22 +176,20 @@
       "title": "Estructura de Datos",
       "main": "Las pilas y las colas son dos tipos de estructura de datos lineal que podemos encontrar fácilmente en la vida real. En este proyecto, estoy mostrando ambos modelos en una representación gráfica y dinámica.",
       "features": {
-        "feature_1": "Stack",
-        "feature_2": "Every time an element is added, it goes on the top of the stack.",
-        "feature_3": "The only element that can be removed is the element that was at the top of the stack.",    
-        "feature_4": "It is also called LIFO queue (“last in, first out”).",
-        "feature_5": "We can match the concept to a stack of books.",
-        "feature_6": "Queue",
-        "feature_7": "The elements are added in arrival order.",
-        "feature_8": "To delete an element, it has to be the first arrival element of the queue.",
-        "feature_9": "It is also called FIFO queue (“first in, first out”).",
-        "feature_10": "It is the same idea of supermarket’s queues."
+        "feature_1": "Pila (stack)",
+        "feature_2": "Cada vez que se añade un elemento, se coloca encima del anterior.",
+        "feature_3": "El último elemento que ha entrado es el que sale.",    
+        "feature_4": "Se conoce como LIFO (siglas en inglés de último que entra, primero que sale).",
+        "feature_5": "Podemos asemejar el concepto con una pila de libros o de platos.",
+        "feature_6": "Cola (queue)",
+        "feature_7": "Los elementos se colocan en orden de llegada.",
+        "feature_8": "El primer elemento que se ha colocado, es el que sale.",
+        "feature_9": "Se conoce como FIFO (en inglés: el primero que entra, el primero que sale)",
+        "feature_10": "Podemos asemejar el concepto con una cola de supermercado."
       },
       "learned": {
-        "learned_1": "How to organize code with Constructor Pattern.",
-        "learned_2": "How to develop stack and queues data structure logic.",
-        "learned_3": "How to create a visual layout to show how stacks and queues work.",
-        "learned_4": "How to split code in different files."
+        "learned_1": "A organizar el código con el Patrón Constructor.",
+        "learned_2": "A entender la teoría y la lógica detrás de los conceptos FIFO Y LIFO."
       },
       "technologies" : {
         "technologies_1": "Frontend: Javascript (ES6), HTML, CSS",
@@ -199,37 +197,33 @@
       }
     },
     "project_7": {
-      "title": "The Alphabet Game",
-      "main": "This game is a mix between the famous Spanish game “Pasapalabra”, broadcast on television for years, and the original British comedy panel game show The Alphabet Game.",
+      "title": "Pasapalabra",
+      "main": "Este juego es una versión del famoso juego español \"Pasapalabra\", en el que el concursante tiene que acertar una pregunta por cada letra del alfabeto en un tiempo determinado.",
       "features": {
-        "feature_1": "When opening the game, the letters wheel and the game rules appear.",
-        "feature_2": "The game allows you to be customized with the user name and a masculine or feminine avatar.",
-        "feature_3": "The game happens against the clock, there are 150 seconds to end it.",
-        "feature_4":"For every letter, a question is proposed while the current letter is blinking in the wheel.",
-        "feature_5": "If the answer is right, the letter turns green and a success audio is played. If not, it turns red and a failure audio is played.",
-        "feature_6": "It is possible to jump a question to come back in the next round.",
-        "feature_7": "The game can be canceled anytime.",
-        "feature_8": "Once the game is finished, it is possible to play again and check the score and ranking.",
-        "feature_9":"All the punctuations are placed on a ranking, showing the 10 betters."
+        "feature_1": "La partida se puede personalizar eligiendo un avatar femenino o masculino.",
+        "feature_2": "El juego transcurre a contrareloj, se dispone de 150 segundos para jugar.",
+        "feature_3":"Se muestra una pregunta por letra y se debe contestar lo más rápido posible.",
+        "feature_4": "Si la respuesta es correcta, la letra deja de parpadear, se vuelve verde y se emite un sonido de acierto, sino se vuelve roja y se emite un sonido de fallo.",
+        "feature_5": "Es posible pasar a otra pregunta y volver después para contestar.",
+        "feature_6": "El juego puede ser cancelado en cualquier momento.",
+        "feature_7": "Una vez finalizado el juego, se muestra la puntuación y aparece la opción de volver a jugar o ver el ranking.",
+        "feature_8":"El ranking muestra los últimos 10 mejores resultados."
       },
       "learned": {
-        "learned_1": "How to create a layout with SASS and convert it to CSS.",
-        "learned_2": "How to arrange elements around a circle with a SCSS mixin.",
-        "learned_3": "How to implement a fluid and responsive typography.",
-        "learned_4": "How to synchronize several effects with JavaScript and jQuery.",
-        "learned_5": "How to add audios with HTML and play them with JavaScript.",
-        "learned_6": "How to set a layout with absolute and relative positions.",
-        "learned_7": "How to take advantage of input(s) radio to allow the user to customize the game.",
-        "learned_8": "How to keep the code organized and separated following the MVC (model, view, controller)."
+        "learned_1": "A utilizar SASS y convertirlo a CSS.",
+        "learned_2": "A construir y utilizar mixins con SCSS para utilizar funciones.",
+        "learned_3": "A implementar tipografía fluida y responsiva.",
+        "learned_4": "A sincronizar eventos del DOM con jQuery.",
+        "learned_5": "A alinear elementos con la combinación de posiciones absolutas y relativas.",
+        "learned_6": "A organizar y separar el código siguendo el MVC (modelo, vista, controlador)."
       }, 
       "technologies" : {
-        "technologies_1": "Javascript (ES6)",
-        "technologies_2": "HTML",
-        "technologies_3": "CSS"
+        "technologies_1": "Frontend: Javascript (ES6) con jQuery, HTML, CSS-SASS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_8": {
-      "title": "2048 Game",
+      "title": "Juego 2048",
       "main": "2048 is a single-player sliding block puzzle game designed by Gabriele Cirulli. The game’s objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048. This project is a 2048 clone.",
       "features": {
         "feature_1": "Two random numbers between 2 and 4 are generated and placed randomly in the grid.",
