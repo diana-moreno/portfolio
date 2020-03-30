@@ -30,15 +30,12 @@ const ProjectPage = ({ path }) => {
       }
   }
 `)
-  // const calculatorURL = projects.edges[10].node.publicURL
 
-  const urlProject = projects.edges.find(img => img.node.childImageSharp.fluid.src.indexOf(projectName) > 1).node.childImageSharp.fluid
-
+  const imageProject = projects.edges.find(img => img.node.childImageSharp.fluid.src.indexOf(projectName) > 1).node.childImageSharp.fluid
 
   const projectIndex = projectsData.indexOf(projectsData.find(elem => elem.image === projectName))
   const currentProject = projectsData[projectIndex]
   
-  console.log(currentProject)
   
   return (
     <Layout>
@@ -53,9 +50,7 @@ const ProjectPage = ({ path }) => {
         <div className={styles.project_container}>
         <div className={`${styles.project_container_side} ${styles.project_container_side_left}`}>
           <div className={styles.project_image_container}>
-            {/* <p>June 2019</p> */}
-            {/* FALTA DATE EN I18N */}
-            <Img fluid={urlProject} />
+            <Img fluid={imageProject} />
           </div>
           <p className={styles.description}>
             {t(currentProject.main, lang)}
