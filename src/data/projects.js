@@ -293,11 +293,7 @@ const projects = [
       "projects.project_13.learned.learned_1",
       "projects.project_13.learned.learned_2",
       "projects.project_13.learned.learned_3",
-      "projects.project_13.learned.learned_4",
-      "projects.project_13.learned.learned_5",
-      "projects.project_13.learned.learned_6",
-      "projects.project_13.learned.learned_7",
-      "projects.project_13.learned.learned_8"
+      "projects.project_13.learned.learned_4"
     ],
     technologies: [
       "projects.project_13.technologies.technologies_1",
@@ -315,18 +311,13 @@ const projects = [
       { text: "projects.project_12.features.feature_1", underline: false },
       { text: "projects.project_12.features.feature_2", underline: false },
       { text: "projects.project_12.features.feature_3", underline: false },
-      { text: "projects.project_12.features.feature_4", underline: false },
-      { text: "projects.project_12.features.feature_5", underline: false },
-      { text: "projects.project_12.features.feature_6", underline: false }
+      { text: "projects.project_12.features.feature_4", underline: false }
     ],
     learned: [
       "projects.project_12.learned.learned_1",
       "projects.project_12.learned.learned_2",
       "projects.project_12.learned.learned_3",
-      "projects.project_12.learned.learned_4",
-      "projects.project_12.learned.learned_5",
-      "projects.project_12.learned.learned_6",
-      "projects.project_12.learned.learned_7"
+      "projects.project_12.learned.learned_4"
     ],
     technologies: [
       "projects.project_12.technologies.technologies_1",
@@ -369,16 +360,13 @@ const projects = [
       { text: "projects.project_10.features.feature_2", underline: false },
       { text: "projects.project_10.features.feature_3", underline: false },
       { text: "projects.project_10.features.feature_4", underline: false },
-      { text: "projects.project_10.features.feature_5", underline: false },
-      { text: "projects.project_10.features.feature_6", underline: false },
-      { text: "projects.project_10.features.feature_7", underline: false },
+      { text: "projects.project_10.features.feature_5", underline: false }
     ],
     learned: [
       "projects.project_10.learned.learned_1",
       "projects.project_10.learned.learned_2",
       "projects.project_10.learned.learned_3",
-      "projects.project_10.learned.learned_4",
-      "projects.project_10.learned.learned_5"
+      "projects.project_10.learned.learned_4"
     ],
     technologies: [
       "projects.project_10.technologies.technologies_1",
@@ -399,9 +387,7 @@ const projects = [
       { text: "projects.project_9.features.feature_4", underline: false },
       { text: "projects.project_9.features.feature_5", underline: false },
       { text: "projects.project_9.features.feature_6", underline: false },
-      { text: "projects.project_9.features.feature_7", underline: false },
-      { text: "projects.project_9.features.feature_8", underline: false },
-      { text: "projects.project_9.features.feature_9", underline: false }
+      { text: "projects.project_9.features.feature_7", underline: false }
     ],
     learned: [
       "projects.project_9.learned.learned_1",
@@ -410,13 +396,11 @@ const projects = [
       "projects.project_9.learned.learned_4",
       "projects.project_9.learned.learned_5",
       "projects.project_9.learned.learned_6",
-      "projects.project_9.learned.learned_7",
-      "projects.project_9.learned.learned_8",
-      "projects.project_9.learned.learned_9"
+      "projects.project_9.learned.learned_7"
     ],
     technologies: [
-      "projects.project_10.technologies.technologies_1",
-      "projects.project_10.technologies.technologies_2"
+      "projects.project_9.technologies.technologies_1",
+      "projects.project_9.technologies.technologies_2"
     ]
   },
   {
@@ -432,16 +416,13 @@ const projects = [
       { text: "projects.project_8.features.feature_3", underline: false },
       { text: "projects.project_8.features.feature_4", underline: false },
       { text: "projects.project_8.features.feature_5", underline: false },
-      { text: "projects.project_8.features.feature_6", underline: false },
-      { text: "projects.project_8.features.feature_7", underline: false }
+      { text: "projects.project_8.features.feature_6", underline: false }
     ],
     learned: [
       "projects.project_8.learned.learned_1",
       "projects.project_8.learned.learned_2",
       "projects.project_8.learned.learned_3",
-      "projects.project_8.learned.learned_4",
-      "projects.project_8.learned.learned_5",
-      "projects.project_8.learned.learned_6"
+      "projects.project_8.learned.learned_4"
     ],
     technologies: [
       "projects.project_8.technologies.technologies_1",

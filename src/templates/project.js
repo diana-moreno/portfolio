@@ -31,7 +31,9 @@ const ProjectPage = ({ path }) => {
   }
 `)
 
-  const imageProject = projects.edges.find(img => img.node.childImageSharp.fluid.src.indexOf(projectName) > 1).node.childImageSharp.fluid
+  // const imageProject = projects.edges.find(img => img.node.childImageSharp.fluid.src.indexOf(projectName) > 1).node.childImageSharp.fluid
+
+  const imageProject = projects.edges.find(elem => elem.node.name === projectName).node.childImageSharp.fluid
 
   const projectIndex = projectsData.indexOf(projectsData.find(elem => elem.image === projectName))
   const currentProject = projectsData[projectIndex]

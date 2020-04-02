@@ -224,151 +224,132 @@
     },
     "project_8": {
       "title": "Juego 2048",
-      "main": "2048 is a single-player sliding block puzzle game designed by Gabriele Cirulli. The game’s objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048. This project is a 2048 clone.",
+      "main": "2048 es un juego de bloques deslizantes para un jugador, diseñado por Gabriele Cirulli. El objetivo del juego es deslizar fichas numeradas en una cuadrícula para combinarlas sumando sus valores hasta obtener una sola ficha con el número 2048.",
       "features": {
-        "feature_1": "Two random numbers between 2 and 4 are generated and placed randomly in the grid.",
-        "feature_2": "There is more probability to get a 2 than a 4.",
-        "feature_3": "With the keyboard arrows, you lead the direction which the tiles are going to join.",
-        "feature_4": "When two numbers are equal, the value is added to one of the tiles and empty the other. For example, if the direction selected is to the left, the left tile value will be the double and the right will be none. You play with powers of two.",
+        "feature_1": "Inicialmente se generan dos fichas con valor 2 o 4 de manera aleatoria.",
+        "feature_2": "Hay más probabilidad de que la ficha sea un 2 que un 4.",
+        "feature_3": "El juego se maneja con las flechas del teclado, indicando la dirección hacia donde se van a unir las fichas.",
+        "feature_4": "Si al desplazarse coincide que dos números son iguales, se sumarán formando una ficha de doble valor.",
         "feature_5": "Every time the player makes a movement, a sound is played and another random number is placed in a random place.",
-        "feature_6": "The game is over when there are no more empty spaces nor movements available.",
-        "feature_7": "If you achieve a 2048 number, you win!"
+        "feature_6": "El juego finaliza cuando se alcanza el 2048 o no quede espacio disponible."  
       },
       "learned": {
-        "learned_1": "How to understand the 2048 game dynamics.",
-        "learned_2": "How to create the logic of the game using JavaScript classes and prototypes.",
-        "learned_3": "How to separate the logic of the game from the JavaScript DOM operations.",
-        "learned_4": "How to create HTML elements and classes dynamically with JavaScript.",
-        "learned_5": "How to make logic code independent, working properly in the Browser console.",
-        "learned_6": "How to create a grid layout with absolute positions and floats."
+        "learned_1": "A entender la lógica y la dinámica detrás del juego.",
+        "learned_2": "A desarrollar la lógica con clases y prototipos de Javascript.",
+        "learned_3": "A separar la lógica propia del juego de la del DOM.",
+        "learned_4": "A crear elementos de HTML y clases dinámicamente."
       }, 
       "technologies" : {
-        "technologies_1": "Javascript (ES6)",
-        "technologies_2": "HTML",
-        "technologies_3": "CSS"
+        "technologies_1": "Frontend: Javascript (ES6), HTML, CSS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_9": {
-      "title": "TO DO",
-      "main": "This task manager is my first project made with Bootstrap Classes and React. It's easy to add, delete or complete tasks that will remain sorted by date and time, showing always the nearest event first.",
+      "title": "Gestor de Tareas",
+      "main": "Este es mi primer proyecto desarrollado con React. Se trata de un gestor de tareas sencillo en el que pueden añadir funciones avanzadas como prioridad o fecha y hora.",
       "features": {
-        "feature_1": "There is a button to add a task that shows a form to fill.",
-        "feature_2": "In the form, only the title is required, if it is not filled, a message in red will appear.",
-        "feature_3": "When the form is validated, a to-do task is added on the left side.",
-        "feature_4": "The tasks are shown sorted by date and time.",
-        "feature_5": "The due date will appear blue if it is still in time, and red if the time is over. When the task is done, it will not have any color.",
-        "feature_6": "When a task is finished, you can mark it as done, and the task will move to the done side.",
-        "feature_7": "If a to-do task is checked as done by error, it is possible to revert the movement.",
-        "feature_8": "Other hand, every task can be deleted at every time.",
-        "feature_9": "When the page is reloaded, the current tasks will remain."
+        "feature_1": "Se pueden añadir tareas nuevas a través de un formulario.",
+        "feature_2": "Además del título y la descripción de la tarea, se puede añadir prioridad, fecha y hora.",
+        "feature_3": "Las tareas se ordenan por tiempo y se pueden eliminar en cualquier momento.",
+        "feature_4": "La fecha de vencimiento aparece azul si no ha vencido, o roja si ya ha vencido. Si la tarea ya está realizada, no tendrá color.",
+        "feature_5": "Cuando una tarea se marca como realizada, se desplaza hacia la zona de tareas realizadas.",
+        "feature_6": "Si una tarea se ha marcado como realizada por error, es posible revertir el movimiento.",
+        "feature_7": "Las tareas no se eliminarán cuando se reinicie la página."
       },
       "learned": {
-        "learned_1": "How to build a project with Classes and Components in React.",
-        "learned_2": "How to import and export Modules in JavaScript.",
-        "learned_3": "How to validate data from a form.",
-        "learned_4": "How to generate unique identities with UUID.",
-        "learned_5": "How to manage the state dynamically.",
-        "learned_6": "How to pass properties between Components.",
-        "learned_7": "How to store data in LocalStorage and update the state.",
-        "learned_8": "How to document the App with PropTypes.",
-        "learned_9": "How to deploy the project to production in GitHub pages through a branch."
+        "learned_1": "A construir un proyecto con React clases.",
+        "learned_2": "A importar y exportar módulos en React.",
+        "learned_3": "A validar formularios.",
+        "learned_4": "A generar identificadores únicos con UUID.",
+        "learned_5": "A manejar el estado y pasar propiedades entre componentes.",
+        "learned_6": "A guardar datos en LocalStorage.",
+        "learned_7": "A documentar la App con PropTypes."
       },
       "technologies" : {
-        "technologies_1": "React",
-        "technologies_3": "CSS-Bootstrap"
+        "technologies_1": "Frontend: React (Javascript), HTML, CSS-Boostrap",
+        "technologies_2": "Backend: -"
       }
     },
     "project_10": {
-      "title": "Event Hunter",
-      "main": "In this page you can obtain information about events of several categories and places. You can save in ‘Favorites’ all the events you have liked the most. Project developed with React, layout applied with UIkit and data obtained from Eventbrite API.", 
+      "title": "Cazador de Eventos",
+      "main": "En esta página se puede obtener información sobre eventos de diferentes categorías y lugares. Además, dispone de sección de favoritos para que el usuario pueda guardarse los que más le gusten y consultarlos después.", 
       "features": {
-        "feature_1": "The web allows searching events information with three optional criteria: the event name, the city, and the category which belongs.",
-        "feature_2": "The searcher finds matches in an external API (Eventbrite API).",
-        "feature_3": "The results are shown in an organized grid layout.",
-        "feature_4": "Every card event has a 'More information' button included to click in to open a new website with all the information about it.",
-        "feature_5": "There is an icon on the left top of every event to mark it as ‘favorite’.",
-        "feature_6": "The events are synchronized with the saved favorites when a new search is done showing a red heart.",
-        "feature_7": "‘Favorites’ keep saved even when the web page is closed or reloaded."
+        "feature_1": "Se pueden realizar búsquedas por nombre de evento, ciudad o categoría.",
+        "feature_2":"Cada evento dispone de un enlace a la página de EventBrite para ver los detalles o comprar entradas.",
+        "feature_3": "Los eventos se pueden guardar en favoritos.",
+        "feature_4": "Los eventos favoritos se sincronizan con el listado de eventos aún en nuevas búsquedas, donde aparecerán marcados con un corazón rojo.",
+        "feature_5": "La sección de favoritos se mantiene aún reiniciando la página."
       },
       "learned": {
-        "learned_1": "How to obtain data from Eventbrite API and how to extend the default information.",
-        "learned_2": "How to generate layout with UIkit classes.",
-        "learned_3": "How to make queries to the API with NPM Axios.",
-        "learned_4": "How to build a ‘Favorites’ section and synchronize them with new searches.",
-        "learned_5": "How to save ‘Favorites’ data with LocalStorage."
+        "learned_1": "A obtener datos de una API como EventBrite.",
+        "learned_2": "A dar estilos a la página con UIKit.",
+        "learned_3": "A realizar llamadas a la API con Axios.",
+        "learned_4": "A sincronizar favoritos con nuevas búsquedas. y guardarlos en LocalStorage."
       },
       "technologies" : {
-        "technologies_1": "React",
-        "technologies_3": "CSS-UIkit"
+        "technologies_1": "Frontend: React (Javascript), HTML, CSS-UIKit",
+        "technologies_2": "Backend: -"
       }
     },
     "project_11": {
-      "title": "The lift",
-      "main": "A traditional lift where multiple people could call it from any floor. The floor will pick the users up and drop them off in the selected floor. The aim of this project is to demonstrate the asynchrony of Node, and then translate it to the DOM.",
+      "title": "El ascensor",
+      "main": "Un ascensor tradicional en el que cada persona puede llamarlo desde la planta en la que se encuentre y el ascensor recordará los pisos en los que debe parar a recoger y a dejar pasajeros. El objetivo de este proyectos es demostrar la asincronía de Node y después trasladarlo al DOM.",
       "features": {
-        "feature_1": "The user clicks on one floor to emulate a user calling the lift from that floor.",
-        "feature_2": "The program will ask for a name and floor destination. The lift will travel to the user's floor, pick him up and drop him off on the destination floor.",
-        "feature_3": "At the same time, other users are free to call the elevator. If it is on the way, the user will be picked up.",
-        "feature_4": "There is a section with information about the active and waiting passengers that actualized automatically with every action.",
-        "feature_5": "The last section logs a history of what's happening in every second because with the asynchrone it could be difficult to attend every detail."
+        "feature_1": "El usuario hace click en una de las plantas, emulando que se encuentra allí pulsando el botón del ascensor.",
+        "feature_2": "El programa pregunta el nombre del pasajero y la planta de destino.",
+        "feature_3": "A la vez, otros usuarios pueden llamar al ascensor también y éste aprovechará los viajes para recogerlos.",
+        "feature_4": "El ascensor irá dejando a los pasajeros en sus destinos según cercanía al destino inicial, además de recoger a nuevos que se encuentren en el camino.",
+        "feature_5": "Se muestra un registro de toda actividad realizada en el ascensor."
       },
       "learned": {
-        "learned_1": "How to draw basic elements with CSS like a tree, a building, a sun, some clouds, etc.",
-        "learned_2": "How to animate an element to make it move side to side.",
-        "learned_3": "How to demonstrate the DOM and Node's asynchrony (due to the asynchrony, when the lift is managing several passengers at the same time, is processing more stuff in the same second, so in DOM, I could not fix that the elevator went faster)."
+        "learned_1": "A dibujar elementos sencillos con CSS (nubes, sol, árboles, ascensor).",
+        "learned_2": "A aplicar animaciones de movimiento a los elementos.",
+        "learned_3": "A demostrar la asincronía de Node."
       },
       "technologies" : {
-        "technologies_1": "Javascript (ES6)",
-        "technologies_2": "HTML",
-        "technologies_3": "CSS"
+        "technologies_1": "Frontend: Javascript, HTML, CSS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_12": {
       "title": "Spotify Express",
-      "main": "This is my first back-end project, made with Express.js. You can search on Spotify for artists and see their albums and play a 30 seconds preview of the available tracks.",
+      "main": "Este proyecto utiliza la API de Spotify para crear una web de búsquedas de artistas en la que se pueden previsualizar sus canciones.",
       "features": {
-        "feature_1": "You can search On Spotify by artist.",
-        "feature_2": "Lots of artists that matched with your entered keyword will appear.",
-        "feature_3": "When selecting a specific artist, all his albums will appear.",
-        "feature_4": "And when a click is made on an album, all the tracks will be loaded and if it is available, it will be possible to play a 30 seconds preview of every track.",
-        "feature_5": "It is possible to come back to the homepage from any page to make a new search.",
-        "feature_6": "The data has been obtained from Spotify's official API."
+        "feature_1": "Las búsquedas se realizan por autor.",
+        "feature_2": "Cuando se selecciona un artista, es posible ver todos sus álbumes.",
+        "feature_3": "En cada álbum, aparecen las canciones que lo componen y una previsualización de 30 segundos de la canción.",
+        "feature_4": "Es posible volver al inicio desde cualquier parte de la página."
       },
       "learned": {
-        "learned_1": "Server side rendering with Express and Handlebars.",
-        "learned_2": "How to create routes with the GET method.",
-        "learned_3": "How to Render different HTML with different routes.",
-        "learned_4": "How to keep my API keys secure with Dotenv.",
-        "learned_5": "Knowing when and how to use req.query and req.params.",
-        "learned_6": "How to read official API documentation.",
-        "learned_7": "How to deploy a back-end project with Heroku."
+        "learned_1": "A renderizar una página desde el lado del servidor con Express y Handlebars.",
+        "learned_2": "A almacenar datos secretos como las llaves de la API en un documento seguro con Dotenv.",
+        "learned_3": "A leer y entender documentación oficial de la API.",
+        "learned_4": "A deployar un proyecto de backend con Heroku."
       },
       "technologies" : {
-        "technologies_1": "Node with Express and Handlebars"
+        "technologies_1": "Frontend: Node con Express y Handlebars, CSS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_13": {
-      "title": "Four in a Row",
-      "main": "Four in a Row is an online version of the classic two-player connection game. Every player starts with one color and plays by turns. When selecting a column, the piece will drop to the available place in bottom. The first who connects four pieces (vertically, horizontally or diagonally) before the rival, wins.",
+      "title": "Conecta 4",
+      "main": "Juego online del clásico Conecta 4 donde un jugador juega contra otro por turnos y la finalidad es conseguir formar una linea recta con cuatro fichas antes que el rival.",
       "features": {
-        "feature_1": "The first screen shows the instructions and asks the user to play against the computer or against another user in the same computer.",
-        "feature_2": "When a user plays against a friend, the turns will switch in the same computer, so the two players must stay together.",
-        "feature_3": "When the user plays against the computer, the user starts playing and next, the computer will place a piece.",
-        "feature_4": "A message will be shown in case any player wins or a draw is made, finishing the game this way.",
-        "feature_5": "Anytime is possible to restart the game or exit to change the mode."
+        "feature_1": "El juego permite dos modalidades de juego: jugador contra jugador o contra la máquina.",
+        "feature_2": "Cuando se juega contra otro jugador, los turnos se alternan en el mismo ordenador, así que es necesario que los jugadores se encuentren uno al lado del otro.",
+        "feature_3": "Cuando se juega contra la máquina, el primero en comenzar será el jugador, posteriormente, la máquina hará su jugada.",
+        "feature_4": "El juego finaliza cuando no se pueden realizar más movimientos o uno de los dos jugadores ha conseguido hacer cuatro en linea (horizontal, vertial o diagonal).",
+        "feature_5": "Es posible reiniciar el juego o salir de él en cualquier momento."
       },
       "learned": {
-        "learned_1": "How to develop logic with a multidimensional array.",
-        "learned_2": "How to utilize props and state properly in a React project.",
-        "learned_3": "How to create Routes with React Router.",
-        "learned_4": "How to create HTML elements dynamically linking to specific classes.",
-        "learned_5": "How to solve common React errors like 'use unique keys when render an element' or 'use ES6 syntax'.",
-        "learned_6": "How to deploy the project to production in Github pages configuring the routes.",
-        "learned_7": "How to add proptypes support to enforce some props.",
-        "learned_8": "How to add eslint support to help keep the code clean."
+        "learned_1": "A manejar lógica de arrays multidimensionales.",
+        "learned_2": "A reproducir una inteligencia artificial sencilla.",
+        "learned_3": "A crear rutas con React Router.",
+        "learned_4": "A mantener el código limpio con Eslint."
       },
       "technologies" : {
-        "technologies_1": "React"
+        "technologies_1": "Frontend: React (Javascript), HTML, CSS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_14": {
