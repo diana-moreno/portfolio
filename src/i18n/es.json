@@ -102,7 +102,7 @@
       }
     },
     "project_3": {
-      "title": "Personal Website 1",
+      "title": "Página web personal",
       "main": "Este proyecto es mi primera página web personal. Creada con la finalidad de disponer de un espacio donde poder coleccionar mis propios proyectos y darme a conocer frente a empresas.",
       "features": {
         "feature_1": "Se compone de cuatro secciones: inicio, sobre mi, portafolio y contacto.", 
@@ -442,7 +442,7 @@
       },
       "technologies" : {
         "technologies_1": "Frontend: React Hooks (Javascript), CSS-SASS, Mocha Chai",
-        "technologies_2": "Backend: Node con Express, test con Jest"
+        "technologies_2": "Backend: Node con Express, mongoDB, test con Jest"
       }
     },
     "project_17": {
@@ -465,7 +465,7 @@
       },
       "technologies" : {
         "technologies_1": "Frontend: React Hooks (Javascript), CSS-SASS, test Mocha Chai",
-        "technologies_2": "Backend: Node con Express, test con Jest"
+        "technologies_2": "Backend: Node con Express, mongoDB, test con Jest"
       }
     },
     "project_18": {
@@ -489,44 +489,44 @@
     },
     "project_19": {
       "title": "Kanban",
-      "main": "This Full Stack project reproduces a Kanban. Kanban is a visual system for managing work and tasks as it moves through a process. It is really easy to use because you only have to drag and drop the tasks to the correct column when they change the status. Just create an account and start working!",
+      "main": "Este proyecto Full Stack reproduce un Kanban. Kanban es un sistema visual para gestionar el trabajo y las tareas a medida que avanza en un proceso. Es realmente fácil de usar porque solo se tienen que arrastrar y soltar en la columna deseada.",
       "features": {
-        "feature_1": "This is a Full Stack project that manages its own database and API.",
-        "feature_2": "There is a users system, you need to create an account and login to start consuming the app.",
-        "feature_3": "Handle errors: if login or register is incorrect, an error appears.",
-        "feature_4": "Every user has 4 columns to manage tasks: TO DO, DOING, REVIEW and DONE.",
-        "feature_5": "When a task changes its state, it is easy to move forward to the next column dragging and dropping the task.",
-        "feature_6": "It is possible to organize tasks between the same column, changing the order with drag and drop.",
-        "feature_7": "There is a cross in every task to be deleted, if necessary.",
-        "feature_8": "Next time the user logs in on its account, it will still have all the tasks in the same place."
+        "feature_1": "Funciona mediante un sistema de usuarios, es necesario estar registrado para poder acceder.",
+        "feature_2": "Cada usuario dispone de 4 columnas en su cuenta para manejar las tareas: pendientes, en curso, para revisar y realizadas.",
+        "feature_3": "Para cambiar de estado una tarea, es tan sencillo como arrastrarla a la columna que se desee.",
+        "feature_4": "También es posible reordenar las tareas dentro de la misma columna.",
+        "feature_5": "Cada tarea se puede eliminar individualmente.",
+        "feature_6": "La columna de tareas realizadas incorpora una función de vaciado para eliminarlas todas a la vez."
       },
       "learned": {
-        "learned_1": "How to implement drag and drop with React.",
-        "learned_2": "How to manage positions with drag and drop and persist changes in the database.",
-        "learned_3": "React Hooks (useRef, useEffect, useState).",
-        "learned_4": "Users system."
+        "learned_1": "A implementar Drag and Drop con React.",
+        "learned_2": "A utilizar funciones avanzadas de React Hooks (useRef, usEffect, useState).",
+        "learned_3": "A crear un sistema de usuarios.",
+        "learned_4": "A manejar de errores."
       },
       "technologies" : {
         "technologies_1": "Frontend: React Hooks (Javascript), CSS-SASS",
-        "technologies_2": "Backend: Node con Express"
+        "technologies_2": "Backend: Node con Express, mongoDB"
       }
     },
     "project_20": {
       "title": "Canvas",
-      "main": "Business Model Canvas is a strategic management and lean startup template for developing new or documenting existing business models. It is a visual chart with elements describing a firm's or product's value proposition, infrastructure, customers and finances. It assists firms in aligning their activities by illustrating potential trade-offs.",
+      "main": "Canvas es una plantilla de gestión estratégica empresarial para documentar modelos de negocio. Es un cuadro visual con elementos que describen la propuesta de valor, infraestructura, clientes y finanzas de una empresa o producto. Ayuda a las empresas a alinear sus actividades al ilustrar las posibles compensaciones.",
       "features": {
-        "feature_1": "This is a Full Stack project that manages its own database  and API.",
-        "feature_2": "It is possible to add, edit and delete notes.",
-        "feature_3": "There is a hint clicking in the '?' of every section.",
-        "feature_4": "It is responsive so it is possible to run in whichever device."
+        "feature_1": "Es un CRUD, es posible añadir, editar, consultar y eliminar notas.",
+        "feature_2": "Se utiliza en la gestión estratégica empresarial para documentar modelos de negocio.",
+        "feature_3": "Puede verse una explicación de cada sección haciendo click en el \"?\" de la parte superior.",
+        "feature_4": "El diseño es responsivo, se ve bien desde cualquier dispositivo.",
+        "feature_5": "El diseño es adaptable, cada contenedor se adapta a su contenido."
       },
       "learned": {
-        "learned_1": "How to create a modal window in React.",
-        "learned_2": "Responsive layout with Grid and Flex."
+        "learned_1": "A crear ventanas modales con React.",
+        "learned_2": "El funcionamiento del modelo de negocio Canvas.",
+        "learned_3": "A maquetar de manera totalmente responsiva con una combinación de Grid y Flex."
       },
       "technologies" : {
         "technologies_1": "Frontend: React Hooks (Javascript), CSS-SASS, test Mocha Chai",
-        "technologies_2": "Backend: Node con Express, test con Jest"
+        "technologies_2": "Backend: Node con Express, MongoDB, test con Jest"
       }
     },
     "project_21": {
@@ -570,6 +570,27 @@
       "technologies" : {
         "technologies_1": "Frontend: Gatsby con React (Javascript), GraphQL, CSS-styled-components, DatoCMS",
         "technologies_2": "Backend: -"
+      }
+    },
+    "project_23": {
+      "title": "Página web personal multilenguaje",
+      "main": "Esta página web personal ha sido desarrollada expresamente para colaborar en el proyecto de final de carrera de mi hermana sobre traducciones tecnológicas.",
+      "features": {
+        "feature_1": "La página es multilenguaje: inglés, castellano, catalań y alemán.",
+        "feature_2": "El diseño inicial se basa en una sola página en la que se muestra mi biografía, mis proyectos y datos de contacto.", 
+        "feature_3": "Al final de la página se incluye un formulario que permite enviarme un mensaje.",
+        "feature_4": "Se puede ver el detalle de cada proyecto haciendo click en él."
+      },
+      "learned": {
+        "learned_1": "A preparar un proyecto para ser traducido en cuatro idiomas.",
+        "learned_2": "A generar páginas dinámicamente a través de una plantilla.",
+        "learned_3": "A desarrollar la lógica y estilos de un carrusel de múltiples elementos.",
+        "learned_4": "A añadir un formulario vinculado a un backend que envía emails."
+    
+      },
+      "technologies" : {
+        "technologies_1": "Frontend: Gatsby con React (Javascript), GraphQL, CSS-SASS",
+        "technologies_2": "Backend: Node con Express"
       }
     }
   },

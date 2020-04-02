@@ -1,5 +1,29 @@
 const projects = [
   {
+    project: 23,
+    title: 'projects.project_23.title',
+    main: "projects.project_23.main",
+    image: 'portfolio',
+    project_link: "https://dianamoreno.netlify.com",
+    github_link: "https://github.com/diana-moreno/portfolio",
+    features: [
+      { text: "projects.project_23.features.feature_1", underline: false },
+      { text: "projects.project_23.features.feature_2", underline: false },
+      { text: "projects.project_23.features.feature_3", underline: false },
+      { text: "projects.project_23.features.feature_4", underline: false }
+    ],
+    learned: [
+      "projects.project_23.learned.learned_1",
+      "projects.project_23.learned.learned_2",
+      "projects.project_23.learned.learned_3",
+      "projects.project_23.learned.learned_4"
+    ],
+    technologies: [
+      "projects.project_23.technologies.technologies_1",
+      "projects.project_23.technologies.technologies_2"
+    ]
+  },
+  {
     project: 22,
     title: 'projects.project_22.title',
     main: "projects.project_22.main",
@@ -61,11 +85,13 @@ const projects = [
       { text: "projects.project_20.features.feature_1", underline: false },
       { text: "projects.project_20.features.feature_2", underline: false },
       { text: "projects.project_20.features.feature_3", underline: false },
-      { text: "projects.project_20.features.feature_4", underline: false }
+      { text: "projects.project_20.features.feature_4", underline: false },
+      { text: "projects.project_20.features.feature_5", underline: false }
     ],
     learned: [
       "projects.project_20.learned.learned_1",
-      "projects.project_20.learned.learned_2"
+      "projects.project_20.learned.learned_2",
+      "projects.project_20.learned.learned_3"
     ],
     technologies: [
       "projects.project_20.technologies.technologies_1",
@@ -85,9 +111,7 @@ const projects = [
       { text: "projects.project_19.features.feature_3", underline: false },
       { text: "projects.project_19.features.feature_4", underline: false },
       { text: "projects.project_19.features.feature_5", underline: false },
-      { text: "projects.project_19.features.feature_6", underline: false },
-      { text: "projects.project_19.features.feature_7", underline: false },
-      { text: "projects.project_19.features.feature_8", underline: false }
+      { text: "projects.project_19.features.feature_6", underline: false }
     ],
     learned: [
       "projects.project_19.learned.learned_1",
@@ -97,8 +121,7 @@ const projects = [
     ],
     technologies: [
       "projects.project_19.technologies.technologies_1",
-      "projects.project_19.technologies.technologies_2",
-      "projects.project_19.technologies.technologies_3"
+      "projects.project_19.technologies.technologies_2"
     ]
   },
   {
