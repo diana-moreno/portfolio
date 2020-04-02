@@ -353,112 +353,96 @@
       }
     },
     "project_14": {
-      "title": "Duck Store",
-      "main": "This project was developed within the Skylab Bootcamp in 3 different ways: with JavaScript Vanilla, with React, and with Express and Pug. Duck Store is an e-commerce SPA that brings information about rubber ducks. The user can also register, and login to access his account and select favorite restaurants that the app will save into 'Favorites' section.",
+      "title": "Tienda de patos",
+      "main": "Tienda de patos es un comercio electrónico SPA que muestra informción sobre patos de goma. Este proyecto fue desarrollado durante el Bootcamp de Skylab de 3 maneras diferentes haciendo incapié en la refactorización contínua.",
       "features": {
-        "feature_1": "The user must have an account to enter the App.",
-        "feature_2": "The user can create an account, log in to enter the store and log out to exit.",
-        "feature_3": "The user can start a search in the store to look for rubber ducks.",
-        "feature_4": "To see a detail about one product, users can click on its picture.",
-        "feature_5": "If the user likes a product, it can be marked as favorite and all favorites can be consulted in a ‘Favorites’ section."
+        "feature_1": "Es necesario disponer de una cuenta para acceder a la tienda.",
+        "feature_2": "Se incluyen las funcionalidades de registro y logueo.",
+        "feature_3": "Al realizar una búsqueda, aparecerán todos los patos que coincidan con el criterio.",
+        "feature_4": "Se puede ver más detalle de sobre cualquier producto pulsando en la imagen.",
+        "feature_5": "Existe un apartado de favoritos para guardar los productos seleccionados."
       },
       "learned": {
-        "learned_1": "How to create a login and register consuming an API used as a database.",
-        "learned_2": "How to make calls to an external API and show the results when a search is done.",
-        "learned_3": "How to create a Feedback component when an error happens.",
-        "learned_4": "How to create a ‘Favorites’ section.",
-        "learned_5": "How to separate the logic in different files.",
-        "learned_6": "Server side rendering with Pug.",
-        "learned_7": "Continuous code refactoring."
+        "learned_1": "A refactorizar código contínuamente.",
+        "learned_2": "A desarrollar un logueo y un registro consumiendo una API que juega el papel de base de datos.",
+        "learned_3": "A crear un componente que nos enseñe mensajes en caso de error.",
+        "learned_4": "A separar la lógica según responsabilidades.",
+        "learned_5": "A renderizar la aplicación desde el lado del servidor con Pug."
       },
       "technologies" : {
-        "technologies_1": "React",
-        "technologies_2": "Node with Express and Pug",
-        "technologies_3": "Javascript (ES6)",
-        "technologies_4": "HTML",
-        "technologies_5": "CSS-SASS"
+        "technologies_1": "Frontend 1: Node con Express y Handlebars, CSS",
+        "technologies_2": "Frontend 2: React (Javascript), HTML, CSS",
+        "technologies_3": "Frontend 3: Javascript, HTML, CSS",
+        "technologies_4": "Backend: -"
       }
     },
     "project_15": {
-      "title": "Eat the World",
-      "main": "This project is the result of hard teamwork during a week, developed within Skylab Bootcamp. The app brings information about restaurants around the world when the user specifies a city and/or a type of food. The user can also register, access to his account and select favorite restaurants that the app will save into 'Favorites' section.",
+      "title": "Cómete el mundo",
+      "main": "Este proyecto es el resulto de un trabajo en equipo durante el Bootcamp de Skylab. La aplicación muestra información acerca de restaurantes de diferentes categorías en varias partes del mundo. Debido a un bloqueo de acceso a España, es necesario acceder con un VPN desde otro país (ej. EEUU).",
       "features": {
-        "feature_1": "The user can search for restaurants by introducing a city and/or a key-word like cuisine type or restaurant name, no matter if it is logged or not.",
-        "feature_2": "When clicking in a restaurant, it is possible to see its detail.",
-        "feature_3": "The user can create a new account in the ‘Register’ section.",
-        "feature_4": "Once registered, the user is redirected automatically to login.",
-        "feature_5": "Once logged in, the user has the option to check and uncheck restaurants as ‘Favorites’.",
-        "feature_6": "There is a ‘Favorites’ section to view the favorite’s collection.",
-        "feature_7": "The user can log in and log out from every place on the website.",
-        "feature_8": "When a login is made, the website remembers the last place where the user was and returns to it.",
-        "feature_9": "When a logout is made, the website forgets every data and comes back to landing."
+        "feature_1": "El usuario puede realizar búsquedas por ciudad y/o tipo de cocina o nombre del restaurante aún sin estar logueado.",
+        "feature_2": "Se puede ver el detalle de cada restaurante pulsando en la imagen.",
+        "feature_3": "La funcionalidad de guardar favoritos únicamente está disponible para usuarios registrados.",
+        "feature_4": "Cuando el usuario se loguea, la página recuerda el último lugar donde estaba navegando.",
+        "feature_5": "Al salir de la cuenta, se borra cualquier dato guardado excepto favoritos."
       },
       "learned": {
-        "learned_1": "How to develop a project from 0 in a 3 members teamwork in a week.",
-        "learned_2": "How to join code with Git branches and Pull Requests.",
-        "learned_3": "How to create a timer in React.",
-        "learned_4": "How to create different features for authenticated and unauthenticated users.",
-        "learned_5": "How to document a project with UML.",
-        "learned_6": "How to access a blocked API from another country through a VPN.",
-        "learned_7": "How to separate the logic in files."
+        "learned_1": "A trabajar en un equipo de 3 personas.",
+        "learned_2": "A manejar ramas y solicitudes (Pull Requests) de Github.",
+        "learned_3": "A crear un temporizador en React.",
+        "learned_4": "A añadir funcionalidades adicionales solo para usuarios registrados.",
+        "learned_5": "A documentar el proyecto con UML.",
+        "learned_6": "A acceder a una API con limitaciones por país mediante un VPN."
       },
       "technologies" : {
-        "technologies_1": "React",
-        "technologies_2": "CSS-SASS"
+        "technologies_1": "Frontend: React (Javascript), HTML, CSS-SASS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_16": {
       "title": "Wheely",
-      "main": "Wheely is an application born from a real need in driving schools. This tool pretends to make the daily job of booking a practice easier. This application allows the student to book a practice with any instructor in any available time thanks to a system of online reservations, notifications and reviews in real time that can be consulted by both teachers and students. This was the final project developed in Skylab Bootcamp in two and a half weeks and my first Full Stack project. The design is responsive but thought for mobile.",
+      "main": "Este es mi proyecto final y primer proyecto full stack, realizado en el Bootcamp de Skylab. La idea nace de una necesidad real en las autoescuelas de agilizar la tarea diaria de reservas de prácticas en la que tanto alumno como profesor pueden hacer la gestión 100% on line además de un seguimiento del alumno, control de créditos disponibles, etc.",
       "features": {
-        "feature_1": "Students:",
-        "feature_2": "Can book practices choosing instructor, date and time and receive an email as confirmation.",
-        "feature_3": "Can check their pending reservations and cancel them 24h in advance, receiving an email as confirmation.",
-        "feature_4": "Can check their finished practices and practices without feedback.",
-        "feature_5": "Can review their progression with the assessments of their teachers.",
-        "feature_6": "Can consult their personal data and modify their email.",
-        "feature_7": "Can consult their available credits to manage purchases.",
-        "feature_8": "ccount for testing: ana@ana.com // password: 123.",
-        "feature_9": "Instructors:",
-        "feature_10": "Can check their reservations and filter them by status.",
-        "feature_11": "Can write a feedback to the student when the practice is finished.",
-        "feature_12": "Can consult their personal data and modify their email.",
-        "feature_13": "Can check their weekly work schedule.",
-        "feature_14": "Account for testing: toni@toni.com // password: 123.",
-        "feature_15": "Admin:",
-        "feature_16":"Can consult and modify anyone’s personal data.",
-        "feature_17":"Can add credits to students.",
-        "feature_18":"Can register new users choosing the role.",
-        "feature_19":"Can manage and edit the instructor's schedule.",
-        "feature_20":"Can access all reservations.",
-        "feature_21":"Can view instructor's students and their progression."
+        "feature_1": "Estudiantes, profesores y personal de administración disponen de cuentas con funcionalidades diferentes.",
+        "feature_2": "Estudiante:",
+        "feature_3": "Puede consultar y modificar sus datos personales y créditos disponibles.",
+        "feature_4": "Puede reservar prácticas seleccionando cualquier profesor, día y hora. ",
+        "feature_5": "Puede cancelar una reserva con 24 horas de antelación.",
+        "feature_6": "Tanto profesor como alumno reciben un email de confirmación en cada reserva o cancelación de práctica.",
+        "feature_7": "Puede consultar las reservas pendientes y las prácticas realizadas.",
+        "feature_8": "Puede sopesar su progresión con las valoraciones de los profesores.",
+        "feature_9": "Cuenta pra pruebas: ana@ana.com // contraseña: 123.",
+        "feature_10": "Profesor:",
+        "feature_11": "Puede consultar y modificar sus datos personales.",
+        "feature_12": "Puede consultar y filtrar sus reservas.",
+        "feature_13": "Al terminar la práctica, el profesor emite una evaluación del alumno.",
+        "feature_14": "Puede consultar pero no modificar su horario de trabajo.",
+        "feature_15": "Cuenta para pruebas: toni@toni.com // password: 123.",
+        "feature_16": "Administrador:",
+        "feature_17":"Puede añadir, modificar, consultar y eliminar cualquier usuario.",
+        "feature_18":"Puede añadir créditos a los alumnos.",
+        "feature_19":"Puede gestionar y editar el horario laboral de cada profesor.",
+        "feature_20":"Puede acceder a todas las reservas realizadas.",
+        "feature_21":"Puede ver la progresión de todos los alumnos."
       },
       "learned": {
-        "learned_1": "How to create my own API REST with my own endpoints.",
-        "learned_2": "How to develop the back-end with Express, MongoDB.",
-        "learned_3": "How to create schemas with Mongoose.",
-        "learned_4": "How to develop the front-end with React Hooks.", 
-        "learned_5": "How to test the back-end before developing the logic with Mocha and Chai.", 
-        "learned_6": "How to test the front-end before developing the logic with Jest.",
-        "learned_7": "Separation of concerns and responsibilities in different files. How to clean code.",
-        "learned_8": "How to send emails triggered by a specific action.",
-        "learned_9": "How to manage schedules and transform them in specific hours with Moment.js.",
-        "learned_10": "How to handle reservations and cancellations in real time.", 
-        "learned_11": "How to manage an application with 3 profiles with different permissions and behaviours.",
-        "learned_12": "Emulated payment service.",
-        "learned_13": "Responsive hamburger menu.",
-        "learned_14": "How to create technical and functional documentation.",
-        "learned_15": "Accomplish with the initial contract and manage expectations.",
-        "learned_16": "Stress control and prioritization.",
-        "learned_17": "How to expose the project in public.",
-        "learned_18": "How to deploy the back-end in Heroku.",
-        "learned_19": "How to deploy the front-end in GitHub pages.",
-        "learned_20": "How to connect back-end and front-end deployed."
+        "learned_1": "A desarrollar un backend con Node Express",
+        "learned_2": "A agrugar todas las rutas en un router.",
+        "learned_3": "A vincular una base de datos con MongoDB y esquematizarla con Mongoose.",
+        "learned_4": "A utilizar React Hooks en el frontend.", 
+        "learned_5": "A realizar TDD tests en el backend con Mocha Chai y en el frontend con Jest.", 
+        "learned_6": "A enviar emails utilizando la librería Nodemailer.",
+        "learned_7": "A manejar reservas, cancelaciones y calendarios en tiempo real con Moment.", 
+        "learned_8": "A emular un servicio de pago con créditos.",
+        "learned_9": "A mostrar un menú de hamburguesa en dispositivos móviles.",
+        "learned_10": "A conectar el frontend con el backend deployados en producción.",
+        "learned_11": "A redactar documentación técnica y funcional.",
+        "learned_12": "A cumplir con el contrato, fechas de entrega (2 semanas y media), manejar expectativas, control del estrés y priorización.",
+        "learned_13": "A exponer y explicar el proyecto en público."
       },
       "technologies" : {
-        "technologies_1": "React",
-        "technologies_2": "CSS-SASS",
-        "technologies_3": "Node with Express"
+        "technologies_1": "Frontend: React Hooks (Javascript), HTML, CSS-SASS, Mocha Chai",
+        "technologies_2": "Backend: Node con Express, test con Jest"
       }
     },
     "project_17": {
@@ -504,8 +488,7 @@
       },
       "technologies" : {
         "technologies_1": "Javascript",
-        "technologies_1": "HTML",
-        "technologies_2": "CSS-SASS"
+        "technologies_2": "HTML"
       }
     },
     "project_19": {

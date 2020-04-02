@@ -165,7 +165,7 @@ const projects = [
     github_link: "https://github.com/diana-moreno/wheely",
     features: [
       { text: "projects.project_16.features.feature_1", underline: false },
-      { text: "projects.project_16.features.feature_2", underline: false },
+      { text: "projects.project_16.features.feature_2", underline: true },
       { text: "projects.project_16.features.feature_3", underline: false },
       { text: "projects.project_16.features.feature_4", underline: false },
       { text: "projects.project_16.features.feature_5", underline: false },
@@ -173,13 +173,13 @@ const projects = [
       { text: "projects.project_16.features.feature_7", underline: false },
       { text: "projects.project_16.features.feature_8", underline: false },
       { text: "projects.project_16.features.feature_9", underline: false },
-      { text: "projects.project_16.features.feature_10", underline: false },
+      { text: "projects.project_16.features.feature_10", underline: true },
       { text: "projects.project_16.features.feature_11", underline: false },
       { text: "projects.project_16.features.feature_12", underline: false },
       { text: "projects.project_16.features.feature_13", underline: false },
       { text: "projects.project_16.features.feature_14", underline: false },
       { text: "projects.project_16.features.feature_15", underline: false },
-      { text: "projects.project_16.features.feature_16", underline: false },
+      { text: "projects.project_16.features.feature_16", underline: true },
       { text: "projects.project_16.features.feature_17", underline: false },
       { text: "projects.project_16.features.feature_18", underline: false },
       { text: "projects.project_16.features.feature_19", underline: false },
@@ -199,14 +199,7 @@ const projects = [
       "projects.project_16.learned.learned_10",
       "projects.project_16.learned.learned_11",
       "projects.project_16.learned.learned_12",
-      "projects.project_16.learned.learned_13",
-      "projects.project_16.learned.learned_14",
-      "projects.project_16.learned.learned_15",
-      "projects.project_16.learned.learned_16",
-      "projects.project_16.learned.learned_17",
-      "projects.project_16.learned.learned_18",
-      "projects.project_16.learned.learned_19",
-      "projects.project_16.learned.learned_20"
+      "projects.project_16.learned.learned_13"
     ],
     technologies: [
       "projects.project_16.technologies.technologies_1",
@@ -225,11 +218,7 @@ const projects = [
       { text: "projects.project_15.features.feature_2", underline: false },
       { text: "projects.project_15.features.feature_3", underline: false },
       { text: "projects.project_15.features.feature_4", underline: false },
-      { text: "projects.project_15.features.feature_5", underline: false },
-      { text: "projects.project_15.features.feature_6", underline: false },
-      { text: "projects.project_15.features.feature_7", underline: false },
-      { text: "projects.project_15.features.feature_8", underline: false },
-      { text: "projects.project_15.features.feature_9", underline: false }
+      { text: "projects.project_15.features.feature_5", underline: false }
     ],
     learned: [
       "projects.project_15.learned.learned_1",
@@ -237,12 +226,11 @@ const projects = [
       "projects.project_15.learned.learned_3",
       "projects.project_15.learned.learned_4",
       "projects.project_15.learned.learned_5",
-      "projects.project_15.learned.learned_6",
-      "projects.project_15.learned.learned_7"
+      "projects.project_15.learned.learned_6"
     ],
     technologies: [
-      "projects.project_16.technologies.technologies_1",
-      "projects.project_16.technologies.technologies_2"
+      "projects.project_15.technologies.technologies_1",
+      "projects.project_15.technologies.technologies_2"
     ]
   },
   {
@@ -266,13 +254,13 @@ const projects = [
       "projects.project_14.learned.learned_2",
       "projects.project_14.learned.learned_3",
       "projects.project_14.learned.learned_4",
-      "projects.project_14.learned.learned_5",
-      "projects.project_14.learned.learned_6",
-      "projects.project_14.learned.learned_7"
+      "projects.project_14.learned.learned_5"
     ],
     technologies: [
       "projects.project_14.technologies.technologies_1",
-      "projects.project_14.technologies.technologies_2"
+      "projects.project_14.technologies.technologies_2",
+      "projects.project_14.technologies.technologies_3",
+      "projects.project_14.technologies.technologies_4"
     ]
   },
   {
