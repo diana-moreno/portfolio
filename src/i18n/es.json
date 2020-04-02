@@ -507,9 +507,8 @@
         "learned_4": "Users system."
       },
       "technologies" : {
-        "technologies_1": "React",
-        "technologies_2": "CSS-SASS",
-        "technologies_3": "Node with Express"
+        "technologies_1": "Frontend: React Hooks (Javascript), CSS-SASS",
+        "technologies_2": "Backend: Node con Express"
       }
     },
     "project_20": {
@@ -526,54 +525,51 @@
         "learned_2": "Responsive layout with Grid and Flex."
       },
       "technologies" : {
-        "technologies_1": "React",
-        "technologies_2": "CSS-SASS",
-        "technologies_3": "Node with Express"
+        "technologies_1": "Frontend: React Hooks (Javascript), CSS-SASS, test Mocha Chai",
+        "technologies_2": "Backend: Node con Express, test con Jest"
       }
     },
     "project_21": {
-      "title": "Juice Store",
-      "main": "Simple products CRUD developed to learn React Redux in the two versions, Thunk and Saga.",
+      "title": "Tienda de zumos",
+      "main": "Este proyecto es una simulación de una tienda de zumos.",
       "features": {
-        "feature_1": "The user can:",
-        "feature_2": "Create products",
-        "feature_3": "Read products",
-        "feature_4": "Update products",
-        "feature_5": "Delete products"
+        "feature_1": "Se trata de un CRUD, el usuario puede: ",
+        "feature_2": "- Crear productos.",
+        "feature_3": "- Consultar productos.",
+        "feature_4": "- Modificar productos.",
+        "feature_5": "- Eliminar productos."
       },
       "learned": {
-        "learned_1": "How to manage React state with Redux.",
-        "learned_2": "How to control the asynchronous with the middleware Redux-thunk.",
-        "learned_3": "How to control the asynchronous with the middleware Redux-saga.",
-        "learned_4": "How to create easy modals with sweetalert2.",
-        "learned_5": "How to create a fake API Rest with JSON-Server."
+        "learned_1": "A manejar el estado de manera global con React Redux.",
+        "learned_2": "A controlar la asincronía de Redux con el middleware Redux-thunk.",
+        "learned_3": "A control la asincronía de Redux con el middleware Redux-saga.",
+        "learned_4": "A mostrar ventanas de alerta de manera sencilla con Sweetalert2.",
+        "learned_5": "A emular un backend con una API REST falsa con JSON-Server."
       },
       "technologies" : {
-        "technologies_1": "React with Redux",
-        "technologies_2": "CSS-SASS"
+        "technologies_1": "Frontend: React Hooks Redux (Javascript), CSS-SASS",
+        "technologies_2": "Backend: Emulado con JSON-Server"
       }
     },
     "project_22": {
-      "title": "Paradise Hotel",
-      "main": "Paradise Hotel is a simple hotel website developed with server-side rendering with Gatsby. The only purpose of the project was to learn Gatsby and try to improve SEO and performance on a website.",
+      "title": "Hotel Paraíso",
+      "main": "Hotel Paraíso es una página de ejemplo de páginas corporativas para hoteles.",
       "features": {
-        "feature_1": "The website has a navbar to move between ‘Home’ and ‘About us’ sections.", 
-        "feature_2": "When clicking in every room, another page is opened showing the room in detail."
+        "feature_1": "La página dispone de una barra de navegación con las direferentes secciones a mostrar.", 
+        "feature_2": "Si se pulsa en una habitación, se abre otra página con el detalle."
       },
       "learned": {
-        "learned_1": "How to build a website with Gatsby (server-side rendering).",
-        "learned_2": "How to make queries with GraphQL.",
-        "learned_3": "How to improve SEO.",
-        "learned_4": "How to create static pages dynamically with Gatsby-node, retrieving data from a CMS.",
-        "learned_5": "How to store data in a CMS (DatoCMS).",
-        "learned_6": "How to align the footer always at the bottom with Grid.",
-        "learned_7": "How to deploy an application to Netlify.",
-        "learned_8": "How to analyze and audit performance and SEO."
+        "learned_1": "A crear una página web renderizada desde el servidor con Gatsby.",
+        "learned_2": "A realizar llamadas con GraphQL frente a las clásicas API REST.",
+        "learned_3": "A implementar Styled-components.",
+        "learned_4": "A mejorar el SEO.",
+        "learned_5": "A vincular el proyecto a un CMS en el que se guardan y recogen datos (DatoCMS).",
+        "learned_6": "A deployar la aplicación en Netlify.",
+        "learned_7": "Cómo analizar y auditar el rendimiento y el SEO de la página."
       },
       "technologies" : {
-        "technologies_1": "Gastby with React",
-        "technologies_2": "CSS-SASS",
-        "technologies_3": "DatoCMS"
+        "technologies_1": "Frontend: Gatsby con React (Javascript), GraphQL, CSS-styled-components, DatoCMS",
+        "technologies_2": "Backend: -"
       }
     }
   },
