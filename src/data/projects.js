@@ -10,7 +10,8 @@ const projects = [
       { text: "projects.project_23.features.feature_1", underline: false },
       { text: "projects.project_23.features.feature_2", underline: false },
       { text: "projects.project_23.features.feature_3", underline: false },
-      { text: "projects.project_23.features.feature_4", underline: false }
+      { text: "projects.project_23.features.feature_4", underline: false },
+      { text: "projects.project_23.features.feature_5", underline: false }
     ],
     learned: [
       "projects.project_23.learned.learned_1",

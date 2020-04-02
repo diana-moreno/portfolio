@@ -577,9 +577,10 @@
       "main": "Esta página web personal ha sido desarrollada expresamente para colaborar en el proyecto de final de carrera de mi hermana sobre traducciones tecnológicas.",
       "features": {
         "feature_1": "La página es multilenguaje: inglés, castellano, catalań y alemán.",
-        "feature_2": "El diseño inicial se basa en una sola página en la que se muestra mi biografía, mis proyectos y datos de contacto.", 
-        "feature_3": "Al final de la página se incluye un formulario que permite enviarme un mensaje.",
-        "feature_4": "Se puede ver el detalle de cada proyecto haciendo click en él."
+        "feature_2": "Traducciones a cargo de la traductora Yolanda Moreno.",
+        "feature_3": "El diseño inicial se basa en una sola página en la que se muestra mi biografía, mis proyectos y datos de contacto.", 
+        "feature_4": "Al final de la página se incluye un formulario que permite enviarme un mensaje.",
+        "feature_5": "Se puede ver el detalle de cada proyecto haciendo click en él."
       },
       "learned": {
         "learned_1": "A preparar un proyecto para ser traducido en cuatro idiomas.",
