@@ -266,7 +266,7 @@
         "learned_7": "A documentar la App con PropTypes."
       },
       "technologies" : {
-        "technologies_1": "Frontend: React (Javascript), HTML, CSS-Boostrap",
+        "technologies_1": "Frontend: React (Javascript), CSS-Boostrap",
         "technologies_2": "Backend: -"
       }
     },
@@ -287,7 +287,7 @@
         "learned_4": "A sincronizar favoritos con nuevas búsquedas. y guardarlos en LocalStorage."
       },
       "technologies" : {
-        "technologies_1": "Frontend: React (Javascript), HTML, CSS-UIKit",
+        "technologies_1": "Frontend: React (Javascript), CSS-UIKit",
         "technologies_2": "Backend: -"
       }
     },
@@ -348,7 +348,7 @@
         "learned_4": "A mantener el código limpio con Eslint."
       },
       "technologies" : {
-        "technologies_1": "Frontend: React (Javascript), HTML, CSS",
+        "technologies_1": "Frontend: React (Javascript), CSS",
         "technologies_2": "Backend: -"
       }
     },
@@ -370,9 +370,9 @@
         "learned_5": "A renderizar la aplicación desde el lado del servidor con Pug."
       },
       "technologies" : {
-        "technologies_1": "Frontend 1: Node con Express y Handlebars, CSS",
-        "technologies_2": "Frontend 2: React (Javascript), HTML, CSS",
-        "technologies_3": "Frontend 3: Javascript, HTML, CSS",
+        "technologies_1": "Frontend 1: Node con Express y Handlebars, CSS-SASS",
+        "technologies_2": "Frontend 2: React (Javascript), CSS-SASS",
+        "technologies_3": "Frontend 3: Javascript, HTML, CSS-SASS",
         "technologies_4": "Backend: -"
       }
     },
@@ -395,7 +395,7 @@
         "learned_6": "A acceder a una API con limitaciones por país mediante un VPN."
       },
       "technologies" : {
-        "technologies_1": "Frontend: React (Javascript), HTML, CSS-SASS",
+        "technologies_1": "Frontend: React (Javascript), CSS-SASS",
         "technologies_2": "Backend: -"
       }
     },
@@ -438,57 +438,53 @@
         "learned_10": "A conectar el frontend con el backend deployados en producción.",
         "learned_11": "A redactar documentación técnica y funcional.",
         "learned_12": "A cumplir con el contrato, fechas de entrega (2 semanas y media), manejar expectativas, control del estrés y priorización.",
-        "learned_13": "A exponer y explicar el proyecto en público."
+        "learned_13": "A exponer el proyecto en público."
       },
       "technologies" : {
-        "technologies_1": "Frontend: React Hooks (Javascript), HTML, CSS-SASS, Mocha Chai",
+        "technologies_1": "Frontend: React Hooks (Javascript), CSS-SASS, Mocha Chai",
         "technologies_2": "Backend: Node con Express, test con Jest"
       }
     },
     "project_17": {
       "title": "Kasaz",
-      "main": "Kasaz is a simple website to search for apartments. It is possible to search by location, price, square meters, number of bedrooms or bathrooms.",
+      "main": "Kasaz es una inmobiliaria online donde se pueden buscar apartamentos personalizando los criterios de búsqueda.",
       "features": {
-        "feature_1": "The user can search for apartments and filter the search with some criteria:",
-        "feature_2": "Location",
-        "feature_3": "Minimum and maximum price",
-        "feature_4": "Square meters",
-        "feature_5": "Bedrooms",
-        "feature_6": "Bathrooms"
+        "feature_1": "El usuario puede buscar apartamentos filtrando según los siguientes criterios:",
+        "feature_2": "- Localización.",
+        "feature_3": "- Precio mínimo y/o máximo.",
+        "feature_4": "- Metros cuadrados.",
+        "feature_5": "- Habitaciones.",
+        "feature_6": "- Lavabos."
       },
       "learned": {
-        "learned_1": "How to develop a Full Stack project in 4 days.",
-        "learned_2": "How to create API Rest and back-end with Express.js.",
-        "learned_3": "How to export and import the database in MongoDB with Compass and Terminal.",
-        "learned_4": "Testing front-end and back-end.",
-        "learned_5": "How to create documentation to run in local and test.",
-        "learned_6": "How to deploy the back-end in Heroku.",
-        "learned_7": "How to deploy the front-end in GitHub pages.",
-        "learned_8": "How to connect back-end and front-end deployed."
+        "learned_1": "A desarrollar un proyecto Full Stack en un plazo de 4 días.",
+        "learned_2": "A importar y exportar la base de datos de MongoDB con Compass y la Terminal.",
+        "learned_3": "A importar carpetas como módulos de NPM.",
+        "learned_4": "A redactar instrucciones para correr el proyecto en local y testearlo.",
+        "learned_5": "A combinar la lógica de filtros múltiples."
       },
       "technologies" : {
-        "technologies_1": "React",
-        "technologies_2": "CSS-SASS",
-        "technologies_3": "Node with Express"
+        "technologies_1": "Frontend: React Hooks (Javascript), CSS-SASS, test Mocha Chai",
+        "technologies_2": "Backend: Node con Express, test con Jest"
       }
     },
     "project_18": {
-      "title": "Github Repositories",
-      "main": "This front-end project brings information about GitHub repositories. there is a searcher where you can introduce a GitHub username and it returns a repositories list with access links, besides, some public data like the avatar, name or username is shown.",
+      "title": "Repositorios de Github",
+      "main": "Este proyecto muestra información sobre los repositorios y datos públicos de cualquier usuario de Github.",
       "features": {
-        "feature_1": "Users can introduce a GitHub username and search all its public repositories.",
-        "feature_2": "Avatar, name and username is shown.",
-        "feature_3": "Every repository has a link that redirects to GitHub.",
-        "feature_4": "Every repository has information about stars and forks."
+        "feature_1": "Al introducir el nombre de usuario de algún usuario de Github, aparecen los siguientes datos:",
+        "feature_2": "- Avatar, nombre y apellido, nombre de usuario y descripción.",
+        "feature_3": "- Un listado de todos los repositorios públicos",
+        "feature_4": "- Enlaces a Github de cada repositorio.",
+        "feature_5": "- Estrellas y forks"
       },
       "learned": {
-        "learned_1": "Consuming GitHub API.",
-        "learned_2": "AJAX.",
-        "learned_3": "JavaScript Vanilla"
+        "learned_1": "A consumir la API de Github y entender la documentación oficial.",
+        "learned_2": "A realizar llamadas con AJAX."
       },
       "technologies" : {
-        "technologies_1": "Javascript",
-        "technologies_2": "HTML"
+        "technologies_1": "Frontend: Javascript Vanilla, HTML, CSS-SASS",
+        "technologies_2": "Backend: -"
       }
     },
     "project_19": {
