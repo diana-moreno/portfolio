@@ -117,8 +117,7 @@ const projects = [
     learned: [
       "projects.project_19.learned.learned_1",
       "projects.project_19.learned.learned_2",
-      "projects.project_19.learned.learned_3",
-      "projects.project_19.learned.learned_4"
+      "projects.project_19.learned.learned_3"
     ],
     technologies: [
       "projects.project_19.technologies.technologies_1",

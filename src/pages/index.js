@@ -122,7 +122,7 @@ const IndexPage = ({ pageContext }) => {
       </section>
 
       {/* <!-- NAVBAR --> */}
-      <Navbar />
+      <Navbar lang={lang} />
 
       {/* <!-- ABOUT --> */}
       <section className={styles.about}>
@@ -172,7 +172,7 @@ const IndexPage = ({ pageContext }) => {
         </div>
         {/* <!-- FILTER --> */}
         <div className={styles.filters}>
-          <div className={styles.filter_active}>ALL</div>
+        <div className={styles.filter_active}>{t('projects.all', lang)}</div>
           <div className={styles.filter}>REACT</div>
           <div className={styles.filter}>GATSBY</div>
           <div className={styles.filter}>JS/EXPRESS</div>

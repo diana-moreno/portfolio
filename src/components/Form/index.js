@@ -86,10 +86,10 @@ const Form = ({ lang }) => {
     </div>
     <ul className={styles.form_buttons}>
       <li>
-        <button type="submit" value="Send message" className={styles.button_send}>Send</button>
+        <button type="submit" value="Send message" className={styles.button_send}>{t('form.submit_button', lang)}</button>
       </li>
       <li>
-        <button type="reset" value="Clear" onClick={clear} className={styles.button_clear}>Clear</button>
+        <button type="reset" value="Clear" onClick={clear} className={styles.button_clear}>{t('form.clear_button', lang)}</button>
       </li>
     </ul>
   </form>

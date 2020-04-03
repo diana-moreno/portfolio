@@ -41,7 +41,7 @@ const ProjectPage = ({ path }) => {
   
   return (
     <Layout>
-      <Navbar />
+      <Navbar lang={lang} />
       <div className={styles.main}>
         <div className={styles.title_section}>
           <div className={styles.project_title_container}>
