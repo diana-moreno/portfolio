@@ -32,9 +32,12 @@ input:focus, button:focus {
 .project_container_side_left {
   max-width: 32rem;
 }
-.project_container_side_right {
-  max-height: 45rem;
-  overflow: auto;
+
+@media only screen and (min-width: 1239px) {
+  .project_container_side_right {
+    max-height: 46rem;
+    overflow: auto;
+  }
 }
 .title_section {
   text-align: center;
