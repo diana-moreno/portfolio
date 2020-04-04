@@ -22,8 +22,11 @@ exports.onCreatePage = ({ page, actions }) => {
     createPage({
       path: elem.image,
       component: slash(path.resolve('./src/templates/project.js')),
-      urls,
-      name: elem.image
+      context: {
+        ...page.context,
+        urls,
+        projectName: elem.image
+      }
     })
   })
 }
