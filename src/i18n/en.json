@@ -276,8 +276,7 @@
         "feature_3": "Las tareas se ordenan por tiempo y se pueden eliminar en cualquier momento.",
         "feature_4": "La fecha de vencimiento aparece azul si no ha vencido, o roja si ya ha vencido. Si la tarea ya está realizada, no tendrá color.",
         "feature_5": "Cuando una tarea se marca como realizada, se desplaza hacia la zona de tareas realizadas.",
-        "feature_6": "Si una tarea se ha marcado como realizada por error, es posible revertir el movimiento.",
-        "feature_7": "Las tareas no se eliminarán cuando se reinicie la página."
+        "feature_6": "Si una tarea se ha marcado como realizada por error, es posible revertir el movimiento."
       },
       "learned": {
         "learned_1": "A construir un proyecto con React clases.",

@@ -66,7 +66,7 @@ const ProjectPage = ({ pageContext }) => {
             </div>
           </div>
         </div>
-        <div className={styles.project_container_side}>
+        <div className={`${styles.project_container_side} ${styles.project_container_side_right}`}>
           <div className={styles.text_container}>
             <p><strong>{t('projects.features', lang)}</strong></p>
             <ul>

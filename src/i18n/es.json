@@ -80,7 +80,7 @@
         "feature_3": "Dispone de función de borrado y de reset.",
         "feature_4": "Puede acumular resultados para la siguiente operación.",
         "feature_5": "Dispone de una pantalla informativa en caso de acciones o errores.",
-        "feature_6":  "Si la expresión es demasiado larga, el tamaño se encoge para caber.",
+        "feature_6":  "Si la expresión es demasiado larga, el tamaño de la letra de la pantalla se hace pequeña.",
         "feature_7": "Está preparado para funcionar tanto con el ratón como con el teclado."
       },
       "learned": {
@@ -98,11 +98,11 @@
     "project_2": {
       "url": "es/escapa-de-la-muerte",
       "title": "Escapa de la muerte",
-      "main": "Este es un juego de horror en el que el protagonista y su amigo han sido secuestrados. El objetivo es rescatar al amigo y conseguir esccapar juntos antes de que el asesino les encuentre.",
+      "main": "Este es un juego de horror en el que el protagonista y su amigo han sido secuestrados. El objetivo es rescatar al amigo y conseguir escapar juntos antes de que el asesino les encuentre.",
       "features": {
         "feature_1": "Los elementos detrás de las puertas son: amigo, asesino y salida.",
         "feature_2": "Los personajes se colocan aleatoriamente en cada partida.",
-        "feature_3": "Es necesario encontrar primero al amigo para poder escapar.",
+        "feature_3": "Es necesario encontrar primero al amigo para poder escapar, no será posible salir sin él aunque se encuentre la salida.",
         "feature_4": "Según avanza el juego, aparecen mensajes que guían la historia.",
         "feature_5": "Toparse con el asesino significa perder el juego."
       },
@@ -242,7 +242,7 @@
         "technologies_1": "Frontend: Javascript (ES6) con jQuery, HTML, CSS-SASS",
         "technologies_2": "Backend: -"
       }
-    },
+    },  
     "project_8": {
       "url": "es/juego-2048",
       "title": "Juego 2048",
@@ -504,7 +504,7 @@
       "title": "Repositorios de Github",
       "main": "Este proyecto muestra información sobre los repositorios y datos públicos de cualquier usuario de Github.",
       "features": {
-        "feature_1": "Al introducir un nombre de usuario de Github, aparecen los siguientes datos:",
+        "feature_1": "Al introducir un nombre de usuario de Github, se muestran los siguientes datos del usuario:",
         "feature_2": "- Avatar, nombre y apellido, nombre de usuario y descripción.",
         "feature_3": "- Un listado de todos los repositorios públicos",
         "feature_4": "- Enlaces a Github de cada repositorio.",
@@ -565,7 +565,7 @@
     "project_21": {
       "url": "es/tienda-de-zumos",
       "title": "Tienda de zumos",
-      "main": "Este proyecto es una simulación de una tienda de zumos.",
+      "main": "Este proyecto es una simulación de una tienda de zumos. La finalidad ha sido aprender React Redux con Sagas y Thunks.",
       "features": {
         "feature_1": "Se trata de un CRUD, el usuario puede: ",
         "feature_2": "- Crear productos.",
@@ -575,10 +575,9 @@
       },
       "learned": {
         "learned_1": "A manejar el estado de manera global con React Redux.",
-        "learned_2": "A controlar la asincronía de Redux con el middleware Redux-thunk.",
-        "learned_3": "A control la asincronía de Redux con el middleware Redux-saga.",
-        "learned_4": "A mostrar ventanas de alerta de manera sencilla con Sweetalert2.",
-        "learned_5": "A emular un backend con una API REST falsa con JSON-Server."
+        "learned_2": "A controlar la asincronía de Redux con el middleware Redux-thunk y con el middleware Redux-saga.",
+        "learned_3": "A mostrar ventanas de alerta de manera sencilla con Sweetalert2.",
+        "learned_4": "A emular un backend con una API REST falsa con JSON-Server."
       },
       "technologies" : {
         "technologies_1": "Frontend: React Hooks Redux (Javascript), CSS-SASS",
