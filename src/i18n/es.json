@@ -28,18 +28,18 @@
     },
     "my_story": { 
       "title": "Mi historia", 
-      "section_1": "I obtained a Bachelor in Business Administration and Management at the University of Barcelona in 2012. Once I finished my studies, I took up a career path as Accountant, growing up until I became Team Manager.",
-      "section_2": "Six years later, I realized that this path no longer fulfilled me. I needed a new challenge where I could keep on growing as a profesional.",
-      "section_3": "All signs were appointing to programming and I felt an irresistible need to explore this field so, the beginning of 2019, I quit my job and started learning by myself. From september-19 to december-19 I was enrolled in a programming bootcamp in Skylab to consolidate and expand my knowledge."
+      "section_1": "Me gradué en Administración y Dirección de Empresas en la Universidad de Barcelona en 2012. Una vez finalizados mis estudios, inicié mi trayectoria profesional como contable y fui creciendo hasta alcanzar el puesto de Team manager.",
+      "section_2": "Seis años después, me di cuenta de que el ámbito de la contabilidad ya no me satisfacía. Necesitaba un nuevo desafío donde poder seguir creciendo como profesional.",
+      "section_3": "La programación comenzó a llamarme la atención cada vez más y finalmente decidí seguir ese camino. De modo que, a principios de 2019, renuncié a mi trabajo y comencé a aprender por mi cuenta. Además, de septiembre a diciembre de ese mismo año, estudié programación en un bootcamp en Skylab para consolidar y ampliar mis conocimientos."
     },
     "nowadays": {
       "title":"Actualmente",
-      "section_1": "Curently, I'm working for Interficie: a company that develops custum ecommerce and creative solutions for a big companies.",
-      "section_2": "I am focused on Javascript and my tools are React, Gatsby, Node, SQL and Express."
+      "section_1": "Hoy en día trabajo para Interficie, una compañía que desarrolla páginas de comercio electrónico y soluciones creativas para grandes empresas.",
+      "section_2": "El lenguaje que utilizo es Javascript y mi stack tecnológico es el siguiente: React, Gatsby, Node, SQL y Express."
     },
     "passions": {
       "title": "Pasiones", 
-      "section_1": "Besides programming, I am dedicated to following a healthy lifestyle. I pay close attention to what I eat, and regularly exercise. Moreover, I love dancing, up to the point that I joined an amateur salsa dance company."
+      "section_1": "A parte de la programación, procuro seguir un estilo de vida saludable: presto mucha atención a lo que como y hago ejercicio regularmente. Además, me encanta bailar, hasta el punto de haber formado parte de una compañía de baile de salsa amateur."
     }
   },
   "contact": {

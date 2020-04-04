@@ -14,7 +14,7 @@ import conceptsKey from '../data/concepts_key'
 import { t } from '../i18n'
 import projectsData from '../data/projects.js'
 
-const lang = 'en'
+const lang = 'es'
 
 const IndexPage = ({ pageContext }) => {
   const { image, projects } = useStaticQuery(graphql`
