@@ -1,0 +1,232 @@
+[
+  {
+    "image": "portfolio",
+    "url": "portfolio-multilanguage",
+    "lang": "en"
+  },
+  {
+    "image": "portfolio",
+    "url": "portafolio-multilenguaje",
+    "lang": "es"
+  },
+  {
+    "image": "paradise-hotel",
+    "url": "paradise-hotel",
+    "lang": "en"
+  },
+  {
+    "image": "paradise-hotel",
+    "url": "es/hotel-paraiso",
+    "lang": "es"
+  },
+  {
+    "image": "juice-store",
+    "url": "juice-store",
+    "lang": "en"
+  },
+  {
+    "image": "juice-store",
+    "url": "es/tienda-de-zumos",
+    "lang": "es"
+  },
+  {
+    "image": "canvas",
+    "url": "canvas",
+    "lang": "en"
+  },
+  {
+    "image": "canvas",
+    "url": "es/canvas",
+    "lang": "es"
+  },
+  {
+    "image": "kanban",
+    "url": "kanban",
+    "lang": "en"
+  },
+  {
+    "image": "kanban",
+    "url": "es/kanban",
+    "lang": "es"
+  },
+  {
+    "image": "github-repositories",
+    "url": "github-repositories",
+    "lang": "en"
+  },
+  {
+    "image": "github-repositories",
+    "url": "es/repositorios-de-github",
+    "lang": "es"
+  },
+  {
+    "image": "kasaz",
+    "url": "kasaz",
+    "lang": "en"
+  },
+  {
+    "image": "kasaz",
+    "url": "es/kasaz",
+    "lang": "es"
+  },
+  {
+    "image": "wheely",
+    "url": "wheely",
+    "lang": "en"
+  },
+  {
+    "image": "wheely",
+    "url": "es/wheely",
+    "lang": "es"
+  },
+  {
+    "image": "duck-store",
+    "url": "duck-store",
+    "lang": "en"
+  },
+  {
+    "image": "duck-store",
+    "url": "es/tienda-de-patos",
+    "lang": "es"
+  },
+  {
+    "image": "eat-the-world",
+    "url": "eat-the-world",
+    "lang": "en"
+  },
+  {
+    "image": "eat-the-world",
+    "url": "es/comete-el-mundo",
+    "lang": "es"
+  },
+  {
+    "image": "four-in-a-row",
+    "url": "four-in-a-row",
+    "lang": "en"
+  },
+  {
+    "image": "four-in-a-row",
+    "url": "es/conecta-4",
+    "lang": "es"
+  },
+  {
+    "image": "spotify-express",
+    "url": "spotify-express",
+    "lang": "en"
+  },
+  {
+    "image": "spotify-express",
+    "url": "es/spotify-express",
+    "lang": "es"
+  },
+  {
+    "image": "the-lift",
+    "url": "the-lift",
+    "lang": "en"
+  },
+  {
+    "image": "the-lift",
+    "url": "es/el-ascensor",
+    "lang": "es"
+  },
+  {
+    "image": "events-hunter",
+    "url": "events-hunter",
+    "lang": "en"
+  },
+  {
+    "image": "events-hunter",
+    "url": "es/cazador-de-eventos",
+    "lang": "es"
+  },
+  {
+    "image": "todo-react",
+    "url": "todo-react",
+    "lang": "en"
+  },
+  {
+    "image": "todo-react",
+    "url": "es/gestor-de-tareas",
+    "lang": "es"
+  },
+  {
+    "image": "2048-game",
+    "url": "2048-game",
+    "lang": "en"
+  },
+  {
+    "image": "2048-game",
+    "url": "es/juego-2048",
+    "lang": "es"
+  },
+  {
+    "image": "the-alphabet-game",
+    "url": "the-alphabet-game",
+    "lang": "en"
+  },
+  {
+    "image": "the-alphabet-game",
+    "url": "es/pasapalabra",
+    "lang": "es"
+  },
+  {
+    "image": "data-structure",
+    "url": "data-structure",
+    "lang": "en"
+  },
+  {
+    "image": "data-structure",
+    "url": "es/estructura-de-datos",
+    "lang": "es"
+  },
+  {
+    "image": "fairytale-matching-game",
+    "url": "fairytale-matching-game",
+    "lang": "en"
+  },
+  {
+    "image": "fairytale-matching-game",
+    "url": "es/juego-de-parejas",
+    "lang": "es"
+  },
+  {
+    "image": "few-seconds-math-game",
+    "url": "few-seconds-math-game",
+    "lang": "en"
+  },
+  {
+    "image": "few-seconds-math-game",
+    "url": "es/juego-matematico",
+    "lang": "es"
+  },
+  {
+    "image": "personal-website",
+    "url": "personal-website",
+    "lang": "en"
+  },
+  {
+    "image": "personal-website",
+    "url": "/es/pagina-personal",
+    "lang": "es"
+  },
+  {
+    "image": "escape-from-death",
+    "url": "escape-from-death",
+    "lang": "en"
+  },
+  {
+    "image": "escape-from-death",
+    "url": "es/escapa-de-la-muerte",
+    "lang": "es"
+  },
+  {
+    "image": "calculator",
+    "url": "calculator",
+    "lang": "en"
+  },
+  {
+    "image": "calculator",
+    "url": "es/calculadora",
+    "lang": "es"
+  }
+]

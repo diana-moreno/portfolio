@@ -8,10 +8,9 @@ import Img from 'gatsby-image'
 import projectsData from '../data/projects'
 import { t } from '../i18n'
 
-const lang = 'es'
 
 const ProjectPage = ({ pageContext }) => {
-  const { projectName } = pageContext
+  const { projectName, lang } = pageContext
 
   const { projects } = useStaticQuery(graphql`
   query {

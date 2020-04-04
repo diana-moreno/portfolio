@@ -14,7 +14,7 @@ import conceptsKey from '../data/concepts_key'
 import { t } from '../i18n'
 import projectsData from '../data/projects.js'
 
-const lang = 'es'
+const lang = 'en'
 
 const IndexPage = ({ pageContext }) => {
   const { image, projects } = useStaticQuery(graphql`
@@ -183,7 +183,7 @@ const IndexPage = ({ pageContext }) => {
           {projectsData.slice(initial, last).map(elem => (
             <div className={styles.card}>
               <div className={styles.project_image_container}>
-                <Link to='/calculator' project={elem} >
+                <Link to={t(elem.url, lang)} project={elem} >
                   <Img
                     className={styles.project_image}
                     fixed={projects.edges.find(img => img.node.childImageSharp.fixed.src.indexOf(elem.image) > 1).node.childImageSharp.fixed}

@@ -71,7 +71,7 @@
     "learned": "Qué he aprendido",
     "technologies": "Tecnologías",
     "project_1": {
-      "url": "calculadora",
+      "url": "es/calculadora",
       "title": "Calculadora",
       "main": "En este proyecto he desarrollado una calculadora que realiza operaciones matemáticas sencillas.",
       "features": {
@@ -96,7 +96,7 @@
       }
     },
     "project_2": {
-      "url": "escapa-de-la-muerte",
+      "url": "es/escapa-de-la-muerte",
       "title": "Escapa de la muerte",
       "main": "Este es un juego de horror en el que el protagonista y su amigo han sido secuestrados. El objetivo es rescatar al amigo y conseguir esccapar juntos antes de que el asesino les encuentre.",
       "features": {
@@ -118,7 +118,7 @@
       }
     },
     "project_3": {
-      "url": "pagina-personal",
+      "url": "es/pagina-personal",
       "title": "Página personal",
       "main": "Este proyecto es mi primera página web personal, creada con la finalidad de disponer de un espacio donde poder hablar un poco de mí y exponer mis propios proyectos.",
       "features": {
@@ -144,7 +144,7 @@
       }
     },
     "project_4": {
-      "url": "juego-matematico",
+      "url": "es/juego-matematico",
       "title": "Juego matemático",
       "main": "Esta es una versión alternativa al juego original 10 Seconds Math, creado por Michael Jakob, creado para desafiar las habilidades matemáticas de una persona a contra reloj. En esta versión, el tiempo añadido por respuesta correcta no son 10 segundos, sino que varía dependiendo de la dificultad.",
       "features": {
@@ -169,7 +169,7 @@
       }
     },
     "project_5": {
-      "url": "juego-de-parejas",
+      "url": "es/juego-de-parejas",
       "title": "Juego de parejas",
       "main": "Juego de parejas es un juego tradicional de memoria. Para ganar, se necesita recordar la posición de cada carta y emparejarla con su igual.",
       "features": {
@@ -192,7 +192,7 @@
       }
     },
     "project_6": {
-      "url": "estructura-de-datos",
+      "url": "es/estructura-de-datos",
       "title": "Estructura de Datos",
       "main": "Las pilas y las colas son dos tipos de estructura de datos lineal que podemos encontrar fácilmente en la vida real. En este proyecto, estoy mostrando ambos modelos en una representación gráfica y dinámica.",
       "features": {
@@ -217,7 +217,7 @@
       }
     },
     "project_7": {
-      "url": "pasapalabra",
+      "url": "es/pasapalabra",
       "title": "Pasapalabra",
       "main": "Este juego es una versión del famoso juego español \"Pasapalabra\", en el que el concursante tiene que acertar una pregunta por cada letra del alfabeto en un tiempo determinado.",
       "features": {
@@ -244,7 +244,7 @@
       }
     },
     "project_8": {
-      "url": "juego-2048",
+      "url": "es/juego-2048",
       "title": "Juego 2048",
       "main": "2048 es un juego de bloques deslizantes para un jugador, diseñado originalmente por Gabriele Cirulli. El objetivo del juego es deslizar bloques numerados en una cuadrícula para combinarlos, sumando sus valores hasta obtener uno solo con el número 2048.",
       "features": {
@@ -267,7 +267,7 @@
       }
     },
     "project_9": {
-      "url": "gestor-de-tareas",
+      "url": "es/gestor-de-tareas",
       "title": "Gestor de Tareas",
       "main": "Este es mi primer proyecto desarrollado con React. Se trata de un gestor de tareas sencillo en el que se pueden añadir funciones avanzadas como prioridad o fecha y hora de la tarea.",
       "features": {
@@ -294,7 +294,7 @@
       }
     },
     "project_10": {
-      "url": "cazador-de-eventos",
+      "url": "es/cazador-de-eventos",
       "title": "Cazador de Eventos",
       "main": "En esta página se puede obtener información sobre eventos de diferentes categorías y lugares. Además, dispone de sección de favoritos para que el usuario pueda guardarse los que más le gusten y consultarlos más tarde.", 
       "features": {
@@ -316,7 +316,7 @@
       }
     },
     "project_11": {
-      "url": "el-ascensor",
+      "url": "es/el-ascensor",
       "title": "El ascensor",
       "main": "Un ascensor tradicional en el que cada persona puede llamarlo desde la planta en la que se encuentre y el ascensor recordará los pisos en los que debe parar a recoger y a dejar pasajeros.",
       "features": {
@@ -337,7 +337,7 @@
       }
     },
     "project_12": {
-      "url": "spotify-express",
+      "url": "es/spotify-express",
       "title": "Spotify Express",
       "main": "Este proyecto utiliza la API de Spotify para crear un buscador de artistas en el que se puede ver información de sus álbumes e incluso previsualizar sus canciones.",
       "features": {
@@ -358,7 +358,7 @@
       }
     },
     "project_13": {
-      "url": "conecta-4",
+      "url": "es/conecta-4",
       "title": "Conecta 4",
       "main": "Juego online del clásico Conecta 4 donde un jugador juega contra otro por turnos y la finalidad es conseguir formar una linea recta combinando cuatro fichas seguidas antes que el rival.",
       "features": {
@@ -380,7 +380,7 @@
       }
     },
     "project_14": {
-      "url": "tienda-de-patos",
+      "url": "es/tienda-de-patos",
       "title": "Tienda de patos",
       "main": "Tienda de patos es un comercio electrónico SPA que muestra informción sobre patos de goma. Este proyecto fue desarrollado durante el Bootcamp de Skylab de 3 maneras diferentes haciendo incapié en la refactorización contínua.",
       "features": {
@@ -405,7 +405,7 @@
       }
     },
     "project_15": {
-      "url": "comete-el-mundo",
+      "url": "es/comete-el-mundo",
       "title": "Cómete el mundo",
       "main": "Éste es un proyecto realizado en grupo durante el Bootcamp de Skylab. La aplicación muestra información acerca de restaurantes de diferentes categorías en varias partes del mundo. Debido a un bloqueo inesperado de acceso a España, es necesario acceder mediante una VPN desde otro país (ej. EEUU).",
       "features": {
@@ -429,7 +429,7 @@
       }
     },
     "project_16": {
-      "url": "wheely",
+      "url": "es/wheely",
       "title": "Wheely",
       "main": "Este es mi proyecto final y primer proyecto Full Stack, realizado en el Bootcamp de Skylab. La idea nace de una necesidad real en las autoescuelas de agilizar la tarea de reservas de prácticas en la que tanto alumno como profesor pueden hacer la gestión 100% online además de un seguimiento del alumno, control de créditos disponibles, etc.",
       "features": {
@@ -476,7 +476,7 @@
       }
     },
     "project_17": {
-      "url": "kasaz",
+      "url": "es/kasaz",
       "title": "Kasaz",
       "main": "Kasaz es una inmobiliaria online donde se pueden buscar apartamentos personalizando los criterios de búsqueda.",
       "features": {
@@ -500,7 +500,7 @@
       }
     },
     "project_18": {
-      "url": "repositorios-de-github",
+      "url": "es/repositorios-de-github",
       "title": "Repositorios de Github",
       "main": "Este proyecto muestra información sobre los repositorios y datos públicos de cualquier usuario de Github.",
       "features": {
@@ -520,7 +520,7 @@
       }
     },
     "project_19": {
-      "url": "kanban",
+      "url": "es/kanban",
       "title": "Kanban",
       "main": "Este proyecto Full Stack reproduce un Kanban. Kanban es un sistema visual para gestionar el trabajo y las tareas a medida que avanza en un proceso. Es realmente fácil de usar porque las tareas sólo se tienen que arrastrar y soltar en la columna deseada.",
       "features": {
@@ -542,7 +542,7 @@
       }
     },
     "project_20": {
-      "url": "canvas",
+      "url": "es/canvas",
       "title": "Canvas",
       "main": "Canvas es una plantilla de gestión estratégica empresarial para documentar modelos de negocio. Es un cuadro visual con elementos que describen la propuesta de valor, infraestructura, clientes y finanzas de una empresa o producto.",
       "features": {
@@ -563,7 +563,7 @@
       }
     },
     "project_21": {
-      "url": "tienda-de-zumos",
+      "url": "es/tienda-de-zumos",
       "title": "Tienda de zumos",
       "main": "Este proyecto es una simulación de una tienda de zumos.",
       "features": {
@@ -586,7 +586,7 @@
       }
     },
     "project_22": {
-      "url": "hotel-paraiso",
+      "url": "es/hotel-paraiso",
       "title": "Hotel Paraíso",
       "main": "Hotel Paraíso es una página de ejemplo de páginas corporativas para hoteles donde se muestra información del hotel y detalle de las habitaciones.",
       "features": {
@@ -608,7 +608,7 @@
       }
     },
     "project_23": {
-      "url": "portafolio-multilenguaje",
+      "url": "es/portafolio-multilenguaje",
       "title": "Portafolio multilenguaje",
       "main": "Esta página web personal ha sido desarrollada expresamente para colaborar en el proyecto de final de carrera de mi hermana sobre traducciones tecnológicas.",
       "features": {

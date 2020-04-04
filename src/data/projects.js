@@ -1,6 +1,7 @@
 const projects = [
   {
     project: 23,
+    url: 'projects.project_23.url',
     title: 'projects.project_23.title',
     main: "projects.project_23.main",
     image: 'portfolio',
@@ -26,6 +27,7 @@ const projects = [
   },
   {
     project: 22,
+    url: 'projects.project_22.url',
     title: 'projects.project_22.title',
     main: "projects.project_22.main",
     image: 'paradise-hotel',
@@ -50,6 +52,7 @@ const projects = [
   },
   {
     project: 21,
+    url: 'projects.project_21.url',
     title: 'projects.project_21.title',
     main: "projects.project_21.main",
     image: 'juice-store',
@@ -77,6 +80,7 @@ const projects = [
   },
   {
     project: 20,
+    url: 'projects.project_20.url',
     title: 'projects.project_20.title',
     main: "projects.project_20.main",
     image: 'canvas',
@@ -101,6 +105,7 @@ const projects = [
   },
   {
     project: 19,
+    url: 'projects.project_19.url',
     title: 'projects.project_19.title',
     main: "projects.project_19.main",
     image: 'kanban',
@@ -126,6 +131,7 @@ const projects = [
   },
   {
     project: 18,
+    url: 'projects.project_18.url',
     title: 'projects.project_18.title',
     main: "projects.project_18.main",
     image: 'github-repositories',
@@ -149,6 +155,7 @@ const projects = [
   },
   {
     project: 17,
+    url: 'projects.project_17.url',
     title: 'projects.project_17.title',
     main: "projects.project_17.main",
     image: 'kasaz',
@@ -176,6 +183,7 @@ const projects = [
   },
   {
     project: 16,
+    url: 'projects.project_16.url',
     title: 'projects.project_16.title',
     main: "projects.project_16.main",
     image: 'wheely',
@@ -226,6 +234,7 @@ const projects = [
   },
   {
     project: 15,
+    url: 'projects.project_15.url',
     title: 'projects.project_15.title',
     main: "projects.project_15.main",
     image: 'eat-the-world',
@@ -253,6 +262,7 @@ const projects = [
   },
   {
     project: 14,
+    url: 'projects.project_14.url',
     title: 'projects.project_14.title',
     main: "projects.project_14.main",
     image: 'duck-store',
@@ -283,6 +293,7 @@ const projects = [
   },
   {
     project: 13,
+    url: 'projects.project_13.url',
     title: 'projects.project_13.title',
     main: "projects.project_13.main",
     image: 'four-in-a-row',
@@ -308,6 +319,7 @@ const projects = [
   },
   {
     project: 12,
+    url: 'projects.project_12.url',
     title: 'projects.project_12.title',
     main: "projects.project_12.main",
     image: 'spotify-express',
@@ -332,6 +344,7 @@ const projects = [
   },
   {
     project: 11,
+    url: 'projects.project_11.url',
     title: 'projects.project_11.title',
     main: "projects.project_11.main",
     image: 'the-lift',
@@ -356,6 +369,7 @@ const projects = [
   },
   {
     project: 10,
+    url: 'projects.project_10.url',
     title: 'projects.project_10.title',
     main: "projects.project_10.main",
     image: 'events-hunter',
@@ -381,6 +395,7 @@ const projects = [
   },
   {
     project: 9,
+    url: 'projects.project_9.url',
     title: 'projects.project_9.title',
     main: "projects.project_9.main",
     image: 'todo-react',
@@ -411,6 +426,7 @@ const projects = [
   },
   {
     project: 8,
+    url: 'projects.project_8.url',
     title: 'projects.project_8.title',
     main: "projects.project_8.main",
     image: '2048-game',
@@ -437,6 +453,7 @@ const projects = [
   },
   {
     project: 7,
+    url: 'projects.project_7.url',
     title: 'projects.project_7.title',
     main: "projects.project_7.main",
     image: 'the-alphabet-game',
@@ -467,6 +484,7 @@ const projects = [
   },
   {
     project: 6,
+    url: 'projects.project_6.url',
     title: 'projects.project_6.title',
     main: "projects.project_6.main",
     image: 'data-structure',
@@ -495,6 +513,7 @@ const projects = [
   },
   {
     project: 5,
+    url: 'projects.project_5.url',
     title: 'projects.project_5.title',
     main: "projects.project_5.main",
     image: 'fairytale-matching-game',
@@ -521,6 +540,7 @@ const projects = [
   },
   {
     project: 4,
+    url: 'projects.project_4.url',
     title: 'projects.project_4.title',
     main: "projects.project_4.main",
     image: 'few-seconds-math-game',
@@ -549,6 +569,7 @@ const projects = [
   },
   {
     project: 3,
+    url: 'projects.project_3.url',
     title: 'projects.project_3.title',
     main: "projects.project_3.main",
     image: 'personal-website',
@@ -578,6 +599,7 @@ const projects = [
   },
   {
     project: 2,
+    url: 'projects.project_2.url',
     title: 'projects.project_2.title',
     main: "projects.project_2.main",
     image: 'escape-from-death',
@@ -603,6 +625,7 @@ const projects = [
   },
   {
     project: 1,
+    url: 'projects.project_1.url',
     title: 'projects.project_1.title',
     main: "projects.project_1.main",
     image: 'calculator',

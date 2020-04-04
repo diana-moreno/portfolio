@@ -1,8 +1,8 @@
 const slash = require('slash')
 const path = require('path')
 
-const urls = require('./src/urls.json');
-const projectsData = require('./src/data/jsonProjects.json');
+const urls = require('./src/urls/urls.json');
+const urlsProjects = require('./src/urls/urlsProjects.json');
 
 
 exports.onCreatePage = ({ page, actions }) => {
@@ -18,12 +18,13 @@ exports.onCreatePage = ({ page, actions }) => {
     }
   })
 
-  projectsData.forEach(elem => {
+  urlsProjects.forEach(elem => {
     createPage({
-      path: elem.image,
+      path: elem.url,
       component: slash(path.resolve('./src/templates/project.js')),
       context: {
         ...page.context,
+        lang: elem.lang,
         urls,
         projectName: elem.image
       }
