@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, useCallback } from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/Layout"
 import styles from './index.module.scss'
@@ -14,11 +14,7 @@ import ConceptKey from '../components/ConceptKey'
 import conceptsKey from '../data/concepts_key'
 import { t } from '../i18n'
 import projectsData from '../data/projects.js'
-import Observer from '@researchgate/react-intersection-observer'
-import useIntersectionObserver from '@react-hook/intersection-observer'
  
-
-
 
 const lang = 'es'
 
@@ -106,19 +102,9 @@ const IndexPage = ({ pageContext }) => {
 
 
 
-  
+
 // Intersection Observer
 const [indexMenu, setIndexMenu] = useState(0)
-
-const homeRef = React.useRef()
-const aboutRef = React.useRef()
-const projectsRef = React.useRef()
-const contactRef = React.useRef()
-
-const homeElem = homeRef.current
-const aboutElem = aboutRef.current
-const projectsElem = projectsRef.current
-const constantElem = contactRef.current
 
 
 // simple function to use for callback in the intersection observer
@@ -150,16 +136,33 @@ const options = {
 const observer = new IntersectionObserver(changeNav, options)
 
 // target the elements to be observed
-if (typeof window !== 'undefined' 
-&& homeElem, aboutElem, projectsElem, constantElem) {
-  const sections = [homeElem, aboutElem, projectsElem, constantElem]
-  sections.forEach((section) => {
-    observer.observe(section)
-    })
-}
-  
 
-console.log(homeElem)
+const homeRef = React.useRef()
+const aboutRef = React.useRef()
+const projectsRef = React.useRef()
+const contactRef = React.useRef()
+
+// create the refs after them achieve value
+let homeElem
+let aboutElem
+let projectsElem
+let constantElem
+
+useEffect(
+  () => {
+    homeElem = homeRef.current
+    aboutElem = aboutRef.current
+    projectsElem = projectsRef.current
+    constantElem = contactRef.current
+
+    const sections = [homeElem, aboutElem, projectsElem, constantElem]
+    sections.forEach((section) => {
+      observer.observe(section)
+    })
+  },
+  [homeElem]
+)
+  
 
   return (
     <Layout>
@@ -187,29 +190,8 @@ console.log(homeElem)
       </section>
 
       {/* <!-- NAVBAR --> */}
-      {/* <Navbar lang={lang} indexMenu={indexMenu} /> */}
+      <Navbar lang={lang} indexMenu={indexMenu} />
     
-      <nav className={styles2.menu}>
-      <ul className={styles2.menu__list}>
-        <li className={indexMenu === 0 ? styles2.active : ''}>
-          <Link to="/#home">{t('home.title', lang)}</Link>
-        </li>
-        <li className={indexMenu === 1 ? styles2.active : '' }>
-          <Link to="/#about">{t('about.title', lang)}</Link>
-        </li>
-        <li className={indexMenu === 2 ? styles2.active : ''}>
-          <Link to="/#projects">{t('projects.title', lang)}</Link>
-        </li>
-        <li className={indexMenu === 3 ? styles2.active : ''}>
-          <Link to="/#contact">{t('contact.title', lang)}</Link>
-        </li>
-      </ul>
-      <i className="mdi mdi-menu"></i>
-    </nav>
-
-
-
-
       {/* <!-- ABOUT --> */}
       <section ref={aboutRef} id='about' className={styles.about}>
         <div className={styles.title_section}>

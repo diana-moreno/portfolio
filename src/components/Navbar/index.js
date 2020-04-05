@@ -4,9 +4,6 @@ import { t } from '../../i18n'
 import { Link } from 'gatsby'
 
 const Navbar = ({ lang, indexMenu }) => {
-
-  // console.log(indexMenu)
-
   return (
     <nav className={styles.menu}>
       <ul className={styles.menu__list}>
