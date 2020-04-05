@@ -133,7 +133,6 @@ const options = {
   threshold: 0.55
 }
 
-const observer = new IntersectionObserver(changeNav, options)
 
 // target the elements to be observed
 
@@ -150,6 +149,7 @@ let constantElem
 
 useEffect(
   () => {
+    const observer = new IntersectionObserver(changeNav, options)
     homeElem = homeRef.current
     aboutElem = aboutRef.current
     projectsElem = projectsRef.current

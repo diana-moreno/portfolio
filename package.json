@@ -24,6 +24,7 @@
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-sharp": "^2.3.13",
     "i": "^0.3.6",
+    "intersection-observer": "^0.7.0",
     "node-sass": "^4.13.1",
     "npm": "^6.14.3",
     "prop-types": "^15.7.2",

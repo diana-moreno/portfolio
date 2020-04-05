@@ -9,8 +9,13 @@ import React from 'react'
 
 // import './src/styles/global.scss'
 
+if (typeof window !== 'undefined') {
+  require('intersection-observer');
+}
+
 export const wrapRootElement = ({ element }) => (
   <React.Fragment>
     {element}
   </React.Fragment>
 )
+
