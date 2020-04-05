@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@react-hook/intersection-observer": "^2.0.10",
+    "@researchgate/react-intersection-observer": "^1.1.2",
     "dotenv": "^8.2.0",
     "flat": "^5.0.0",
     "gatsby": "^2.19.7",

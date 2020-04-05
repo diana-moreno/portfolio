@@ -1,7 +1,8 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/Layout"
 import styles from './index.module.scss'
+import styles2 from '../components/Navbar/index.module.scss'
 import Navbar from '../components/Navbar'
 import ArrowBounce from '../components/ArrowBounce'
 import WhiteTriangle from '../assets/white_triangle.svg'
@@ -13,6 +14,10 @@ import ConceptKey from '../components/ConceptKey'
 import conceptsKey from '../data/concepts_key'
 import { t } from '../i18n'
 import projectsData from '../data/projects.js'
+import Observer from '@researchgate/react-intersection-observer'
+import useIntersectionObserver from '@react-hook/intersection-observer'
+ 
+
 
 
 const lang = 'es'
@@ -100,9 +105,61 @@ const IndexPage = ({ pageContext }) => {
   }
 
 
-  const changeColorMenu = (event) => {
-    console.log(event.target.value)
-  }
+
+  
+// Intersection Observer
+const [indexMenu, setIndexMenu] = useState(0)
+
+const homeRef = React.useRef()
+const aboutRef = React.useRef()
+const projectsRef = React.useRef()
+const contactRef = React.useRef()
+
+const homeElem = homeRef.current
+const aboutElem = aboutRef.current
+const projectsElem = projectsRef.current
+const constantElem = contactRef.current
+
+
+// simple function to use for callback in the intersection observer
+const changeNav = (entries, observer) => {
+  entries.forEach((entry) => {
+    // verify the element is intersecting
+    if(entry.isIntersecting && entry.intersectionRatio >= 0.55) {
+      if(entry.target.id === 'home') {
+        setIndexMenu(0)
+      }
+      if(entry.target.id === 'about') {
+        setIndexMenu(1)
+      }
+      if(entry.target.id === 'projects') {
+        setIndexMenu(2)
+      }
+      if(entry.target.id === 'contact') {
+        setIndexMenu(3)
+      }
+    }
+  })
+}
+
+// init the observer
+const options = {
+  threshold: 0.55
+}
+
+const observer = new IntersectionObserver(changeNav, options)
+
+// target the elements to be observed
+if (typeof window !== 'undefined' 
+&& homeElem, aboutElem, projectsElem, constantElem) {
+  const sections = [homeElem, aboutElem, projectsElem, constantElem]
+  sections.forEach((section) => {
+    observer.observe(section)
+    })
+}
+  
+
+console.log(homeElem)
 
   return (
     <Layout>
@@ -113,7 +170,8 @@ const IndexPage = ({ pageContext }) => {
       </div>
 
       {/* <!-- HOME --> */}
-      <section id='home' className={styles.home}>
+
+      <section ref={homeRef} id='home' className={styles.home}>
         <div className={styles.greeting}>
           {t('home.greeting', lang)}<span className={styles.greeting__name}>
             {t('home.author', lang)}</span>.
@@ -122,16 +180,38 @@ const IndexPage = ({ pageContext }) => {
         </div>
         <div className={styles.more} dest="about">
           <p>{t('home.view_more', lang)}</p>
-          <ArrowBounce />
+          <Link to="/#about">
+            <ArrowBounce />
+          </Link>
         </div>
       </section>
 
       {/* <!-- NAVBAR --> */}
-      <Navbar lang={lang} />
+      {/* <Navbar lang={lang} indexMenu={indexMenu} /> */}
     
+      <nav className={styles2.menu}>
+      <ul className={styles2.menu__list}>
+        <li className={indexMenu === 0 ? styles2.active : ''}>
+          <Link to="/#home">{t('home.title', lang)}</Link>
+        </li>
+        <li className={indexMenu === 1 ? styles2.active : '' }>
+          <Link to="/#about">{t('about.title', lang)}</Link>
+        </li>
+        <li className={indexMenu === 2 ? styles2.active : ''}>
+          <Link to="/#projects">{t('projects.title', lang)}</Link>
+        </li>
+        <li className={indexMenu === 3 ? styles2.active : ''}>
+          <Link to="/#contact">{t('contact.title', lang)}</Link>
+        </li>
+      </ul>
+      <i className="mdi mdi-menu"></i>
+    </nav>
+
+
+
 
       {/* <!-- ABOUT --> */}
-      <section id='about' className={styles.about}>
+      <section ref={aboutRef} id='about' className={styles.about}>
         <div className={styles.title_section}>
           <h1>{t('about.title', lang)}</h1>
           <div className={styles.title_section_line}></div>
@@ -170,8 +250,9 @@ const IndexPage = ({ pageContext }) => {
         </div>
       </section>
 
+
       {/* <!-- PROJECTS --> */}
-      <section id='projects' className={styles.projects}>
+      <section ref={projectsRef} id='projects' className={styles.projects}>
         <div className={styles.title_section}>
           <h1>{t('projects.title', lang)}</h1>
           <div className={styles.title_section_line}></div>
@@ -189,13 +270,13 @@ const IndexPage = ({ pageContext }) => {
           {projectsData.slice(initial, last).map(elem => (
             <div className={styles.card}>
               <div className={styles.project_image_container}>
-                <Link to={t(elem.url, lang)} project={elem} >
+                <a href={t(elem.url, lang)} project={elem} >
                   <Img
                     className={styles.project_image}
                     fixed={projects.edges.find(img => img.node.childImageSharp.fixed.src.indexOf(elem.image) > 1).node.childImageSharp.fixed}
                     alt={t(elem.title, lang)} 
                   />
-                </Link>
+                </a>
 
                 {/* TODO LINKS */}
                 {/* cuando haces click a un punto, se desordenan los proyectos */}
@@ -225,11 +306,10 @@ const IndexPage = ({ pageContext }) => {
             onClick={goToNextSlide}
           />}
         </div>
-
       </section>
 
       {/* <!-- CONTACT --> */}
-      <section id='contact' className={styles.contact}>
+      <section ref={contactRef} id='contact' className={styles.contact}>
         <div className={styles.title_section}>
           <h1>{t('contact.title', lang)}</h1>
           <div className={styles.title_section_line}></div>

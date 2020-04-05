@@ -26,8 +26,9 @@
     li a:hover {
       color: #d36667;
     }
-  .active_menu {
-    color: #d36667;
   }
 }
+
+.active a {
+  color: #d36667 !important;
 }
