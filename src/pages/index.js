@@ -14,6 +14,7 @@ import conceptsKey from '../data/concepts_key'
 import { t } from '../i18n'
 import projectsData from '../data/projects.js'
 
+
 const lang = 'es'
 
 const IndexPage = ({ pageContext }) => {
@@ -99,6 +100,10 @@ const IndexPage = ({ pageContext }) => {
   }
 
 
+  const changeColorMenu = (event) => {
+    console.log(event.target.value)
+  }
+
   return (
     <Layout>
 
@@ -108,7 +113,7 @@ const IndexPage = ({ pageContext }) => {
       </div>
 
       {/* <!-- HOME --> */}
-      <section id='home-container' className={styles.home}>
+      <section id='home' className={styles.home}>
         <div className={styles.greeting}>
           {t('home.greeting', lang)}<span className={styles.greeting__name}>
             {t('home.author', lang)}</span>.
@@ -123,9 +128,10 @@ const IndexPage = ({ pageContext }) => {
 
       {/* <!-- NAVBAR --> */}
       <Navbar lang={lang} />
+    
 
       {/* <!-- ABOUT --> */}
-      <section className={styles.about}>
+      <section id='about' className={styles.about}>
         <div className={styles.title_section}>
           <h1>{t('about.title', lang)}</h1>
           <div className={styles.title_section_line}></div>
@@ -165,7 +171,7 @@ const IndexPage = ({ pageContext }) => {
       </section>
 
       {/* <!-- PROJECTS --> */}
-      <section className={styles.projects}>
+      <section id='projects' className={styles.projects}>
         <div className={styles.title_section}>
           <h1>{t('projects.title', lang)}</h1>
           <div className={styles.title_section_line}></div>
@@ -223,7 +229,7 @@ const IndexPage = ({ pageContext }) => {
       </section>
 
       {/* <!-- CONTACT --> */}
-      <section className={styles.contact}>
+      <section id='contact' className={styles.contact}>
         <div className={styles.title_section}>
           <h1>{t('contact.title', lang)}</h1>
           <div className={styles.title_section_line}></div>

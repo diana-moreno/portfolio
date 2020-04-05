@@ -1,6 +1,6 @@
 import React from "react"
 import styles from './project.module.scss'
-import { graphql, useStaticQuery } from 'gatsby'
+import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/Layout"
 import Navbar from '../components/Navbar'
 import GithubIcon from '../assets/github.svg'

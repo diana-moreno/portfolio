@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Raleway";
   color: #444649;
@@ -73,7 +76,8 @@ input:focus, button:focus {
 }
 .about {
   max-width: 1450px;
-  margin: 3rem auto;
+  margin: 0rem auto;
+  padding-top: 4rem;
 }
 .circles_container {
   display: flex;
@@ -118,7 +122,6 @@ input:focus, button:focus {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 4rem;
 }
 
 .aboutme_text {
@@ -292,8 +295,8 @@ footer {
 }
 .projects {
   max-width: 1450px;
-  margin: 7rem auto;
-
+  margin: 0rem auto;
+  padding: 5rem 0;
   // background: #f8f8f8;
 }
 .projects_container {
