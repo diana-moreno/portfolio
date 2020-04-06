@@ -1,8 +1,7 @@
-import React, { useState, useEffect, useCallback } from "react"
+import React, { useState, useEffect } from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/Layout"
 import styles from './index.module.scss'
-import styles2 from '../components/Navbar/index.module.scss'
 import Navbar from '../components/Navbar'
 import ArrowBounce from '../components/ArrowBounce'
 import WhiteTriangle from '../assets/white_triangle.svg'
@@ -14,6 +13,7 @@ import ConceptKey from '../components/ConceptKey'
 import conceptsKey from '../data/concepts_key'
 import { t } from '../i18n'
 import projectsData from '../data/projects.js'
+import Languages from "../components/Languages"
  
 
 const lang = 'es'
@@ -168,9 +168,7 @@ useEffect(
     <Layout>
 
       {/* <!-- LANGUAGES --> */}
-      <div className={styles.languages}>
-        <p><span className={styles.language_item}>en</span><span> / </span><span className={styles.language_item}>es</span><span> / </span><span className={styles.language_item}>ca</span><span> / </span><span className={styles.language_item}>de</span></p>
-      </div>
+    <Languages />
 
       {/* <!-- HOME --> */}
 

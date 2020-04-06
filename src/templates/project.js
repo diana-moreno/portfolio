@@ -7,6 +7,7 @@ import GithubIcon from '../assets/github.svg'
 import Img from 'gatsby-image'
 import projectsData from '../data/projects'
 import { t } from '../i18n'
+import Languages from "../components/Languages"
 
 
 const ProjectPage = ({ pageContext }) => {
@@ -37,6 +38,7 @@ const ProjectPage = ({ pageContext }) => {
 
   return (
     <Layout>
+      <Languages />
       <Navbar lang={lang} />
       <div className={styles.main}>
         <div className={styles.title_section}>
