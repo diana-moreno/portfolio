@@ -16,7 +16,7 @@ import projectsData from '../data/projects.js'
 import Languages from "../components/Languages"
  
 
-const lang = 'es'
+const lang = 'ca'
 
 const IndexPage = ({ pageContext }) => {
   const { image, projects } = useStaticQuery(graphql`
@@ -221,7 +221,7 @@ useEffect(
             <h3>{t('about.my_story.title', lang)}</h3>
             <p>
               {t('about.my_story.section_1', lang)}<br></br>
-              {t('about.my_story.section_2', lang)}.
+              {t('about.my_story.section_2', lang)}
             </p>
             <p>{t('about.my_story.section_3', lang)}</p>
             <h3>{t('about.passions.title', lang)}</h3>

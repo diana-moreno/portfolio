@@ -1,586 +1,633 @@
 {
   "home": {
-    "title": "home",
-    "homepage": {
-      "author": "DIANA MORENO",
-      "author_position": "Full Stack Developer",
-      "preview": "Preview my projects",
-      "hide": "Hide my projects",
-      "more": "More details at"
-    }
+    "title": "INICI",
+    "greeting": "Hola, sóc ",
+    "author": "Diana Moreno",
+    "author_position": "Sóc desenvolupadora web full stack.",
+    "view_more": "Veure més"
   },
   "about": {
-    "title":"About me",
+    "title": "SOBRE MI",
     "concepts_key": {
       "concept_key_1": {
-        "title": "Responsiveness",
-        "description": "Procuro que mis proyectos se vean bien en todos los dispositivos aplicando el concepto de móvil primero."
+        "title": "Disseny adaptatiu",
+        "description": "El mòbil guanya cada cop més protagonisme enfront de l'ordinador. És per això que procuro que els meus projectes siguin compatibles amb tots els dispositius, seguint les tendències."
       },
       "concept_key_2": {
-        "title": "Simplicity",
-        "description": "Apuesto por interfaces atractivas para el usuario pero sin perder la simplicidad. Menos es más"
+        "title": "Simplicitat",
+        "description": "Per a mi, el disseny és una peça clau en un projecte, per aquesta raó aposto per interfícies atractives per a l'usuari sense perdre la simplicitat. Menys és més."
       },
       "concept_key_3": {
-        "title": "Good practices",
-        "description": "Aplico principios SOLID, de código limpio, construyo componentes reusables y entiendo la importancia de testear."
+        "title": "Bones pràctiques",
+        "description": "Tant per al treball en equip com per a l'individual, considero molt important construir un codi de qualitat: organitzat, senzill, testat i reutilitzable."
       },
       "concept_key_4": {
-        "title": "Latest technologies",
-        "description": "Me intereso por las nuevas tecnologías y apuesto por estar siempre al día."
+        "title": "Últimes tecnologies",
+        "description": "M'interesso per les noves tecnologies i aposto per la formació contínua. L'última tecnologia que he après ha estat Gatsby, molt de moda avui dia."
       }
-    }, 
-    "my_story": { 
-      "title": "MY STORY", 
-      "section_1": "I obtained a Bachelor in Business Administration and Management at the University of Barcelona in 2012. Once I finished my studies, I took up a career path as Accountant, growing up until I became Team Manager.",
-      "section_2": "Six years later, I realized that this path no longer fulfilled me. I needed a new challenge where I could keep on growing as a professional.",
-      "section_3": "Coincidentally, in that period, I met someone who introduced me to programming and showed me a new way of creating, thinking and doing. I felt an irresistible need to explore this field so, at the beginning of 2019, I quitted my job and started learning by myself. From september 2019 to december 2019, I was enrolled in a programming bootcamp in Skylab to consolidate and expand my knowledge."
+    },
+    "my_story": {
+      "title": "La meva història",
+      "section_1": "En 2012, em vaig graduar en Administració i Direcció d'Empreses en la Universitat de Barcelona. Quan vaig acabar els meus estudis, vaig iniciar la meva trajectòria professional com a comptable i vaig anar creixent fins a arribar a ser Team Manager.",
+      "section_2": "Sis anys després, em vaig adonar que l'àmbit de la comptabilitat ja no em satisfeia. Necessitava un nou repte on poder continuar creixent com a professional.",
+      "section_3": "La programació va començar a captar cada vegada més la meva atenció i finalment vaig optar per seguir aquest camí. Així doncs, a començaments de 2019 vaig renunciar al meu treball i vaig començar a aprendre pel meu compte.A més, des de setembre fins a desembre d'aquell mateix any, vaig estudiar programació en un bootcamp en Skylab a fi de consolidar i ampliar els meus coneixements."
     },
     "nowadays": {
-      "title":"NOWADAYS",
-      "section_1": "Currently, I am working for Interficie: a company that develops custom e-commerce and creative solutions for a big companies.",
-      "section_2": "In my daily life, I utilize technologies and frameworks focused on Javascript like React, Gatsby, Node, SQL and Express.",
-      "section_3": "In my spare time, I enjoy learning new technologies and implementing personal projects like this website."
+      "title": "Actualment",
+      "section_1": "Avui dia treballo per a Interficie, una companyia que desenvolupa pàgines de comerç electrònic i solucions creatives per a grans empreses.",
+      "section_2": "El llenguatge que utilitzo és JavaScript i el meu stack tecnològic és el següent: React, Gatsby, Node, SQL i Express."
     },
     "passions": {
-      "title": "PASSIONS", 
-      "section_1": "Besides programming, I am dedicated to following a healthy lifestyle. I pay close attention to what I eat, and regularly exercise. Moreover, I love dancing, up to the point that I joined an amateur salsa dance company."
-    }
-  },
-  "portfolio": {
-    "title":"Portfolio",
-    "introduction" : {
-      "title": "MY PROJECTS",
-      "main": "In this section I will be uploading a few of my personal tech projects, features and new knowledge achieved."
-    }
-  },
-  "projects": { 
-    "link_message": "Click the picture to run the project!",
-    "source_message": "Source code",
-    "features": {
-      "title": "Features:"
-    },
-    "learned": {
-      "title": "What I learned:"
-    },
-    "project_1": {
-      "title": "BASIC CALCULATOR",
-      "main": "In this project, I made a functional calculator. The purpose was to practice with the mix of CSS, HTML, the DOM, logic JavaScript and mouse and keyboard events.",
-      "features": {
-        "feature_1": "There is a button to delete the last character introduced.",
-        "feature_2": "It includes a reset button to start new calculations.",
-        "feature_3": "It is able to accumulate values for the next operation.",
-        "feature_4": "If the expression is malformed, it shows a message.",
-        "feature_5": "If the expression is too long, the font size is reduced to fit in display.",
-        "feature_6": "Has intuitive colors when operating to be easily used.",
-        "feature_7": "Works properly both with keyboard and mouse."
-      },
-      "learned": {
-        "learned_1": "How to create a visual interface with CSS Grid Layout.",
-        "learned_2": "How to access and manipulate the DOM.",
-        "learned_3": "How to apply keyboard and mouse events.",
-        "learned_4": "How to implement hover and active to change style."
-      }
-    },
-    "project_2": {
-      "title": "CALCULATOR",
-      "main": "This is the second version of the calculator. I have focused on adding additional functionality like parentheses and calculating all mathematical operations.",
-      "features": {
-        "feature_1": "Allows operating with nested parentheses expressions.",
-        "feature_2": "There is a button to delete the last character introduced.",
-        "feature_3": "It includes a reset button to start new calculations.",
-        "feature_4": "It is able to accumulate values for the next operation.",
-        "feature_5": "If the expression is malformed, it shows a message.",
-        "feature_6": "If the expression is too long, the font size is reduced to fit in display.",
-        "feature_7": "It has been configured for many sizes of screen and dispositives.",
-        "feature_8": "It has intuitive colors when operating to be easily used.",
-        "feature_9": "Works properly both with keyboard and mouse."
-      },
-      "learned": {
-        "learned_1": "How to create a visual interface with CSS Grid Layout.",
-        "learned_2": "How to access and manipulate the DOM.",
-        "learned_3": "How to apply keyboard and mouse events.",
-        "learned_4": "How to implement hover and active to change style.",
-        "learned_5": "How to develop math logic with JavaScript."
-      }
-    },
-    "project_3": {
-      "title": "ESCAPE FROM DEATH!",
-      "main": "Escape from Death is a horror game where you and your friend have been kidnapped. The goal is to rescue your friend and escape both together. Be careful with the killer!",
-      "features": {
-        "feature_1": "There are three closed doors: in one is your friend isolated, in the other the killer, and in the other, the exit.",
-        "feature_2": "If you find the exit, you will not be able to leave without your friend, you must rescue him first to leave together.",
-        "feature_3": "If while trying to find the exit or your friend, you bump into the killer, the game is over."
-      },
-      "learned": {
-        "learned_1": "How to create a layout with basic CSS.",
-        "learned_2": "How to manipulate images with Gimp.",
-        "learned_3": "How to implement conditional JavaScript logic.",
-        "learned_4": "How to access and manipulate the DOM.",
-        "learned_5": "How to add sounds in DOM events without needing a server."
-      }
-    },
-    "project_4": {
-      "title": "PERSONAL WEBSITE",
-      "main": "This project is about this current website I created with the finality to letting know a little about me and my projects. There, I talk about who I am, what I do, how I arrived here and what my motivations and passions are. In the portfolio section, a few of my best projects are shown.",
-      "features": {
-        "feature_1": "The website is divided in four linked sections and all of them share the same navigation bar.", 
-        "feature_2": "Every page has an animation to make it look friendlier and visual.",
-        "feature_3": "It is built responsive, so it can be opened in several dispositives.",
-        "feature_4": "Portfolio pages allow you to select the project you are interested in through a menu.",
-        "feature_5": "The contact page has linked email, Github and Linkedin contacts to their own logos.",
-        "feature_6": "The navbar (navigation bar) menu has hover and active implemented to change style when clicking in another section.",
-        "feature_7": "The website keeps the simplicity, sharing background, being organized and easy-reading."
-      },
-      "learned": {
-        "learned_1": "CSS flexbox layout.",
-        "learned_2": "Some CSS design and styles.",
-        "learned_3": "How to implement libraries like Animate.css to make advanced animations.",
-        "learned_4": "How to add some Bootstrap pieces to the project.",
-        "learned_5": "How to center elements both vertically and horizontally in layout.",
-        "learned_6": "How to hide the scroll bar or change its style.",
-        "learned_7": "How to create a mobile first responsive design CSS with media queries.",
-        "learned_8": "How to define website behaviour with JavaScript.",
-        "learned_9": "How to create local and remote repositories, push and pull, backtrack, create, remove and merge branches with Git and GitHub.",
-        "learned_10": "How to deploy a project with Github pages.",
-        "learned_11": "How to create a Readme and to understand Markdown."
-      }
-    },
-    "project_5": {
-      "title": "FEW SECONDS MATH GAME",
-      "main": "Few Seconds Math is a game created by Michael Jakob to challenge a person’s mathematical skills against the clock. In this project, I made my own version of this game changing some of its features.",
-      "features": {
-        "feature_1": "At the beginning, the user has ten seconds to answer the first math problem.",
-        "feature_2": "The user chooses what type/s of math operations they will face: addition, subtraction, multiplication or division.",
-        "feature_3": "The user can limit the maximum number that will appear.",
-        "feature_4": "The most difficult operations provide more points (4 points for each division, 3 for multiplication, 2 for subtraction and 1 for addition).",
-        "feature_5": "The clock will start running once the first question is shown.",
-        "feature_6": "The current question must be correctly answered in order to be allowed to answer the next one.",
-        "feature_7": "Every correct answer will add a few seconds more to the clock, depending on the difficulty selected.",
-        "feature_8": "The user loses the game when the time is up! Do not let the clock run out!"
-      },
-      "learned": {
-        "learned_1": "How to run the project into a local server.",
-        "learned_2": "How to add sound from a library adding scripts and to synchronize audios with DOM’s behaviour.",
-        "learned_3": "How to implement async and callback functions.",
-        "learned_4": "How to switch to the next screen game with JavaScript and CSS.",
-        "learned_5": "How to change style with CSS before and after.",
-        "learned_6": "How to create gitignore to hide some unnecessary local folders.",
-        "learned_7": "How to link and edit a JSON file."
-      }
-    },
-    "project_6": {
-      "title": "FAIRYTALE MATCHING GAME",
-      "main": "Fairytale Matching Game is a traditional memory game. To win, you need to remember the position of every card and match it with its pair.",
-      "features": {
-        "feature_1": "When the game starts, 24 closed coffers appear.",
-        "feature_2": "Inside every coffer there are fairytale characters hidden.",
-        "feature_3": "The player has to open two coffers searching for a pair.",
-        "feature_4": "If the characters are different, the coffers will close, hiding the cards.",
-        "feature_5": "The user has to remember the position of every character and try to make pairs with the cards.",
-        "feature_6": "When a pair is found, it will remain visible.",
-        "feature_7": "The counter informs about the number of matching and failures.",
-        "feature_8": "When the user has matched all pairs, a resume will appear with the final score."
-      },
-      "learned": {
-        "learned_1": "How to access and manipulate the DOM with jQuery to select and trigger changes in the page.",
-        "learned_2": "How to add effects with jQuery.",
-        "learned_3": "How to achieve graphical behaviour throughout async and callback functions.",
-        "learned_4": "How to dynamically change the look of an HTML element.",
-        "learned_5": "How to utilize CSS Grid and Flex properly.",
-        "learned_6": "How to understand the logic behind it.",
-        "learned_7": "How to split the code in different files to be more organized."
-      }
-    },
-    "project_7": {
-      "title": "DATA STRUCTURE",
-      "main": "Stacks and queues are two types of linear data structure we can easily find in real life. In this project, I am showing both models in a graphical and dynamical representation.",
-      "features": {
-        "feature_1": "Stack",
-        "feature_2": "Every time an element is added, it goes on the top of the stack.",
-        "feature_3": "The only element that can be removed is the element that was at the top of the stack.",    
-        "feature_4": "It is also called LIFO queue (“last in, first out”).",
-        "feature_5": "We can match the concept to a stack of books.",
-        "feature_6": "Queue",
-        "feature_7": "The elements are added in arrival order.",
-        "feature_8": "To delete an element, it has to be the first arrival element of the queue.",
-        "feature_9": "It is also called FIFO queue (“first in, first out”).",
-        "feature_10": "It is the same idea of supermarket’s queues."
-      },
-      "learned": {
-        "learned_1": "How to organize code with Constructor Pattern.",
-        "learned_2": "How to develop stack and queues data structure logic.",
-        "learned_3": "How to create a visual layout to show how stacks and queues work.",
-        "learned_4": "How to split code in different files."
-      }
-    },
-    "project_8": {
-      "title": "THE ALPHABET GAME",
-      "main": "This game is a mix between the famous Spanish game “Pasapalabra”, broadcast on television for years, and the original British comedy panel game show The Alphabet Game.",
-      "features": {
-        "feature_1": "When opening the game, the letters wheel and the game rules appear.",
-        "feature_2": "The game allows you to be customized with the user name and a masculine or feminine avatar.",
-        "feature_3": "The game happens against the clock, there are 150 seconds to end it.",
-        "feature_4":"For every letter, a question is proposed while the current letter is blinking in the wheel.",
-        "feature_5": "If the answer is right, the letter turns green and a success audio is played. If not, it turns red and a failure audio is played.",
-        "feature_6": "It is possible to jump a question to come back in the next round.",
-        "feature_7": "The game can be canceled anytime.",
-        "feature_8": "Once the game is finished, it is possible to play again and check the score and ranking.",
-        "feature_9":"All the punctuations are placed on a ranking, showing the 10 betters."
-      },
-      "learned": {
-        "learned_1": "How to create a layout with SASS and convert it to CSS.",
-        "learned_2": "How to arrange elements around a circle with a SCSS mixin.",
-        "learned_3": "How to implement a fluid and responsive typography.",
-        "learned_4": "How to synchronize several effects with JavaScript and jQuery.",
-        "learned_5": "How to add audios with HTML and play them with JavaScript.",
-        "learned_6": "How to set a layout with absolute and relative positions.",
-        "learned_7": "How to take advantage of input(s) radio to allow the user to customize the game.",
-        "learned_8": "How to keep the code organized and separated following the MVC (model, view, controller)."
-      }
-    },
-    "project_9": {
-      "title": "2048 GAME",
-      "main": "2048 is a single-player sliding block puzzle game designed by Gabriele Cirulli. The game’s objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048. This project is a 2048 clone.",
-      "features": {
-        "feature_1": "Two random numbers between 2 and 4 are generated and placed randomly in the grid.",
-        "feature_2": "There is more probability to get a 2 than a 4.",
-        "feature_3": "With the keyboard arrows, you lead the direction which the tiles are going to join.",
-        "feature_4": "When two numbers are equal, the value is added to one of the tiles and empty the other. For example, if the direction selected is to the left, the left tile value will be the double and the right will be none. You play with powers of two.",
-        "feature_5": "Every time the player makes a movement, a sound is played and another random number is placed in a random place.",
-        "feature_6": "The game is over when there are no more empty spaces nor movements available.",
-        "feature_7": "If you achieve a 2048 number, you win!"
-      },
-      "learned": {
-        "learned_1": "How to understand the 2048 game dynamics.",
-        "learned_2": "How to create the logic of the game using JavaScript classes and prototypes.",
-        "learned_3": "How to separate the logic of the game from the JavaScript DOM operations.",
-        "learned_4": "How to create HTML elements and classes dynamically with JavaScript.",
-        "learned_5": "How to make logic code independent, working properly in the Browser console.",
-        "learned_6": "How to create a grid layout with absolute positions and floats."
-      }
-    },
-    "project_10": {
-      "title": "TO DO",
-      "main": "This task manager is my first project made with Bootstrap Classes and React. It's easy to add, delete or complete tasks that will remain sorted by date and time, showing always the nearest event first.",
-      "features": {
-        "feature_1": "There is a button to add a task that shows a form to fill.",
-        "feature_2": "In the form, only the title is required, if it is not filled, a message in red will appear.",
-        "feature_3": "When the form is validated, a to-do task is added on the left side.",
-        "feature_4": "The tasks are shown sorted by date and time.",
-        "feature_5": "The due date will appear blue if it is still in time, and red if the time is over. When the task is done, it will not have any color.",
-        "feature_6": "When a task is finished, you can mark it as done, and the task will move to the done side.",
-        "feature_7": "If a to-do task is checked as done by error, it is possible to revert the movement.",
-        "feature_8": "Other hand, every task can be deleted at every time.",
-        "feature_9": "When the page is reloaded, the current tasks will remain."
-      },
-      "learned": {
-        "learned_1": "How to build a project with Classes and Components in React.",
-        "learned_2": "How to import and export Modules in JavaScript.",
-        "learned_3": "How to validate data from a form.",
-        "learned_4": "How to generate unique identities with UUID.",
-        "learned_5": "How to manage the state dynamically.",
-        "learned_6": "How to pass properties between Components.",
-        "learned_7": "How to store data in LocalStorage and update the state.",
-        "learned_8": "How to document the App with PropTypes.",
-        "learned_9": "How to deploy the project to production in GitHub pages through a branch."
-      }
-    },
-    "project_11": {
-      "title": "EVENTS HUNTER",
-      "main": "In this page you can obtain information about events of several categories and places. You can save in ‘Favorites’ all the events you have liked the most. Project developed with React, layout applied with UIkit and data obtained from Eventbrite API.", 
-      "features": {
-        "feature_1": "The web allows searching events information with three optional criteria: the event name, the city, and the category which belongs.",
-        "feature_2": "The searcher finds matches in an external API (Eventbrite API).",
-        "feature_3": "The results are shown in an organized grid layout.",
-        "feature_4": "Every card event has a 'More information' button included to click in to open a new website with all the information about it.",
-        "feature_5": "There is an icon on the left top of every event to mark it as ‘favorite’.",
-        "feature_6": "The events are synchronized with the saved favorites when a new search is done showing a red heart.",
-        "feature_7": "‘Favorites’ keep saved even when the web page is closed or reloaded."
-      },
-      "learned": {
-        "learned_1": "How to obtain data from Eventbrite API and how to extend the default information.",
-        "learned_2": "How to generate layout with UIkit classes.",
-        "learned_3": "How to make queries to the API with NPM Axios.",
-        "learned_4": "How to build a ‘Favorites’ section and synchronize them with new searches.",
-        "learned_5": "How to save ‘Favorites’ data with LocalStorage."
-      }
-    },
-    "project_12": {
-      "title": "THE LIFT",
-      "main": "A traditional lift where multiple people could call it from any floor. The floor will pick the users up and drop them off in the selected floor. The aim of this project is to demonstrate the asynchrony of Node, and then translate it to the DOM.",
-      "features": {
-        "feature_1": "The user clicks on one floor to emulate a user calling the lift from that floor.",
-        "feature_2": "The program will ask for a name and floor destination. The lift will travel to the user's floor, pick him up and drop him off on the destination floor.",
-        "feature_3": "At the same time, other users are free to call the elevator. If it is on the way, the user will be picked up.",
-        "feature_4": "There is a section with information about the active and waiting passengers that actualized automatically with every action.",
-        "feature_5": "The last section logs a history of what's happening in every second because with the asynchrone it could be difficult to attend every detail."
-      },
-      "learned": {
-        "learned_1": "How to draw basic elements with CSS like a tree, a building, a sun, some clouds, etc.",
-        "learned_2": "How to animate an element to make it move side to side.",
-        "learned_3": "How to demonstrate the DOM and Node's asynchrony (due to the asynchrony, when the lift is managing several passengers at the same time, is processing more stuff in the same second, so in DOM, I could not fix that the elevator went faster)."
-      }
-    },
-    "project_13": {
-      "title": "SPOTIFY EXPRESS",
-      "main": "This is my first back-end project, made with Express.js. You can search on Spotify for artists and see their albums and play a 30 seconds preview of the available tracks.",
-      "features": {
-        "feature_1": "You can search On Spotify by artist.",
-        "feature_2": "Lots of artists that matched with your entered keyword will appear.",
-        "feature_3": "When selecting a specific artist, all his albums will appear.",
-        "feature_4": "And when a click is made on an album, all the tracks will be loaded and if it is available, it will be possible to play a 30 seconds preview of every track.",
-        "feature_5": "It is possible to come back to the homepage from any page to make a new search.",
-        "feature_6": "The data has been obtained from Spotify's official API."
-      },
-      "learned": {
-        "learned_1": "Server side rendering with Express and Handlebars.",
-        "learned_2": "How to create routes with the GET method.",
-        "learned_3": "How to Render different HTML with different routes.",
-        "learned_4": "How to keep my API keys secure with Dotenv.",
-        "learned_5": "Knowing when and how to use req.query and req.params.",
-        "learned_6": "How to read official API documentation.",
-        "learned_7": "How to deploy a back-end project with Heroku."
-      }
-    },
-    "project_14": {
-      "title": "FOUR IN A ROW",
-      "main": "Four in a Row is an online version of the classic two-player connection game. Every player starts with one color and plays by turns. When selecting a column, the piece will drop to the available place in bottom. The first who connects four pieces (vertically, horizontally or diagonally) before the rival, wins.",
-      "features": {
-        "feature_1": "The first screen shows the instructions and asks the user to play against the computer or against another user in the same computer.",
-        "feature_2": "When a user plays against a friend, the turns will switch in the same computer, so the two players must stay together.",
-        "feature_3": "When the user plays against the computer, the user starts playing and next, the computer will place a piece.",
-        "feature_4": "A message will be shown in case any player wins or a draw is made, finishing the game this way.",
-        "feature_5": "Anytime is possible to restart the game or exit to change the mode."
-      },
-      "learned": {
-        "learned_1": "How to develop logic with a multidimensional array.",
-        "learned_2": "How to utilize props and state properly in a React project.",
-        "learned_3": "How to create Routes with React Router.",
-        "learned_4": "How to create HTML elements dynamically linking to specific classes.",
-        "learned_5": "How to solve common React errors like 'use unique keys when render an element' or 'use ES6 syntax'.",
-        "learned_6": "How to deploy the project to production in Github pages configuring the routes.",
-        "learned_7": "How to add proptypes support to enforce some props.",
-        "learned_8": "How to add eslint support to help keep the code clean."
-      }
-    },
-    "project_15": {
-      "title": "DUCK STORE",
-      "main": "This project was developed within the Skylab Bootcamp in 3 different ways: with JavaScript Vanilla, with React, and with Express and Pug. Duck Store is an e-commerce SPA that brings information about rubber ducks. The user can also register, and login to access his account and select favorite restaurants that the app will save into 'Favorites' section.",
-      "features": {
-        "feature_1": "The user must have an account to enter the App.",
-        "feature_2": "The user can create an account, log in to enter the store and log out to exit.",
-        "feature_3": "The user can start a search in the store to look for rubber ducks.",
-        "feature_4": "To see a detail about one product, users can click on its picture.",
-        "feature_5": "If the user likes a product, it can be marked as favorite and all favorites can be consulted in a ‘Favorites’ section."
-      },
-      "learned": {
-        "learned_1": "How to create a login and register consuming an API used as a database.",
-        "learned_2": "How to make calls to an external API and show the results when a search is done.",
-        "learned_3": "How to create a Feedback component when an error happens.",
-        "learned_4": "How to create a ‘Favorites’ section.",
-        "learned_5": "How to separate the logic in different files.",
-        "learned_6": "Server side rendering with Pug.",
-        "learned_7": "Continuous code refactoring."
-      }
-    },
-    "project_16": {
-      "title": "EAT THE WORLD",
-      "main": "This project is the result of hard teamwork during a week, developed within Skylab Bootcamp. The app brings information about restaurants around the world when the user specifies a city and/or a type of food. The user can also register, access to his account and select favorite restaurants that the app will save into 'Favorites' section.",
-      "features": {
-        "feature_1": "The user can search for restaurants by introducing a city and/or a key-word like cuisine type or restaurant name, no matter if it is logged or not.",
-        "feature_2": "When clicking in a restaurant, it is possible to see its detail.",
-        "feature_3": "The user can create a new account in the ‘Register’ section.",
-        "feature_4": "Once registered, the user is redirected automatically to login.",
-        "feature_5": "Once logged in, the user has the option to check and uncheck restaurants as ‘Favorites’.",
-        "feature_6": "There is a ‘Favorites’ section to view the favorite’s collection.",
-        "feature_7": "The user can log in and log out from every place on the website.",
-        "feature_8": "When a login is made, the website remembers the last place where the user was and returns to it.",
-        "feature_9": "When a logout is made, the website forgets every data and comes back to landing."
-      },
-      "learned": {
-        "learned_1": "How to develop a project from 0 in a 3 members teamwork in a week.",
-        "learned_2": "How to join code with Git branches and Pull Requests.",
-        "learned_3": "How to create a timer in React.",
-        "learned_4": "How to create different features for authenticated and unauthenticated users.",
-        "learned_5": "How to document a project with UML.",
-        "learned_6": "How to access a blocked API from another country through a VPN.",
-        "learned_7": "How to separate the logic in files."
-      }
-    },
-    "project_17": {
-      "title": "WHEELY",
-      "main": "Wheely is an application born from a real need in driving schools. This tool pretends to make the daily job of booking a practice easier. This application allows the student to book a practice with any instructor in any available time thanks to a system of online reservations, notifications and reviews in real time that can be consulted by both teachers and students. This was the final project developed in Skylab Bootcamp in two and a half weeks and my first Full Stack project. The design is responsive but thought for mobile.",
-      "features": {
-        "feature_1": "Students:",
-        "feature_2": "Can book practices choosing instructor, date and time and receive an email as confirmation.",
-        "feature_3": "Can check their pending reservations and cancel them 24h in advance, receiving an email as confirmation.",
-        "feature_4": "Can check their finished practices and practices without feedback.",
-        "feature_5": "Can review their progression with the assessments of their teachers.",
-        "feature_6": "Can consult their personal data and modify their email.",
-        "feature_7": "Can consult their available credits to manage purchases.",
-        "feature_8": "ccount for testing: ana@ana.com // password: 123.",
-        "feature_9": "Instructors:",
-        "feature_10": "Can check their reservations and filter them by status.",
-        "feature_11": "Can write a feedback to the student when the practice is finished.",
-        "feature_12": "Can consult their personal data and modify their email.",
-        "feature_13": "Can check their weekly work schedule.",
-        "feature_14": "Account for testing: toni@toni.com // password: 123.",
-        "feature_15": "Admin:",
-        "feature_16":"Can consult and modify anyone’s personal data.",
-        "feature_17":"Can add credits to students.",
-        "feature_18":"Can register new users choosing the role.",
-        "feature_19":"Can manage and edit the instructor's schedule.",
-        "feature_20":"Can access all reservations.",
-        "feature_21":"Can view instructor's students and their progression."
-      },
-      "learned": {
-        "learned_1": "How to create my own API REST with my own endpoints.",
-        "learned_2": "How to develop the back-end with Express, MongoDB.",
-        "learned_3": "How to create schemas with Mongoose.",
-        "learned_4": "How to develop the front-end with React Hooks.", 
-        "learned_5": "How to test the back-end before developing the logic with Mocha and Chai.", 
-        "learned_6": "How to test the front-end before developing the logic with Jest.",
-        "learned_7": "Separation of concerns and responsibilities in different files. How to clean code.",
-        "learned_8": "How to send emails triggered by a specific action.",
-        "learned_9": "How to manage schedules and transform them in specific hours with Moment.js.",
-        "learned_10": "How to handle reservations and cancellations in real time.", 
-        "learned_11": "How to manage an application with 3 profiles with different permissions and behaviours.",
-        "learned_12": "Emulated payment service.",
-        "learned_13": "Responsive hamburger menu.",
-        "learned_14": "How to create technical and functional documentation.",
-        "learned_15": "Accomplish with the initial contract and manage expectations.",
-        "learned_16": "Stress control and prioritization.",
-        "learned_17": "How to expose the project in public.",
-        "learned_18": "How to deploy the back-end in Heroku.",
-        "learned_19": "How to deploy the front-end in GitHub pages.",
-        "learned_20": "How to connect back-end and front-end deployed."
-      }
-    },
-    "project_18": {
-      "title": "KASAZ",
-      "main": "Kasaz is a simple website to search for apartments. It is possible to search by location, price, square meters, number of bedrooms or bathrooms.",
-      "features": {
-        "feature_1": "The user can search for apartments and filter the search with some criteria:",
-        "feature_2": "-Location",
-        "feature_3": "-Minimum and maximum price",
-        "feature_4": "-Square meters",
-        "feature_5": "-Bedrooms",
-        "feature_6": "-Bathrooms"
-      },
-      "learned": {
-        "learned_1": "How to develop a Full Stack project in 4 days.",
-        "learned_2": "How to create API Rest and back-end with Express.js.",
-        "learned_3": "How to export and import the database in MongoDB with Compass and Terminal.",
-        "learned_4": "Testing front-end and back-end.",
-        "learned_5": "How to create documentation to run in local and test.",
-        "learned_6": "How to deploy the back-end in Heroku.",
-        "learned_7": "How to deploy the front-end in GitHub pages.",
-        "learned_8": "How to connect back-end and front-end deployed."
-      }
-    },
-    "project_19": {
-      "title": "GITHUB REPOSITORIES",
-      "main": "This front-end project brings information about GitHub repositories. there is a searcher where you can introduce a GitHub username and it returns a repositories list with access links, besides, some public data like the avatar, name or username is shown.",
-      "features": {
-        "feature_1": "Users can introduce a GitHub username and search all its public repositories.",
-        "feature_2": "Avatar, name and username is shown.",
-        "feature_3": "Every repository has a link that redirects to GitHub.",
-        "feature_4": "Every repository has information about stars and forks."
-      },
-      "learned": {
-        "learned_1": "Consuming GitHub API.",
-        "learned_2": "AJAX.",
-        "learned_3": "JavaScript Vanilla"
-      }
-    },
-    "project_20": {
-      "title": "KANBAN",
-      "main": "This Full Stack project reproduces a Kanban. Kanban is a visual system for managing work and tasks as it moves through a process. It is really easy to use because you only have to drag and drop the tasks to the correct column when they change the status. Just create an account and start working!",
-      "features": {
-        "feature_1": "This is a Full Stack project that manages its own database and API.",
-        "feature_2": "There is a users system, you need to create an account and login to start consuming the app.",
-        "feature_3": "Handle errors: if login or register is incorrect, an error appears.",
-        "feature_4": "Every user has 4 columns to manage tasks: TO DO, DOING, REVIEW and DONE.",
-        "feature_5": "When a task changes its state, it is easy to move forward to the next column dragging and dropping the task.",
-        "feature_6": "It is possible to organize tasks between the same column, changing the order with drag and drop.",
-        "feature_7": "There is a cross in every task to be deleted, if necessary.",
-        "feature_8": "Next time the user logs in on its account, it will still have all the tasks in the same place."
-      },
-      "learned": {
-        "learned_1": "How to implement drag and drop with React.",
-        "learned_2": "How to manage positions with drag and drop and persist changes in the database.",
-        "learned_3": "React Hooks (useRef, useEffect, useState).",
-        "learned_4": "Users system."
-      }
-    },
-    "project_21": {
-      "title": "CANVAS",
-      "main": "Business Model Canvas is a strategic management and lean startup template for developing new or documenting existing business models. It is a visual chart with elements describing a firm's or product's value proposition, infrastructure, customers and finances. It assists firms in aligning their activities by illustrating potential trade-offs.",
-      "features": {
-        "feature_1": "This is a Full Stack project that manages its own database  and API.",
-        "feature_2": "It is possible to add, edit and delete notes.",
-        "feature_3": "There is a hint clicking in the '?' of every section.",
-        "feature_4": "It is responsive so it is possible to run in whichever device."
-      },
-      "learned": {
-        "learned_1": "How to create a modal window in React.",
-        "learned_2": "Responsive layout with Grid and Flex."
-      }
-    },
-    "project_22": {
-      "title": "JUICE STORE",
-      "main": "Simple products CRUD developed to learn React Redux in the two versions, Thunk and Saga.",
-      "features": {
-        "feature_1": "The user can:",
-        "feature_2": "-Create products",
-        "feature_3": "-Read products",
-        "feature_4": "-Update products",
-        "feature_5": "-Delete products"
-      },
-      "learned": {
-        "learned_1": "How to manage React state with Redux.",
-        "learned_2": "How to control the asynchronous with the middleware Redux-thunk.",
-        "learned_3": "How to control the asynchronous with the middleware Redux-saga.",
-        "learned_4": "How to create easy modals with sweetalert2.",
-        "learned_5": "How to create a fake API Rest with JSON-Server."
-      }
-    },
-    "project_23": {
-      "title": "PARADISE HOTEL",
-      "main": "Paradise Hotel is a simple hotel website developed with server-side rendering with Gatsby. The only purpose of the project was to learn Gatsby and try to improve SEO and performance on a website.",
-      "features": {
-        "feature_1": "The website has a navbar to move between ‘Home’ and ‘About us’ sections.", 
-        "feature_2": "When clicking in every room, another page is opened showing the room in detail."
-      },
-      "learned": {
-        "learned_1": "How to build a website with Gatsby (server-side rendering).",
-        "learned_2": "How to make queries with GraphQL.",
-        "learned_3": "How to improve SEO.",
-        "learned_4": "How to create static pages dynamically with Gatsby-node, retrieving data from a CMS.",
-        "learned_5": "How to store data in a CMS (DatoCMS).",
-        "learned_6": "How to align the footer always at the bottom with Grid.",
-        "learned_7": "How to deploy an application to Netlify.",
-        "learned_8": "How to analyze and audit performance and SEO."
-      }
+      "title": "Passions",
+      "section_1": "A part de la programació, procuro seguir un estil de vida saludable: presto molta atenció al que menjo i faig exercici amb freqüència. A més, m'encanta ballar, fins al punt d'haver format part d'una companyia de ball de salsa amateur."
     }
   },
   "contact": {
-    "title":"Contact"
+    "title": "CONTACTE"
   },
   "confirmation": {
+    "url": "confirmacio",
     "title": "Gràcies!",
     "message_1": "El teu missatge s'ha enviat correctament.",
-    "message_2": "Contactaré amb tú aviat!",
-    "button_back": "Enradera"
+    "message_2": "Em posaré en contacte amb tu al més aviat possible!",
+    "button_back": "Tornar enrere"
   },
   "form": {
-    "name": "Name",
-    "email": "Email",
-    "message": "Your message",
-    "name_error": "Name is required",
-    "email_error": "Email is required",
-    "message_error": "Message is required",
-    "submit_button": "Send message",
-    "clear_button": "Clear"
+    "name": "Nom",
+    "email": "Correu electrònic",
+    "message": "El teu missatge",
+    "name_error": "El nom és obligatori",
+    "email_error": "El correu electrònic és obligatori",
+    "message_error": "El missatge és obligatori",
+    "submit_button": "Enviar",
+    "clear_button": "Esborrar"
+  },
+  "projects": {
+    "title": "PROJECTES",
+    "all": "TOTS",
+    "demo": "Demo",
+    "source_code": "Codi font",
+    "view": "Veure demo",
+    "features": "Característiques",
+    "learned": "Què he après",
+    "technologies": "Tecnologies",
+    "project_1": {
+      "url": "ca/calculadora",
+      "title": "Calculadora",
+      "main": "En aquest projecte he desenvolupat una calculadora que realitza operacions matemàtiques senzilles.",
+      "features": {
+        "feature_1": "Realitza operacions bàsiques com suma, resta, multiplicació i divisió.",
+        "feature_2": "Permet operacions amb parèntesis, nombres enters i decimals.",
+        "feature_3": "Disposa de funció d'esborrat i de reinici.",
+        "feature_4": "Pot acumular resultats per a la següent operació.",
+        "feature_5": "Disposa d'una pantalla informativa en cas d'accions o errors.",
+        "feature_6": "Si l'expressió és massa llarga, la grandària de la lletra de la pantalla es fa petita.",
+        "feature_7": "Està habilitat per a funcionar tant amb el ratolí com amb el teclat."
+      },
+      "learned": {
+        "learned_1": "A desenvolupar lògica operacional.",
+        "learned_2": "A crear estructures de quadrícula amb CSS Grid.",
+        "learned_3": "A accedir i manipular el DOM amb JavaScript Vanilla.",
+        "learned_4": "A aplicar esdeveniments de ratolí i de teclat.",
+        "learned_5": "A crear efectes visuals amb pseudo-classes com \"hover\" y \"active\"."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_2": {
+      "url": "ca/escapa-de-la-mort",
+      "title": "Escapa de la mort",
+      "main": "Aquest és un joc d'horror en el qual el protagonista i el seu amic han estat segrestats. L'objectiu és rescatar a l'amic i aconseguir escapar junts abans que l'assassí els trobi.",
+      "features": {
+        "feature_1": "Els elements darrere les portes són: amic, assassí i sortida.",
+        "feature_2": "Els personatges es col·loquen aleatòriament en cada partida.",
+        "feature_3": "És necessari trobar primer a l'amic per tal de poder escapar, no serà possible sortir sense ell encara que es trobi la sortida.",
+        "feature_4": "Segons el joc avança, apareixen missatges que guien la història.",
+        "feature_5": "Topar-se amb l'assassí significa perdre el joc."
+      },
+      "learned": {
+        "learned_1": "A importar fonts externes.",
+        "learned_2": "A manipular imatges i a crear composicions amb GIMP.",
+        "learned_3": "A renderitzar condicionalment elements amb JavaScript.",
+        "learned_4": "A afegir sons en el DOM."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_3": {
+      "url": "ca/pagina-personal",
+      "title": "Pàgina personal",
+      "main": "Aquest projecte és la meva primera pàgina web personal, creada amb la finalitat de disposar d'un espai on poder parlar una mica sobre mi i exposar els meus projectes.",
+      "features": {
+        "feature_1": "Està formada per quatre seccions:inici, sobre mi, projectes i contacte.",
+        "feature_2": "La pàgina \"Sobre mi\" conté una imatge meva, així com la meva biografia.",
+        "feature_3": "Des de \"Projectes\" es pot accedir a tots els meus projectes disponibles.",
+        "feature_4": "La pàgina \"Contacte\" té enllaços a Linkedin, Github i el meu correu electrònic.",
+        "feature_5": "És responsiva, es pot visualitzar des de qualsevol dispositiu."
+      },
+      "learned": {
+        "learned_1": "A utilitzar Bootstrap, una llibreria responsiva de CSS.",
+        "learned_2": "A utilitzar Animate.css, una llibreria d'animacions avançades.",
+        "learned_3": "A centrar elements tant en vertical com en horitzontal amb CSS.",
+        "learned_4": "A crear diverses pàgines interconnectades amb enllaços.",
+        "learned_5": "A aplicar media queries a fi de crear una pàgina responsiva prioritzant els dispositius mòbils.",
+        "learned_6": "A utilitzar Git amb Github.",
+        "learned_7": "A crear un fitxer README amb Markdown.",
+        "learned_8": "A realitzar desplegaments de front-end en pàgines de Github."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS-Boostrap",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_4": {
+      "url": "ca/joc-matematic",
+      "title": "Joc matemàtic",
+      "main": "Aquesta és una versió alternativa al joc original \"10 Seconds Math\", creat per Michael Jakob amb el fi de desafiar les habilitats matemàtiques d'una persona a contrarellotge. En aquesta versió, el temps afegit per resposta correcta no són 10 segons, sinó que varia depenent de la dificultat.",
+      "features": {
+        "feature_1": "L'usuari pot configurar la dificultat del joc, mitjançant la limitació d'operacions o les xifres màximes de cada número.",
+        "feature_2": "El joc comença amb 10 segons per a respondre a la primera pregunta.",
+        "feature_3": "Cada resposta correcta suma segons en funció de la dificultat (4 punts per cada divisió, 3 per cada multiplicació, 2 per resta i 1 per suma).",
+        "feature_4": "És necessari respondre correctament per tal de poder continuar.",
+        "feature_5": "El joc acaba quan s'esgota el temps."
+      },
+      "learned": {
+        "learned_1": "A executar el projecte a un servidor local de Node (Serve).",
+        "learned_2": "A importar sons d'una llibreria externa i a sincronitzar-los amb el DOM.",
+        "learned_3": "A utilitzar funcions asíncrones i \"callbacks\".",
+        "learned_4": "A reescriure el contingut de manera dinàmica en una sola pàgina (SPA).",
+        "learned_5": "A afegir estils amb les pseudo-classes \"before\" i \"hover\".",
+        "learned_6": "A crear un fitxer \"gitignore\" per a protegir altres fitxers.",
+        "learned_7": "A crear un fitxer JSON amb la configuració del projecte."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_5": {
+      "url": "ca/joc-de-parelles",
+      "title": "Joc de parelles",
+      "main": "Joc de parelles és un joc tradicional de memòria. Per a guanyar, es necessita recordar la posició de cada carta i aparellar-la amb la que és igual.",
+      "features": {
+        "feature_1": "Darrere de cada cofre es col·loquen aleatòriament els personatges.",
+        "feature_2": "El jugador ha d'obrir dos cofres buscant que siguin iguals.",
+        "feature_3": "Si els dos personatges són diferents, els cofres es tornaran a tancar i se sumarà una fallada.",
+        "feature_4": "Si els dos personatges són iguals, romandran visibles i se sumarà un encert.",
+        "feature_5": "La finalitat del joc és aconseguir aparellar tots els personatges.",
+        "feature_6": "El comptador mostra el nombre d'encerts i fallades durant el joc.",
+        "feature_7": "Al final del joc apareix un resum dels resultats."
+      },
+      "learned": {
+        "learned_1": "A manipular el DOM amb jQuery.",
+        "learned_2": "A entendre la lògica que hi ha darrere un joc de parelles.",
+        "learned_3": "A separar el codi en diferents fitxers per a mantenir un ordre."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: JavaScript (ES6) amb jQuery, HTML, CSS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_6": {
+      "url": "ca/estructura-de-dades",
+      "title": "Estructura de dades",
+      "main": "Les piles i les cues són dos tipus d'estructura de dades lineal que podem trobar amb facilitat en la vida real. En aquest projecte, mostro ambdós models en una representació gràfica i dinàmica.",
+      "features": {
+        "feature_1": "Pila (stack)",
+        "feature_2": "Cada cop que s'afegeix un element, es col·loca damunt de l'anterior.",
+        "feature_3": "L'últim element que ha s'ha afegit, és el que surt.",
+        "feature_4": "Es coneix com a LIFO (en anglès «últim a entrar, primer a sortir»).",
+        "feature_5": "Podem comparar el concepte amb una pila de llibres o de plats.",
+        "feature_6": "Cola (queue)",
+        "feature_7": "Els elements es col·loquen en ordre d'arribada.",
+        "feature_8": "El primer element que s'ha afegit, és el que surt.",
+        "feature_9": "Es coneix com a FIFO (en anglès «primer a entrar, primer a sortir»).",
+        "feature_10": "Podem comparar el concepte amb una cola de supermercat."
+      },
+      "learned": {
+        "learned_1": "A practicar la programació orientada a objectes amb el mètode constructor.",
+        "learned_2": "A entendre la teoria i la lògica darrere els conceptes FIFO i LIFO."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_7": {
+      "url": "ca/passa-paraula",
+      "title": "Passa paraula",
+      "main": "Aquest joc és una versió del famós joc espanyol \"Pasapalabra\", en el qual el concursant ha d'encertar una pregunta per cada lletra de l'alfabet en un temps determinat.",
+      "features": {
+        "feature_1": "La partida es pot personalitzar escollint un avatar femení o masculí.",
+        "feature_2": "El joc transcorre a contrarellotge, es disposa únicament de 150 segons.",
+        "feature_3": "Apareix una pregunta per cada lletra i s'ha de contestar al més ràpid possible.",
+        "feature_4": "Si la resposta és correcta, la lletra deixa de parpellejar, es torna verda i s'emet un so d'encert; en cas contrari, es torna vermella i s'emet un so de fallada.",
+        "feature_5": "És possible passar a una altra pregunta i tornar després per a contestar-la.",
+        "feature_6": "El joc pot ser cancel·lat en qualsevol moment.",
+        "feature_7": "Quan acaba el joc, es mostra la puntuació i apareix l'opció de tornar a jugar o de veure el rànquing.",
+        "feature_8": "El rànquing mostra els 10 últims millors resultats."
+      },
+      "learned": {
+        "learned_1": "A utilitzar SASS i a convertir-lo en CSS.",
+        "learned_2": "A construir i emprar mixins amb SCSS per a utilitzar funcions.",
+        "learned_3": "A implementar tipografia fluida i responsiva.",
+        "learned_4": "A sincronitzar esdeveniments del DOM amb jQuery.",
+        "learned_5": "A alinear elements amb la combinació de posicions absolutes i relatives.",
+        "learned_6": "A organitzar i a separar el codi seguint el MVC (model, vista, controlador)."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: JavaScript (ES6) amb jQuery, HTML, CSS-SASS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_8": {
+      "url": "ca/joc-2048",
+      "title": "Joc 2048",
+      "main": "2048 és un joc de blocs lliscants per a només un jugador, dissenyat originalment per Gabriele Cirulli. L'objectiu del joc és lliscar blocs numerats en una quadrícula per a combinar-los, sumant els seus valors fins a obtenir un únic bloc amb el número 2048.",
+      "features": {
+        "feature_1": "Al principi es generen dos blocs amb valor de 2 o 4 de manera aleatòria.",
+        "feature_2": "Hi ha més probabilitat que aparegui un 2 que un 4.",
+        "feature_3": "El joc es controla amb les fletxes del teclat, amb les quals s'indica cap a on s'uniran els blocs.",
+        "feature_4": "A l'hora de desplaçar-se, si dos números iguals coincideixen, se sumaran formant un sol bloc amb el doble de valor.",
+        "feature_5": "Cada cop que es fa un moviment, apareix un bloc aleatori nou.",
+        "feature_6": "El joc finalitza quan s'aconsegueix el 2048 o quan no quedi espai disponible."
+      },
+      "learned": {
+        "learned_1": "A entendre la lògica i la dinàmica darrere el joc.",
+        "learned_2": "A desenvolupar la lògica amb classes i prototips de JavaScript.",
+        "learned_3": "A separar la lògica pròpia del joc de la del DOM.",
+        "learned_4": "A crear elements d'HTML i classes de manera dinàmica."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_9": {
+      "url": "ca/gestor-de-tasques",
+      "title": "Gestor de tasques",
+      "main": "Aquest és el meu primer projecte desenvolupat amb React. Es tracta d'un gestor de tasques senzill en el qual es poden afegir funcions avançades com ara la prioritat o la data i l'hora de la tasca.",
+      "features": {
+        "feature_1": "Es poden afegir tasques noves mitjançant un formulari.",
+        "feature_2": "A més del títol i la descripció de la tasca, es pot afegir la prioritat, la data i l'hora.",
+        "feature_3": "Les tasques s'ordenen per temps i es poden eliminar en qualsevol moment.",
+        "feature_4": "La data de venciment és de color blau si segueix en vigor, de color vermell en cas contrari.Si la tasca ja està realitzada, no tindrà color.",
+        "feature_5": "Quan una tasca es marca com a realitzada, es desplaça cap a la zona de tasques realitzades.",
+        "feature_6": "En cas d'haver marcat una tasca com a realitzada per error, és possible revertir el moviment.",
+        "feature_7": "Les tasques no s'eliminaran quan es recarregui la pàgina."
+      },
+      "learned": {
+        "learned_1": "A construir un projecte de React amb components de classes.",
+        "learned_2": "A importar i a exportar mòduls en React.",
+        "learned_3": "A validar formularis.",
+        "learned_4": "A generar identificadors únics amb UUID.",
+        "learned_5": "A controlar l'estat i a passar propietats entre components.",
+        "learned_6": "A utilitzar LocalStorage per a la permanència de dades.",
+        "learned_7": "A especificar els tipus de les propietats amb PropTypes."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React (JavaScript), CSS-Bootstrap",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_10": {
+      "url": "ca/caçador-d-esdeveniments",
+      "title": "Caçador d'esdeveniments",
+      "main": "En aquesta pàgina web es pot obtenir informació sobre esdeveniments de diferents categories i llocs. A més, conté una secció de favorits perquè l'usuari pugui guardar-se els que més li agradin i consultar-los més tard.",
+      "features": {
+        "feature_1": "Es poden efectuar cerques per nom d'esdeveniment, ciutat o categoria.",
+        "feature_2": "Cada esdeveniment disposa d'un enllaç a la pàgina web d'Eventbrite per a veure els detalls o comprar entrades.",
+        "feature_3": "Els esdeveniments es poden guardar en favorits i consultar-los després.",
+        "feature_4": "Els esdeveniments favorits se sincronitzen amb qualsevol llistat d'esdeveniments, on apareixen diferenciats amb un cor vermell.",
+        "feature_5": "La secció de favorits romandrà tot i reiniciar la pàgina."
+      },
+      "learned": {
+        "learned_1": "A obtenir dades d'una API com Eventbrite.",
+        "learned_2": "A donar estils a la pàgina amb UIKit.",
+        "learned_3": "A cridar a l'API amb Axios.",
+        "learned_4": "A sincronitzar els favorits amb les noves cerques i guardar-los en LocalStorage."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React (JavaScript), CSS-UIKit",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_11": {
+      "url": "ca/l-ascensor",
+      "title": "L'ascensor",
+      "main": "Un ascensor tradicional que cada persona pot cridar des de la planta en la qual es trobi. Aquest recordarà els pisos en els quals ha de parar a recollir i a deixar passatgers.",
+      "features": {
+        "feature_1": "L'usuari fa clic en una de les plantes, que emula trobar-se allà quan prem el botó de l'ascensor.",
+        "feature_2": "El programa pregunta pel nom del passatger i la planta de destí.",
+        "feature_3": "Al mateix temps, altres usuaris poden cridar l'ascensor, que aprofitarà els viatges per a recollir-los.",
+        "feature_4": "L'ascensor anirà deixant als passatgers en les seves destinacions segons la proximitat a la destinació inicial, a més de recollir als nous que es trobin en el camí.",
+        "feature_5": "Es mostra un registre de tota l'activitat realitzada en l'ascensor."
+      },
+      "learned": {
+        "learned_1": "A dibuixar elements senzills amb CSS (núvols, sol, arbres, ascensor).",
+        "learned_2": "A aplicar animacions de moviment als elements.",
+        "learned_3": "A demostrar l'asincronia de Node.js."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: JavaScript, HTML, CSS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_12": {
+      "url": "ca/spotify-express",
+      "title": "Spotify Express",
+      "main": "Aquest projecte utilitza l'API de Spotify per a crear un cercador d'artistes en el qual es pot veure informació dels seus àlbums i fins i tot escoltar avançament de les seves cançons.",
+      "features": {
+        "feature_1": "Les cerques es fan per autor.",
+        "feature_2": "Quan se selecciona un artista, és possible veure tots els seus àlbums.",
+        "feature_3": "A cada àlbum, apareixen les cançons que el componen i avançament de 30 segons de cadascuna.",
+        "feature_4": "És possible tornar a l'inici des de qualsevol part de la pàgina web."
+      },
+      "learned": {
+        "learned_1": "A renderitzar una pàgina des de la part del servidor amb Express i Handlebars.",
+        "learned_2": "A emmagatzemar dades secretes com les claus de l'API en un document segur amb Dotenv.",
+        "learned_3": "A llegir i entendre documentació oficial de l'API.",
+        "learned_4": "A desplegar un projecte de back-end amb Heroku."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: Node amb Express i Handlebars, CSS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_13": {
+      "url": "ca/connecta-4",
+      "title": "Connecta 4",
+      "main": "Joc en línia del clàssic Connecta 4 on un jugador s'enfronta un altre per torns i la finalitat és aconseguir formar una línia recta combinant quatre fitxes seguides abans que el rival.",
+      "features": {
+        "feature_1": "El joc permet dues modalitats de joc:jugador contra jugador o jugador contra màquina.",
+        "feature_2": "Quan es juga contra un altre jugador, els torns s'alternen en el mateix ordinador, així doncs és necessari que els jugadors es trobin físicament un al costat de l'altre.",
+        "feature_3": "Quan es juga contra la màquina, el primer a començar serà el jugador, posteriorment, la màquina farà la seva jugada.",
+        "feature_4": "El joc termina quan no es poden realitzar més moviments o quan un dels dos jugadors ha aconseguit fer quatre en línia (horitzontal, vertical o diagonal).",
+        "feature_5": "És possible reiniciar el joc o sortir en qualsevol moment."
+      },
+      "learned": {
+        "learned_1": "A controlar lògica de matrius multidimensionals.",
+        "learned_2": "A reproduir una intel·ligència artificial senzilla.",
+        "learned_3": "A crear rutes amb React Router.",
+        "learned_4": "A mantindre el codi net i uniforme amb Eslint."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React (JavaScript), CSS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_14": {
+      "url": "ca/botiga-d-anecs",
+      "title": "Botiga d'ànecs",
+      "main": "Botiga d'ànecs és un comerç electrònic SPA que presenta informació sobre ànecs de goma.Aquest projecte va ser desenvolupat durant el Bootcamp de Skylab de 3 maneres diferents fent èmfasis en la refacció contínua.",
+      "features": {
+        "feature_1": "És necessari disposar d'un compte per a accedir a la botiga.",
+        "feature_2": "Les funcionalitats de registre i d'inici de sessió estan incloses.",
+        "feature_3": "A l'hora de fer una cerca, apareixeran tots els ànecs que coincideixin amb el criteri.",
+        "feature_4": "Es pot veure més detall de qualsevol producte prement en la imatge.",
+        "feature_5": "Existeix un apartat de favorits per a guardar els productes seleccionats."
+      },
+      "learned": {
+        "learned_1": "A refaccionar codi de manera contínua.",
+        "learned_2": "A desenvolupar un inici de sessió i un registre consumint una API que juga el paper de base de dades.",
+        "learned_3": "A tractar errors mitjançant components.",
+        "learned_4": "A separar la lògica segons responsabilitats.",
+        "learned_5": "A renderitzar l'aplicació des de la part del servidor amb Express i Pug."
+      },
+      "technologies": {
+        "technologies_1": "Front-end 1: Node amb Express i Pug,CSS-SASS",
+        "technologies_2": "Front-end 2: React (JavaScript), CSS-SASS",
+        "technologies_3": "Front-end 3: JavaScript, HTML, CSS-SASS",
+        "technologies_4": "Back-end: -"
+      }
+    },
+    "project_15": {
+      "url": "ca/menja-t-el-mon",
+      "title": "Menja't el món",
+      "main": "Aquest projecte és un projecte fet en grup durant el Bootcamp de Skylab. L'aplicació mostra informació sobre restaurants de diferents categories en diferents parts del món. A causa d'un bloqueig d'accés inesperat  a Espanya, és necessari accedir-hi mitjançant una VPN des d'un altre país (Estats Units, per exemple).",
+      "features": {
+        "feature_1": "L'usuari cercar per ciutat i/o tipus de cuina o nom del restaurant sense necessitat d'haver iniciat sessió.",
+        "feature_2": "Es pot veure més detall de cada restaurant prement en la imatge.",
+        "feature_3": "La funcionalitat de guardar favorits només està disponible per a usuaris registrats.",
+        "feature_4": "Quan l'usuari inicia sessió, la pàgina web recorda l'últim lloc on estava navegant.",
+        "feature_5": "En sortir del compte, s'esborra qualsevol dada guardada excepte els favorits."
+      },
+      "learned": {
+        "learned_1": "A treballar en un equip de 3 persones.",
+        "learned_2": "A tractar bifurcacions i sol·licituds (Pull Requests) de Github.",
+        "learned_3": "A crear un temporitzador amb React.",
+        "learned_4": "A afegir funcionalitats addicionals només per a usuaris registrats.",
+        "learned_5": "A documentar un projecte amb UML.",
+        "learned_6": "A accedir a una API amb limitacions per país mitjançant una VPN."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React (JavaScript), CSS-SASS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_16": {
+      "url": "ca/wheely",
+      "title": "Wheely",
+      "main": "Aquest és el meu projecte final i el primer projecte Full Stack, produït en el Bootcamp de Skylab.La idea neix d'una necessitat real en les autoescoles d'agilitzar la tasca de reserves de pràctiques. Tant alumne com professor poden fer la gestió 100% en línia, a més d'un seguiment de l'alumne, control de crèdits disponibles, etc.",
+      "features": {
+        "feature_1": "Estudiants, professors i personal d'administració disposen de comptes amb funcionalitats diferents.",
+        "feature_2": "Estudiant:",
+        "feature_3": "Pot consultar i modificar les seves dades personals així com els crèdits dels que disposa.",
+        "feature_4": "Pot reservar pràctiques amb qualsevol professor, dia i hora.",
+        "feature_5": "Pot cancel·lar una reserva amb 24 hores d'antelació.",
+        "feature_6": "Tant professor com alumne, reben un correu electrònic de confirmació amb cada reserva o cancel·lació de pràctica.",
+        "feature_7": "Pot consultar les seves reserves pendents i les pràctiques realitzades.",
+        "feature_8": "Pot considerar la seva progressió amb les valoracions dels professors.",
+        "feature_9": "Compte per a proves: ana@ana.com // contrasenya: 123.",
+        "feature_10": "Professor:",
+        "feature_11": "Pot consultar i modificar les seves dades personals.",
+        "feature_12": "Pot consultar i filtrar les seves reserves.",
+        "feature_13": "Un cop finalitzada la pràctica, el professor emet una avaluació de l'alumne.",
+        "feature_14": "Pot consultar però no modificar el seu horari de treball.",
+        "feature_15": "Compte per a proves: toni@toni.com // contrasenya: 123.",
+        "feature_16": "Administrador:",
+        "feature_17": "Pot afegir, modificar, consultar i eliminar qualsevol usuari.",
+        "feature_18": "Pot agregar crèdits als alumnes.",
+        "feature_19": "Pot gestionar i editar l'horari laboral de cada professor.",
+        "feature_20": "Pot accedir a totes les reserves realitzades.",
+        "feature_21": "Pot veure la progressió de cadascun dels alumnes."
+      },
+      "learned": {
+        "learned_1": "A desenvolupar un back-end amb Node Express",
+        "learned_2": "A afegir totes les rutes a un encaminador.",
+        "learned_3": "A vincular una base de dades amb MongoDB i a esquematitzar-la amb Mongoose.",
+        "learned_4": "A utilitzar React Hooks en el front-end.",
+        "learned_5": "A efectuar TDD tests al back-end amb Mocha Chai i al front-end amb Jest.",
+        "learned_6": "A enviar correus electrònics emprant la llibreria Nodemailer.",
+        "learned_7": "A tractar reserves, cancel·lacions i calendaris a temps real amb Moment.",
+        "learned_8": "A emular un servei de pagament amb crèdits.",
+        "learned_9": "A mostrar un menú d'hamburguesa en dispositius mòbils.",
+        "learned_10": "A connectar el front-end amb el back-end desplegats en producció.",
+        "learned_11": "A redactar documentació tècnica i funcional.",
+        "learned_12": "A complir amb el contracte, dates de lliurament (2 setmanes i mitja), manejar expectatives, control de l'estrès i priorització.",
+        "learned_13": "A exposar el projecte en públic."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, Mocha Chai",
+        "technologies_2": "Back-end: Node amb Express, MongoDB, test amb Jest"
+      }
+    },
+    "project_17": {
+      "url": "ca/kasaz",
+      "title": "Kasaz",
+      "main": "Kasaz és una immobiliària en línia on es poden buscar apartaments mitjançant la personalització dels criteris de cerca.",
+      "features": {
+        "feature_1": "L'usuari pot buscar apartaments filtrant segons combinacions dels criteris següents:",
+        "feature_2": "- Localització.",
+        "feature_3": "- Preu mínim i/o màxim.",
+        "feature_4": "- Metres quadrats.",
+        "feature_5": "- Habitacions.",
+        "feature_6": "- Lavabos."
+      },
+      "learned": {
+        "learned_1": "A desenvolupar un projecte Full Stack en un termini de 4 dies.",
+        "learned_2": "A importar i a exportar la base de dades de MongoDB amb Compass i Terminal.",
+        "learned_3": "A importar carpetes com a mòduls de NPM.",
+        "learned_4": "A redactar instruccions per a executar el projecte en local i testejar-lo.",
+        "learned_5": "A combinar la lògica de filtres múltiples."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, test Mocha Chai",
+        "technologies_2": "Back-end: Node amb Express, MongoDB, test amb Jest"
+      }
+    },
+    "project_18": {
+      "url": "ca/repositoris-de-github",
+      "title": "Repositoris de GitHub",
+      "main": "Aquest projecte presenta informació sobre els repositoris i les dades públiques de qualsevol usuari de GitHub.",
+      "features": {
+        "feature_1": "Quan s'introdueix un nom d'usuari de GitHub, es mostren les següents dades de l'usuari:",
+        "feature_2": "- Avatar, nom i cognom, nom d'usuari i descripció.",
+        "feature_3": "- Un llistat de tots els repositoris públics",
+        "feature_4": "- Enllaços a GitHub de cada repositori.",
+        "feature_5": "- Stars i forks."
+      },
+      "learned": {
+        "learned_1": "A consumir l'API de GitHub i a entendre la documentació oficial.",
+        "learned_2": "A efectuar crides a l'API amb AJAX."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: JavaScript Vanilla, HTML, CSS-SASS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_19": {
+      "url": "ca/kanban",
+      "title": "Kanban",
+      "main": "El següent projecte Full Stack reprodueix un Kanban. Kanban és un sistema visual per a gestionar el treball i les tasques a mesura que avança en un procés. És realment fàcil d'utilitzar perquè les tasques només s'han d'arrossegar i deixar anar en la columna desitjada.",
+      "features": {
+        "feature_1": "Funciona per mitjà d'un sistema d'usuaris, és necessari estar registrat per a poder accedir.",
+        "feature_2": "Cada usuari disposa de 4 columnes al seu compte per tal de gestionar les tasques: pendents, en curs, per a revisar i fetes.",
+        "feature_3": "Per a canviar d'estat una tasca, és tan senzill com arrossegar-la a la columna que desitjada.",
+        "feature_4": "També és possible ordenar les tasques dins la mateixa columna.",
+        "feature_5": "Cada tasca es pot esborrar de manera individual.",
+        "feature_6": "La columna de tasques fetes conté una funció de buidatge per a eliminar-les totes alhora."
+      },
+      "learned": {
+        "learned_1": "A implementar Drag and Drop amb React.",
+        "learned_2": "A emprar funcions avançades de React Hooks (useRef, useEffect, useState).",
+        "learned_3": "A crear un sistema d'usuaris."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS",
+        "technologies_2": "Back-end: Node amb Express, MongoDB"
+      }
+    },
+    "project_20": {
+      "url": "ca/canvas",
+      "title": "Canvas",
+      "main": "Canvas és una plantilla de gestió estratègica empresarial per a documentar models de negoci. És un quadre visual amb elements que descriuen la proposta de valor, infraestructura, clients i finances d'una empresa o producte.",
+      "features": {
+        "feature_1": "És emprat en la gestió estratègica empresarial per a documentar models de negoci.",
+        "feature_2": "És un CRUD:es pot afegir, editar, consultar i esborrar notes.",
+        "feature_3": "Es pot veure una explicació de cada secció fent clic en el \"?\" de la part superior.",
+        "feature_4": "Disposa d'un disseny responsiu, és compatible amb la mida de tots els dispositius.",
+        "feature_5": "El disseny és adaptable, cada contenidor s'adapta al seu contingut."
+      },
+      "learned": {
+        "learned_1": "A crear finestres modals amb React.",
+        "learned_2": "A maquetar de manera totalment responsiva amb una combinació de Grid i Flex.",
+        "learned_3": "A entendre la utilitat i el funcionament del model de negoci Canvas."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, test Mocha Chai",
+        "technologies_2": "Back-end: Node amb Express, MongoDB, test amb Jest"
+      }
+    },
+    "project_21": {
+      "url": "ca/botiga-de-sucs",
+      "title": "Botiga de sucs",
+      "main": "El següent projecte és una simulació d'una botiga de sucs. La finalitat ha estat aprendre React Redux amb Sagas i Thunks.",
+      "features": {
+        "feature_1": "Es tracta d'un CRUD, l'usuari pot:",
+        "feature_2": "- Crear productes.",
+        "feature_3": "- Consultar productes.",
+        "feature_4": "- Modificar productes.",
+        "feature_5": "- Eliminar productes."
+      },
+      "learned": {
+        "learned_1": "A tractar l'estat de manera global amb React Redux.",
+        "learned_2": "A controlar l'asincronia de Redux amb els middlewares Redux-thunk i Redux-saga.",
+        "learned_3": "A mostrar finestres d'alerta de manera senzilla amb Sweetalert2.",
+        "learned_4": "A emular un back-end amb una API REST falsa amb JSON-Server."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React Hooks Redux (JavaScript), CSS-SASS",
+        "technologies_2": "Back-end: Emulat amb JSON-Server"
+      }
+    },
+    "project_22": {
+      "url": "ca/hotel-paradis",
+      "title": "Hotel Paradís",
+      "main": "Hotel Paradís és un exemple de pàgines corporatives per a hotels on es presenta informació de l'hotel i detall de les habitacions.",
+      "features": {
+        "feature_1": "La pàgina disposa d'una barra de navegació amb les diferents seccions a mostrar.",
+        "feature_2": "Si es prem en una habitació, s'obre una altra pàgina amb el detall d'aquesta."
+      },
+      "learned": {
+        "learned_1": "A crear una pàgina web renderitzada des del servidor amb Gatsby.",
+        "learned_2": "A realitzar consultes amb GraphQL per mitjà d'una sola crida a l'API.",
+        "learned_3": "A implementar CSS dins del component amb Styled-components.",
+        "learned_4": "A millorar el SEO.",
+        "learned_5": "A utilitzar un CMS per a emmagatzemar i consultar informació de la pàgina amb DatoCMS.",
+        "learned_6": "A desplegar l'aplicació en Netlify.",
+        "learned_7": "Com analitzar i realitzar una auditoria del rendiment i el SEO de la pàgina."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: Gatsby amb React (JavaScript), GraphQL, CSS-styled-components, DatoCMS",
+        "technologies_2": "Back-end: -"
+      }
+    },
+    "project_23": {
+      "url": "ca/portafolis-multillenguatge",
+      "title": "Portafolis multillenguatge",
+      "main": "Aquesta pàgina web personal ha estat desenvolupada expressament per a col·laborar en el treball de fi de grau de la meva germana sobre traduccions tecnològiques.",
+      "features": {
+        "feature_1": "La pàgina és multillenguatge:anglès, castellà, català i alemany.",
+        "feature_2": "Traduccions a càrrec de la traductora Yolanda Moreno.",
+        "feature_3": "El disseny inicial es basa en una sola pàgina en la qual es mostra la meva biografia, els meus projectes i dades de contacte.",
+        "feature_4": "Al final de la pàgina s'inclou un formulari que permet enviar-me un missatge.",
+        "feature_5": "Es pot veure el detall de cada projecte fent-hi clic."
+      },
+      "learned": {
+        "learned_1": "A preparar un projecte per a ser traduït en quatre idiomes.",
+        "learned_2": "A generar pàgines de manera dinàmica per mitjà d'una plantilla.",
+        "learned_3": "A desenvolupar la lògica i estils d'un carrusel de múltiples elements.",
+        "learned_4": "A afegir un formulari vinculat a un back-end per a enviar correus electrònics."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: Gatsby amb React (JavaScript), GraphQL, CSS-SASS",
+        "technologies_2": "Back-end: Node amb Express"
+      }
+    }
   }
 }

@@ -58,13 +58,22 @@ const ProjectPage = ({ pageContext }) => {
           <div className={styles.buttons_container}>
             <div>
               <p><strong>{t('projects.source_code', lang)}</strong></p>
-              <a target="_blank" rel="noopener noreferrer" href={currentProject.github_link}>
+              <a 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                href={currentProject.github_link}
+              >
                 <GithubIcon className={styles.technologies_icon} />
               </a>
             </div>
             <div>
               <p><strong>{t('projects.demo', lang)}</strong></p>
-              <a target="_blank" rel="noopener noreferrer" className={styles.button_demo} href={currentProject.project_link}>Open demo</a>
+              <a 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className={styles.button_demo} 
+                href={currentProject.project_link}
+              >{t('projects.view', lang)}</a>
             </div>
           </div>
         </div>

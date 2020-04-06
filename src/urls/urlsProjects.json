@@ -10,6 +10,11 @@
     "lang": "es"
   },
   {
+    "image": "portfolio",
+    "url": "ca/portafolis-multillenguatge",
+    "lang": "ca"
+  },
+  {
     "image": "paradise-hotel",
     "url": "paradise-hotel",
     "lang": "en"
@@ -18,6 +23,11 @@
     "image": "paradise-hotel",
     "url": "es/hotel-paraiso",
     "lang": "es"
+  },
+  {
+    "image": "paradise-hotel",
+    "url": "ca/hotel-paradis",
+    "lang": "ca"
   },
   {
     "image": "juice-store",
@@ -30,6 +40,11 @@
     "lang": "es"
   },
   {
+    "image": "juice-store",
+    "url": "ca/botiga-de-sucs",
+    "lang": "ca"
+  },
+  {
     "image": "canvas",
     "url": "canvas",
     "lang": "en"
@@ -38,6 +53,11 @@
     "image": "canvas",
     "url": "es/canvas",
     "lang": "es"
+  },
+  {
+    "image": "canvas",
+    "url": "ca/canvas",
+    "lang": "ca"
   },
   {
     "image": "kanban",
@@ -50,14 +70,24 @@
     "lang": "es"
   },
   {
+    "image": "kanban",
+    "url": "ca/kanban",
+    "lang": "ca"
+  },
+  {
     "image": "github-repositories",
     "url": "github-repositories",
     "lang": "en"
   },
   {
     "image": "github-repositories",
-    "url": "es/repositorios-de-github",
-    "lang": "es"
+    "url": "github-repositories",
+    "lang": "en"
+  },
+  {
+    "image": "github-repositories",
+    "url": "ca/repositoris-de-github",
+    "lang": "ca"
   },
   {
     "image": "kasaz",
@@ -70,6 +100,11 @@
     "lang": "es"
   },
   {
+    "image": "kasaz",
+    "url": "ca/kasaz",
+    "lang": "ca"
+  },
+  {
     "image": "wheely",
     "url": "wheely",
     "lang": "en"
@@ -78,6 +113,11 @@
     "image": "wheely",
     "url": "es/wheely",
     "lang": "es"
+  },
+  {
+    "image": "wheely",
+    "url": "ca/wheely",
+    "lang": "ca"
   },
   {
     "image": "duck-store",
@@ -90,6 +130,11 @@
     "lang": "es"
   },
   {
+    "image": "duck-store",
+    "url": "ca/botiga-d-anecs",
+    "lang": "ca"
+  },
+  {
     "image": "eat-the-world",
     "url": "eat-the-world",
     "lang": "en"
@@ -98,6 +143,11 @@
     "image": "eat-the-world",
     "url": "es/comete-el-mundo",
     "lang": "es"
+  },
+  {
+    "image": "eat-the-world",
+    "url": "ca/menja-t-el-mon",
+    "lang": "ca"
   },
   {
     "image": "four-in-a-row",
@@ -110,6 +160,11 @@
     "lang": "es"
   },
   {
+    "image": "four-in-a-row",
+    "url": "ca/connecta-4",
+    "lang": "ca"
+  },
+  {
     "image": "spotify-express",
     "url": "spotify-express",
     "lang": "en"
@@ -118,6 +173,11 @@
     "image": "spotify-express",
     "url": "es/spotify-express",
     "lang": "es"
+  },
+  {
+    "image": "spotify-express",
+    "url": "ca/spotify-express",
+    "lang": "ca"
   },
   {
     "image": "the-lift",
@@ -130,6 +190,11 @@
     "lang": "es"
   },
   {
+    "image": "the-lift",
+    "url": "ca/l-ascensor",
+    "lang": "ca"
+  },
+  {
     "image": "events-hunter",
     "url": "events-hunter",
     "lang": "en"
@@ -138,6 +203,11 @@
     "image": "events-hunter",
     "url": "es/cazador-de-eventos",
     "lang": "es"
+  },
+  {
+    "image": "events-hunter",
+    "url": "ca/caçador-d-esdeveniments",
+    "lang": "ca"
   },
   {
     "image": "todo-react",
@@ -150,6 +220,11 @@
     "lang": "es"
   },
   {
+    "image": "todo-react",
+    "url": "ca/gestor-de-tasques",
+    "lang": "ca"
+  },
+  {
     "image": "2048-game",
     "url": "2048-game",
     "lang": "en"
@@ -158,6 +233,11 @@
     "image": "2048-game",
     "url": "es/juego-2048",
     "lang": "es"
+  },
+  {
+    "image": "2048-game",
+    "url": "ca/joc-2048",
+    "lang": "ca"
   },
   {
     "image": "the-alphabet-game",
@@ -170,6 +250,11 @@
     "lang": "es"
   },
   {
+    "image": "the-alphabet-game",
+    "url": "ca/passa-paraula",
+    "lang": "ca"
+  },
+  {
     "image": "data-structure",
     "url": "data-structure",
     "lang": "en"
@@ -178,6 +263,11 @@
     "image": "data-structure",
     "url": "es/estructura-de-datos",
     "lang": "es"
+  },
+  {
+    "image": "data-structure",
+    "url": "ca/estructura-de-dades",
+    "lang": "ca"
   },
   {
     "image": "fairytale-matching-game",
@@ -190,6 +280,11 @@
     "lang": "es"
   },
   {
+    "image": "fairytale-matching-game",
+    "url": "ca/joc-de-parelles",
+    "lang": "ca"
+  },
+  {
     "image": "few-seconds-math-game",
     "url": "few-seconds-math-game",
     "lang": "en"
@@ -198,6 +293,11 @@
     "image": "few-seconds-math-game",
     "url": "es/juego-matematico",
     "lang": "es"
+  },
+  {
+    "image": "few-seconds-math-game",
+    "url": "ca/joc-matematic",
+    "lang": "ca"
   },
   {
     "image": "personal-website",
@@ -210,6 +310,11 @@
     "lang": "es"
   },
   {
+    "image": "personal-website",
+    "url": "ca/pagina-personal",
+    "lang": "ca"
+  },
+  {
     "image": "escape-from-death",
     "url": "escape-from-death",
     "lang": "en"
@@ -220,6 +325,11 @@
     "lang": "es"
   },
   {
+    "image": "escape-from-death",
+    "url": "ca/escapa-de-la-mort",
+    "lang": "ca"
+  },
+  {
     "image": "calculator",
     "url": "calculator",
     "lang": "en"
@@ -228,5 +338,10 @@
     "image": "calculator",
     "url": "es/calculadora",
     "lang": "es"
+  },
+  {
+    "image": "calculator",
+    "url": "ca/calculadora",
+    "lang": "ca"
   }
 ]
