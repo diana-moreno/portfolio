@@ -215,17 +215,17 @@ useEffect(
             <img className={styles.aboutme_image} alt='Profile photography' src={imageUrl} />
           </div>
           <div className={styles.aboutme_text}>
+            <h3>{t('about.nowadays.title', lang)}</h3>
+            <p>
+              {t('about.nowadays.section_1', lang)}<br></br>
+              {t('about.nowadays.section_2', lang)}
+            </p>
             <h3>{t('about.my_story.title', lang)}</h3>
             <p>
               {t('about.my_story.section_1', lang)}<br></br>
               {t('about.my_story.section_2', lang)}.
             </p>
             <p>{t('about.my_story.section_3', lang)}</p>
-            <h3>{t('about.nowadays.title', lang)}</h3>
-            <p>
-              {t('about.nowadays.section_1', lang)}<br></br>
-              {t('about.nowadays.section_2', lang)}
-            </p>
             <h3>{t('about.passions.title', lang)}</h3>
             <p>{t('about.passions.section_1', lang)}</p>
           </div>
