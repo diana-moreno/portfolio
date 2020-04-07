@@ -12,9 +12,9 @@ const Languages = ({ location, lang }) => {
       <p>
         {/* <Link to={currentUrl.url_en} className={`${styles.language_item} ${lang === 'en' ? styles.language_active : ''}`}>en</Link>
         <span> / </span> */}
-        <Link to={currentUrl.url_es} className={`${styles.language_item} ${lang === 'es' ? styles.language_active : ''}`}>es</Link>
+        <Link to={currentUrl && currentUrl.url_es} className={`${styles.language_item} ${lang === 'es' ? styles.language_active : ''}`}>es</Link>
         <span> / </span>
-        <Link to={currentUrl.url_ca} className={`${styles.language_item} ${lang === 'ca' ? styles.language_active : ''}`}>ca</Link>
+        <Link to={currentUrl && currentUrl.url_ca} className={`${styles.language_item} ${lang === 'ca' ? styles.language_active : ''}`}>ca</Link>
         {/* <span> / </span> */}
         {/* <Link to={currentUrl.url_de} className={`${styles.language_item} ${lang === 'de' ? styles.language_active : ''}`}>de</Link> */}
       </p>
