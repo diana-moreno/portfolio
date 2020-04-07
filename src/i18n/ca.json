@@ -30,7 +30,7 @@
       "title": "La meva història",
       "section_1": "En 2012, em vaig graduar en Administració i Direcció d'Empreses en la Universitat de Barcelona. Quan vaig acabar els meus estudis, vaig iniciar la meva trajectòria professional com a comptable i vaig anar creixent fins a arribar a ser Team Manager.",
       "section_2": "Sis anys després, em vaig adonar que l'àmbit de la comptabilitat ja no em satisfeia. Necessitava un nou repte on poder continuar creixent com a professional.",
-      "section_3": "La programació va començar a captar cada vegada més la meva atenció i finalment vaig optar per seguir aquest camí. Així doncs, a començaments de 2019 vaig renunciar al meu treball i vaig començar a aprendre pel meu compte.A més, des de setembre fins a desembre d'aquell mateix any, vaig estudiar programació en un bootcamp en Skylab a fi de consolidar i ampliar els meus coneixements."
+      "section_3": "La programació va començar a captar cada vegada més la meva atenció i finalment vaig optar per seguir aquest camí. Així doncs, a començaments de 2019 vaig renunciar al meu treball i vaig començar a aprendre pel meu compte. A més, des de setembre fins a desembre d'aquell mateix any, vaig estudiar programació en un bootcamp en Skylab a fi de consolidar i ampliar els meus coneixements."
     },
     "nowadays": {
       "title": "Actualment",
@@ -218,8 +218,8 @@
       }
     },
     "project_7": {
-      "url": "ca/passa-paraula",
-      "title": "Passa paraula",
+      "url": "ca/passaparaula",
+      "title": "Passaparaula",
       "main": "Aquest joc és una versió del famós joc espanyol \"Pasapalabra\", en el qual el concursant ha d'encertar una pregunta per cada lletra de l'alfabet en un temps determinat.",
       "features": {
         "feature_1": "La partida es pot personalitzar escollint un avatar femení o masculí.",
@@ -275,7 +275,7 @@
         "feature_1": "Es poden afegir tasques noves mitjançant un formulari.",
         "feature_2": "A més del títol i la descripció de la tasca, es pot afegir la prioritat, la data i l'hora.",
         "feature_3": "Les tasques s'ordenen per temps i es poden eliminar en qualsevol moment.",
-        "feature_4": "La data de venciment és de color blau si segueix en vigor, de color vermell en cas contrari.Si la tasca ja està realitzada, no tindrà color.",
+        "feature_4": "La data de venciment és de color blau si segueix en vigor, de color vermell en cas contrari. Si la tasca ja està realitzada, no tindrà color.",
         "feature_5": "Quan una tasca es marca com a realitzada, es desplaça cap a la zona de tasques realitzades.",
         "feature_6": "En cas d'haver marcat una tasca com a realitzada per error, és possible revertir el moviment.",
         "feature_7": "Les tasques no s'eliminaran quan es recarregui la pàgina."
@@ -363,7 +363,7 @@
       "title": "Connecta 4",
       "main": "Joc en línia del clàssic Connecta 4 on un jugador s'enfronta un altre per torns i la finalitat és aconseguir formar una línia recta combinant quatre fitxes seguides abans que el rival.",
       "features": {
-        "feature_1": "El joc permet dues modalitats de joc:jugador contra jugador o jugador contra màquina.",
+        "feature_1": "El joc permet dues modalitats de joc: jugador contra jugador o jugador contra màquina.",
         "feature_2": "Quan es juga contra un altre jugador, els torns s'alternen en el mateix ordinador, així doncs és necessari que els jugadors es trobin físicament un al costat de l'altre.",
         "feature_3": "Quan es juga contra la màquina, el primer a començar serà el jugador, posteriorment, la màquina farà la seva jugada.",
         "feature_4": "El joc termina quan no es poden realitzar més moviments o quan un dels dos jugadors ha aconseguit fer quatre en línia (horitzontal, vertical o diagonal).",
@@ -383,7 +383,7 @@
     "project_14": {
       "url": "ca/botiga-d-anecs",
       "title": "Botiga d'ànecs",
-      "main": "Botiga d'ànecs és un comerç electrònic SPA que presenta informació sobre ànecs de goma.Aquest projecte va ser desenvolupat durant el Bootcamp de Skylab de 3 maneres diferents fent èmfasis en la refacció contínua.",
+      "main": "Botiga d'ànecs és un comerç electrònic SPA que presenta informació sobre ànecs de goma. Aquest projecte va ser desenvolupat durant el Bootcamp de Skylab de 3 maneres diferents fent èmfasis en la refacció contínua.",
       "features": {
         "feature_1": "És necessari disposar d'un compte per a accedir a la botiga.",
         "feature_2": "Les funcionalitats de registre i d'inici de sessió estan incloses.",
@@ -432,7 +432,7 @@
     "project_16": {
       "url": "ca/wheely",
       "title": "Wheely",
-      "main": "Aquest és el meu projecte final i el primer projecte Full Stack, produït en el Bootcamp de Skylab.La idea neix d'una necessitat real en les autoescoles d'agilitzar la tasca de reserves de pràctiques. Tant alumne com professor poden fer la gestió 100% en línia, a més d'un seguiment de l'alumne, control de crèdits disponibles, etc.",
+      "main": "Aquest és el meu projecte final i el primer projecte Full Stack, produït en el Bootcamp de Skylab. La idea neix d'una necessitat real en les autoescoles d'agilitzar la tasca de reserves de pràctiques. Tant alumne com professor poden fer la gestió 100% en línia, a més d'un seguiment de l'alumne, control de crèdits disponibles, etc.",
       "features": {
         "feature_1": "Estudiants, professors i personal d'administració disposen de comptes amb funcionalitats diferents.",
         "feature_2": "Estudiant:",
@@ -526,7 +526,7 @@
       "main": "El següent projecte Full Stack reprodueix un Kanban. Kanban és un sistema visual per a gestionar el treball i les tasques a mesura que avança en un procés. És realment fàcil d'utilitzar perquè les tasques només s'han d'arrossegar i deixar anar en la columna desitjada.",
       "features": {
         "feature_1": "Funciona per mitjà d'un sistema d'usuaris, és necessari estar registrat per a poder accedir.",
-        "feature_2": "Cada usuari disposa de 4 columnes al seu compte per tal de gestionar les tasques: pendents, en curs, per a revisar i fetes.",
+        "feature_2": "Cada usuari disposa de 4 columnes al seu compte per tal de gestionar les tasques: TODO (pendents), DOING (en curs), REVIEW (per a revisar) i DONE (fetes).",
         "feature_3": "Per a canviar d'estat una tasca, és tan senzill com arrossegar-la a la columna que desitjada.",
         "feature_4": "També és possible ordenar les tasques dins la mateixa columna.",
         "feature_5": "Cada tasca es pot esborrar de manera individual.",
@@ -548,7 +548,7 @@
       "main": "Canvas és una plantilla de gestió estratègica empresarial per a documentar models de negoci. És un quadre visual amb elements que descriuen la proposta de valor, infraestructura, clients i finances d'una empresa o producte.",
       "features": {
         "feature_1": "És emprat en la gestió estratègica empresarial per a documentar models de negoci.",
-        "feature_2": "És un CRUD:es pot afegir, editar, consultar i esborrar notes.",
+        "feature_2": "És un CRUD: es pot afegir, editar, consultar i esborrar notes.",
         "feature_3": "Es pot veure una explicació de cada secció fent clic en el \"?\" de la part superior.",
         "feature_4": "Disposa d'un disseny responsiu, és compatible amb la mida de tots els dispositius.",
         "feature_5": "El disseny és adaptable, cada contenidor s'adapta al seu contingut."
@@ -612,7 +612,7 @@
       "title": "Portafolis multillenguatge",
       "main": "Aquesta pàgina web personal ha estat desenvolupada expressament per a col·laborar en el treball de fi de grau de la meva germana sobre traduccions tecnològiques.",
       "features": {
-        "feature_1": "La pàgina és multillenguatge:anglès, castellà, català i alemany.",
+        "feature_1": "La pàgina és multillenguatge: anglès, castellà, català i alemany.",
         "feature_2": "Traduccions a càrrec de la traductora Yolanda Moreno.",
         "feature_3": "El disseny inicial es basa en una sola pàgina en la qual es mostra la meva biografia, els meus projectes i dades de contacte.",
         "feature_4": "Al final de la pàgina s'inclou un formulari que permet enviar-me un missatge.",
