@@ -27,6 +27,14 @@ input:focus, button:focus {
   color: #d36667;
 }
 
+.language_item {
+  text-decoration: none;
+  color: white;
+}
+.language_active {
+  color: #d36667;
+}
+
 // home
 
 .home {

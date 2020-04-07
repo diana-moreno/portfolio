@@ -1,347 +1,347 @@
 [
   {
     "image": "portfolio",
-    "url": "portfolio-multilanguage",
+    "url": "portfolio-multilanguage/",
     "lang": "en"
   },
   {
     "image": "portfolio",
-    "url": "portafolio-multilenguaje",
+    "url": "portafolio-multilenguaje/",
     "lang": "es"
   },
   {
     "image": "portfolio",
-    "url": "ca/portafolis-multillenguatge",
+    "url": "ca/portafolis-multillenguatge/",
     "lang": "ca"
   },
   {
     "image": "paradise-hotel",
-    "url": "paradise-hotel",
+    "url": "paradise-hotel/",
     "lang": "en"
   },
   {
     "image": "paradise-hotel",
-    "url": "es/hotel-paraiso",
+    "url": "es/hotel-paraiso/",
     "lang": "es"
   },
   {
     "image": "paradise-hotel",
-    "url": "ca/hotel-paradis",
+    "url": "ca/hotel-paradis/",
     "lang": "ca"
   },
   {
     "image": "juice-store",
-    "url": "juice-store",
+    "url": "juice-store/",
     "lang": "en"
   },
   {
     "image": "juice-store",
-    "url": "es/tienda-de-zumos",
+    "url": "es/tienda-de-zumos/",
     "lang": "es"
   },
   {
     "image": "juice-store",
-    "url": "ca/botiga-de-sucs",
+    "url": "ca/botiga-de-sucs/",
     "lang": "ca"
   },
   {
     "image": "canvas",
-    "url": "canvas",
+    "url": "canvas/",
     "lang": "en"
   },
   {
     "image": "canvas",
-    "url": "es/canvas",
+    "url": "es/canvas/",
     "lang": "es"
   },
   {
     "image": "canvas",
-    "url": "ca/canvas",
+    "url": "ca/canvas/",
     "lang": "ca"
   },
   {
     "image": "kanban",
-    "url": "kanban",
+    "url": "kanban/",
     "lang": "en"
   },
   {
     "image": "kanban",
-    "url": "es/kanban",
+    "url": "es/kanban/",
     "lang": "es"
   },
   {
     "image": "kanban",
-    "url": "ca/kanban",
+    "url": "ca/kanban/",
     "lang": "ca"
   },
   {
     "image": "github-repositories",
-    "url": "github-repositories",
+    "url": "github-repositories/",
     "lang": "en"
   },
   {
     "image": "github-repositories",
-    "url": "github-repositories",
+    "url": "github-repositories/",
     "lang": "en"
   },
   {
     "image": "github-repositories",
-    "url": "ca/repositoris-de-github",
+    "url": "ca/repositoris-de-github/",
     "lang": "ca"
   },
   {
     "image": "kasaz",
-    "url": "kasaz",
+    "url": "kasaz/",
     "lang": "en"
   },
   {
     "image": "kasaz",
-    "url": "es/kasaz",
+    "url": "es/kasaz/",
     "lang": "es"
   },
   {
     "image": "kasaz",
-    "url": "ca/kasaz",
+    "url": "ca/kasaz/",
     "lang": "ca"
   },
   {
     "image": "wheely",
-    "url": "wheely",
+    "url": "wheely/",
     "lang": "en"
   },
   {
     "image": "wheely",
-    "url": "es/wheely",
+    "url": "es/wheely/",
     "lang": "es"
   },
   {
     "image": "wheely",
-    "url": "ca/wheely",
+    "url": "ca/wheely/",
     "lang": "ca"
   },
   {
     "image": "duck-store",
-    "url": "duck-store",
+    "url": "duck-store/",
     "lang": "en"
   },
   {
     "image": "duck-store",
-    "url": "es/tienda-de-patos",
+    "url": "es/tienda-de-patos/",
     "lang": "es"
   },
   {
     "image": "duck-store",
-    "url": "ca/botiga-d-anecs",
+    "url": "ca/botiga-d-anecs/",
     "lang": "ca"
   },
   {
     "image": "eat-the-world",
-    "url": "eat-the-world",
+    "url": "eat-the-world/",
     "lang": "en"
   },
   {
     "image": "eat-the-world",
-    "url": "es/comete-el-mundo",
+    "url": "es/comete-el-mundo/",
     "lang": "es"
   },
   {
     "image": "eat-the-world",
-    "url": "ca/menja-t-el-mon",
+    "url": "ca/menja-t-el-mon/",
     "lang": "ca"
   },
   {
     "image": "four-in-a-row",
-    "url": "four-in-a-row",
+    "url": "four-in-a-row/",
     "lang": "en"
   },
   {
     "image": "four-in-a-row",
-    "url": "es/conecta-4",
+    "url": "es/conecta-4/",
     "lang": "es"
   },
   {
     "image": "four-in-a-row",
-    "url": "ca/connecta-4",
+    "url": "ca/connecta-4/",
     "lang": "ca"
   },
   {
     "image": "spotify-express",
-    "url": "spotify-express",
+    "url": "spotify-express/",
     "lang": "en"
   },
   {
     "image": "spotify-express",
-    "url": "es/spotify-express",
+    "url": "es/spotify-express/",
     "lang": "es"
   },
   {
     "image": "spotify-express",
-    "url": "ca/spotify-express",
+    "url": "ca/spotify-express/",
     "lang": "ca"
   },
   {
     "image": "the-lift",
-    "url": "the-lift",
+    "url": "the-lift/",
     "lang": "en"
   },
   {
     "image": "the-lift",
-    "url": "es/el-ascensor",
+    "url": "es/el-ascensor/",
     "lang": "es"
   },
   {
     "image": "the-lift",
-    "url": "ca/l-ascensor",
+    "url": "ca/l-ascensor/",
     "lang": "ca"
   },
   {
     "image": "events-hunter",
-    "url": "events-hunter",
+    "url": "events-hunter/",
     "lang": "en"
   },
   {
     "image": "events-hunter",
-    "url": "es/cazador-de-eventos",
+    "url": "es/cazador-de-eventos/",
     "lang": "es"
   },
   {
     "image": "events-hunter",
-    "url": "ca/caçador-d-esdeveniments",
+    "url": "ca/caçador-d-esdeveniments/",
     "lang": "ca"
   },
   {
     "image": "todo-react",
-    "url": "todo-react",
+    "url": "todo-react/",
     "lang": "en"
   },
   {
     "image": "todo-react",
-    "url": "es/gestor-de-tareas",
+    "url": "es/gestor-de-tareas/",
     "lang": "es"
   },
   {
     "image": "todo-react",
-    "url": "ca/gestor-de-tasques",
+    "url": "ca/gestor-de-tasques/",
     "lang": "ca"
   },
   {
     "image": "2048-game",
-    "url": "2048-game",
+    "url": "2048-game/",
     "lang": "en"
   },
   {
     "image": "2048-game",
-    "url": "es/juego-2048",
+    "url": "es/juego-2048/",
     "lang": "es"
   },
   {
     "image": "2048-game",
-    "url": "ca/joc-2048",
+    "url": "ca/joc-2048/",
     "lang": "ca"
   },
   {
     "image": "the-alphabet-game",
-    "url": "the-alphabet-game",
+    "url": "the-alphabet-game/",
     "lang": "en"
   },
   {
     "image": "the-alphabet-game",
-    "url": "es/pasapalabra",
+    "url": "es/pasapalabra/",
     "lang": "es"
   },
   {
     "image": "the-alphabet-game",
-    "url": "ca/passaparaula",
+    "url": "ca/passaparaula/",
     "lang": "ca"
   },
   {
     "image": "data-structure",
-    "url": "data-structure",
+    "url": "data-structure/",
     "lang": "en"
   },
   {
     "image": "data-structure",
-    "url": "es/estructura-de-datos",
+    "url": "es/estructura-de-datos/",
     "lang": "es"
   },
   {
     "image": "data-structure",
-    "url": "ca/estructura-de-dades",
+    "url": "ca/estructura-de-dades/",
     "lang": "ca"
   },
   {
     "image": "fairytale-matching-game",
-    "url": "fairytale-matching-game",
+    "url": "fairytale-matching-game/",
     "lang": "en"
   },
   {
     "image": "fairytale-matching-game",
-    "url": "es/juego-de-parejas",
+    "url": "es/juego-de-parejas/",
     "lang": "es"
   },
   {
     "image": "fairytale-matching-game",
-    "url": "ca/joc-de-parelles",
+    "url": "ca/joc-de-parelles/",
     "lang": "ca"
   },
   {
     "image": "few-seconds-math-game",
-    "url": "few-seconds-math-game",
+    "url": "few-seconds-math-game/",
     "lang": "en"
   },
   {
     "image": "few-seconds-math-game",
-    "url": "es/juego-matematico",
+    "url": "es/juego-matematico/",
     "lang": "es"
   },
   {
     "image": "few-seconds-math-game",
-    "url": "ca/joc-matematic",
+    "url": "ca/joc-matematic/",
     "lang": "ca"
   },
   {
     "image": "personal-website",
-    "url": "personal-website",
+    "url": "personal-website/",
     "lang": "en"
   },
   {
     "image": "personal-website",
-    "url": "/es/pagina-personal",
+    "url": "/es/pagina-personal/",
     "lang": "es"
   },
   {
     "image": "personal-website",
-    "url": "ca/pagina-personal",
+    "url": "ca/pagina-personal/",
     "lang": "ca"
   },
   {
     "image": "escape-from-death",
-    "url": "escape-from-death",
+    "url": "escape-from-death/",
     "lang": "en"
   },
   {
     "image": "escape-from-death",
-    "url": "es/escapa-de-la-muerte",
+    "url": "es/escapa-de-la-muerte/",
     "lang": "es"
   },
   {
     "image": "escape-from-death",
-    "url": "ca/escapa-de-la-mort",
+    "url": "ca/escapa-de-la-mort/",
     "lang": "ca"
   },
   {
     "image": "calculator",
-    "url": "calculator",
+    "url": "calculator/",
     "lang": "en"
   },
   {
     "image": "calculator",
-    "url": "es/calculadora",
+    "url": "es/calculadora/",
     "lang": "es"
   },
   {
     "image": "calculator",
-    "url": "ca/calculadora",
+    "url": "ca/calculadora/",
     "lang": "ca"
   }
 ]

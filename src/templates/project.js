@@ -10,7 +10,7 @@ import { t } from '../i18n'
 import Languages from "../components/Languages"
 
 
-const ProjectPage = ({ pageContext }) => {
+const ProjectPage = ({ pageContext, location }) => {
   const { projectName, lang } = pageContext
 
   const { projects } = useStaticQuery(graphql`
@@ -38,7 +38,7 @@ const ProjectPage = ({ pageContext }) => {
 
   return (
     <Layout>
-      <Languages />
+      <Languages location={location} lang={lang} />
       <Navbar lang={lang} />
       <div className={styles.main}>
         <div className={styles.title_section}>

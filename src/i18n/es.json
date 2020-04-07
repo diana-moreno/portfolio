@@ -30,12 +30,12 @@
       "title": "Mi historia", 
       "section_1": "Me gradué en Administración y Dirección de Empresas en la Universidad de Barcelona en 2012. Una vez finalizados mis estudios, inicié mi trayectoria profesional como contable y fui creciendo hasta alcanzar el puesto de Team manager.",
       "section_2": "Seis años después, me di cuenta de que el ámbito de la contabilidad ya no me satisfacía. Necesitaba un nuevo desafío donde poder seguir creciendo como profesional.",
-      "section_3": "La programación comenzó a llamarme la atención cada vez más y finalmente decidí seguir ese camino. De modo que, a principios de 2019, renuncié a mi trabajo y comencé a aprender por mi cuenta. Además, de septiembre a diciembre de ese mismo año, estudié programación en un bootcamp en Skylab para consolidar y ampliar mis conocimientos."
+      "section_3": "La programación comenzó a llamarme la atención cada vez más y finalmente decidí seguir ese camino. De modo que, a principios de 2019, renuncié a mi trabajo y comencé a aprender por mi cuenta. Además, de septiembre a diciembre de ese mismo año, estudié programación en un Bootcamp en Skylab para consolidar y ampliar mis conocimientos."
     },
     "nowadays": {
       "title":"Actualmente",
       "section_1": "Hoy en día trabajo para Interficie, una compañía que desarrolla páginas de comercio electrónico y soluciones creativas para grandes empresas.",
-      "section_2": "El lenguaje que utilizo es JavaScript y mi stack tecnológico es el siguiente: React, Gatsby, Node, SQL y Express."
+      "section_2": "El lenguaje que utilizo es JavaScript y mi stack tecnológico es el siguiente: React, Gatsby, Node.js, SQL y Express."
     },
     "passions": {
       "title": "Pasiones", 
@@ -67,12 +67,11 @@
     "all": "TODOS", 
     "demo": "Demo",
     "source_code": "Código fuente",
-    "view": "Ver demo",
     "features": "Características",
     "learned": "Qué he aprendido",
     "technologies": "Tecnologías",
     "project_1": {
-      "url": "es/calculadora",
+      "url": "calculadora",
       "title": "Calculadora",
       "main": "En este proyecto he desarrollado una calculadora que realiza operaciones matemáticas sencillas.",
       "features": {
@@ -97,7 +96,7 @@
       }
     },
     "project_2": {
-      "url": "es/escapa-de-la-muerte",
+      "url": "escapa-de-la-muerte",
       "title": "Escapa de la muerte",
       "main": "Este es un juego de horror en el que el protagonista y su amigo han sido secuestrados. El objetivo es rescatar al amigo y conseguir escapar juntos antes de que el asesino les encuentre.",
       "features": {
@@ -119,7 +118,7 @@
       }
     },
     "project_3": {
-      "url": "es/pagina-personal",
+      "url": "pagina-personal",
       "title": "Página personal",
       "main": "Este proyecto es mi primera página web personal, creada con la finalidad de disponer de un espacio donde poder hablar un poco de mí y exponer mis propios proyectos.",
       "features": {
@@ -140,14 +139,14 @@
         "learned_8": "A realizar despliegues de front-end en GitHub-pages."
       },
       "technologies" : {
-        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS-Boostrap",
+        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS-Bootstrap",
         "technologies_2": "Back-end: -"
       }
     },
     "project_4": {
-      "url": "es/juego-matematico",
+      "url": "juego-matematico",
       "title": "Juego matemático",
-      "main": "Esta es una versión alternativa al juego original 10 Seconds Math, creado por Michael Jakob, creado para desafiar las habilidades matemáticas de una persona a contrarreloj. En esta versión, el tiempo añadido por respuesta correcta no son 10 segundos, sino que varía dependiendo de la dificultad.",
+      "main": "Esta es una versión alternativa al juego original \"10 Seconds Math\", creado por Michael Jakob con la finalidad de desafiar las habilidades matemáticas de una persona a contrarreloj. En esta versión, el tiempo añadido por respuesta correcta no son 10 segundos, sino que varía dependiendo de la dificultad.",
       "features": {
         "feature_1": "El usuario puede configurar la dificultad del juego limitando operaciones o las cifras máximas de cada número.",
         "feature_2": "El juego comienza con 10 segundos para responder a la primera pregunta.",
@@ -156,7 +155,7 @@
         "feature_5": "El juego termina cuando se agota el tiempo."
       },
       "learned": {
-        "learned_1": "A correr el proyecto en un servidor local de Node (Serve).",
+        "learned_1": "A correr el proyecto en un servidor local de Node.js (Serve).",
         "learned_2": "A importar sonidos de una librería externa y sincronizarlos con el DOM.",
         "learned_3": "A utilizar funciones asíncronas y \"callbacks\".",
         "learned_4": "A reescribir el contenido dinámicamente en una sola página (SPA).",
@@ -170,7 +169,7 @@
       }
     },
     "project_5": {
-      "url": "es/juego-de-parejas",
+      "url": "juego-de-parejas",
       "title": "Juego de parejas",
       "main": "Juego de parejas es un juego tradicional de memoria. Para ganar, se necesita recordar la posición de cada carta y emparejarla con su igual.",
       "features": {
@@ -193,16 +192,16 @@
       }
     },
     "project_6": {
-      "url": "es/estructura-de-datos",
+      "url": "estructura-de-datos",
       "title": "Estructura de Datos",
-      "main": "Las pilas y las colas son dos tipos de estructura de datos lineal que podemos encontrar fácilmente en la vida real. En este proyecto, estoy mostrando ambos modelos en una representación gráfica y dinámica.",
+      "main": "Las pilas (stacks) y las colas (queues) son dos tipos de estructura de datos lineal que podemos encontrar fácilmente en la vida real. En este proyecto, estoy mostrando ambos modelos en una representación gráfica y dinámica.",
       "features": {
-        "feature_1": "Pila (stack)",
+        "feature_1": "Stack (pila)",
         "feature_2": "Cada vez que se añade un elemento, se coloca encima del anterior.",
         "feature_3": "El último elemento que ha entrado es el que sale.",    
         "feature_4": "Se conoce como LIFO (en inglés “último en entrar, primero en salir”).",
         "feature_5": "Podemos asemejar el concepto con una pila de libros o de platos.",
-        "feature_6": "Cola (queue)",
+        "feature_6": "Queue (cola)",
         "feature_7": "Los elementos se colocan en orden de llegada.",
         "feature_8": "El primer elemento que se ha colocado, es el que sale.",
         "feature_9": "Se conoce como FIFO (en inglés “primero en entrar, primero en salir”)",
@@ -218,7 +217,7 @@
       }
     },
     "project_7": {
-      "url": "es/pasapalabra",
+      "url": "pasapalabra",
       "title": "Pasapalabra",
       "main": "Este juego es una versión del famoso juego español \"Pasapalabra\", en el que el concursante tiene que acertar una pregunta por cada letra del alfabeto en un tiempo determinado.",
       "features": {
@@ -245,7 +244,7 @@
       }
     },  
     "project_8": {
-      "url": "es/juego-2048",
+      "url": "juego-2048",
       "title": "Juego 2048",
       "main": "2048 es un juego de bloques deslizantes para un jugador, diseñado originalmente por Gabriele Cirulli. El objetivo del juego es deslizar bloques numerados en una cuadrícula para combinarlos, sumando sus valores hasta obtener uno solo con el número 2048.",
       "features": {
@@ -268,8 +267,8 @@
       }
     },
     "project_9": {
-      "url": "es/gestor-de-tareas",
-      "title": "Gestor de Tareas",
+      "url": "gestor-de-tareas",
+      "title": "Gestor de tareas",
       "main": "Este es mi primer proyecto desarrollado con React. Se trata de un gestor de tareas sencillo en el que se pueden añadir funciones avanzadas como prioridad o fecha y hora de la tarea.",
       "features": {
         "feature_1": "Se pueden añadir tareas nuevas a través de un formulario.",
@@ -290,12 +289,12 @@
         "learned_7": "A especificar los tipos de las propiedades con PropTypes."
       },
       "technologies" : {
-        "technologies_1": "Front-end: React (JavaScript), CSS-Boostrap",
+        "technologies_1": "Front-end: React (JavaScript), CSS-Bootstrap",
         "technologies_2": "Back-end: -"
       }
     },
     "project_10": {
-      "url": "es/cazador-de-eventos",
+      "url": "cazador-de-eventos",
       "title": "Cazador de Eventos",
       "main": "En esta página se puede obtener información sobre eventos de diferentes categorías y lugares. Además, dispone de sección de favoritos para que el usuario pueda guardarse los que más le gusten y consultarlos más tarde.", 
       "features": {
@@ -317,7 +316,7 @@
       }
     },
     "project_11": {
-      "url": "es/el-ascensor",
+      "url": "el-ascensor",
       "title": "El ascensor",
       "main": "Un ascensor tradicional que cada persona puede llamar desde la planta en la que se encuentre. Éste recordará los pisos en los que debe parar a recoger y a dejar pasajeros.",
       "features": {
@@ -330,7 +329,7 @@
       "learned": {
         "learned_1": "A dibujar elementos sencillos con CSS (nubes, sol, árboles, ascensor).",
         "learned_2": "A aplicar animaciones de movimiento a los elementos.",
-        "learned_3": "A demostrar la asincronía de Node."
+        "learned_3": "A demostrar la asincronía de Node.js."
       },
       "technologies" : {
         "technologies_1": "Front-end: JavaScript, HTML, CSS",
@@ -338,7 +337,7 @@
       }
     },
     "project_12": {
-      "url": "es/spotify-express",
+      "url": "spotify-express",
       "title": "Spotify Express",
       "main": "Este proyecto utiliza la API de Spotify para crear un buscador de artistas en el que se puede ver información de sus álbumes e incluso escuchar un avance de sus canciones.",
       "features": {
@@ -354,12 +353,12 @@
         "learned_4": "A desplegar un proyecto de back-end con Heroku."
       },
       "technologies" : {
-        "technologies_1": "Front-end: Node con Express y Handlebars, CSS",
+        "technologies_1": "Front-end: Node.js con Express y Handlebars, CSS",
         "technologies_2": "Back-end: -"
       }
     },
     "project_13": {
-      "url": "es/conecta-4",
+      "url": "conecta-4",
       "title": "Conecta 4",
       "main": "Juego online del clásico Conecta 4 donde un jugador juega contra otro por turnos y la finalidad es conseguir formar una linea recta combinando cuatro fichas seguidas antes que el rival.",
       "features": {
@@ -381,7 +380,7 @@
       }
     },
     "project_14": {
-      "url": "es/tienda-de-patos",
+      "url": "tienda-de-patos",
       "title": "Tienda de patos",
       "main": "Tienda de patos es un comercio electrónico SPA que muestra informción sobre patos de goma. Este proyecto fue desarrollado durante el Bootcamp de Skylab de 3 maneras diferentes haciendo incapié en la refactorización continua.",
       "features": {
@@ -399,21 +398,21 @@
         "learned_5": "A renderizar la aplicación desde el lado del servidor con Express y Pug."
       },
       "technologies" : {
-        "technologies_1": "Front-end 1: Node con Express y Pug, CSS-SASS",
+        "technologies_1": "Front-end 1: Node.js con Express y Pug, CSS-SASS",
         "technologies_2": "Front-end 2: React (JavaScript), CSS-SASS",
         "technologies_3": "Front-end 3: JavaScript, HTML, CSS-SASS",
         "technologies_4": "Back-end: -"
       }
     },
     "project_15": {
-      "url": "es/comete-el-mundo",
+      "url": "comete-el-mundo",
       "title": "Cómete el mundo",
       "main": "Éste es un proyecto realizado en grupo durante el Bootcamp de Skylab. La aplicación muestra información acerca de restaurantes de diferentes categorías en varias partes del mundo. Debido a un bloqueo inesperado de acceso a España, es necesario acceder mediante una VPN desde otro país (ej. EEUU).",
       "features": {
-        "feature_1": "El usuario puede realizar búsquedas por ciudad y/o tipo de cocina o nombre del restaurante aún sin estar logueado.",
+        "feature_1": "El usuario puede realizar búsquedas por ciudad y/o tipo de cocina o nombre del restaurante aún sin haber iniciado sesión.",
         "feature_2": "Se puede ver el detalle de cada restaurante pulsando en la imagen.",
         "feature_3": "La funcionalidad de guardar favoritos únicamente está disponible para usuarios registrados.",
-        "feature_4": "Cuando el usuario se loguea, la página recuerda el último lugar donde estaba navegando.",
+        "feature_4": "Cuando el usuario inicia sesión, la página recuerda el último lugar donde estaba navegando.",
         "feature_5": "Al salir de la cuenta, se borra cualquier dato guardado excepto los favoritos."
       },
       "learned": {
@@ -430,7 +429,7 @@
       }
     },
     "project_16": {
-      "url": "es/wheely",
+      "url": "wheely",
       "title": "Wheely",
       "main": "Este es mi proyecto final y primer proyecto Full Stack, realizado en el Bootcamp de Skylab. La idea nace de una necesidad real en las autoescuelas de agilizar la tarea de reservas de prácticas en la que tanto alumno como profesor pueden hacer la gestión 100% online además de un seguimiento del alumno, control de créditos disponibles, etc.",
       "features": {
@@ -457,7 +456,7 @@
         "feature_21": "Puede ver la progresión de todos los alumnos."
       },
       "learned": {
-        "learned_1": "A desarrollar un back-end con Node Express",
+        "learned_1": "A desarrollar un back-end con Node.js Express",
         "learned_2": "A agrugar todas las rutas en un router.",
         "learned_3": "A vincular una base de datos con MongoDB y esquematizarla con Mongoose.",
         "learned_4": "A utilizar React Hooks en el front-end.", 
@@ -473,11 +472,11 @@
       },
       "technologies" : {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, Mocha Chai",
-        "technologies_2": "Back-end: Node con Express, mongoDB, test con Jest"
+        "technologies_2": "Back-end: Node.js con Express, MongoDB, test con Jest"
       }
     },
     "project_17": {
-      "url": "es/kasaz",
+      "url": "kasaz",
       "title": "Kasaz",
       "main": "Kasaz es una inmobiliaria online donde se pueden buscar apartamentos personalizando los criterios de búsqueda.",
       "features": {
@@ -497,11 +496,11 @@
       },
       "technologies" : {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, test Mocha Chai",
-        "technologies_2": "Back-end: Node con Express, mongoDB, test con Jest"
+        "technologies_2": "Back-end: Node.js con Express, MongoDB, test con Jest"
       }
     },
     "project_18": {
-      "url": "es/repositorios-de-github",
+      "url": "repositorios-de-github",
       "title": "Repositorios de GitHub",
       "main": "Este proyecto muestra información sobre los repositorios y datos públicos de cualquier usuario de GitHub.",
       "features": {
@@ -521,7 +520,7 @@
       }
     },
     "project_19": {
-      "url": "es/kanban",
+      "url": "kanban",
       "title": "Kanban",
       "main": "Este proyecto Full Stack reproduce un Kanban. Kanban es un sistema visual para gestionar el trabajo y las tareas a medida que avanza en un proceso. Es realmente fácil de usar porque las tareas sólo se tienen que arrastrar y soltar en la columna deseada.",
       "features": {
@@ -539,11 +538,11 @@
       },
       "technologies" : {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS",
-        "technologies_2": "Back-end: Node con Express, mongoDB"
+        "technologies_2": "Back-end: Node.js con Express, MongoDB"
       }
     },
     "project_20": {
-      "url": "es/canvas",
+      "url": "canvas",
       "title": "Canvas",
       "main": "Canvas es una plantilla de gestión estratégica empresarial para documentar modelos de negocio. Es un cuadro visual con elementos que describen la propuesta de valor, infraestructura, clientes y finanzas de una empresa o producto.",
       "features": {
@@ -560,11 +559,11 @@
       },
       "technologies" : {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, test Mocha Chai",
-        "technologies_2": "Back-end: Node con Express, MongoDB, test con Jest"
+        "technologies_2": "Back-end: Node.js con Express, MongoDB, test con Jest"
       }
     },
     "project_21": {
-      "url": "es/tienda-de-zumos",
+      "url": "tienda-de-zumos",
       "title": "Tienda de zumos",
       "main": "Este proyecto es una simulación de una tienda de zumos. La finalidad ha sido aprender React Redux con Sagas y Thunks.",
       "features": {
@@ -586,7 +585,7 @@
       }
     },
     "project_22": {
-      "url": "es/hotel-paraiso",
+      "url": "hotel-paraiso",
       "title": "Hotel Paraíso",
       "main": "Hotel Paraíso es una página de ejemplo de páginas corporativas para hoteles donde se muestra información del hotel y detalle de las habitaciones.",
       "features": {
@@ -608,7 +607,7 @@
       }
     },
     "project_23": {
-      "url": "es/portafolio-multilenguaje",
+      "url": "portafolio-multilenguaje",
       "title": "Portafolio multilenguaje",
       "main": "Esta página web personal ha sido desarrollada expresamente para colaborar en el trabajo de fin de grado de mi hermana sobre traducciones tecnológicas.",
       "features": {
@@ -626,7 +625,7 @@
       },
       "technologies" : {
         "technologies_1": "Front-end: Gatsby con React (JavaScript), GraphQL, CSS-SASS",
-        "technologies_2": "Back-end: Node con Express"
+        "technologies_2": "Back-end: Node.js con Express"
       }
     }
   }

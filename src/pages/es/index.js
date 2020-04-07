@@ -1,25 +1,27 @@
 import React, { useState, useEffect } from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
-import Layout from "../components/Layout"
-import styles from './index.module.scss'
-import Navbar from '../components/Navbar'
-import ArrowBounce from '../components/ArrowBounce'
-import WhiteTriangle from '../assets/white_triangle.svg'
-import LeftArrow from '../assets/left_arrow.svg'
-import RightArrow from '../assets/right_arrow.svg'
+import Layout from "../../components/Layout"
+import styles from '../index.module.scss'
+import Navbar from '../../components/Navbar'
+import ArrowBounce from '../../components/ArrowBounce'
+import WhiteTriangle from '../../assets/white_triangle.svg'
+import LeftArrow from '../../assets/left_arrow.svg'
+import RightArrow from '../../assets/right_arrow.svg'
 import Img from 'gatsby-image'
-import Form from '../components/Form'
-import ConceptKey from '../components/ConceptKey'
-import conceptsKey from '../data/concepts_key'
-import { t } from '../i18n'
-import projectsData from '../data/projects.js'
-import Languages from "../components/Languages"
-import allUrls from "../urls/allUrls"
+import Form from '../../components/Form'
+import ConceptKey from '../../components/ConceptKey'
+import conceptsKey from '../../data/concepts_key'
+import { t } from '../../i18n'
+import projectsData from '../../data/projects.js'
+import Languages from "../../components/Languages"
+import allUrls from "../../urls/allUrls"
 
-
-const lang = 'en'
+const lang = 'es'
 
 const IndexPage = ({ pageContext, location }) => {
+
+  console.log(lang)
+
   const { image, projects } = useStaticQuery(graphql`
     query {
       image: file(relativePath: {eq: "profile.png"}) {
@@ -169,7 +171,7 @@ useEffect(
     <Layout>
 
       {/* <!-- LANGUAGES --> */}
-    <Languages location={location} lang={lang} />
+      <Languages location={location} lang={lang} />
 
       {/* <!-- HOME --> */}
 
