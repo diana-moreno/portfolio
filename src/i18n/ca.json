@@ -8,6 +8,8 @@
   },
   "about": {
     "title": "SOBRE MI",
+    "cv_text": "¿T'agradaria coneixer més sobre la meva trajectoria professional?",
+    "cv_button": "Descarregar CV",
     "concepts_key": {
       "concept_key_1": {
         "title": "Disseny adaptatiu",

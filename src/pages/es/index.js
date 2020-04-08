@@ -15,6 +15,8 @@ import { t } from '../../i18n'
 import projectsData from '../../data/projects.js'
 import Languages from "../../components/Languages"
 import allUrls from "../../urls/allUrls"
+import CvIcon from '../../assets/curriculum-vitae.svg'
+import curriculum from '../../data/cv.pdf'
 
 const lang = 'es'
 
@@ -227,6 +229,15 @@ useEffect(
             <h3>{t('about.passions.title', lang)}</h3>
             <p>{t('about.passions.section_1', lang)}</p>
           </div>
+        </div>
+      </section>
+      <section className={styles.curriculum}>
+        <div>
+          <div>
+            <h3 className={styles.cv_title}>{t('about.cv_text', lang)}</h3>
+            <a className={styles.cv_button} href={curriculum} download>{t('about.cv_button', lang)}</a>
+          </div>
+          <CvIcon className={styles.cv_icon} />
         </div>
       </section>
 
