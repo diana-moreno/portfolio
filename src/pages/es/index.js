@@ -19,9 +19,6 @@ import allUrls from "../../urls/allUrls"
 const lang = 'es'
 
 const IndexPage = ({ pageContext, location }) => {
-
-  console.log(lang)
-
   const { image, projects } = useStaticQuery(graphql`
     query {
       image: file(relativePath: {eq: "profile.png"}) {

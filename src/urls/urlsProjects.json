@@ -6,7 +6,7 @@
   },
   {
     "image": "portfolio",
-    "url": "portafolio-multilenguaje/",
+    "url": "es/portafolio-multilenguaje/",
     "lang": "es"
   },
   {
@@ -81,8 +81,8 @@
   },
   {
     "image": "github-repositories",
-    "url": "github-repositories/",
-    "lang": "en"
+    "url": "es/repositorios-de-github/",
+    "lang": "es"
   },
   {
     "image": "github-repositories",
@@ -306,7 +306,7 @@
   },
   {
     "image": "personal-website",
-    "url": "/es/pagina-personal/",
+    "url": "es/pagina-personal/",
     "lang": "es"
   },
   {
