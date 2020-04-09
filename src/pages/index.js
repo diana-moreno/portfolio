@@ -16,7 +16,7 @@ import projectsData from '../data/projects.js'
 import Languages from "../components/Languages"
 import allUrls from "../urls/allUrls"
 import CvIcon from '../assets/curriculum-vitae.svg'
-import curriculum from '../data/cv.pdf'
+import curriculum from '../data/cv_en.pdf'
 
 const lang = 'en'
 
