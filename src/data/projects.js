@@ -1,6 +1,7 @@
 const projects = [
   {
     project: 23,
+    technology: ['react', 'node', 'all'],
     url: 'projects.project_23.url',
     title: 'projects.project_23.title',
     main: "projects.project_23.main",
@@ -27,6 +28,7 @@ const projects = [
   },
   {
     project: 22,
+    technology: ['react', 'all'],
     url: 'projects.project_22.url',
     title: 'projects.project_22.title',
     main: "projects.project_22.main",
@@ -52,6 +54,7 @@ const projects = [
   },
   {
     project: 21,
+    technology: ['react', 'all'],
     url: 'projects.project_21.url',
     title: 'projects.project_21.title',
     main: "projects.project_21.main",
@@ -79,6 +82,7 @@ const projects = [
   },
   {
     project: 20,
+    technology: ['react', 'node', 'all'],
     url: 'projects.project_20.url',
     title: 'projects.project_20.title',
     main: "projects.project_20.main",
@@ -104,6 +108,7 @@ const projects = [
   },
   {
     project: 19,
+    technology: ['react', 'node', 'all'],
     url: 'projects.project_19.url',
     title: 'projects.project_19.title',
     main: "projects.project_19.main",
@@ -130,6 +135,7 @@ const projects = [
   },
   {
     project: 18,
+    technology: ['javascript', 'all'],
     url: 'projects.project_18.url',
     title: 'projects.project_18.title',
     main: "projects.project_18.main",
@@ -154,6 +160,7 @@ const projects = [
   },
   {
     project: 17,
+    technology: ['react', 'node', 'all'],
     url: 'projects.project_17.url',
     title: 'projects.project_17.title',
     main: "projects.project_17.main",
@@ -182,6 +189,7 @@ const projects = [
   },
   {
     project: 16,
+    technology: ['react', 'node', 'all'],
     url: 'projects.project_16.url',
     title: 'projects.project_16.title',
     main: "projects.project_16.main",
@@ -233,6 +241,7 @@ const projects = [
   },
   {
     project: 15,
+    technology: ['react', 'all'],
     url: 'projects.project_15.url',
     title: 'projects.project_15.title',
     main: "projects.project_15.main",
@@ -261,6 +270,7 @@ const projects = [
   },
   {
     project: 14,
+    technology: ["node", "react", "javascript", "all"],
     url: 'projects.project_14.url',
     title: 'projects.project_14.title',
     main: "projects.project_14.main",
@@ -292,6 +302,7 @@ const projects = [
   },
   {
     project: 13,
+    technology: ['react', 'all'],
     url: 'projects.project_13.url',
     title: 'projects.project_13.title',
     main: "projects.project_13.main",
@@ -318,6 +329,7 @@ const projects = [
   },
   {
     project: 12,
+    technology: ['node', 'all'],
     url: 'projects.project_12.url',
     title: 'projects.project_12.title',
     main: "projects.project_12.main",
@@ -343,6 +355,7 @@ const projects = [
   },
   {
     project: 11,
+    technology: ['javascript', 'all'],
     url: 'projects.project_11.url',
     title: 'projects.project_11.title',
     main: "projects.project_11.main",
@@ -368,6 +381,7 @@ const projects = [
   },
   {
     project: 10,
+    technology: ['react', 'all'],
     url: 'projects.project_10.url',
     title: 'projects.project_10.title',
     main: "projects.project_10.main",
@@ -394,6 +408,7 @@ const projects = [
   },
   {
     project: 9,
+    technology: ['react', 'all'],
     url: 'projects.project_9.url',
     title: 'projects.project_9.title',
     main: "projects.project_9.main",
@@ -424,6 +439,7 @@ const projects = [
   },
   {
     project: 8,
+    technology: ['javascript', 'all'],
     url: 'projects.project_8.url',
     title: 'projects.project_8.title',
     main: "projects.project_8.main",
@@ -451,6 +467,7 @@ const projects = [
   },
   {
     project: 7,
+    technology: ['javascript', 'all'],
     url: 'projects.project_7.url',
     title: 'projects.project_7.title',
     main: "projects.project_7.main",
@@ -482,6 +499,7 @@ const projects = [
   },
   {
     project: 6,
+    technology: ['javascript', 'all'],
     url: 'projects.project_6.url',
     title: 'projects.project_6.title',
     main: "projects.project_6.main",
@@ -511,6 +529,7 @@ const projects = [
   },
   {
     project: 5,
+    technology: ['javascript', 'all'],
     url: 'projects.project_5.url',
     title: 'projects.project_5.title',
     main: "projects.project_5.main",
@@ -538,6 +557,7 @@ const projects = [
   },
   {
     project: 4,
+    technology: ['javascript', 'all'],
     url: 'projects.project_4.url',
     title: 'projects.project_4.title',
     main: "projects.project_4.main",
@@ -567,6 +587,7 @@ const projects = [
   },
   {
     project: 3,
+    technology: ['javascript', 'all'],
     url: 'projects.project_3.url',
     title: 'projects.project_3.title',
     main: "projects.project_3.main",
@@ -597,6 +618,7 @@ const projects = [
   },
   {
     project: 2,
+    technology: ['javascript', 'all'],
     url: 'projects.project_2.url',
     title: 'projects.project_2.title',
     main: "projects.project_2.main",
@@ -623,6 +645,7 @@ const projects = [
   },
   {
     project: 1,
+    technology: ['javascript', 'all'],
     url: 'projects.project_1.url',
     title: 'projects.project_1.title',
     main: "projects.project_1.main",

@@ -113,7 +113,9 @@ const [indexMenu, setIndexMenu] = useState(0)
 const changeNav = (entries, observer) => {
   entries.forEach((entry) => {
     // verify the element is intersecting
-    if(entry.isIntersecting && entry.intersectionRatio >= 0.40) {
+    console.log(entry.isIntersecting)
+    console.log(entry.intersectionRatio)
+    if(entry.isIntersecting && entry.intersectionRatio) {
       if(entry.target.id === 'home') {
         setIndexMenu(0)
       }
@@ -132,7 +134,7 @@ const changeNav = (entries, observer) => {
 
 // init the observer
 const options = {
-  threshold: 0.55
+  threshold: 0.40
 }
 
 
@@ -164,7 +166,12 @@ useEffect(
   },
   [homeElem]
 )
-  
+
+const [currentFilter, setCurrentFilter] = useState('all')
+const handleFilter = (filter) => {
+  setCurrentFilter(filter)
+}
+
 
   return (
     <Layout>
@@ -245,21 +252,43 @@ useEffect(
 
       {/* <!-- PROJECTS --> */}
       <section ref={projectsRef} id='projects' className={styles.projects}>
+        <div>
         <div className={styles.title_section}>
           <h1>{t('projects.title', lang)}</h1>
           <div className={styles.title_section_line}></div>
         </div>
         {/* <!-- FILTER --> */}
         <div className={styles.filters}>
-        <div className={styles.filter_active}>{t('projects.all', lang)}</div>
-          <div className={styles.filter}>REACT</div>
-          <div className={styles.filter}>GATSBY</div>
-          <div className={styles.filter}>JS/EXPRESS</div>
+          <div 
+            onClick={() => handleFilter('all')} 
+            className={currentFilter === 'all' 
+              ? `${styles.filter} ${styles.filter_active}` : styles.filter }
+          >{t('projects.all', lang)}</div>
+          <div 
+            onClick={() => handleFilter('react')} 
+            className={currentFilter === 'react' 
+              ? `${styles.filter} ${styles.filter_active}` : styles.filter }
+          >REACT</div>
+          <div 
+            onClick={() => handleFilter('node')} 
+            className={currentFilter === 'node' 
+              ? `${styles.filter} ${styles.filter_active}` : styles.filter }
+          >NODE</div>
+          <div 
+            onClick={() => handleFilter('javascript')} 
+            className={currentFilter === 'javascript' 
+              ? `${styles.filter} ${styles.filter_active}` : styles.filter }
+          >JAVASCRIPT</div>
         </div>
 
         <div className={styles.projects_container}>
 
-          {projectsData.slice(initial, last).map(elem => (
+          {projectsData.map(elem => {
+
+          if(elem.technology.includes(currentFilter)) {
+
+          
+          return (
             <div className={styles.card}>
               <div className={styles.project_image_container}>
                 <a href={t(elem.url, lang)} project={elem} >
@@ -269,26 +298,25 @@ useEffect(
                     alt={t(elem.title, lang)} 
                   />
                 </a>
-
-                {/* TODO LINKS */}
-                {/* cuando haces click a un punto, se desordenan los proyectos */}
               </div>
               <div className={styles.project_title}>{t(elem.title, lang)}</div>
             </div>
-          ))}
-
+          )}})}
+        </div>
+        </div>
+      </section>
           {/* <!-- PROJECT DOTS --> */}
-          <div className={styles.dots_container}>
+          {/* <div className={styles.dots_container}>
             {[...Array(totalPages)].map((page, i) =>
               <button
                 onClick={() => switchToPage(i)}
                 className={actualPage === i ? `${styles.dot_active} ${styles.dot}` : styles.dot}
               />
             )}
-          </div>
+          </div> */}
 
           {/* <!-- PROJECT ARROWS --> */}
-          {initial > 0 && <LeftArrow
+          {/* {initial > 0 && <LeftArrow
             className={styles.left_arrow}
             onClick={goToPreviousSlide}
           />}
@@ -296,9 +324,8 @@ useEffect(
           {last < totalItems && <RightArrow
             className={styles.right_arrow}
             onClick={goToNextSlide}
-          />}
-        </div>
-      </section>
+          />} */}
+
 
       {/* <!-- CONTACT --> */}
       <section ref={contactRef} id='contact' className={styles.contact}>
