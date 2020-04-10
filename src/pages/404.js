@@ -1,14 +1,22 @@
 import React from "react"
-
 import Layout from "../components/Layout"
+import styles from './notFound.module.scss'
 // import SEO from "../components/seo"
 
 const NotFoundPage = () => (
-  <Layout>
-    {/* <SEO title="404: Not found" /> */}
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+  // <Layout>
+  <div className={styles.not_found}>
+    <div className={styles.bubble}></div>
+    <div className={styles.bubble}></div>
+    <div className={styles.bubble}></div>
+    <div className={styles.bubble}></div>
+    <div className={styles.text_404}>
+      <h1>404</h1>
+      <p>Oops! Something went wrong.</p>
+      <button type="button">Go home</button>
+    </div>
+  </div>
+  // </Layout>
 )
 
 export default NotFoundPage
