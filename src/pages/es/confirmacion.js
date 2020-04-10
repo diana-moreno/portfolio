@@ -3,13 +3,9 @@ import Confirmation from "../../components/Confirmation"
 
 const lang = 'es'
 
-const ConfirmationPage = ({ pageContext }) => {
-  const [urls] = pageContext.urls.filter(obj => {
-    return obj.id === "Confirmation"
-  })
-
+const ConfirmationPage = () => {
   return (
-    <Confirmation urls={urls} lang={lang} />
+    <Confirmation lang={lang} />
 )}
 
 export default ConfirmationPage

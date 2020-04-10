@@ -4,7 +4,7 @@ import styles from '../../pages/index.module.scss'
 import { t } from '../../i18n';
 import allUrls from "../../urls/allUrls"
 
-const Confirmation = ({ urls, lang }) => (
+const Confirmation = ({ lang }) => (
     <div className={styles.success}>
       <h1>{t('confirmation.title', lang)}</h1>
       <div className={styles.title_section_line}></div>
