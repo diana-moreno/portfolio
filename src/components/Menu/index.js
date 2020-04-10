@@ -4,7 +4,7 @@ import { t } from '../../i18n'
 import { Link } from 'gatsby'
 import allUrls from "../../urls/allUrls"
 
-const Navbar = ({ lang, indexMenu }) => {
+const Menu = ({ lang, indexMenu }) => {
   const [openMenu, setOpenMenu] = useState(false)
   const toggleMenu = () => {
     return openMenu ? setOpenMenu(false) : setOpenMenu(true)
@@ -69,4 +69,4 @@ const Navbar = ({ lang, indexMenu }) => {
   )
 }
 
-export default Navbar
+export default Menu

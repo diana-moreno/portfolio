@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/Layout"
 import styles from './index.module.scss'
-import Navbar from '../components/Navbar'
+import Menu from '../components/Menu'
 import ArrowBounce from '../components/ArrowBounce'
 import WhiteTriangle from '../assets/white_triangle.svg'
 import Img from 'gatsby-image'
@@ -15,7 +15,6 @@ import Languages from "../components/Languages"
 import allUrls from "../urls/allUrls"
 import CvIcon from '../assets/curriculum-vitae.svg'
 import curriculum from '../data/cv_en.pdf'
-import { navigate } from 'gatsby'
 
 const lang = 'en'
 
@@ -130,8 +129,8 @@ const IndexPage = ({ pageContext, location }) => {
         </div>
       </section>
 
-      {/* <!-- NAVBAR --> */}
-      <Navbar lang={lang} indexMenu={indexMenu} />
+      {/* <!-- MENU --> */}
+      <Menu lang={lang} indexMenu={indexMenu} />
 
       {/* <!-- ABOUT --> */}
       <section ref={aboutRef} id='about' className={styles.about}>

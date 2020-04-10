@@ -1,8 +1,8 @@
 import React from "react"
 import styles from './project.module.scss'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/Layout"
-import Navbar from '../components/Navbar'
+import Menu from '../components/Menu'
 import GithubIcon from '../assets/github.svg'
 import Img from 'gatsby-image'
 import projectsData from '../data/projects'
@@ -39,7 +39,7 @@ const ProjectPage = ({ pageContext, location }) => {
   return (
     <Layout>
       <Languages location={location} lang={lang} />
-      <Navbar lang={lang} />
+      <Menu lang={lang} />
       <div className={styles.main}>
         <div className={styles.title_section}>
           <div className={styles.project_title_container}>
