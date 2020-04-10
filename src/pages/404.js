@@ -6,9 +6,9 @@ import { t } from '../i18n'
 import allUrls from "../urls/allUrls"
 // import SEO from "../components/seo"
 
-const lang = 'en'
-
-const NotFoundPage = () => {
+const NotFoundPage = ({ location }) => {
+  const lang = location.pathname.slice(1, 3)
+  
   return (
     <div className={styles.not_found}>
       <div className={styles.bubble}></div>
