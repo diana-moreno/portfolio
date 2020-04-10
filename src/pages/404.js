@@ -7,8 +7,11 @@ import allUrls from "../urls/allUrls"
 // import SEO from "../components/seo"
 
 const NotFoundPage = ({ location }) => {
-  const lang = location.pathname.slice(1, 3)
-  
+  let lang = location.pathname.slice(1, 3)
+  if(!lang) {
+    lang = 'en'
+  }
+
   return (
     <div className={styles.not_found}>
       <div className={styles.bubble}></div>
