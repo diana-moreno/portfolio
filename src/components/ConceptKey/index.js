@@ -2,7 +2,6 @@ import React from "react"
 import styles from '../../pages/index.module.scss'
 import { t } from '../../i18n';
 
-
 const ConceptKey = ({ title, description, icon, lang }) => {
   return (
     <div className={styles.circle_container}>

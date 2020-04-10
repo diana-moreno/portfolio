@@ -1,16 +1,15 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Diana Moreno <d7@hotmail.es>",
   "dependencies": {
     "@react-hook/intersection-observer": "^2.0.10",
     "dotenv": "^8.2.0",
     "flat": "^5.0.0",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
-    "gatsby-plugin-anchor-links": "^1.1.1",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-postcss": "^2.1.21",
@@ -37,7 +36,11 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "portfolio",
+    "react",
+    "javascript",
+    "projects"
   ],
   "license": "MIT",
   "scripts": {

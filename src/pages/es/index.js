@@ -18,7 +18,7 @@ import curriculum from '../../data/cv_es.pdf'
 
 const lang = 'es'
 
-const IndexPage = ({ pageContext, location }) => {
+const IndexPage = ({ location }) => {
   const { image, projects } = useStaticQuery(graphql`
     query {
       image: file(relativePath: {eq: "profile.png"}) {
