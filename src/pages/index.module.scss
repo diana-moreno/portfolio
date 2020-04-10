@@ -575,11 +575,10 @@ footer {
   margin-top: 3rem;
   div {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     max-width: 1450px;
     margin: 0 auto;
-    max-height: 513px;
     div {
       display: flex;
       flex-direction: column;
