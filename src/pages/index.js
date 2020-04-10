@@ -15,6 +15,7 @@ import Languages from "../components/Languages"
 import allUrls from "../urls/allUrls"
 import CvIcon from '../assets/curriculum-vitae.svg'
 import curriculum from '../data/cv_en.pdf'
+import { navigate } from 'gatsby'
 
 const lang = 'en'
 

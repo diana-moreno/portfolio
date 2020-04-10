@@ -17,6 +17,7 @@ import Languages from "../../components/Languages"
 import allUrls from "../../urls/allUrls"
 import CvIcon from '../../assets/curriculum-vitae.svg'
 import curriculum from '../../data/cv_es.pdf'
+import { navigate } from 'gatsby'
 
 const lang = 'es'
 
@@ -113,17 +114,17 @@ const [indexMenu, setIndexMenu] = useState(0)
 const changeNav = (entries, observer) => {
   entries.forEach((entry) => {
     // verify the element is intersecting
-    if(entry.isIntersecting && entry.intersectionRatio >= 0.55) {
-      if(entry.target.id === 'home') {
+    if (entry.isIntersecting && entry.intersectionRatio) {
+      if (entry.target.id === 'home') {
         setIndexMenu(0)
       }
-      if(entry.target.id === 'about') {
+      if (entry.target.id === 'about') {
         setIndexMenu(1)
       }
-      if(entry.target.id === 'projects') {
+      if (entry.target.id === 'projects') {
         setIndexMenu(2)
       }
-      if(entry.target.id === 'contact') {
+      if (entry.target.id === 'contact') {
         setIndexMenu(3)
       }
     }

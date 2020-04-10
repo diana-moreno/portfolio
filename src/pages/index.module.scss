@@ -17,7 +17,7 @@ input:focus, button:focus {
 .languages {
   position: fixed;
   right: 1rem;
-  top: 0.8rem;
+  top: 0.9rem;
   color: white;
   z-index: 3;
   cursor: pointer;
@@ -92,6 +92,7 @@ input:focus, button:focus {
   margin: 4rem auto;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding: 0 1rem;
 }
 .circle_container {
   width: 16rem;
