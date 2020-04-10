@@ -544,7 +544,7 @@ footer {
 .cv_icon {
   fill: #444649;
   width: 7rem;
-  height: auto;
+  height: 6rem;
   margin-bottom: 2rem;
 }
 .cv_button {
@@ -575,7 +575,7 @@ footer {
   margin-top: 3rem;
   div {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-evenly;
     max-width: 1450px;
     margin: 0 auto;

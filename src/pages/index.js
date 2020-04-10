@@ -174,11 +174,11 @@ const IndexPage = ({ pageContext, location }) => {
       </section>
       <section className={styles.curriculum}>
         <div>
-          <CvIcon className={styles.cv_icon} />
           <div>
             <h3 className={styles.cv_title}>{t('about.cv_text', lang)}</h3>
             <a className={styles.cv_button} href={curriculum} download>{t('about.cv_button', lang)}</a>
           </div>
+          <CvIcon className={styles.cv_icon} />
         </div>
       </section>
 
