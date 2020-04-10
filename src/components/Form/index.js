@@ -30,8 +30,7 @@ const Form = ({ lang }) => {
     }
     if (name && email && message && !errorName && !errorEmail && !errorMessage) {
       await sendMessage(name, email, message)
-      navigate('/confirmation') 
-      // TODO LINK
+      navigate(t('confirmation.url', lang)) 
     }
   }
   // add spinner loading?
@@ -42,15 +41,16 @@ const Form = ({ lang }) => {
     id === 'name' && setErrorName(false)
     id === 'email' && setErrorEmail(false)
     id === 'message' && setErrorMessage(false)
-  }
-
-  const clear = () => {
-    setName(t('form.name', lang))
-    setEmail(t('form.email', lang))
-    setMessage(t('form.message', lang))
-    setErrorName(false)
-    setErrorEmail(false)
-    setErrorMessage(false)
+  
+    if(id === 'name' && !event.target.value) {
+      setName(t('form.name', lang))
+    }
+    if(id === 'email' && !event.target.value) {
+      setEmail(t('form.email', lang))
+    }
+    if(id === 'message' && !event.target.value) {
+      setMessage(t('form.message', lang))
+    }
   }
 
   return (
@@ -83,15 +83,12 @@ const Form = ({ lang }) => {
         placeholder={message}
         onChange={handleChange}
       />
+      <button 
+        type="submit" 
+        value="Send message" 
+        className={styles.button_send}
+      >{t('form.submit_button', lang)}</button>
     </div>
-    <ul className={styles.form_buttons}>
-      <li>
-        <button type="submit" value="Send message" className={styles.button_send}>{t('form.submit_button', lang)}</button>
-      </li>
-      <li>
-        <button type="reset" value="Clear" onClick={clear} className={styles.button_clear}>{t('form.clear_button', lang)}</button>
-      </li>
-    </ul>
   </form>
 )}
 

@@ -48,7 +48,7 @@
     "title":"CONTACTO"
   },
   "confirmation": {
-    "url": "confirmacion",
+    "url": "/es/confirmacion",
     "title": "¡Gracias!",
     "message_1": "Tu mensaje se ha enviado correctamente.",
     "message_2": "¡Contactaré contigo lo antes posible!",
