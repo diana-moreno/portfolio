@@ -54,6 +54,10 @@
     "message_2": "Em posaré en contacte amb tu al més aviat possible!",
     "button_back": "Tornar enrere"
   },
+  "error": {
+    "message": "Vaja! Alguna cosa ha anat malament.",
+    "button": "Anar a inici"
+  },
   "form": {
     "name": "Nom",
     "email": "Correu electrònic",

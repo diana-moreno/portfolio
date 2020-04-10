@@ -54,6 +54,10 @@
     "message_2": "¡Contactaré contigo lo antes posible!",
     "button_back": "Volver atrás"
   },
+  "error": {
+    "message": "¡Uy! Algo salió mal.",
+    "button": "Ir a inicio"
+  },
   "form": {
     "name": "Nombre",
     "email": "Correo electrónico",
