@@ -46,8 +46,15 @@ input:focus, button:focus {
   height: 100vh;
   background-color: #1b242f;
   color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 3.5rem;
+  padding: 0 1rem;
+  div:first-child {
+    padding-bottom: 2rem;
+  }
+  @media only screen and (min-width: 650px) {
+    font-size: 2.5rem;
+  }
 }
 
 .greeting__name {
@@ -61,7 +68,7 @@ input:focus, button:focus {
     font-size: 1.5rem;
     outline: none;
     position: absolute;
-    bottom: 3rem;
+    bottom: 0;
     
   p {
     margin-bottom: 0;
@@ -124,20 +131,19 @@ input:focus, button:focus {
     fill: white;
   }
 }
-
-
 .aboutme {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
+  @media only screen and (max-width: 650px) {
+    margin-top: -4rem;
+  }
 }
-
 .aboutme_text {
   max-width: 36rem;
 }
-
 .aboutme_image_container {
   width: 18rem;
   padding: 0.5em;
@@ -523,9 +529,8 @@ footer {
   font-size: 18px;
   color: white;
   background-color: #498285;
-  // background-color: #57c1c7;
   font-weight: 700;
-  width: fit-content;
+  width: 6rem;
   position: absolute;
   right: 2px;
   bottom: -41px;
