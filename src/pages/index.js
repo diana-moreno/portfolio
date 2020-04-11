@@ -8,6 +8,7 @@ import About from "../components/About"
 import Projects from "../components/Projects"
 import Contact from "../components/Contact"
 import curriculum from '../data/cv_en.pdf'
+import seo from '../data/seo.json'
 
 const lang = 'en'
 
@@ -38,6 +39,7 @@ const IndexPage = ({ location }) => {
   `)
   const imageProfile = image.childImageSharp.fluid.src
 
+  console.log(seo)
   // Intersection Observer
   const [indexMenu, setIndexMenu] = useState(0)
 

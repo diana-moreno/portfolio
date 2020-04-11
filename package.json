@@ -20,6 +20,7 @@
     "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-plugin-smoothscroll": "^1.1.0",
     "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-json": "^2.2.15",
     "gatsby-transformer-sharp": "^2.3.13",
     "intersection-observer": "^0.7.0",
     "node-sass": "^4.13.1",

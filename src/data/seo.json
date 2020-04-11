@@ -1,0 +1,660 @@
+[
+  {
+    "name": "home",
+    "url_en": "/",
+    "title_en": "Diana Moreno - Portfolio",
+    "description_en": "",
+    "alternateLanguage_en": "es",
+    "alternateUrl_en": "/es/",
+    "url_es": "/es/",
+    "title_es": "Diana Moreno - Portafolio",
+    "description_es": "Portafolio personal con una recopilación de todos mis proyectos, biografía y datos de contacto.",
+    "alternateLanguage_es": "en",
+    "alternateUrl_es": "/",
+    "url_ca": "/ca/",
+    "title_ca": "Diana Moreno - Portfoli",
+    "description_ca": "Portafoli personal amb una recopilació de tots els menus projectes, biografia i dades de contacte.",
+    "alternateLanguage_ca": "en",
+    "alternateUrl_ca": "/"
+  },
+  {
+    "name": "confirmation",
+    "url_en": "/confirmation/",
+    "title_en": "Diana Moreno - Portfolio",
+    "description_en": "",
+    "alternateLanguage_en": "es",
+    "alternateUrl_en": "/es/confirmacion/",
+    "url_es": "/es/confirmacion/",
+    "title_es": "Diana Moreno - Portafolio",
+    "description_es": "Portafolio personal con una recopilación de todos mis proyectos, biografía y datos de contacto.",
+    "alternateLanguage_es": "en",
+    "alternateUrl_es": "/confirmation/",
+    "url_ca": "/ca/confirmacio/",
+    "title_ca": "Diana Moreno - Portfoli",
+    "description_ca": "Portafoli personal amb una recopilació de tots els menus projectes, biografia i dades de contacte.",
+    "alternateLanguage_ca": "en",
+    "alternateUrl_ca": "/confirmation/"
+  },
+  {
+    "name": "portfolio",
+    "url": "portfolio-multilanguage/",
+    "lang": "en",
+    "title": "Portfolio multilanguage",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": ""
+  },
+  {
+    "name": "portfolio",
+    "url": "es/portafolio-multilenguaje/",
+    "lang": "es",
+    "title": "Portafolio multilenguaje",
+    "description": "Esta página web personal ha sido desarrollada expresamente para colaborar en el trabajo de fin de grado de mi hermana sobre traducciones tecnológicas.",
+    "alternateLanguage": "en",
+    "alternateUrl": "portfolio-multilanguage/" 
+  },
+  {
+    "name": "portfolio",
+    "url": "ca/portafolis-multillenguatge/",
+    "lang": "ca",
+    "title": "Portafolis multillenguatge",
+    "description": "Aquesta pàgina web personal ha estat desenvolupada expressament per a col·laborar en el treball de fi de grau de la meva germana sobre traduccions tecnològiques.",
+    "alternateLanguage": "en",
+    "alternateUrl": "portfolio-multilanguage/"
+  },
+  {
+    "name": "paradise-hotel",
+    "url": "paradise-hotel/",
+    "lang": "en",
+    "title": "Paradise Hotel",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/hotel-paraiso/"
+  },
+  {
+    "name": "paradise-hotel",
+    "url": "es/hotel-paraiso/",
+    "lang": "es",
+    "title": "Hotell Paraíso",
+    "description": "Hotel Paraíso es una página de ejemplo de páginas corporativas para hoteles donde se muestra información del hotel y detalle de las habitaciones.",
+    "alternateLanguage": "en",
+    "alternateUrl": "paradise-hotel/"
+  },
+  {
+    "name": "paradise-hotel",
+    "url": "ca/hotel-paradis/",
+    "lang": "ca",
+    "title": "Hotel Paradís",
+    "description": "Hotel Paradís és un exemple de pàgines corporatives per a hotels on es presenta informació de l'hotel i detall de les habitacions.",
+    "alternateLanguage": "en",
+    "alternateUrl": "paradise-hotel/"
+  },
+  {
+    "name": "juice-store",
+    "url": "juice-store/",
+    "lang": "en",
+    "title": "Juice store",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/tienda-de-zumos/"
+  },
+  {
+    "name": "juice-store",
+    "url": "es/tienda-de-zumos/",
+    "lang": "es",
+    "title": "Tienda de zumos",
+    "description": "Este proyecto es una simulación de una tienda de zumos. La finalidad ha sido aprender React Redux con Sagas y Thunks.",
+    "alternateLanguage": "en",
+    "alternateUrl": "juice-store/"
+  },
+  {
+    "name": "juice-store",
+    "url": "ca/botiga-de-sucs/",
+    "lang": "ca",
+    "title": "Botiga de sucs",
+    "description": "El següent projecte és una simulació d'una botiga de sucs. La finalitat ha estat aprendre React Redux amb Sagas i Thunks.",
+    "alternateLanguage": "en",
+    "alternateUrl": "juice-store/"
+  },
+  {
+    "name": "canvas",
+    "url": "canvas/",
+    "lang": "en",
+    "title": "Canvas",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/canvas/"
+  },
+  {
+    "name": "canvas",
+    "url": "es/canvas/",
+    "lang": "es",
+    "title": "Canvas",
+    "description": "Canvas es una plantilla de gestión estratégica empresarial para documentar modelos de negocio. Es un cuadro visual con elementos que describen la propuesta de valor, infraestructura, clientes y finanzas de una empresa o producto.",
+    "alternateLanguage": "en",
+    "alternateUrl": "canvas/"
+  },
+  {
+    "name": "canvas",
+    "url": "ca/canvas/",
+    "lang": "ca",
+    "title": "",
+    "description": "Canvas és una plantilla de gestió estratègica empresarial per a documentar models de negoci. És un quadre visual amb elements que descriuen la proposta de valor, infraestructura, clients i finances d'una empresa o producte.",
+    "alternateLanguage": "en",
+    "alternateUrl": "canvas/"
+  },
+  {
+    "name": "kanban",
+    "url": "kanban/",
+    "lang": "en",
+    "title": "Kanban",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/kanban/"
+  },
+  {
+    "name": "kanban",
+    "url": "es/kanban/",
+    "lang": "es",
+    "title": "Kanban",
+    "description": "Este proyecto Full Stack reproduce un Kanban. Kanban es un sistema visual para gestionar el trabajo y las tareas a medida que avanza en un proceso. Es realmente fácil de usar porque las tareas sólo se tienen que arrastrar y soltar en la columna deseada.",
+    "alternateLanguage": "en",
+    "alternateUrl": "kanban/"
+  },
+  {
+    "name": "kanban",
+    "url": "ca/kanban/",
+    "lang": "ca",
+    "title": "Kanban",
+    "description": "El següent projecte Full Stack reprodueix un Kanban. Kanban és un sistema visual per a gestionar el treball i les tasques a mesura que avança en un procés. És realment fàcil d'utilitzar perquè les tasques només s'han d'arrossegar i deixar anar en la columna desitjada.",
+    "alternateLanguage": "en",
+    "alternateUrl": "kanban/"
+  },
+  {
+    "name": "github-repositories",
+    "url": "github-repositories/",
+    "lang": "en",
+    "title": "Github repositories",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/repositorios-de-github/"
+  },
+  {
+    "name": "github-repositories",
+    "url": "es/repositorios-de-github/",
+    "lang": "es",
+    "title": "Repositorios de GitHub",
+    "description": "Este proyecto muestra información sobre los repositorios y datos públicos de cualquier usuario de GitHub.",
+    "alternateLanguage": "en",
+    "alternateUrl": "github-repositories/"
+  },
+  {
+    "name": "github-repositories",
+    "url": "ca/repositoris-de-github/",
+    "lang": "ca",
+    "title": "Repositoris de GitHub",
+    "description": "Aquest projecte presenta informació sobre els repositoris i les dades públiques de qualsevol usuari de GitHub.",
+    "alternateLanguage": "en",
+    "alternateUrl": "github-repositories/"
+  },
+  {
+    "name": "kasaz",
+    "url": "kasaz/",
+    "lang": "en",
+    "title": "Kasaz",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/kasaz/"
+  },
+  {
+    "name": "kasaz",
+    "url": "es/kasaz/",
+    "lang": "es",
+    "title": "Kasaz",
+    "description": "Kasaz es una inmobiliaria online donde se pueden buscar apartamentos personalizando los criterios de búsqueda.",
+    "alternateLanguage": "en",
+    "alternateUrl": "kasaz/"
+  },
+  {
+    "name": "kasaz",
+    "url": "ca/kasaz/",
+    "lang": "ca",
+    "title": "Kasaz",
+    "description": "Kasaz és una immobiliària en línia on es poden buscar apartaments mitjançant la personalització dels criteris de cerca.",
+    "alternateLanguage": "en",
+    "alternateUrl": "kasaz/"
+  },
+  {
+    "name": "wheely",
+    "url": "wheely/",
+    "lang": "en",
+    "title": "Wheely",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/wheely/"
+  },
+  {
+    "name": "wheely",
+    "url": "es/wheely/",
+    "lang": "es",
+    "title": "Wheely",
+    "description": "Este es mi proyecto final y primer proyecto Full Stack, realizado en el Bootcamp de Skylab. La idea nace de una necesidad real en las autoescuelas de agilizar la tarea de reservas de prácticas en la que tanto alumno como profesor pueden hacer la gestión 100% online además de un seguimiento del alumno, control de créditos disponibles, etc.",
+    "alternateLanguage": "en",
+    "alternateUrl": "wheely/"
+  },
+  {
+    "name": "wheely",
+    "url": "ca/wheely/",
+    "lang": "ca",
+    "title": "Wheely",
+    "description": "Aquest és el meu projecte final i el primer projecte Full Stack, produït en el Bootcamp de Skylab. La idea neix d'una necessitat real en les autoescoles d'agilitzar la tasca de reserves de pràctiques. Tant alumne com professor poden fer la gestió 100% en línia, a més d'un seguiment de l'alumne, control de crèdits disponibles, etc.",
+    "alternateLanguage": "en",
+    "alternateUrl": "wheely/"
+  },
+  {
+    "name": "duck-store",
+    "url": "duck-store/",
+    "lang": "en",
+    "title": "Duck Store",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/tienda-de-patos/"
+  },
+  {
+    "name": "duck-store",
+    "url": "es/tienda-de-patos/",
+    "lang": "es",
+    "title": "Tienda de patos",
+    "description": "Tienda de patos es un comercio electrónico SPA que muestra informción sobre patos de goma. Este proyecto fue desarrollado durante el Bootcamp de Skylab de 3 maneras diferentes haciendo incapié en la refactorización continua.",
+    "alternateLanguage": "en",
+    "alternateUrl": "duck-store/"
+  },
+  {
+    "name": "duck-store",
+    "url": "ca/botiga-d-anecs/",
+    "lang": "ca",
+    "title": "Botiga d'ànecs",
+    "description": "Botiga d'ànecs és un comerç electrònic SPA que presenta informació sobre ànecs de goma. Aquest projecte va ser desenvolupat durant el Bootcamp de Skylab de 3 maneres diferents fent èmfasis en la refacció contínua.",
+    "alternateLanguage": "en",
+    "alternateUrl": "duck-store/"
+    
+  },
+  {
+    "name": "eat-the-world",
+    "url": "eat-the-world/",
+    "lang": "en",
+    "title": "Eat the World",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/comete-el-mundo/"
+  },
+  {
+    "name": "eat-the-world",
+    "url": "es/comete-el-mundo/",
+    "lang": "es",
+    "title": "Cómete el mundo",
+    "description": "Éste es un proyecto realizado en grupo durante el Bootcamp de Skylab. La aplicación muestra información acerca de restaurantes de diferentes categorías en varias partes del mundo.",
+    "alternateLanguage": "en",
+    "alternateUrl": "eat-the-world/"
+  },
+  {
+    "name": "eat-the-world",
+    "url": "ca/menja-t-el-mon/",
+    "lang": "ca",
+    "title": "Menja't el mon",
+    "description": "Aquest projecte és un projecte fet en grup durant el Bootcamp de Skylab. L'aplicació mostra informació sobre restaurants de diferents categories en diferents parts del món.",
+    "alternateLanguage": "en",
+    "alternateUrl": "eat-the-world/"
+  },
+  {
+    "name": "four-in-a-row",
+    "url": "four-in-a-row/",
+    "lang": "en",
+    "title": "Four in a Row",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/conecta-4/"
+  },
+  {
+    "name": "four-in-a-row",
+    "url": "es/conecta-4/",
+    "lang": "es",
+    "title": "Conecta 4",
+    "description": "Juego online del clásico Conecta 4 donde un jugador juega contra otro por turnos y la finalidad es conseguir formar una linea recta combinando cuatro fichas seguidas antes que el rival.",
+    "alternateLanguage": "en",
+    "alternateUrl": "four-in-a-row/"
+  },
+  {
+    "name": "four-in-a-row",
+    "url": "ca/connecta-4/",
+    "lang": "ca",
+    "title": "Connecta 4",
+    "description": "Joc en línia del clàssic Connecta 4 on un jugador s'enfronta un altre per torns i la finalitat és aconseguir formar una línia recta combinant quatre fitxes seguides abans que el rival.",
+    "alternateLanguage": "en",
+    "alternateUrl": "four-in-a-row/"
+  },
+  {
+    "name": "spotify-express",
+    "url": "spotify-express/",
+    "lang": "en",
+    "title": "Spotify Express",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/spotify-express/"
+  },
+  {
+    "name": "spotify-express",
+    "url": "es/spotify-express/",
+    "lang": "es",
+    "title": "Spotify Express",
+    "description": "Este proyecto utiliza la API de Spotify para crear un buscador de artistas en el que se puede ver información de sus álbumes e incluso escuchar un avance de sus canciones.",
+    "alternateLanguage": "en",
+    "alternateUrl": "spotify-express/"
+  },
+  {
+    "name": "spotify-express",
+    "url": "ca/spotify-express/",
+    "lang": "ca",
+    "title": "Spotify Express",
+    "description": "Aquest projecte utilitza l'API de Spotify per a crear un cercador d'artistes en el qual es pot veure informació dels seus àlbums i fins i tot escoltar avançament de les seves cançons.",
+    "alternateLanguage": "en",
+    "alternateUrl": "spotify-express/"
+  },
+  {
+    "name": "the-lift",
+    "url": "the-lift/",
+    "lang": "en",
+    "title": "The lift",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/el-ascensor/"
+  },
+  {
+    "name": "the-lift",
+    "url": "es/el-ascensor/",
+    "lang": "es",
+    "title": "El ascensor",
+    "description": "Un ascensor tradicional que cada persona puede llamar desde la planta en la que se encuentre. Éste recordará los pisos en los que debe parar a recoger y a dejar pasajeros.",
+    "alternateLanguage": "en",
+    "alternateUrl": "the-lift/"
+  },
+  {
+    "name": "the-lift",
+    "url": "ca/l-ascensor/",
+    "lang": "ca",
+    "title": "L'ascensor",
+    "description": "Un ascensor tradicional que cada persona pot cridar des de la planta en la qual es trobi. Aquest recordarà els pisos en els quals ha de parar a recollir i a deixar passatgers.",
+    "alternateLanguage": "en",
+    "alternateUrl": "the-lift/"
+  },
+  {
+    "name": "events-hunter",
+    "url": "events-hunter/",
+    "lang": "en",
+    "title": "Events hunter",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/cazador-de-eventos/"
+  },
+  {
+    "name": "events-hunter",
+    "url": "es/cazador-de-eventos/",
+    "lang": "es",
+    "title": "Cazador de eventos",
+    "description": "En esta página se puede obtener información sobre eventos de diferentes categorías y lugares. Además, dispone de sección de favoritos para que el usuario pueda guardarse los que más le gusten y consultarlos más tarde.",
+    "alternateLanguage": "en",
+    "alternateUrl": "events-hunter/"
+  },
+  {
+    "name": "events-hunter",
+    "url": "ca/caçador-d-esdeveniments/",
+    "lang": "ca",
+    "title": "Caçador d'esdeveniments",
+    "description": "En aquesta pàgina web es pot obtenir informació sobre esdeveniments de diferents categories i llocs. A més, conté una secció de favorits perquè l'usuari pugui guardar-se els que més li agradin i consultar-los més tard.",
+    "alternateLanguage": "en",
+    "alternateUrl": "events-hunter/"
+  },
+  {
+    "name": "todo-react",
+    "url": "todo-react/",
+    "lang": "en",
+    "title": "Tasks manager",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/gestor-de-tareas/"
+  },
+  {
+    "name": "todo-react",
+    "url": "es/gestor-de-tareas/",
+    "lang": "es",
+    "title": "Gestor de tareas",
+    "description": "Este es mi primer proyecto desarrollado con React. Se trata de un gestor de tareas sencillo en el que se pueden añadir funciones avanzadas como prioridad o fecha y hora de la tarea.",
+    "alternateLanguage": "en",
+    "alternateUrl": "todo-react/"
+  },
+  {
+    "name": "todo-react",
+    "url": "ca/gestor-de-tasques/",
+    "lang": "ca",
+    "title": "Gestor de tasques",
+    "description": "Aquest és el meu primer projecte desenvolupat amb React. Es tracta d'un gestor de tasques senzill en el qual es poden afegir funcions avançades com ara la prioritat o la data i l'hora de la tasca.",
+    "alternateLanguage": "en",
+    "alternateUrl": "todo-react/"
+  },
+  {
+    "name": "2048-game",
+    "url": "2048-game/",
+    "lang": "en",
+    "title": "2048 Game",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/juego-2048/"
+  },
+  {
+    "name": "2048-game",
+    "url": "es/juego-2048/",
+    "lang": "es",
+    "title": "Juego 2048",
+    "description": "2048 es un juego de bloques deslizantes para un jugador, diseñado originalmente por Gabriele Cirulli. El objetivo del juego es deslizar bloques numerados en una cuadrícula para combinarlos, sumando sus valores hasta obtener uno solo con el número 2048.",
+    "alternateLanguage": "en",
+    "alternateUrl": "2048-game/"
+  },
+  {
+    "name": "2048-game",
+    "url": "ca/joc-2048/",
+    "lang": "ca",
+    "title": "Joc 2048",
+    "description": "2048 és un joc de blocs lliscants per a només un jugador, dissenyat originalment per Gabriele Cirulli. L'objectiu del joc és lliscar blocs numerats en una quadrícula per a combinar-los, sumant els seus valors fins a obtenir un únic bloc amb el número 2048.",
+    "alternateLanguage": "en",
+    "alternateUrl": "2048-game/"
+  },
+  {
+    "name": "the-alphabet-game",
+    "url": "the-alphabet-game/",
+    "lang": "en",
+    "title": "The Alphabet Game",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/pasapalabra/"
+  },
+  {
+    "name": "the-alphabet-game",
+    "url": "es/pasapalabra/",
+    "lang": "es",
+    "title": "Pasapalabra",
+    "description": "Este juego es una versión del famoso juego español \"Pasapalabra\", en el que el concursante tiene que acertar una pregunta por cada letra del alfabeto en un tiempo determinado.",
+    "alternateLanguage": "en",
+    "alternateUrl": "the-alphabet-game/"
+  },
+  {
+    "name": "the-alphabet-game",
+    "url": "ca/passaparaula/",
+    "lang": "ca",
+    "title": "Passaparaula",
+    "description": "Aquest joc és una versió del famós joc espanyol \"Pasapalabra\", en el qual el concursant ha d'encertar una pregunta per cada lletra de l'alfabet en un temps determinat.",
+    "alternateLanguage": "en",
+    "alternateUrl": "the-alphabet-game/"
+  },
+  {
+    "name": "data-structure",
+    "url": "data-structure/",
+    "lang": "en",
+    "title": "Data Structure",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/estructura-de-datos/"
+  },
+  {
+    "name": "data-structure",
+    "url": "es/estructura-de-datos/",
+    "lang": "es",
+    "title": "Estructura de datos",
+    "description": "Las pilas (stacks) y las colas (queues) son dos tipos de estructura de datos lineal que podemos encontrar fácilmente en la vida real. En este proyecto, estoy mostrando ambos modelos en una representación gráfica y dinámica.",
+    "alternateLanguage": "en",
+    "alternateUrl": "data-structure/"
+  },
+  {
+    "name": "data-structure",
+    "url": "ca/estructura-de-dades/",
+    "lang": "ca",
+    "title": "Estructura de dades",
+    "description": "Les piles (stacks) i les cues (queues) són dos tipus d'estructura de dades lineal que podem trobar amb facilitat en la vida real. En aquest projecte, mostro ambdós models en una representació gràfica i dinàmica.",
+    "alternateLanguage": "en",
+    "alternateUrl": "data-structure/"
+  },
+  {
+    "name": "fairytale-matching-game",
+    "url": "fairytale-matching-game/",
+    "lang": "en",
+    "title": "Fairytale Matching Game",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/juego-de-parejas/"
+  },
+  {
+    "name": "fairytale-matching-game",
+    "url": "es/juego-de-parejas/",
+    "lang": "es",
+    "title": "Juego de parejas",
+    "description": "Juego de parejas es un juego tradicional de memoria. Para ganar, se necesita recordar la posición de cada carta y emparejarla con su igual.",
+    "alternateLanguage": "en",
+    "alternateUrl": "fairytale-matching-game/"
+  },
+  {
+    "name": "fairytale-matching-game",
+    "url": "ca/joc-de-parelles/",
+    "lang": "ca",
+    "title": "Joc de parelles",
+    "description": "Joc de parelles és un joc tradicional de memòria. Per a guanyar, es necessita recordar la posició de cada carta i aparellar-la amb la que és igual.",
+    "alternateLanguage": "en",
+    "alternateUrl": "fairytale-matching-game/"
+  },
+  {
+    "name": "few-seconds-math-game",
+    "url": "few-seconds-math-game/",
+    "lang": "en",
+    "title": "Few Seconds Math Game",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/juego-matematico/"
+  },
+  {
+    "name": "few-seconds-math-game",
+    "url": "es/juego-matematico/",
+    "lang": "es",
+    "title": "Juego matemático",
+    "description": "Esta es una versión alternativa al juego original \"10 Seconds Math\", creado por Michael Jakob con la finalidad de desafiar las habilidades matemáticas de una persona a contrarreloj. En esta versión, el tiempo añadido por respuesta correcta no son 10 segundos, sino que varía dependiendo de la dificultad.",
+    "alternateLanguage": "en",
+    "alternateUrl": "few-seconds-math-game/"
+  },
+  {
+    "name": "few-seconds-math-game",
+    "url": "ca/joc-matematic/",
+    "lang": "ca",
+    "title": "Joc matemàtic",
+    "description": "Aquesta és una versió alternativa al joc original \"10 Seconds Math\", creat per Michael Jakob amb el fi de desafiar les habilitats matemàtiques d'una persona a contrarellotge. En aquesta versió, el temps afegit per resposta correcta no són 10 segons, sinó que varia depenent de la dificultat.",
+    "alternateLanguage": "en",
+    "alternateUrl": "few-seconds-math-game/"
+  },
+  {
+    "name": "personal-website",
+    "url": "personal-website/",
+    "lang": "en",
+    "title": "Personal Website",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/pagina-personal/"
+  },
+  {
+    "name": "personal-website",
+    "url": "es/pagina-personal/",
+    "lang": "es",
+    "title": "Página personal",
+    "description": "Este proyecto es mi primera página web personal, creada con la finalidad de disponer de un espacio donde poder hablar un poco de mí y exponer mis propios proyectos.",
+    "alternateLanguage": "en",
+    "alternateUrl": "personal-website/"
+  },
+  {
+    "name": "personal-website",
+    "url": "ca/pagina-personal/",
+    "lang": "ca",
+    "title": "Pàgina personal",
+    "description": "Aquest projecte és la meva primera pàgina web personal, creada amb la finalitat de disposar d'un espai on poder parlar una mica sobre mi i exposar els meus projectes.",
+    "alternateLanguage": "en",
+    "alternateUrl": "personal-website/"
+  },
+  {
+    "name": "escape-from-death",
+    "url": "escape-from-death/",
+    "lang": "en",
+    "title": "Escape from Death",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/escapa-de-la-muerte/"
+  },
+  {
+    "name": "escape-from-death",
+    "url": "es/escapa-de-la-muerte/",
+    "lang": "es",
+    "title": "Escapa de la muerte",
+    "description": "Este es un juego de horror en el que el protagonista y su amigo han sido secuestrados. El objetivo es rescatar al amigo y conseguir escapar juntos antes de que el asesino les encuentre.",
+    "alternateLanguage": "en",
+    "alternateUrl": "escape-from-death/"
+  },
+  {
+    "name": "escape-from-death",
+    "url": "ca/escapa-de-la-mort/",
+    "lang": "ca",
+    "title": "Escapa de la mort",
+    "description": "Aquest és un joc d'horror en el qual el protagonista i el seu amic han estat segrestats. L'objectiu és rescatar a l'amic i aconseguir escapar junts abans que l'assassí els trobi.",
+    "alternateLanguage": "en",
+    "alternateUrl": "escape-from-death/"
+  },
+  {
+    "name": "calculator",
+    "url": "calculator/",
+    "lang": "en",
+    "title": "Calculator",
+    "description": "",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/calculadora/"
+  },
+  {
+    "name": "calculator",
+    "url": "es/calculadora/",
+    "lang": "es",
+    "title": "Calculadora",
+    "description": "En este proyecto he desarrollado una calculadora que realiza operaciones matemáticas sencillas.",
+    "alternateLanguage": "en",
+    "alternateUrl": "calculator/"
+  },
+  {
+    "name": "calculator",
+    "url": "ca/calculadora/",
+    "lang": "ca",
+    "title": "Calculadora",
+    "description": "En aquest projecte he desenvolupat una calculadora que realitza operacions matemàtiques senzilles.",
+    "alternateLanguage": "en",
+    "alternateUrl": "calculator/"
+  }
+]

@@ -3,13 +3,15 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import "./layout.css"
 import Footer from '../Footer'
+import Seo from "../Seo"
 
 const Layout = ({ children }) => {
   return (
     <div className='main_container'>
+      <Seo />
       <main>{children}</main>
       <Footer />
-      <Helmet>
+      {/* <Helmet>
         <title>Diana Moreno Portfolio</title>
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -21,7 +23,7 @@ const Layout = ({ children }) => {
         />
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet"></link>
         <script src="https://kit.fontawesome.com/c0a664ee11.js" crossorigin="anonymous"></script>
-      </Helmet>
+      </Helmet> */}
     </div>
   )
 }
