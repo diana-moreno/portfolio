@@ -268,15 +268,30 @@ footer {
   background-color: #1b242f;
   color: #fff;
 
+  svg {    
+    animation: move 2s linear;
+    animation-fill-mode: forwards;
+    @media only screen and (min-width: 650px) {
+      width: 8rem;
+      margin: 0 0 -2rem -22rem;
+    }       
+    @media only screen and (max-width: 650px) {
+      width: 8rem;
+      margin: 0 0 -1rem -15rem;
+    }
+  }
+  circle {
+    fill: transparent !important;
+  }
   h1 {
     font-family: "Raleway";
     margin-bottom: 1rem;
   }
   p {
     margin: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
   }
   .goBack {
     position: relative;
@@ -291,6 +306,13 @@ footer {
     font-weight: 700;
     width: fit-content;
     text-decoration: none;
+    margin-bottom: 7rem;
+  }
+}
+
+@keyframes move {
+  100% {
+     transform: translate(500px, -150px);
   }
 }
 .projects {
