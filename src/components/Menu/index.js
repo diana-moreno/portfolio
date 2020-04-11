@@ -3,6 +3,7 @@ import styles from './index.module.scss'
 import { t } from '../../i18n'
 import { Link } from 'gatsby'
 import allUrls from "../../urls/allUrls"
+import PropTypes from "prop-types"
 
 const Menu = ({ lang, indexMenu }) => {
   const [openMenu, setOpenMenu] = useState(false)
@@ -67,6 +68,11 @@ const Menu = ({ lang, indexMenu }) => {
       </nav>
     </>
   )
+}
+
+Menu.propTypes = {
+  lang: PropTypes.string.isRequired,
+  indexMenu: PropTypes.number.isRequired
 }
 
 export default Menu

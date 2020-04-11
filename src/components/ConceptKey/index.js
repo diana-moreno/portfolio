@@ -1,6 +1,7 @@
 import React from "react"
 import styles from '../../pages/index.module.scss'
 import { t } from '../../i18n';
+import PropTypes from "prop-types"
 
 const ConceptKey = ({ title, description, icon, lang }) => {
   return (
@@ -14,6 +15,13 @@ const ConceptKey = ({ title, description, icon, lang }) => {
       </div>
     </div>
   )
+}
+
+ConceptKey.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  icon: PropTypes.func.isRequired,
+  lang: PropTypes.string.isRequired
 }
 
 export default ConceptKey

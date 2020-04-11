@@ -3,6 +3,7 @@ import styles from '../../pages/index.module.scss'
 import WhiteTriangle from '../../assets/white_triangle.svg'
 import Form from '../Form'
 import { t } from '../../i18n'
+import PropTypes from "prop-types"
 
 const Contact = ({ lang, contactRef }) => {
   return (
@@ -15,6 +16,11 @@ const Contact = ({ lang, contactRef }) => {
       <Form lang={lang} />
     </section>
   )
+}
+
+Contact.propTypes = {
+  lang: PropTypes.string.isRequired,
+  contactRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) })
 }
 
 export default Contact

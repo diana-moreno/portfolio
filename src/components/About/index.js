@@ -4,6 +4,7 @@ import ConceptKey from '../ConceptKey'
 import conceptsKey from '../../data/concepts_key'
 import { t } from '../../i18n'
 import CvIcon from '../../assets/curriculum-vitae.svg'
+import PropTypes from "prop-types"
 
 const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
   return (
@@ -17,6 +18,7 @@ const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
           {
             conceptsKey.map(concept =>
               <ConceptKey
+                key={concept.title}
                 title={concept.title}
                 description={concept.description}
                 icon={concept.icon}
@@ -61,6 +63,13 @@ const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
       </section>
     </>
   )
+}
+
+About.propTypes = {
+  lang: PropTypes.string.isRequired,
+  aboutRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) }),
+  imageProfile: PropTypes.string.isRequired,
+  curriculum: PropTypes.string.isRequired
 }
 
 export default About

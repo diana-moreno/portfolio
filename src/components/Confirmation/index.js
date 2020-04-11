@@ -4,6 +4,7 @@ import styles from '../../pages/index.module.scss'
 import { t } from '../../i18n'
 import allUrls from "../../urls/allUrls"
 import Send from '../../assets/send.svg'
+import PropTypes from "prop-types"
 
 const Confirmation = ({ lang }) => {
 return (
@@ -20,4 +21,7 @@ return (
   </div>
 )}
 
+Confirmation.propTypes = {
+  lang: PropTypes.string.isRequired
+}
 export default Confirmation

@@ -4,6 +4,7 @@ import styles from '../../pages/index.module.scss'
 import ArrowBounce from '../ArrowBounce'
 import { t } from '../../i18n'
 import allUrls from "../../urls/allUrls"
+import PropTypes from "prop-types"
 
 const Home = ({ lang, homeRef }) => {
   return (
@@ -22,6 +23,11 @@ const Home = ({ lang, homeRef }) => {
       </div>
     </section>
   )
+}
+
+Home.propTypes = {
+  lang: PropTypes.string.isRequired,
+  homeRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) })
 }
 
 export default Home

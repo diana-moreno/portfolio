@@ -3,6 +3,7 @@ import { navigate } from 'gatsby'
 import styles from '../../pages/index.module.scss'
 import sendMessage from "../../api/send-message";
 import { t } from '../../i18n'
+import PropTypes from "prop-types"
 
 const Form = ({ lang }) => {
   const [name, setName] = useState(t('form.name', lang))
@@ -91,5 +92,9 @@ const Form = ({ lang }) => {
     </div>
   </form>
 )}
+
+Form.propTypes = {
+  lang: PropTypes.string.isRequired
+}
 
 export default Form
