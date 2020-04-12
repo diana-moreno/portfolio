@@ -9,6 +9,7 @@ import Projects from "../../components/Projects"
 import Contact from "../../components/Contact"
 import curriculum from '../../data/cv_ca.pdf'
 import '../index.module.scss'
+import { t } from '../../i18n'
 
 const lang = 'ca'
 
@@ -63,16 +64,16 @@ const IndexPage = ({ location }) => {
     entries.forEach((entry) => {
       // verify the element is intersecting
       if (entry.isIntersecting && entry.intersectionRatio) {
-        if (entry.target.id === 'home') {
+        if (entry.target.id === t('home.ref', lang)) {
           setIndexMenu(0)
         }
-        if (entry.target.id === 'about') {
+        if (entry.target.id === t('about.ref', lang)) {
           setIndexMenu(1)
         }
-        if (entry.target.id === 'projects') {
+        if (entry.target.id === t('projects.ref', lang)) {
           setIndexMenu(2)
         }
-        if (entry.target.id === 'contact') {
+        if (entry.target.id === t('contact.ref', lang)) {
           setIndexMenu(3)
         }
       }
