@@ -15,13 +15,16 @@ const projects = [
       { text: "projects.project_23.features.feature_2", underline: false },
       { text: "projects.project_23.features.feature_3", underline: false },
       { text: "projects.project_23.features.feature_4", underline: false },
-      { text: "projects.project_23.features.feature_5", underline: false }
+      { text: "projects.project_23.features.feature_5", underline: false },
+      { text: "projects.project_23.features.feature_6", underline: false }
     ],
     learned: [
       "projects.project_23.learned.learned_1",
       "projects.project_23.learned.learned_2",
       "projects.project_23.learned.learned_3",
-      "projects.project_23.learned.learned_4"
+      "projects.project_23.learned.learned_4",
+      "projects.project_23.learned.learned_5",
+      "projects.project_23.learned.learned_6"
     ],
     technologies: [
       "projects.project_23.technologies.technologies_1",

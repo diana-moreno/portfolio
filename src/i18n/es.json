@@ -620,19 +620,22 @@
     "project_23": {
       "url": "portafolio-multilenguaje",
       "title": "Portafolio multilenguaje",
-      "main": "Esta página web personal ha sido desarrollada expresamente para colaborar en el trabajo de fin de grado de mi hermana sobre traducciones tecnológicas.",
+      "main": "Este es mi Portafolio, en él encontrarás un listado de todos mis proyectos personales y detalles sobre ellos, además de enlaces a demos, código fuente, mi biografía o mi curriculum. Ha sido traducida a 4 idiomas, ya que ha sido desarrollada expresamente para colaborar en el trabajo de fin de grado de mi hermana sobre traducciones tecnológicas.",
       "features": {
         "feature_1": "La página es multilenguaje: inglés, castellano, catalań y alemán.",
         "feature_2": "Traducciones a cargo de la traductora Yolanda Moreno.",
-        "feature_3": "El diseño inicial se basa en una sola página en la que se muestra mi biografía, mis proyectos y datos de contacto.", 
-        "feature_4": "Al final de la página se incluye un formulario que permite enviarme un mensaje.",
-        "feature_5": "Se puede ver el detalle de cada proyecto haciendo clic en él."
+        "feature_3": "El diseño se basa en una sola página en la que se muestra mi biografía, mis proyectos y datos de contacto.",
+        "feature_4": "Mi curriculum está diponible para descargar en los cuatro idiomas.", 
+        "feature_5": "Cada uno de los proyectos muestra información sobre qué características tiene, qué he aprendido al desarrollarlo y enlaces al código fuente y a una demo.",
+        "feature_6": "Se puede contactar conmigo rellenando el formulario en la sección de contacto o mediante correo o redes sociales."
       },
       "learned": {
         "learned_1": "A preparar un proyecto para ser traducido en cuatro idiomas.",
         "learned_2": "A generar páginas dinámicamente a través de una plantilla.",
-        "learned_3": "A desarrollar la lógica y estilos de carrusel de múltiples elementos.",
-        "learned_4": "A añadir un formulario vinculado a un back-end para enviar correos."
+        "learned_3": "A realizar llamadas estáticas y dinámicas con GraphQL.",
+        "learned_4": "A seleccionar el apartado de menú activo al hacer scroll por la página mediante el Observador de Intersecciones.",
+        "learned_5": "A añadir un formulario vinculado a un back-end para enviar correos.",
+        "learned_6": "A añadir opciones para descargar ficheros."
       },
       "technologies" : {
         "technologies_1": "Front-end: Gatsby con React (JavaScript), GraphQL, CSS-SASS",
