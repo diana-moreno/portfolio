@@ -67,7 +67,7 @@ const Projects = ({ lang, projectsRef, projectsImg }) => {
 
 Projects.propTypes = {
   lang: PropTypes.string.isRequired,
-  projectsRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) }),
+  projectsRef: PropTypes.shape({ current: PropTypes.any }),
   projectsImg: PropTypes.object.isRequired
 }
 

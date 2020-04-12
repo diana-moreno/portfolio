@@ -20,7 +20,7 @@ const Contact = ({ lang, contactRef }) => {
 
 Contact.propTypes = {
   lang: PropTypes.string.isRequired,
-  contactRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) })
+  contactRef: PropTypes.shape({ current: PropTypes.any })
 }
 
 export default Contact

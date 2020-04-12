@@ -27,7 +27,7 @@ const Home = ({ lang, homeRef }) => {
 
 Home.propTypes = {
   lang: PropTypes.string.isRequired,
-  homeRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) })
+  homeRef: PropTypes.shape({ current: PropTypes.any })
 }
 
 export default Home
