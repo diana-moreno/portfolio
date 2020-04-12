@@ -46,6 +46,7 @@ const IndexPage = ({ location }) => {
 
   const imageProfile = image.childImageSharp.fluid.src
   const seoData = {
+    lang: lang,
     url: seoJson.url_ca,
     titleSeo: seoJson.title_ca,
     description: seoJson.description_ca,

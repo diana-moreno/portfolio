@@ -19,6 +19,7 @@ const ConfirmationPage = () => {
   `)
 
   const seoData = {
+    lang: lang,
     url: seoJson.url_ca,
     titleSeo: seoJson.title_ca,
     description: seoJson.description_ca,

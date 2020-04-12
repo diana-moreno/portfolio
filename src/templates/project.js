@@ -11,23 +11,39 @@ import Languages from "../components/Languages"
 
 const ProjectPage = ({ pageContext, location }) => {
   const { projectName, lang } = pageContext
-  const { projects } = useStaticQuery(graphql`
+  const { projects, seoJson } = useStaticQuery(graphql`
     query {
       projects: allFile(filter: {relativeDirectory: {eq: "projects"}}) {
-          edges {
-            node {
-              name
-              publicURL,
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
+        edges {
+          node {
+            name
+            publicURL,
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
               }
             }
           }
         }
+      },
+      seoJson(name: { eq: "portfolio" }) {
+        url
+        title
+        description
+        alternateLanguage
+        alternateUrl
+      }
     }
   `)
+
+  const seoData = {
+    lang: lang,
+    url: seoJson.url,
+    titleSeo: seoJson.title,
+    description: seoJson.description,
+    alternateLanguage: seoJson.alternateLanguage,
+    alternateUrl: seoJson.alternateUrl,
+  }
 
   const imageProject = projects.edges.find(elem => elem.node.name === projectName).node.childImageSharp.fluid
 
@@ -35,7 +51,7 @@ const ProjectPage = ({ pageContext, location }) => {
   const currentProject = projectsData[projectIndex]
 
   return (
-    <Layout>
+    <Layout seoData={seoData}>
       <Languages location={location} lang={lang} />
       <Menu lang={lang} />
       <div className={styles.main}>

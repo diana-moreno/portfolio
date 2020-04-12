@@ -44,15 +44,17 @@ const IndexPage = ({ location }) => {
     }
   `)
 
-  const imageProfile = image.childImageSharp.fluid.src
-  const seoData = {
-    url: seoJson.url_en,
-    titleSeo: seoJson.title_en,
-    description: seoJson.description_en,
-    alternateLanguage: seoJson.alternateLanguage_en,
-    alternateUrl: seoJson.alternateUrl_en,
-  }
-
+const imageProfile = image.childImageSharp.fluid.src
+const seoData = {
+  lang: lang,
+  url: seoJson.url_en,
+  titleSeo: seoJson.title_en,
+  description: seoJson.description_en,
+  alternateLanguage: seoJson.alternateLanguage_en,
+  alternateUrl: seoJson.alternateUrl_en,
+}
+// console.log(seoJson)
+// console.log(seoData)
   // Intersection Observer
   const [indexMenu, setIndexMenu] = useState(0)
 

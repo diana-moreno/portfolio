@@ -1,15 +1,17 @@
 import React from "react"
 import Helmet from "react-helmet"
 
-export const Seo = ({
-  lang,
-  titleSeo,
-  description,
-  url,
-  alternateLanguage,
-  alternateUrl,
-  keywords = "portfolio javascript react node gatsby bootcamp"
-}) => {
+export const Seo = ({ seoData }) => {
+  const { 
+    lang, 
+    titleSeo, 
+    description, 
+    url, 
+    alternateLanguage, 
+    alternateUrl, 
+    keywords = "portfolio javascript react node gatsby bootcamp" 
+  } = seoData
+
   return (
     <Helmet>
       <html lang={lang} />
