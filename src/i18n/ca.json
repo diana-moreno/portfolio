@@ -1,5 +1,6 @@
 {
   "home": {
+    "ref": "inici",
     "title": "INICI",
     "greeting": "Hola, sóc ",
     "author": "Diana Moreno",
@@ -7,6 +8,7 @@
     "view_more": "Veure més"
   },
   "about": {
+    "ref": "sobre-mi",
     "title": "SOBRE MI",
     "cv_text": "¿T'agradaria coneixer més sobre la meva trajectoria professional?",
     "cv_button": "Descarregar CV",
@@ -45,6 +47,7 @@
     }
   },
   "contact": {
+    "ref": "contacte",
     "title": "CONTACTE"
   },
   "confirmation": {
@@ -69,6 +72,7 @@
     "clear_button": "Esborrar"
   },
   "projects": {
+    "ref": "projectes",
     "title": "PROJECTES",
     "all": "TOTS",
     "demo": "Demo",

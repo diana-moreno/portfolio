@@ -8,7 +8,7 @@ import PropTypes from "prop-types"
 
 const Home = ({ lang, homeRef }) => {
   return (
-    <section ref={homeRef} id='home' className={styles.home}>
+    <section ref={homeRef} id={t('home.ref', lang)} className={styles.home}>
       <div className={styles.greeting}>
         {t('home.greeting', lang)}<span className={styles.greeting__name}>
           {t('home.author', lang)}</span>.

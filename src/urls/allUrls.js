@@ -9,29 +9,29 @@ const allUrls= [
   {
     "id": "home2",
     "url_en": "/#home",
-    "url_es": "/es/#home",
-    "url_ca": "/ca/#home",
+    "url_es": "/es/#inicio",
+    "url_ca": "/ca/#inici",
     "url_de": "/de/#home"
   },
   {
     "id": "about",
-    "url_en": "/#about",
-    "url_es": "/es/#about",
-    "url_ca": "/ca/#about",
+    "url_en": "/#about-me",
+    "url_es": "/es/#sobre-mi",
+    "url_ca": "/ca/#sobre-mi",
     "url_de": "/de/#about"
   },
   {
     "id": "projects",
     "url_en": "/#projects",
-    "url_es": "/es/#projects",
-    "url_ca": "/ca/#projects",
+    "url_es": "/es/#proyectos",
+    "url_ca": "/ca/#projectes",
     "url_de": "/de/#projects"
   },
   {
     "id": "contact",
     "url_en": "/#contact",
-    "url_es": "/es/#contact",
-    "url_ca": "/ca/#contact",
+    "url_es": "/es/#contacto",
+    "url_ca": "/ca/#contacte",
     "url_de": "/de/#contact"
   },
   {

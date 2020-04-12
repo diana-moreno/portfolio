@@ -7,7 +7,7 @@ import PropTypes from "prop-types"
 
 const Contact = ({ lang, contactRef }) => {
   return (
-    <section ref={contactRef} id='contact' className={styles.contact}>
+    <section ref={contactRef} id={t('contact.ref', lang)} className={styles.contact}>
       <div className={styles.title_section}>
         <h1>{t('contact.title', lang)}</h1>
         <div className={styles.title_section_line}></div>

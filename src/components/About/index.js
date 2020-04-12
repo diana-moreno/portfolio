@@ -10,7 +10,7 @@ import Img from 'gatsby-image'
 const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
   return (
     <>
-      <section ref={aboutRef} id='about' className={styles.about}>
+      <section ref={aboutRef} id={t('about.ref', lang)} className={styles.about}>
         <div className={styles.title_section}>
           <h1>{t('about.title', lang)}</h1>
           <div className={styles.title_section_line}></div>

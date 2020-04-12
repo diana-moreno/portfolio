@@ -12,7 +12,7 @@ const Projects = ({ lang, projectsRef, projectsImg }) => {
   }
 
   return (
-    <section ref={projectsRef} id='projects' className={styles.projects}>
+    <section ref={projectsRef} id={t('projects.ref', lang)} className={styles.projects}>
       <div>
         <div className={styles.title_section}>
           <h1>{t('projects.title', lang)}</h1>
