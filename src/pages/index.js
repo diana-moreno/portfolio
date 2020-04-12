@@ -8,12 +8,11 @@ import About from "../components/About"
 import Projects from "../components/Projects"
 import Contact from "../components/Contact"
 import curriculum from '../data/cv_en.pdf'
-import seo from '../data/seo.json'
 
 const lang = 'en'
 
 const IndexPage = ({ location }) => {
-  const { image, projectsImg } = useStaticQuery(graphql`
+  const { image, projectsImg, seoJson } = useStaticQuery(graphql`
     query {
       image: file(relativePath: {eq: "profile.png"}) {
         childImageSharp {
@@ -34,12 +33,26 @@ const IndexPage = ({ location }) => {
             }
           }
         }
+      },
+      seoJson(name: { eq: "home" }) {
+        url_en
+        title_en
+        description_en
+        alternateLanguage_en
+        alternateUrl_en
       }
     }
   `)
-  const imageProfile = image.childImageSharp.fluid.src
 
-  console.log(seo)
+  const imageProfile = image.childImageSharp.fluid.src
+  const seoData = {
+    url: seoJson.url_en,
+    titleSeo: seoJson.title_en,
+    description: seoJson.description_en,
+    alternateLanguage: seoJson.alternateLanguage_en,
+    alternateUrl: seoJson.alternateUrl_en,
+  }
+
   // Intersection Observer
   const [indexMenu, setIndexMenu] = useState(0)
 
@@ -98,7 +111,7 @@ const IndexPage = ({ location }) => {
   )
 
   return (
-    <Layout>
+    <Layout seoData={seoData}>
       <Languages 
         location={location} 
         lang={lang} 

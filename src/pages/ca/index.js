@@ -12,7 +12,7 @@ import curriculum from '../../data/cv_ca.pdf'
 const lang = 'ca'
 
 const IndexPage = ({ location }) => {
-  const { image, projectsImg } = useStaticQuery(graphql`
+  const { image, projectsImg, seoJson } = useStaticQuery(graphql`
     query {
       image: file(relativePath: {eq: "profile.png"}) {
         childImageSharp {
@@ -33,10 +33,25 @@ const IndexPage = ({ location }) => {
             }
           }
         }
+      },
+      seoJson(name: { eq: "home" }) {
+        url_ca
+        title_ca
+        description_ca
+        alternateLanguage_ca
+        alternateUrl_ca
       }
     }
   `)
+
   const imageProfile = image.childImageSharp.fluid.src
+  const seoData = {
+    url: seoJson.url_ca,
+    titleSeo: seoJson.title_ca,
+    description: seoJson.description_ca,
+    alternateLanguage: seoJson.alternateLanguage_ca,
+    alternateUrl: seoJson.alternateUrl_ca,
+  }
 
   // Intersection Observer
   const [indexMenu, setIndexMenu] = useState(0)
@@ -96,7 +111,7 @@ const IndexPage = ({ location }) => {
   )
 
   return (
-    <Layout>
+    <Layout seoData={seoData}>
       <Languages 
         location={location} 
         lang={lang} 

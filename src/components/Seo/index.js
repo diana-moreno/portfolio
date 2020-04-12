@@ -2,13 +2,13 @@ import React from "react"
 import Helmet from "react-helmet"
 
 export const Seo = ({
-  lang = "en",
-  titleSeo = "Interficie Internet Services",
-  description = "Interficie Internet Services develops innovative websites, apps and platforms for global brands, startups and organizations",
-  keywords = "internet services",
-  url = "/",
-  alternateLanguage = "es",
-  alternateUrl = "/es",
+  lang,
+  titleSeo,
+  description,
+  url,
+  alternateLanguage,
+  alternateUrl,
+  keywords = "portfolio javascript react node gatsby bootcamp"
 }) => {
   return (
     <Helmet>
