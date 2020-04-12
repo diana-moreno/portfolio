@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from 'gatsby'
-import styles from '../../pages/index.module.scss'
+import styles from './index.module.scss'
 import { t } from '../../i18n'
 import allUrls from "../../urls/allUrls"
 import Send from '../../assets/send.svg'

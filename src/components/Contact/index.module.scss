@@ -1,0 +1,28 @@
+.contact {
+  padding: 1rem;
+  background-color: #1b242f;
+  position: relative;
+
+  .title_section {
+    margin-top: 7rem;
+    color: white;
+  }
+  .white_triangle {
+    position: absolute;
+    top: -1px;
+    left: 0;
+  }
+}
+.title_section {
+  text-align: center;
+  color: #444649;
+  font-family: "Raleway";
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+.title_section_line {
+  width: 5rem;
+  border-bottom: 5px solid #d36667;
+  margin: 0 auto;
+}

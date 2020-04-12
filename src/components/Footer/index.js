@@ -1,5 +1,5 @@
 import React from "react"
-import styles from '../../pages/index.module.scss'
+import styles from './index.module.scss'
 import GithubIcon from '../../assets/github.svg'
 import LinkedinIcon from '../../assets/linkedin.svg'
 import EmailIcon from '../../assets/email.svg'

@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import styles from './notFound.module.scss'
 import { t } from '../i18n'
 import allUrls from "../urls/allUrls"
+import './index.module.scss'
 // import SEO from "../components/seo"
 
 const NotFoundPage = ({ location }) => {

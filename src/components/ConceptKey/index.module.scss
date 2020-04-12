@@ -1,0 +1,30 @@
+.circle_container {
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.circle {
+  width: 6rem;
+  height: 6rem;
+  background: #04c2c9;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+.circle_text {
+  margin-top: 2rem;
+  font-size: 16px;
+}
+.responsive_icon {
+  width: 4rem;
+  position: absolute;
+  top: 1rem;
+  height: auto;
+  left: 1rem;
+  
+  path {
+    fill: white;
+  }
+}

@@ -1,0 +1,125 @@
+.about {
+  max-width: 1450px;
+  margin: 0rem auto;
+  padding-top: 4rem;
+}
+.title_section {
+  text-align: center;
+  color: #444649;
+  font-family: "Raleway";
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+.title_section_line {
+  width: 5rem;
+  border-bottom: 5px solid #d36667;
+  margin: 0 auto;
+}
+.circles_container {
+  display: flex;
+  margin: 4rem auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  @media only screen and (max-width: 650px) {
+    margin-top: -4rem;
+  }
+}
+.aboutme_image_container {
+  width: 18rem;
+  padding: 0.5em;
+  border: 0.25em solid #04c2c9;
+  position: relative;
+  margin: 3rem;
+  transition: all 0.35s;
+
+  &:hover {
+    transform: scale(1.2, 1.2) rotate(0deg);
+    transition: all 0.35s;
+  }
+
+  &::before, &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #fff;
+  }
+  
+  &::before {
+    top: -0.3em; // let it overlap a bit to prevent thin line which could appear during scaling in some browsers etc.
+    bottom: -0.3em;
+    left: 1em;
+    right: 1em;
+  }
+  
+  &::after{
+    left: -0.3em;
+    right: -0.3em;
+    top: 1em;
+    bottom: 1em;
+  }
+  
+  // you need this to move the text in front of the ::after overlay
+  .aboutme_image {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  }
+}
+.aboutme_text {
+  max-width: 36rem;
+}
+.curriculum {
+  background-color: whitesmoke;
+  padding: 3rem;
+  margin-top: 3rem;
+  div {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    max-width: 1450px;
+    margin: 0 auto;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 24rem;
+      margin: 0;
+    }
+  }
+}
+.cv_icon {
+  fill: #444649;
+  width: 7rem;
+  height: 6rem;
+  margin-bottom: 2rem;
+}
+.cv_title {
+  max-width: 24rem;
+  line-height: 2rem;
+  letter-spacing: 2.3px;
+  text-align: center;
+}
+.cv_button {
+  width: 9.5rem;
+  margin: 0.5rem 1rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: #57c1c7;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.cv_button:hover {
+  background-color: #81d5da;
+}

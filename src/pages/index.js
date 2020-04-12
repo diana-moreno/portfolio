@@ -8,6 +8,7 @@ import About from "../components/About"
 import Projects from "../components/Projects"
 import Contact from "../components/Contact"
 import curriculum from '../data/cv_en.pdf'
+import './index.module.scss'
 
 const lang = 'en'
 
@@ -53,8 +54,7 @@ const seoData = {
   alternateLanguage: seoJson.alternateLanguage_en,
   alternateUrl: seoJson.alternateUrl_en,
 }
-// console.log(seoJson)
-// console.log(seoData)
+
   // Intersection Observer
   const [indexMenu, setIndexMenu] = useState(0)
 

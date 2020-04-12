@@ -1,5 +1,5 @@
 import React from "react"
-import styles from '../../pages/index.module.scss'
+import styles from './index.module.scss'
 import WhiteTriangle from '../../assets/white_triangle.svg'
 import Form from '../Form'
 import { t } from '../../i18n'

@@ -8,6 +8,7 @@ import About from "../../components/About"
 import Projects from "../../components/Projects"
 import Contact from "../../components/Contact"
 import curriculum from '../../data/cv_ca.pdf'
+import '../index.module.scss'
 
 const lang = 'ca'
 

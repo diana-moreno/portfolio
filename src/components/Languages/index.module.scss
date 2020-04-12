@@ -1,0 +1,20 @@
+.languages {
+  position: fixed;
+  right: 1rem;
+  top: 0.9rem;
+  color: white;
+  z-index: 3;
+  cursor: pointer;
+}
+.language_item:active,
+.language_item:hover {
+  color: #d36667;
+}
+
+.language_item {
+  text-decoration: none;
+  color: white;
+}
+.language_active {
+  color: #d36667;
+}

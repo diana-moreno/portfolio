@@ -1,0 +1,84 @@
+.success {
+  font-family: "Raleway";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1b242f;
+  color: #fff;
+  overflow: hidden; 
+  overflow-y: hidden;
+  overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
+
+  svg {  
+    z-index: 5;
+    @media only screen and (min-width: 650px) {
+      animation: move 5s linear;
+      animation-fill-mode: forwards;
+      position: absolute;
+      top: 40%;
+      left: 0;
+      width: 8rem;
+    }       
+    @media only screen and (max-width: 650px) {
+      animation: move 2.5s linear;
+      animation-fill-mode: forwards;
+      position: absolute;
+      top: 10%;
+      left: 0;
+      width: 8rem;
+    }
+  }
+  circle {
+    fill: transparent !important;
+  }
+  h1 {
+    font-family: "Raleway";
+    margin-bottom: 1rem;
+  }
+  p {
+    margin: 3rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.8rem;
+  }
+  .title_section_line {
+    width: 5rem;
+    border-bottom: 5px solid #d36667;
+    margin: 0 auto;
+  }
+  .title_section {
+    text-align: center;
+    color: #444649;
+    font-family: "Raleway";
+    h1 {
+      margin-bottom: 1rem;
+    }
+  }  
+  .goBack {
+    position: relative;
+    padding: 0.5rem 1rem;
+    border:  none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    background-color: #57c1c7;
+    font-weight: 700;
+    width: fit-content;
+    text-decoration: none;
+  }
+  .goBack:hover {
+    background-color: #81d5da;
+  }
+}
+@keyframes move {
+  100% {
+    left: 100%;
+    top: -10%;
+  }
+}

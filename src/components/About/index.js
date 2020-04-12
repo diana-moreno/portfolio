@@ -1,5 +1,5 @@
 import React from "react"
-import styles from '../../pages/index.module.scss'
+import styles from './index.module.scss'
 import ConceptKey from '../ConceptKey'
 import conceptsKey from '../../data/concepts_key'
 import { t } from '../../i18n'

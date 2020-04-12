@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { navigate } from 'gatsby'
-import styles from '../../pages/index.module.scss'
+import styles from './index.module.scss'
 import sendMessage from "../../api/send-message";
 import { t } from '../../i18n'
 import PropTypes from "prop-types"

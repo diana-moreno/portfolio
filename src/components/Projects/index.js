@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import styles from '../../pages/index.module.scss'
+import styles from './index.module.scss'
 import Img from 'gatsby-image'
 import { t } from '../../i18n'
 import projectsData from '../../data/projects.js'

@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from 'gatsby'
 import Confirmation from "../../components/Confirmation"
 import Seo from "../../components/Seo"
+import '../index.module.scss'
 
 const lang = 'es'
 

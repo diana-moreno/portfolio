@@ -1,0 +1,43 @@
+.form {
+  margin: 6rem auto;
+  margin-bottom: 7rem;
+}
+.form_inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 26rem;
+  margin: 0 auto;
+  position: relative;
+
+  input, textarea {
+    border-color: transparent;
+    margin: 0.1rem;
+    padding: 0.4rem;
+    resize: none;
+  }
+}
+.form_input_error {
+  color: red
+}
+.form_input {
+  color: black;
+}
+.button_send {
+  position: relative;
+  padding: 0.5rem 1rem;
+  border:  none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  color: white;
+  background-color: #57c1c7;
+  font-weight: 700;
+  width: 6rem;
+  position: absolute;
+  right: 2px;
+  bottom: -41px;
+}
+.button_send:hover {
+  background-color: #81d5da;
+}
