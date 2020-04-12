@@ -49,13 +49,18 @@ const ProjectPage = ({ data, pageContext, location }) => {
             <div className={styles.buttons_container}>
               <div>
                 <p><strong>{t('projects.source_code', lang)}</strong></p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={currentProject.github_link}
-                >
-                  <GithubIcon className={styles.technologies_icon} />
-                </a>
+                <ul>
+                  {currentProject.github_link.map((elem, i) =>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={elem}
+                      ><GithubIcon className={styles.technologies_icon} />
+                      </a>
+                    </li>
+                  )}
+                </ul>
               </div>
               <div>
                 <p><strong>{t('projects.demo', lang)}</strong></p>

@@ -93,13 +93,23 @@ input:focus, button:focus {
     p {
       font-size: 18px;
     }
-    a {
-      text-decoration: none;
-      svg {
-        width: 2.5rem;
-        height: 2.5rem;
+    ul {
+      display: flex;
+      list-style: none;
+      margin-left: 0;  
+      li {
+        padding-left: 0;
+        padding: 0.4rem 0.2rem 0 0.2rem;
+        cursor: pointer;
+        a {
+          text-decoration: none;
+          svg {
+            width: 2.5rem;
+            height: 2.5rem;
+          }
+        } 
       }
-    } 
+    }
   }
 }
 .button_demo {
