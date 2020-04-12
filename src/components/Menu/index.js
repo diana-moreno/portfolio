@@ -72,7 +72,7 @@ const Menu = ({ lang, indexMenu }) => {
 
 Menu.propTypes = {
   lang: PropTypes.string.isRequired,
-  indexMenu: PropTypes.number.isRequired
+  indexMenu: PropTypes.number
 }
 
 export default Menu

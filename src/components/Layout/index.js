@@ -5,7 +5,6 @@ import Footer from '../Footer'
 import Seo from "../Seo"
 
 const Layout = ({ seoData, children }) => {
-  console.log(seoData)
   return (
     <div className='main_container'>
       <Seo seoData={seoData} />

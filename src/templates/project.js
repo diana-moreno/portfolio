@@ -9,32 +9,9 @@ import projectsData from '../data/projects'
 import { t } from '../i18n'
 import Languages from "../components/Languages"
 
-const ProjectPage = ({ pageContext, location }) => {
+const ProjectPage = ({ data, pageContext, location }) => {
+  const { projects, seoJson } = data
   const { projectName, lang } = pageContext
-  const { projects, seoJson } = useStaticQuery(graphql`
-    query {
-      projects: allFile(filter: {relativeDirectory: {eq: "projects"}}) {
-        edges {
-          node {
-            name
-            publicURL,
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-      },
-      seoJson(name: { eq: "portfolio" }) {
-        url
-        title
-        description
-        alternateLanguage
-        alternateUrl
-      }
-    }
-  `)
 
   const seoData = {
     lang: lang,
@@ -95,9 +72,11 @@ const ProjectPage = ({ pageContext, location }) => {
             <div className={styles.text_container}>
               <p><strong>{t('projects.features', lang)}</strong></p>
               <ul>
-                {currentProject.features.map(elem =>
-                  <li className={elem.underline ? styles.underline : ''}>
-                    {t(elem.text, lang)}
+                {currentProject.features.map((elem, i) =>
+                  <li 
+                    key={i} 
+                    className={elem.underline ? styles.underline : ''}
+                  >{t(elem.text, lang)}
                   </li>
                 )}
               </ul>
@@ -105,13 +84,17 @@ const ProjectPage = ({ pageContext, location }) => {
             <div className={styles.text_container}>
               <p><strong>{t('projects.learned', lang)}</strong></p>
               <ul>
-                {currentProject.learned.map(elem => <li>{t(elem, lang)}</li>)}
+                {currentProject.learned.map((elem, i) => 
+                  <li key={i}>{t(elem, lang)}</li>)
+                }
               </ul>
             </div>
             <div className={styles.text_container}>
               <p><strong>{t('projects.technologies', lang)}</strong></p>
               <ul>
-                {currentProject.technologies.map(elem => <li>{t(elem, lang)}</li>)}
+                {currentProject.technologies.map((elem, i) => 
+                  <li key={i}>{t(elem, lang)}</li>)
+                }
               </ul>
             </div>
           </div>
@@ -120,5 +103,30 @@ const ProjectPage = ({ pageContext, location }) => {
     </Layout>
   )
 }
+
+export const pageQuery = () => graphql`
+  query ProjectsQuery($lang: String!, $projectName: String!) {
+    seoJson(lang: { eq: $lang }, name: { eq: $projectName }) {
+      url
+      title
+      description
+      alternateLanguage
+      alternateUrl
+    },
+    projects: allFile(filter: {relativeDirectory: {eq: "projects"}}) {
+      edges {
+        node {
+          name
+          publicURL,
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+`
 
 export default ProjectPage
