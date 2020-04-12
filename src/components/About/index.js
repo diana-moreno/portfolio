@@ -5,6 +5,7 @@ import conceptsKey from '../../data/concepts_key'
 import { t } from '../../i18n'
 import CvIcon from '../../assets/curriculum-vitae.svg'
 import PropTypes from "prop-types"
+import Img from 'gatsby-image'
 
 const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
   return (
@@ -29,11 +30,11 @@ const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
         </div>
         <div className={styles.aboutme}>
           <div className={styles.aboutme_image_container}>
-            <img 
-              className={styles.aboutme_image} 
-              alt='Profile photography' 
-              src={imageProfile} 
-            />
+          <Img 
+            className={styles.aboutme_image}
+            alt='Profile photography'  
+            fluid={imageProfile} 
+          />
           </div>
           <div className={styles.aboutme_text}>
             <h3>{t('about.nowadays.title', lang)}</h3>

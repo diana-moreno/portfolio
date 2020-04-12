@@ -18,7 +18,7 @@ const IndexPage = ({ location }) => {
       image: file(relativePath: {eq: "profile.png"}) {
         childImageSharp {
           fluid {
-            src
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -45,7 +45,7 @@ const IndexPage = ({ location }) => {
     }
   `)
 
-const imageProfile = image.childImageSharp.fluid.src
+const imageProfile = image.childImageSharp.fluid
 const seoData = {
   lang: lang,
   url: seoJson.url_en,
