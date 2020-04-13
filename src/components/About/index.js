@@ -12,11 +12,10 @@ const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
   return (
     <>
       <section ref={aboutRef} id={t('about.ref', lang)} className={styles.about}>
-        <div class="animated infinite bounce delay-2s" className={styles.title_section}>
+        <div className={styles.title_section}>
           <h1>{t('about.title', lang)}</h1>
           <div className={styles.title_section_line}></div>
         </div>
-
         <div className={styles.circles_container}>
           {
             conceptsKey.map((concept, i) =>

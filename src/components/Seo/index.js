@@ -20,12 +20,12 @@ export const Seo = ({ seoData }) => {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
-      {/* <meta
+      <meta
         property="og:image"
         content={
-          "https://media-exp1.licdn.com/dms/image/C561BAQHYX3-RmKAp_g/company-background_10000/0?e=2159024400&v=beta&t=eUtjHmuoEpno3rswGYGBPYJmd7sgXQL-rT36Cf_Ibak"
+          "https://dianamoreno.netlify.com/static/23b24d90b547890826ad5695714a93ef/57bf2/profile.png"
         }
-      /> */}
+      />
       <meta name="keywords" content={keywords} />
       <title>{titleSeo}</title>
       <link rel="alternate" hrefLang={alternateLanguage} href={alternateUrl} />
@@ -35,7 +35,6 @@ export const Seo = ({ seoData }) => {
         rel="stylesheet"
         />
       <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet"></link>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></link>
     </Helmet>
   )
 }
