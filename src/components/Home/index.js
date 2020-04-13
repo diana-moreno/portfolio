@@ -18,7 +18,7 @@ const Home = ({ lang, homeRef }) => {
           {t('home.author_position', lang)}
         </div>
       </Zoom>
-      <div className={styles.more} dest="about">
+      <div className={styles.more}>
         <p>{t('home.view_more', lang)}</p>
         <Link to={allUrls[2][`url_${lang}`]}>
           <ArrowBounce />

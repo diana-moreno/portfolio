@@ -40,7 +40,9 @@
   position: relative;
   margin: 3rem;
   transition: all 0.35s;
-
+  @media only screen and (max-width: 650px) {
+    margin: 3rem 0;
+  }
   &:hover {
     transform: scale(1.2, 1.2) rotate(0deg);
     transition: all 0.35s;
