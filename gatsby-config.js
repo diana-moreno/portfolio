@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Diana Moreno - Portafolio`,
+    description: `Este es mi Portafolio, en él encontrarás un listado de todos mis proyectos personales y detalles sobre ellos, además de enlaces a demos, código fuente, mi biografía o mi curriculum. Ha sido traducida a 4 idiomas, ya que ha sido desarrollada expresamente para colaborar en el trabajo de fin de grado de mi hermana sobre traducciones tecnológicas.`,
+    siteUrl: `https://www.dianamoreno.netlify.com`,
+    author: `Diana Moreno`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -43,7 +44,8 @@ module.exports = {
           include: /assets/,
         },
       },
-    }
+    },
+    `gatsby-plugin-sitemap`
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
