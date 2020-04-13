@@ -40,7 +40,7 @@ const ProjectPage = ({ data, pageContext, location }) => {
           </div>
         </div>
         <div className={styles.project_container}>
-          <Slide left>
+          <Slide left ssrReveal>
             <div className={`${styles.project_container_side} ${styles.project_container_side_left}`}>
               <div className={styles.project_image_container}>
                 <Img fluid={imageProject} />
@@ -76,7 +76,7 @@ const ProjectPage = ({ data, pageContext, location }) => {
               </div>
             </div>
           </Slide>
-          <Slide right>
+          <Slide right ssrReveal>
             <div className={`${styles.project_container_side} ${styles.project_container_side_right}`}>
               <div className={styles.text_container}>
                 <p><strong>{t('projects.features', lang)}</strong></p>
