@@ -2,9 +2,12 @@ import React from "react"
 import styles from './index.module.scss'
 import { t } from '../../i18n';
 import PropTypes from "prop-types"
+import Slide from 'react-reveal/Slide';
 
 const ConceptKey = ({ title, description, icon, lang }) => {
   return (
+    <Slide left>
+
     <div className={styles.circle_container}>
       <div className={styles.circle}>
         {React.createElement(icon, { className: styles.responsive_icon})}
@@ -14,6 +17,7 @@ const ConceptKey = ({ title, description, icon, lang }) => {
         <p>{t(description, lang)}</p>
       </div>
     </div>
+    </Slide>
   )
 }
 

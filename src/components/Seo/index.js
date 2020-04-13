@@ -35,6 +35,7 @@ export const Seo = ({ seoData }) => {
         rel="stylesheet"
         />
       <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet"></link>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></link>
     </Helmet>
   )
 }

@@ -8,6 +8,7 @@ import Img from 'gatsby-image'
 import projectsData from '../data/projects'
 import { t } from '../i18n'
 import Languages from "../components/Languages"
+import Slide from 'react-reveal/Slide';
 
 const ProjectPage = ({ data, pageContext, location }) => {
   const { projects, seoJson } = data
@@ -39,70 +40,74 @@ const ProjectPage = ({ data, pageContext, location }) => {
           </div>
         </div>
         <div className={styles.project_container}>
-          <div className={`${styles.project_container_side} ${styles.project_container_side_left}`}>
-            <div className={styles.project_image_container}>
-              <Img fluid={imageProject} />
+          <Slide left>
+            <div className={`${styles.project_container_side} ${styles.project_container_side_left}`}>
+              <div className={styles.project_image_container}>
+                <Img fluid={imageProject} />
+              </div>
+              <p className={styles.description}>
+                {t(currentProject.main, lang)}
+              </p>
+              <div className={styles.buttons_container}>
+                <div>
+                  <p><strong>{t('projects.source_code', lang)}</strong></p>
+                  <ul>
+                    {currentProject.github_link.map((elem, i) =>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={elem}
+                        ><GithubIcon className={styles.technologies_icon} />
+                        </a>
+                      </li>
+                    )}
+                  </ul>
+                </div>
+                <div>
+                  <p><strong>{t('projects.demo', lang)}</strong></p>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.button_demo}
+                    href={currentProject.project_link}
+                  >{t('projects.view', lang)}</a>
+                </div>
+              </div>
             </div>
-            <p className={styles.description}>
-              {t(currentProject.main, lang)}
-            </p>
-            <div className={styles.buttons_container}>
-              <div>
-                <p><strong>{t('projects.source_code', lang)}</strong></p>
+          </Slide>
+          <Slide right>
+            <div className={`${styles.project_container_side} ${styles.project_container_side_right}`}>
+              <div className={styles.text_container}>
+                <p><strong>{t('projects.features', lang)}</strong></p>
                 <ul>
-                  {currentProject.github_link.map((elem, i) =>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href={elem}
-                      ><GithubIcon className={styles.technologies_icon} />
-                      </a>
+                  {currentProject.features.map((elem, i) =>
+                    <li 
+                      key={i} 
+                      className={elem.underline ? styles.underline : ''}
+                    >{t(elem.text, lang)}
                     </li>
                   )}
                 </ul>
               </div>
-              <div>
-                <p><strong>{t('projects.demo', lang)}</strong></p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.button_demo}
-                  href={currentProject.project_link}
-                >{t('projects.view', lang)}</a>
+              <div className={styles.text_container}>
+                <p><strong>{t('projects.learned', lang)}</strong></p>
+                <ul>
+                  {currentProject.learned.map((elem, i) => 
+                    <li key={i}>{t(elem, lang)}</li>)
+                  }
+                </ul>
+              </div>
+              <div className={styles.text_container}>
+                <p><strong>{t('projects.technologies', lang)}</strong></p>
+                <ul>
+                  {currentProject.technologies.map((elem, i) => 
+                    <li key={i}>{t(elem, lang)}</li>)
+                  }
+                </ul>
               </div>
             </div>
-          </div>
-          <div className={`${styles.project_container_side} ${styles.project_container_side_right}`}>
-            <div className={styles.text_container}>
-              <p><strong>{t('projects.features', lang)}</strong></p>
-              <ul>
-                {currentProject.features.map((elem, i) =>
-                  <li 
-                    key={i} 
-                    className={elem.underline ? styles.underline : ''}
-                  >{t(elem.text, lang)}
-                  </li>
-                )}
-              </ul>
-            </div>
-            <div className={styles.text_container}>
-              <p><strong>{t('projects.learned', lang)}</strong></p>
-              <ul>
-                {currentProject.learned.map((elem, i) => 
-                  <li key={i}>{t(elem, lang)}</li>)
-                }
-              </ul>
-            </div>
-            <div className={styles.text_container}>
-              <p><strong>{t('projects.technologies', lang)}</strong></p>
-              <ul>
-                {currentProject.technologies.map((elem, i) => 
-                  <li key={i}>{t(elem, lang)}</li>)
-                }
-              </ul>
-            </div>
-          </div>
+          </Slide>
         </div>
       </div>
     </Layout>

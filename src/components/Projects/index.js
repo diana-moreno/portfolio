@@ -4,6 +4,7 @@ import Img from 'gatsby-image'
 import { t } from '../../i18n'
 import projectsData from '../../data/projects.js'
 import PropTypes from "prop-types"
+import Zoom from 'react-reveal/Zoom';
 
 const Projects = ({ lang, projectsRef, projectsImg }) => {
   const [currentFilter, setCurrentFilter] = useState('all')
@@ -44,18 +45,20 @@ const Projects = ({ lang, projectsRef, projectsImg }) => {
           {projectsData.map(elem => {
             if (elem.technology.includes(currentFilter)) {
               return (
-                <div key={elem.project} className={styles.card}>
-                  <div className={styles.project_image_container}>
-                    <a href={t(elem.url, lang)} project={elem} >
-                      <Img
-                        className={styles.project_image}
-                        fixed={projectsImg.edges.find(img => img.node.childImageSharp.fixed.src.indexOf(elem.image) > 1).node.childImageSharp.fixed}
-                        alt={t(elem.title, lang)}
-                      />
-                    </a>
+                <Zoom clear exit='true' >  
+                  <div key={elem.project} className={styles.card}>
+                    <div className={styles.project_image_container}>
+                      <a href={t(elem.url, lang)} project={elem} >
+                        <Img
+                          className={styles.project_image}
+                          fixed={projectsImg.edges.find(img => img.node.childImageSharp.fixed.src.indexOf(elem.image) > 1).node.childImageSharp.fixed}
+                          alt={t(elem.title, lang)}
+                          />
+                      </a>
+                    </div>
+                    <p className={styles.project_title}>{t(elem.title, lang)}</p>
                   </div>
-                  <p className={styles.project_title}>{t(elem.title, lang)}</p>
-                </div>
+                </Zoom>
               )
             }
           })}
