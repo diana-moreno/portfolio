@@ -15,6 +15,7 @@ export const Seo = ({ seoData }) => {
   return (
     <Helmet>
       <html lang={lang} />
+      <meta name="google-site-verification" content="lUmWWReT0AR_WC7mboNPBzcawIlRr23cOtEMn33Fp_k" />
       <meta property="og:title" content={titleSeo} />
       <meta name="description" content={description} />
       <meta property="og:description" content={description} />
