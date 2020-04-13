@@ -88,11 +88,13 @@
     justify-content: space-evenly;
     max-width: 1450px;
     margin: 0 auto;
+    padding: 0 1rem;
     div {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      min-width: 319px;
       max-width: 24rem;
       margin: 0;
     }

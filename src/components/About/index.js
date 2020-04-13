@@ -68,7 +68,9 @@ const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
             </div>
           </Slide>
           <Slide right>
-            <CvIcon className={styles.cv_icon} />
+            <div>
+              <CvIcon className={styles.cv_icon} />
+            </div>
           </Slide>
         </div>
       </section>
