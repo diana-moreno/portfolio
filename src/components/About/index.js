@@ -31,12 +31,14 @@ const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
         </div>
         <div className={styles.aboutme}>
           <Slide left>
-            <div className={styles.aboutme_image_container}>
-              <Img
-                className={styles.aboutme_image}
-                alt='Profile photography'
-                fluid={imageProfile}
-              />
+            <div>
+              <div className={styles.aboutme_image_container}>
+                <Img
+                  className={styles.aboutme_image}
+                  alt='Profile photography'
+                  fluid={imageProfile}
+                />
+              </div>
             </div>
           </Slide>
           <Slide right>
