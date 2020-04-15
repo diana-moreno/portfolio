@@ -45,8 +45,36 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-sitemap`
-
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/category/*`, `/path/to/page`],
+        query: `
+          {
+            allSitePage {
+              nodes {
+                path
+              }
+            }
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+        }`,
+        resolveSiteUrl: ({ site, allSitePage }) => {
+          return site.siteMetadata.siteUrl
+        },
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.nodes.map(node => {
+            return {
+              url: `${site.siteMetadata.siteUrl}${node.path}`,
+              changefreq: `monthly`,
+              priority: 0.7,
+            }
+          }),
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
