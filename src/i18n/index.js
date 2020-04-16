@@ -19,8 +19,8 @@ addLocaleData([...enData, ...esData, ...caData, ...deData])
 
 const t = (id, locale, args) => {
   let messages
-  if(locale === 'es') messages = esMessages
   if(locale === 'en') messages = enMessages
+  if(locale === 'es') messages = esMessages
   if(locale === 'ca') messages = caMessages
   if(locale === 'de') messages = deMessages
   const { intl } = new IntlProvider({ locale, messages }, {}).getChildContext()
