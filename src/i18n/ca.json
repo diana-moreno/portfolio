@@ -623,23 +623,27 @@
     "project_23": {
       "url": "portafolis-multillenguatge",
       "title": "Portafolis multillenguatge",
-      "main": "Aquesta pàgina web personal ha estat desenvolupada expressament per a col·laborar en el treball de fi de grau de la meva germana sobre traduccions tecnològiques.",
+      "main": "Aquest és el meu Portafolis on trobaràs un llistat de tots els meus projectes personals i detalls sobre ells, a més d'enllaços a demos, codi font, la meva biografia o el meu currículum. Ha estat traduïda a 4 idiomes, ja que ha estat expressament desenvolupada per a col·laborar en el Treball de Fi de Grau de la meva germana sobre traduccions tecnològiques.",
       "features": {
         "feature_1": "La pàgina és multillenguatge: anglès, castellà, català i alemany.",
         "feature_2": "Traduccions a càrrec de la traductora Yolanda Moreno.",
-        "feature_3": "El disseny inicial es basa en una sola pàgina en la qual es mostra la meva biografia, els meus projectes i dades de contacte.",
-        "feature_4": "Al final de la pàgina s'inclou un formulari que permet enviar-me un missatge.",
-        "feature_5": "Es pot veure el detall de cada projecte fent-hi clic."
+        "feature_3": "El disseny es basa en una sola pàgina en la qual es mostra la meva biografia, els meus projectes i dades de contacte.",
+        "feature_4": "El meu currículum està disponible per a descarregar als quatre idiomes.",
+        "feature_5": "Cadascun dels projectes mostra informació sobre quines característiques té, què he après en desenvolupar-ho, així com enllaços al codi font i a una demo.",
+        "feature_6": 
+        "Es pot contactar amb mi emplenant el formulari en la secció de contacte o bé per correu o xarxes socials."
       },
       "learned": {
         "learned_1": "A preparar un projecte per a ser traduït en quatre idiomes.",
         "learned_2": "A generar pàgines de manera dinàmica per mitjà d'una plantilla.",
-        "learned_3": "A desenvolupar la lògica i estils d'un carrusel de múltiples elements.",
-        "learned_4": "A afegir un formulari vinculat a un back-end per a enviar correus electrònics."
+        "learned_3": "A realitzar crides estàtiques i dinàmiques amb GraphQL.",
+        "learned_4": "A seleccionar l'apartat de menú actiu en desplaçar-se per la pàgina mitjançant \"Intersection Observer\" (observador d'interseccions).",
+        "learned_5": "A afegir un formulari vinculat a un back-end per a enviar correus electrònics.",
+        "learned_6": "A afegir opcions per a descarregar fitxers."
       },
       "technologies": {
         "technologies_1": "Front-end: Gatsby amb React (JavaScript), GraphQL, CSS-SASS",
-        "technologies_2": "Back-end: Node amb Express"
+        "technologies_2": "Back-end: Node.js amb Express"
       }
     }
   }
