@@ -1,12 +1,12 @@
 import React from "react"
 import { Link } from 'gatsby'
-import Layout from "../components/Layout"
-import styles from './notFound.module.scss'
-import { t } from '../i18n'
-import allUrls from "../urls/allUrls"
-import './index.module.scss'
+import Layout from "../../components/Layout"
+import styles from '../notFound.module.scss'
+import { t } from '../../i18n'
+import allUrls from "../../urls/allUrls"
+import '../index.module.scss'
 
-const lang = 'en'
+const lang = 'es'
 
 const NotFoundPage = () => {
   return (
