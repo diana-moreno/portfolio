@@ -37,7 +37,7 @@
   },
   {
     "name": "portfolio",
-    "url": "portfolio-multilanguage/",
+    "url": "multilingual-portfolio/",
     "lang": "en",
     "title": "Portfolio multilanguage",
     "description": "",
@@ -51,7 +51,7 @@
     "title": "Portafolio multilenguaje",
     "description": "Este es mi Portafolio, en él encontrarás un listado de todos mis proyectos personales y detalles sobre ellos, además de enlaces a demos, código fuente, mi biografía o mi curriculum. Ha sido traducida a 4 idiomas, ya que ha sido desarrollada expresamente para colaborar en el trabajo de fin de grado de mi hermana sobre traducciones tecnológicas.",
     "alternateLanguage": "en",
-    "alternateUrl": "portfolio-multilanguage/" 
+    "alternateUrl": "multilingual-portfolio/" 
   },
   {
     "name": "portfolio",
@@ -60,7 +60,7 @@
     "title": "Portafolis multillenguatge",
     "description": "Aquesta pàgina web personal ha estat desenvolupada expressament per a col·laborar en el treball de fi de grau de la meva germana sobre traduccions tecnològiques.",
     "alternateLanguage": "en",
-    "alternateUrl": "portfolio-multilanguage/"
+    "alternateUrl": "multilingual-portfolio/"
   },
   {
     "name": "paradise-hotel",
@@ -307,8 +307,8 @@
     "alternateUrl": "eat-the-world/"
   },
   {
-    "name": "four-in-a-row",
-    "url": "four-in-a-row/",
+    "name": "connect-4",
+    "url": "connect-4/",
     "lang": "en",
     "title": "Four in a Row",
     "description": "",
@@ -316,22 +316,22 @@
     "alternateUrl": "es/conecta-4/"
   },
   {
-    "name": "four-in-a-row",
+    "name": "connect-4",
     "url": "es/conecta-4/",
     "lang": "es",
     "title": "Conecta 4",
     "description": "Juego online del clásico Conecta 4 donde un jugador juega contra otro por turnos y la finalidad es conseguir formar una linea recta combinando cuatro fichas seguidas antes que el rival.",
     "alternateLanguage": "en",
-    "alternateUrl": "four-in-a-row/"
+    "alternateUrl": "connect-4/"
   },
   {
-    "name": "four-in-a-row",
+    "name": "connect-4",
     "url": "ca/connecta-4/",
     "lang": "ca",
     "title": "Connecta 4",
     "description": "Joc en línia del clàssic Connecta 4 on un jugador s'enfronta un altre per torns i la finalitat és aconseguir formar una línia recta combinant quatre fitxes seguides abans que el rival.",
     "alternateLanguage": "en",
-    "alternateUrl": "four-in-a-row/"
+    "alternateUrl": "connect-4/"
   },
   {
     "name": "spotify-express",
@@ -415,8 +415,8 @@
     "alternateUrl": "events-hunter/"
   },
   {
-    "name": "todo-react",
-    "url": "todo-react/",
+    "name": "task-manager",
+    "url": "task-manager/",
     "lang": "en",
     "title": "Tasks manager",
     "description": "",
@@ -424,22 +424,22 @@
     "alternateUrl": "es/gestor-de-tareas/"
   },
   {
-    "name": "todo-react",
+    "name": "task-manager",
     "url": "es/gestor-de-tareas/",
     "lang": "es",
     "title": "Gestor de tareas",
     "description": "Este es mi primer proyecto desarrollado con React. Se trata de un gestor de tareas sencillo en el que se pueden añadir funciones avanzadas como prioridad o fecha y hora de la tarea.",
     "alternateLanguage": "en",
-    "alternateUrl": "todo-react/"
+    "alternateUrl": "task-manager/"
   },
   {
-    "name": "todo-react",
+    "name": "task-manager",
     "url": "ca/gestor-de-tasques/",
     "lang": "ca",
     "title": "Gestor de tasques",
     "description": "Aquest és el meu primer projecte desenvolupat amb React. Es tracta d'un gestor de tasques senzill en el qual es poden afegir funcions avançades com ara la prioritat o la data i l'hora de la tasca.",
     "alternateLanguage": "en",
-    "alternateUrl": "todo-react/"
+    "alternateUrl": "task-manager/"
   },
   {
     "name": "2048-game",
@@ -523,8 +523,8 @@
     "alternateUrl": "data-structure/"
   },
   {
-    "name": "fairytale-matching-game",
-    "url": "fairytale-matching-game/",
+    "name": "matching-game",
+    "url": "matching-game/",
     "lang": "en",
     "title": "Fairytale Matching Game",
     "description": "",
@@ -532,22 +532,22 @@
     "alternateUrl": "es/juego-de-parejas/"
   },
   {
-    "name": "fairytale-matching-game",
+    "name": "matching-game",
     "url": "es/juego-de-parejas/",
     "lang": "es",
     "title": "Juego de parejas",
     "description": "Juego de parejas es un juego tradicional de memoria. Para ganar, se necesita recordar la posición de cada carta y emparejarla con su igual.",
     "alternateLanguage": "en",
-    "alternateUrl": "fairytale-matching-game/"
+    "alternateUrl": "matching-game/"
   },
   {
-    "name": "fairytale-matching-game",
+    "name": "matching-game",
     "url": "ca/joc-de-parelles/",
     "lang": "ca",
     "title": "Joc de parelles",
     "description": "Joc de parelles és un joc tradicional de memòria. Per a guanyar, es necessita recordar la posició de cada carta i aparellar-la amb la que és igual.",
     "alternateLanguage": "en",
-    "alternateUrl": "fairytale-matching-game/"
+    "alternateUrl": "matching-game/"
   },
   {
     "name": "few-seconds-math-game",

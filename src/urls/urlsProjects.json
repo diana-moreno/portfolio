@@ -1,7 +1,7 @@
 [
   {
     "image": "portfolio",
-    "url": "portfolio-multilanguage/",
+    "url": "multilingual-portfolio/",
     "lang": "en"
   },
   {
@@ -150,17 +150,17 @@
     "lang": "ca"
   },
   {
-    "image": "four-in-a-row",
-    "url": "four-in-a-row/",
+    "image": "connect-4",
+    "url": "connect-4/",
     "lang": "en"
   },
   {
-    "image": "four-in-a-row",
+    "image": "connect-4",
     "url": "es/conecta-4/",
     "lang": "es"
   },
   {
-    "image": "four-in-a-row",
+    "image": "connect-4",
     "url": "ca/connecta-4/",
     "lang": "ca"
   },
@@ -210,17 +210,17 @@
     "lang": "ca"
   },
   {
-    "image": "todo-react",
-    "url": "todo-react/",
+    "image": "task-manager",
+    "url": "task-manager/",
     "lang": "en"
   },
   {
-    "image": "todo-react",
+    "image": "task-manager",
     "url": "es/gestor-de-tareas/",
     "lang": "es"
   },
   {
-    "image": "todo-react",
+    "image": "task-manager",
     "url": "ca/gestor-de-tasques/",
     "lang": "ca"
   },
@@ -270,17 +270,17 @@
     "lang": "ca"
   },
   {
-    "image": "fairytale-matching-game",
-    "url": "fairytale-matching-game/",
+    "image": "matching-game",
+    "url": "matching-game/",
     "lang": "en"
   },
   {
-    "image": "fairytale-matching-game",
+    "image": "matching-game",
     "url": "es/juego-de-parejas/",
     "lang": "es"
   },
   {
-    "image": "fairytale-matching-game",
+    "image": "matching-game",
     "url": "ca/joc-de-parelles/",
     "lang": "ca"
   },

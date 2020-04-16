@@ -43,7 +43,7 @@ const allUrls= [
   },
   {
     "id": "portfolio",
-    "url_en": "/portfolio-multilanguage/",
+    "url_en": "/multilingual-portfolio/",
     "url_es": "/es/portafolio-multilenguaje/",
     "url_ca": "/ca/portafolis-multillenguatge/",
     "url_de": "/de/blabla"
@@ -112,8 +112,8 @@ const allUrls= [
     "url_de": "/de/blabla"
   },
   {
-    "id": "four-in-a-row",
-    "url_en": "/four-in-a-row/",
+    "id": "connect-4",
+    "url_en": "/connect-4/",
     "url_es": "/es/conecta-4/",
     "url_ca": "/ca/connecta-4/",
     "url_de": "/de/blabla"
@@ -140,8 +140,8 @@ const allUrls= [
     "url_de": "/de/blabla"
   },
   {
-    "id": "todo-react",
-    "url_en": "/todo-react/",
+    "id": "task-manager",
+    "url_en": "/task-manager/",
     "url_es": "/es/gestor-de-tareas/",
     "url_ca": "/ca/gestor-de-tasques/",
     "url_de": "/de/blabla"
@@ -168,8 +168,8 @@ const allUrls= [
     "url_de": "/de/blabla"
   },
   {
-    "id": "fairytale-matching-game",
-    "url_en": "/fairytale-matching-game/",
+    "id": "matching-game",
+    "url_en": "/matching-game/",
     "url_es": "/es/juego-de-parejas/",
     "url_ca": "/ca/joc-de-parelles/",
     "url_de": "/de/blabla"

@@ -329,10 +329,10 @@ const projects = [
     url: 'projects.project_13.url',
     title: 'projects.project_13.title',
     main: "projects.project_13.main",
-    image: 'four-in-a-row',
-    project_link: "https://diana-moreno.github.io/four-in-a-row",
+    image: 'connect-4',
+    project_link: "https://diana-moreno.github.io/connect-4",
     github_link: [
-      "https://github.com/diana-moreno/four-in-a-row"
+      "https://github.com/diana-moreno/connect-4"
     ],
     features: [
       { text: "projects.project_13.features.feature_1", underline: false },
@@ -443,10 +443,10 @@ const projects = [
     url: 'projects.project_9.url',
     title: 'projects.project_9.title',
     main: "projects.project_9.main",
-    image: 'todo-react',
-    project_link: "https://diana-moreno.github.io/todo-react",
+    image: 'task-manager',
+    project_link: "https://diana-moreno.github.io/task-manager",
     github_link: [
-      "https://github.com/diana-moreno/todo-react"
+      "https://github.com/diana-moreno/task-manager"
     ],
     features: [
       { text: "projects.project_9.features.feature_1", underline: false },
@@ -572,10 +572,10 @@ const projects = [
     url: 'projects.project_5.url',
     title: 'projects.project_5.title',
     main: "projects.project_5.main",
-    image: 'fairytale-matching-game',
-    project_link: "https://diana-moreno.github.io/fairytale-matching-game",
+    image: 'matching-game',
+    project_link: "https://diana-moreno.github.io/matching-game",
     github_link: [
-      "https://github.com/diana-moreno/fairytale-matching-game"
+      "https://github.com/diana-moreno/matching-game"
     ],
     features: [
       { text: "projects.project_5.features.feature_1", underline: false },
