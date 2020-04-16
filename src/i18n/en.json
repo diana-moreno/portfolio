@@ -2,10 +2,13 @@
   "home": {
     "ref": "home",
     "title": "INICIO",
-    "greeting": "Hola, soy ",
+    "greeting": "Hello, I'm ",
     "author": "Diana Moreno",
-    "author_position": "Soy desarrolladora web full stack.",
-    "view_more": "Ver más"
+    "author_position": "I'm a Full Stack Web Developer.",
+    "creative": "I'm a creative mind.",
+    "design": "I love design.",
+    "develop": "I love to develop.",
+    "view_more": "View more"
   },
   "about": {
     "ref": "about-me",
