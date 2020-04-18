@@ -8,10 +8,11 @@
   height: 100vh;
   flex-direction: column;
   color: white;
-  padding-top: 7rem;
+  padding-top: 10rem;
   h1 {
-    font-size: 9rem;
+    font-size: 7rem;
     margin-bottom: 1rem;
+    border-bottom: 1px solid;
   }
   p {
     font-size: 1.3rem;
@@ -29,6 +30,7 @@
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
+    margin-top: 3rem;
   }
   .not_found_button:hover {
     background-color: #e99394;
@@ -50,13 +52,13 @@
   &:nth-child(1) {
     top: 15vh;
     left: 15vw;
-    height: 22vmin;
-    width: 22vmin;
+    height: 11vmin;
+    width: 11vmin;
     &:before {
-      width: 13vmin;
-      height: 13vmin;
-      bottom: -25vh;
-      right: -10vmin;
+      width: 10vmin;
+      height: 10vmin;
+      bottom: -23vh;
+      right: 3vmin;
     }
   }
   &:nth-child(2) {
@@ -74,8 +76,8 @@
   &:nth-child(3) {
     top: 12vh;
     right: 30vw;
-    height: 13vmin;
-    width: 13vmin;
+    height: 10vmin;
+    width: 10vmin;
     &:before {
       width: 3vmin;
       height: 3vmin;
@@ -87,8 +89,8 @@
   &:nth-child(4) {
     top: 25vh;
     right: 18vw;
-    height: 18vmin;
-    width: 18vmin;
+    height: 11vmin;
+    width: 11vmin;
     &:before {
       width: 7vmin;
       height: 7vmin;

@@ -29,7 +29,6 @@ const Home = ({ lang, homeRef }) => {
       </div>
       {/* </Zoom> */}
       <div className={styles.more}>
-        <p>{t('home.view_more', lang)}</p>
         <Link to={allUrls[2][`url_${lang}`]}>
           <ArrowBounce />
         </Link>

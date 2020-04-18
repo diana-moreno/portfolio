@@ -22,6 +22,10 @@
   padding: 0.3rem 0rem;
   background-color: none;
   text-align: center;
+  &:hover {
+    background-color: #57c1c7;
+    color: white;
+  }
 }
 .filter_active {
   width: 7rem;
