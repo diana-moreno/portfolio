@@ -5,13 +5,11 @@ import ArrowBounce from '../ArrowBounce'
 import { t } from '../../i18n'
 import allUrls from "../../urls/allUrls"
 import PropTypes from "prop-types"
-import Zoom from 'react-reveal/Zoom'
 import Typewriter from 'typewriter-effect';
 
 const Home = ({ lang, homeRef }) => {
   return (
     <section ref={homeRef} id={t('home.ref', lang)} className={styles.home}>
-      {/* <Zoom clear ssrReveal> */}
       <div className={styles.greeting}>
         {t('home.greeting', lang)}<span className={styles.greeting__name}>
           {t('home.author', lang)}</span>.
@@ -27,7 +25,6 @@ const Home = ({ lang, homeRef }) => {
             }}
           />
       </div>
-      {/* </Zoom> */}
       <div className={styles.more}>
         <Link to={allUrls[2][`url_${lang}`]}>
           <ArrowBounce />

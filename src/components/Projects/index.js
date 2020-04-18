@@ -45,8 +45,8 @@ const Projects = ({ lang, projectsRef, projectsImg }) => {
           {projectsData.map(elem => {
             if (elem.technology.includes(currentFilter)) {
               return (
-                <Zoom clear exit='true' >  
-                  <div key={elem.project} className={styles.card}>
+                <Zoom key={elem.project} clear exit='true' >  
+                  <div className={styles.card}>
                     <div className={styles.project_image_container}>
                       <a href={t(elem.url, lang)} project={elem} >
                         <Img

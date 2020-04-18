@@ -4,36 +4,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #1b242f;
-  color: #fff;
-  overflow: hidden; 
-  overflow-y: hidden;
-  overflow-x: hidden;
-  max-width: 100%;
   position: relative;
+  color: #444649;
+  padding: 0 0 4rem 0;
+  img {
+    margin-bottom: 0;
+    width: 16rem;
+    height: auto;
 
-  svg {  
-    z-index: 5;
-    @media only screen and (min-width: 650px) {
-      animation: move 5s linear;
-      animation-fill-mode: forwards;
-      position: absolute;
-      top: 40%;
-      left: 0;
-      width: 8rem;
-    }       
-    @media only screen and (max-width: 650px) {
-      animation: move 2.5s linear;
-      animation-fill-mode: forwards;
-      position: absolute;
-      top: 10%;
-      left: 0;
-      width: 8rem;
-    }
-  }
-  circle {
-    fill: transparent !important;
   }
   h1 {
     font-family: "Raleway";
@@ -41,7 +19,7 @@
   }
   p {
     margin: 3rem;
-    font-size: 1.3rem;
+    font-size: 18px;
     text-align: center;
     line-height: 1.8rem;
   }
@@ -76,9 +54,4 @@
     background-color: #81d5da;
   }
 }
-@keyframes move {
-  100% {
-    left: 100%;
-    top: -10%;
-  }
-}
+

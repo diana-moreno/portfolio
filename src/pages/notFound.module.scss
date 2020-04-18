@@ -1,25 +1,26 @@
-.not_found {
-  background-color: #1b242f;
-}
 .text_404 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
-  color: white;
-  padding-top: 10rem;
+  color: #444649;
+  min-height: 67vh;
+  margin-top: 2rem;
+  @media only screen and (min-width: 650px) {
+
+  }
   h1 {
+    z-index: 1;
     font-size: 7rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid;
   }
   p {
-    font-size: 1.3rem;
-    z-index: 2;
+    z-index: 1;
+    font-size: 18px;
   }
   .not_found_button {
-    z-index: 2;
+    z-index: 1;
     width: 9.5rem;
     margin: 0.5rem 1rem;
     font-weight: 700;
@@ -30,7 +31,6 @@
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
-    margin-top: 3rem;
   }
   .not_found_button:hover {
     background-color: #e99394;
@@ -40,13 +40,13 @@
 .bubble {
   background: #57c1c7;
   border-radius: 50%;
-  box-shadow: 0 30px 15px rgba(#000, .15);
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
   position: absolute;
   &:before, &:after {
     content: '';
     background: #57c1c7;
     border-radius: 50%;
-    box-shadow: 0 30px 15px rgba(#000, .15);
+    box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
     position: absolute;
   }
   &:nth-child(1) {
@@ -78,13 +78,13 @@
     right: 30vw;
     height: 10vmin;
     width: 10vmin;
-    &:before {
-      width: 3vmin;
-      height: 3vmin;
-      bottom: -15vh;
-      left: -18vmin;
-      z-index: 6;
-    }
+    // &:before {
+    //   width: 3vmin;
+    //   height: 3vmin;
+    //   bottom: -15vh;
+    //   left: -18vmin;
+    //   z-index: 6;
+    // }
   }
   &:nth-child(4) {
     top: 25vh;

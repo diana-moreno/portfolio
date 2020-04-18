@@ -1,12 +1,12 @@
 import React from "react"
 import { graphql, useStaticQuery } from 'gatsby'
 import Confirmation from "../../components/Confirmation"
-import Seo from "../../components/Seo"
 import '../index.module.scss'
+import LayoutWithMenu from '../../components/Layout/LayoutWithMenu'
 
 const lang = 'ca'
 
-const ConfirmationPage = () => {
+const ConfirmationPage = ({ location }) => {
   const { seoJson } = useStaticQuery(graphql`
     query {
       seoJson(name: { eq: "confirmation" }) {
@@ -29,10 +29,14 @@ const ConfirmationPage = () => {
   }
 
   return (
-    <>
-      <Seo seoData={seoData} />
+    <LayoutWithMenu 
+      seoData={seoData} 
+      location={location} 
+      indexMenu={undefined} 
+      lang={lang} 
+    >
       <Confirmation lang={lang} />
-    </>
+    </LayoutWithMenu>
 )}
 
 export default ConfirmationPage

@@ -3,13 +3,13 @@ import { Link } from 'gatsby'
 import styles from './index.module.scss'
 import { t } from '../../i18n'
 import allUrls from "../../urls/allUrls"
-import Send from '../../assets/send.svg'
+import sent from '../../gifs/sent.gif'
 import PropTypes from "prop-types"
 
 const Confirmation = ({ lang }) => {
 return (
   <div className={styles.success}>
-    <Send />
+    <img src={sent} alt='animation email sent'/>
     <h1>{t('confirmation.title', lang)}</h1>
     <div className={styles.title_section_line}></div>
     <p>{t('confirmation.message_1', lang)}<br></br>{t('confirmation.message_2', lang)}</p>
