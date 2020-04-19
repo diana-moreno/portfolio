@@ -13,7 +13,7 @@
       display: flex;
       background-color: #1b242f;
       color: white;
-      border-bottom: 5px solid #d36667;
+      border-bottom: 5px solid #d66869;
       margin-left: 0;
       margin-bottom: 0;
       padding: 0.1rem 0 0.1rem 1rem;
@@ -27,12 +27,12 @@
         }
       }
       li a:hover {
-        color: #d36667;
+        color: #d66869;
       }
     }
   }
   .active a {
-    color: #d36667 !important;
+    color: #d66869 !important;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -62,7 +62,7 @@
     display: block;
     background-color: #1b242f;
     color: white;
-    border-bottom: 5px solid #d36667;
+    border-bottom: 5px solid #d66869;
     margin-left: 0;
     padding-left: 1rem;
     margin-bottom: 0;
