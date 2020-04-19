@@ -120,6 +120,7 @@ input:focus, button:focus {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  transition: background-color .2s ease;
 }
 .button_demo:hover {
   background-color: #81d5da;

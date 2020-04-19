@@ -28,6 +28,7 @@
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
+    transition: background-color .2s ease;
   }
   .not_found_button:hover {
     background-color: #e99394;

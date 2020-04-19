@@ -37,6 +37,7 @@
   position: absolute;
   right: 2px;
   bottom: -41px;
+  transition: background-color .2s ease;
 }
 .button_send:hover {
   background-color: #81d5da;
