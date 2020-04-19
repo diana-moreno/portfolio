@@ -60,16 +60,9 @@ Others: Git, Github
 - Open it in your localhost. Your site is now running at `http://localhost:8000`!
 
   ```shell
-  gatsby develop
+  npm start
   ```
 
 **Optional:**
 
 - If you want, you can check the backend in this repository but it's not necessary to run locally: https://github.com/diana-moreno/portfolio-api.git.
-  
-- If you want to preview a build version of the project in local:
-
-  ```shell
-  gatsby build
-  gatsby serve
-  ```
