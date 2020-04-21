@@ -9,11 +9,12 @@ import PropTypes from "prop-types"
 const Confirmation = ({ lang }) => {
 return (
   <div className={styles.success}>
-    <img src={sent} alt='animation email sent'/>
+    <img src={sent} alt={t('accessibility.sent', lang)} />
     <h1>{t('confirmation.title', lang)}</h1>
     <div className={styles.title_section_line}></div>
     <p>{t('confirmation.message_1', lang)}<br></br>{t('confirmation.message_2', lang)}</p>
-    <Link 
+    <Link
+      aria-label={t('accessibility.back_home', lang)}
       className={styles.goBack} 
       to={allUrls[1][`url_${lang}`]}
       >{t('confirmation.button_back', lang)}

@@ -5,12 +5,12 @@ import Footer from '../Footer'
 import Seo from "../Seo"
 import 'normalize.css'
 
-const Layout = ({ seoData, children }) => {
+const Layout = ({ seoData, children, lang }) => {
   return (
     <div className='main_container'>
       <Seo seoData={seoData} />
       <main>{children}</main>
-      <Footer />
+      <Footer lang={lang} />
     </div>
   )
 }

@@ -113,7 +113,7 @@ const IndexPage = ({ location }) => {
   )
 
   return (
-    <Layout seoData={seoData}>
+    <Layout seoData={seoData} lang={lang} >
       <Languages 
         location={location} 
         lang={lang} 

@@ -43,7 +43,10 @@ const ProjectPage = ({ data, pageContext, location }) => {
           <Slide left ssrReveal>
             <div className={`${styles.project_container_side} ${styles.project_container_side_left}`}>
               <div className={styles.project_image_container}>
-                <Img fluid={imageProject} />
+                <Img 
+                  alt={t('accessibility.image_project', lang)} 
+                  fluid={imageProject} 
+                />
               </div>
               <p className={styles.description}>
                 {t(currentProject.main, lang)}
@@ -55,6 +58,7 @@ const ProjectPage = ({ data, pageContext, location }) => {
                     {currentProject.github_link.map((elem, i) =>
                       <li>
                         <a
+                          aria-label={t('accessibility.github_link', lang)}
                           target="_blank"
                           rel="noopener noreferrer"
                           href={elem}
@@ -67,6 +71,7 @@ const ProjectPage = ({ data, pageContext, location }) => {
                 <div>
                   <p><strong>{t('projects.demo', lang)}</strong></p>
                   <a
+                    aria-label={t('accessibility.project_link', lang)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.button_demo}

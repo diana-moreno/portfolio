@@ -48,7 +48,11 @@ const Projects = ({ lang, projectsRef, projectsImg }) => {
                 <Zoom key={elem.project} clear exit='true' >  
                   <div className={styles.card}>
                     <div className={styles.project_image_container}>
-                      <a href={t(elem.url, lang)} project={elem} >
+                      <a 
+                        aria-label={t('accessibility.project_detail', lang)} 
+                        href={t(elem.url, lang)} 
+                        project={elem} 
+                      >
                         <Img
                           className={styles.project_image}
                           fixed={projectsImg.edges.find(img => img.node.childImageSharp.fixed.src.indexOf(elem.image) > 1).node.childImageSharp.fixed}

@@ -13,7 +13,7 @@ const LayoutWithMenu = ({ seoData, children, location, lang }) => {
       <Languages location={location} lang={lang}/>
       <Menu lang={lang} indexMenu={undefined} />
       <main>{children}</main>
-      <Footer />
+      <Footer lang={lang} />
     </div>
   )
 }

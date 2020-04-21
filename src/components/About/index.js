@@ -35,7 +35,7 @@ const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
               <div className={styles.aboutme_image_container}>
                 <Img
                   className={styles.aboutme_image}
-                  alt='Profile photography'
+                  alt={t('accessibility.image_profile', lang)} 
                   fluid={imageProfile}
                 />
               </div>
@@ -65,7 +65,12 @@ const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
           <Slide left>
             <div>
               <h3 className={styles.cv_title}>{t('about.cv_text', lang)}</h3>
-              <a className={styles.cv_button} href={curriculum} download>{t('about.cv_button', lang)}</a>
+              <a 
+                aria-label={t('accessibility.cv', lang)} 
+                className={styles.cv_button} 
+                href={curriculum} 
+                download
+              >{t('about.cv_button', lang)}</a>
             </div>
           </Slide>
           <Slide right>

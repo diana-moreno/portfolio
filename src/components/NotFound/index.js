@@ -21,6 +21,7 @@ const NotFound = ({ location, lang, seoData }) => {
         <h1>404</h1>
         <p>{t('error.message', lang)}</p>
         <Link
+          aria-label={t('accessibility.back_home', lang)} 
           className={styles.not_found_button} 
           to={allUrls[1][`url_${lang}`]}
         >{t('error.button', lang)}</Link>

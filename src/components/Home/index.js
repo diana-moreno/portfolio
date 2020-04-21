@@ -26,7 +26,10 @@ const Home = ({ lang, homeRef }) => {
           />
       </div>
       <div className={styles.more}>
-        <Link to={allUrls[2][`url_${lang}`]}>
+        <Link 
+          aria-label={t('accessibility.more', lang)}
+          to={allUrls[2][`url_${lang}`]}
+        >
           <ArrowBounce />
         </Link>
       </div>
