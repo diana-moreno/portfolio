@@ -1,9 +1,7 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from 'gatsby'
-import styles from '../styles/notFound.module.scss'
-import { t } from '../i18n'
-import allUrls from "../urls/allUrls"
-import LayoutWithMenu from '../components/Layout/LayoutWithMenu'
+import { graphql, useStaticQuery } from 'gatsby'
+import NotFound from "../components/NotFound"
+import '../styles/global.module.scss'
 
 const lang = 'en'
 
@@ -28,27 +26,6 @@ const seoData = {
   alternateLanguage: seoJson.alternateLanguage_en,
   alternateUrl: seoJson.alternateUrl_en,
 }
-  return (
-    <LayoutWithMenu 
-      seoData={seoData} 
-      location={location} 
-      lang={lang} 
-    >
-    <div className={styles.not_found}>
-      <div className={styles.bubble}></div>
-      <div className={styles.bubble}></div>
-      <div className={styles.bubble}></div>
-      <div className={styles.bubble}></div>
-      <div className={styles.text_404}>
-        <h1>404</h1>
-        <p>{t('error.message', lang)}</p>
-        <Link
-          className={styles.not_found_button} 
-          to={allUrls[1][`url_${lang}`]}
-        >{t('error.button', lang)}</Link>
-      </div>
-    </div>
-    </LayoutWithMenu>
-  )
+  return <NotFound seoData={seoData} lang={lang} location={location} />
 }
 export default NotFoundPage

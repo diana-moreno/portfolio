@@ -630,11 +630,19 @@ pre tt:after {
 
 html {
   scroll-behavior: smooth;
+  min-height: 100%;
 }
 body {
+  min-height: 100%;
   font-family: "Raleway";
   color: $letter-dark;
   -webkit-tap-highlight-color: transparent
+}
+body > div > div > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
 }
 p {
   line-height: 1.5rem;
@@ -642,10 +650,4 @@ p {
 }
 input:focus, button:focus {
   outline: transparent;
-}
-.main_container {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  min-height: 100vh;
 }
