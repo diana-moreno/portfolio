@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from 'gatsby'
 import NotFound from "../components/NotFound"
-import '../styles/global.module.scss'
 
 const lang = 'en'
 
