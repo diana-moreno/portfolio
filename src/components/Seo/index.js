@@ -31,10 +31,6 @@ export const Seo = ({ seoData }) => {
       <title>{titleSeo}</title>
       <link rel="alternate" hrefLang={alternateLanguage} href={alternateUrl} />
       <link rel="canonical" href={url} />
-      <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        rel="stylesheet"
-        />
     </Helmet>
   )
 }

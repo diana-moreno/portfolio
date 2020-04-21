@@ -8,7 +8,6 @@ import About from "../components/About"
 import Projects from "../components/Projects"
 import Contact from "../components/Contact"
 import curriculum from '../data/cv_en.pdf'
-import './index.module.scss'
 import { t } from '../i18n'
 
 const lang = 'en'

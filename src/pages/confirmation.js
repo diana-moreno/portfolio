@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from 'gatsby'
 import Confirmation from "../components/Confirmation"
-import './index.module.scss'
 import LayoutWithMenu from '../components/Layout/LayoutWithMenu'
 
 const lang = 'en'

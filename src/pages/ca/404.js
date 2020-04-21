@@ -1,9 +1,8 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
-import styles from '../notFound.module.scss'
+import styles from '../../styles/notFound.module.scss'
 import { t } from '../../i18n'
 import allUrls from "../../urls/allUrls"
-import '../index.module.scss'
 import LayoutWithMenu from '../../components/Layout/LayoutWithMenu'
 
 const lang = 'ca'

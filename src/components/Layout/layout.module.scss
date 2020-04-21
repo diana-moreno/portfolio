@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Raleway";
+  color: #444649;
+  -webkit-tap-highlight-color: transparent
+}
+p {
+  line-height: 1.5rem;
+  font-size: 16px;
+}
+input:focus, button:focus {
+  outline: transparent;
+}
+
 html {
   font-family: "Raleway";
   -ms-text-size-adjust: 100%;
@@ -606,12 +624,27 @@ pre tt:after {
   }
 }
 
+
+// CUSTOM
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Raleway";
+  color: #444649;
+  -webkit-tap-highlight-color: transparent
+}
+p {
+  line-height: 1.5rem;
+  font-size: 16px;
+}
+input:focus, button:focus {
+  outline: transparent;
+}
 .main_container {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   min-height: 100vh;
-}
-html {
-  font-family: "Raleway";
 }
