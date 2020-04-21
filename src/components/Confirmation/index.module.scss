@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .success {
   font-family: "Raleway";
   display: flex;
@@ -5,7 +7,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  color: #444649;
+  color: $letter-dark;
   padding: 0 0 4rem 0;
   img {
     margin-bottom: 0;
@@ -25,12 +27,12 @@
   }
   .title_section_line {
     width: 5rem;
-    border-bottom: 5px solid #d66869;
+    border-bottom: 5px solid $red;
     margin: 0 auto;
   }
   .title_section {
     text-align: center;
-    color: #444649;
+    color: $letter-dark;
     font-family: "Raleway";
     h1 {
       margin-bottom: 1rem;
@@ -44,15 +46,15 @@
     cursor: pointer;
     outline: none;
     font-size: 18px;
-    color: white;
-    background-color: #57c1c7;
+    color: $letter-light;
+    background-color: $button-blue;
     font-weight: 700;
     width: fit-content;
     text-decoration: none;
     transition: background-color .2s ease;
   }
   .goBack:hover {
-    background-color: #81d5da;
+    background-color: $button-blue-hover;
   }
 }
 

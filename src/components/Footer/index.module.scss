@@ -1,5 +1,7 @@
+@import '../../styles/variables';
+
 footer {
-  background: #151b22;
+  background: $contact-background;
 }
 .social {
   display: flex;
@@ -23,5 +25,5 @@ footer {
   margin: 0;
   text-align: center;
   padding-bottom: 1rem;
-  color: #969292;
+  color: $footer-text;
 }

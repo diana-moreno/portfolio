@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .form {
   margin: 6rem auto;
   margin-bottom: 7rem;
@@ -30,8 +32,8 @@
   cursor: pointer;
   outline: none;
   font-size: 18px;
-  color: white;
-  background-color: #57c1c7;
+  color: $letter-light;
+  background-color: $button-blue;
   font-weight: 700;
   width: 6rem;
   position: absolute;
@@ -40,5 +42,5 @@
   transition: background-color .2s ease;
 }
 .button_send:hover {
-  background-color: #81d5da;
+  background-color: $button-blue-hover;
 }

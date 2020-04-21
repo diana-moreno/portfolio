@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .projects {
   max-width: 1450px;
   margin: 0rem auto;
@@ -24,8 +26,8 @@
   text-align: center;
   
   &:hover {
-    background-color: #57c1c7;
-    color: white;
+    background-color: $button-blue;
+    color: $letter-light;
   }
 }
 .filter_active {
@@ -37,8 +39,8 @@
   padding: 0.3rem 0rem;
   background-color: none;
   text-align: center;
-  background-color: #57c1c7;
-  color: white;
+  background-color: $button-blue;
+  color: $letter-light;
 }
 .projects_container {
   display: flex;
@@ -85,7 +87,7 @@
 }
 .title_section {
   text-align: center;
-  color: #444649;
+  color: $letter-dark;
   font-family: "Raleway";
   h1 {
     margin-bottom: 1rem;
@@ -93,6 +95,6 @@
 }
 .title_section_line {
   width: 5rem;
-  border-bottom: 5px solid #d66869;
+  border-bottom: 5px solid $red;
   margin: 0 auto;
 }

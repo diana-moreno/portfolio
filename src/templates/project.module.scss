@@ -1,6 +1,8 @@
+@import '../styles/variables';
+
 body {
   font-family: "Raleway";
-  color: #444649;
+  color: $letter-dark;
   -webkit-tap-highlight-color: transparent
 }
 p {
@@ -40,7 +42,7 @@ input:focus, button:focus {
 }
 .title_section {
   text-align: center;
-  color: #444649;
+  color: $letter-dark;
   h1 {
     margin-bottom: 1rem;
     margin-top: 2rem;
@@ -49,7 +51,7 @@ input:focus, button:focus {
     margin: 0 auto;
     .title_section_line {
       width: 5rem;
-      border-bottom: 5px solid #d66869;
+      border-bottom: 5px solid $red;
       margin: 0 auto;
     }
   }
@@ -116,14 +118,14 @@ input:focus, button:focus {
   margin: 0.5rem 1rem;
   font-weight: 700;
   text-align: center;
-  background-color: #57c1c7;
-  color: white;
+  background-color: $button-blue;
+  color: $letter-light;
   text-decoration: none;
   padding: 0.5rem 1rem;
   transition: background-color .2s ease;
 }
 .button_demo:hover {
-  background-color: #81d5da;
+  background-color: $button-blue-hover;
 }
 .underline {
   text-decoration: underline;

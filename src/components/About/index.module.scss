@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .about {
   max-width: 1450px;
   margin: 0rem auto;
@@ -5,7 +7,7 @@
 }
 .title_section {
   text-align: center;
-  color: #444649;
+  color: $letter-dark;
   font-family: "Raleway";
   h1 {
     margin-bottom: 1rem;
@@ -13,7 +15,7 @@
 }
 .title_section_line {
   width: 5rem;
-  border-bottom: 5px solid #d66869;
+  border-bottom: 5px solid $red;
   margin: 0 auto;
 }
 .circles_container {
@@ -81,7 +83,7 @@
   max-width: 36rem;
 }
 .curriculum {
-  background-color: whitesmoke;
+  background-color: $background-whitesmoke;
   padding: 3rem;
   margin-top: 3rem;
   div {
@@ -103,7 +105,7 @@
   }
 }
 .cv_icon {
-  fill: #444649;
+  fill: $letter-dark;
   width: 7rem;
   height: 6rem;
   margin-bottom: 2rem;
@@ -119,12 +121,12 @@
   margin: 0.5rem 1rem;
   font-weight: 700;
   text-align: center;
-  background-color: #57c1c7;
-  color: white;
+  background-color: $button-blue;
+  color: $letter-light;
   text-decoration: none;
   padding: 0.5rem 1rem;
   transition: background-color .2s ease;
 }
 .cv_button:hover {
-  background-color: #81d5da;
+  background-color: $button-blue-hover;
 }

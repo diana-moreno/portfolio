@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .menu {
   display: none;
 }
@@ -11,9 +13,9 @@
     
     &__list {
       display: flex;
-      background-color: #1b242f;
-      color: white;
-      border-bottom: 5px solid #d66869;
+      background-color: $background-blue;
+      color: $letter-light;
+      border-bottom: 5px solid $red;
       margin-left: 0;
       margin-bottom: 0;
       padding: 0.1rem 0 0.1rem 1rem;
@@ -23,22 +25,22 @@
         cursor: pointer;
         a {
           text-decoration: none;
-          color: white;
+          color: $letter-light;
         }
       }
       li a:hover {
-        color: #d66869;
+        color: $red;
       }
     }
   }
   .active a {
-    color: #d66869 !important;
+    color: $red !important;
   }
 }
 @media only screen and (max-width: 650px) {
   .menu_hamburger {
     display: block;
-    background: #1b242f;
+    background: $background-blue;
     width: 100%;
     padding: 1rem;
     position: sticky;
@@ -53,16 +55,16 @@
   .menu_hamburger_fixed {
     position: fixed;
     top: 0px;
-    background: #1b242f;
+    background: $background-blue;
     width: 100%;
     z-index: 7;
     padding: 1rem;
   }
   .menu_hamburger_list {
     display: block;
-    background-color: #1b242f;
-    color: white;
-    border-bottom: 5px solid #d66869;
+    background-color: $background-blue;
+    color: $letter-light;
+    border-bottom: 5px solid $red;
     margin-left: 0;
     padding-left: 1rem;
     margin-bottom: 0;
@@ -78,7 +80,7 @@
       text-align: center;
       a {
         text-decoration: none;
-        color: white;  
+        color: $letter-light;  
       }
     }
   }

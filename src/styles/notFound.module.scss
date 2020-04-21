@@ -1,9 +1,11 @@
+@import './variables';
+
 .text_404 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #444649;
+  color: $letter-dark;
   margin: 4rem 1rem;
   text-align: center;
   h1 {
@@ -22,8 +24,8 @@
     margin: 0.5rem 1rem;
     font-weight: 700;
     text-align: center;
-    background-color: #d66869;
-    color: white;
+    background-color: $red;
+    color: $letter-light;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border: none;
@@ -36,13 +38,13 @@
 }
 
 .bubble {
-  background: #57c1c7;
+  background-color: $button-blue;
   border-radius: 50%;
   box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
   position: absolute;
   &:before, &:after {
     content: '';
-    background: #57c1c7;
+    background-color: $button-blue;
     border-radius: 50%;
     box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
     position: absolute;

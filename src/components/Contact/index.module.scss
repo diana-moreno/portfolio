@@ -1,11 +1,13 @@
+@import '../../styles/variables';
+
 .contact {
   padding: 1rem;
-  background-color: #1b242f;
+  background-color: $background-blue;
   position: relative;
 
   .title_section {
     margin-top: 7rem;
-    color: white;
+    color: $letter-light;
   }
   .white_triangle {
     position: absolute;
@@ -15,7 +17,7 @@
 }
 .title_section {
   text-align: center;
-  color: #444649;
+  color: $letter-dark;
   font-family: "Raleway";
   h1 {
     margin-bottom: 1rem;
@@ -23,6 +25,6 @@
 }
 .title_section_line {
   width: 5rem;
-  border-bottom: 5px solid #d66869;
+  border-bottom: 5px solid $red;
   margin: 0 auto;
 }

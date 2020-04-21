@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+@import '../../styles/variables';
 
 html {
   scroll-behavior: smooth;
 }
 body {
   font-family: "Raleway";
-  color: #444649;
+  color: $letter-dark;
   -webkit-tap-highlight-color: transparent
 }
 p {
@@ -632,7 +633,7 @@ html {
 }
 body {
   font-family: "Raleway";
-  color: #444649;
+  color: $letter-dark;
   -webkit-tap-highlight-color: transparent
 }
 p {

@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import "./layout.module.scss"
+import "./index.module.scss"
 import Footer from '../Footer'
 import Seo from "../Seo"
 import 'normalize.css'

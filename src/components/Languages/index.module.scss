@@ -1,20 +1,22 @@
+@import '../../styles/variables';
+
 .languages {
   position: fixed;
   right: 1rem;
   top: 0.9rem;
-  color: white;
+  color: $letter-light;
   z-index: 3;
   cursor: pointer;
 }
 .language_item:active,
 .language_item:hover {
-  color: #d66869;
+  color: $red;
 }
 
 .language_item {
   text-decoration: none;
-  color: white;
+  color: $letter-light;
 }
 .language_active {
-  color: #d66869;
+  color: $red;
 }
