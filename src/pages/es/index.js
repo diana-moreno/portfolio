@@ -82,7 +82,7 @@ const IndexPage = ({ location }) => {
 
   // init the observer
   const options = {
-    threshold: 0.39
+    threshold: 0.35
   }
 
   // target the elements to be observed
