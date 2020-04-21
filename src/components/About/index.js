@@ -87,7 +87,7 @@ const About = ({ lang, aboutRef, imageProfile, curriculum }) => {
 About.propTypes = {
   lang: PropTypes.string.isRequired,
   aboutRef: PropTypes.shape({ current: PropTypes.any }),
-  imageProfile: PropTypes.string.isRequired,
+  imageProfile: PropTypes.object.isRequired,
   curriculum: PropTypes.string.isRequired
 }
 

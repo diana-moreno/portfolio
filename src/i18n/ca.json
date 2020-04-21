@@ -74,6 +74,28 @@
     "submit_button": "Enviar",
     "clear_button": "Esborrar"
   },
+  "accessibility": {
+    "back_home": "Botón que permite volver a la página principal.",
+    "more": "Flecha que se mueve hacia abajo indicando que hay más contenido.",
+    "en": "Cambiar el idioma a inglés.",
+    "es": "Cambiar el idioma a español.",
+    "ca": "Cambiar el idioma a catalán.",
+    "de": "Cambiar el idioma a alemán.",
+    "home": "Ir al apartado Inicio.",
+    "about": "Ir al apartado Sobre mi.",
+    "projects": "Ir al apartado Proyectos.",
+    "contact": "Ir al apartado Contacto.",
+    "project_detail": "Ver descripción y detalles del proyecto, código fuente, probar demo...",
+    "cv": "Descargar Curriculum Vitae.",
+    "github": "Enlace a mi página en Github.",
+    "email": "Enviar un email.",
+    "linkedin": "Enlace a mi página en Linkedin.",
+    "image_profile": "Fotografía de perfil.",
+    "sent": "Animación de avión de papel enviando una carta.",
+    "image_project": "Imagen principal de proyecto.",
+    "github_link": "Enlace al código fuente en Github.",
+    "project_link": "Enlace al proyecto."
+  },
   "projects": {
     "ref": "projectes",
     "title": "PROJECTES",
