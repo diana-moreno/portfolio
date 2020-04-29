@@ -351,7 +351,7 @@ const projects = [
     ],
     technologies: [
       "projects.project_13.technologies.technologies_1",
-      "projects.project_14.technologies.technologies_2"
+      "projects.project_13.technologies.technologies_2"
     ]
   },
   {
