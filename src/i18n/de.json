@@ -1,634 +1,672 @@
 {
   "home": {
-    "title": "INICIO",
-    "greeting": "Hola, soy ",
+    "ref": "home",
+    "title": "HOME",
+    "greeting": "Hallo, ich bin ",
     "author": "Diana Moreno",
-    "author_position": "Soy desarrolladora web full stack.",
-    "view_more": "Ver más"
+    "author_position": "Ich bin Full Stack Web-Entwicklerin.",
+    "creative": "Ich bin kreativ.",
+    "design": "Ich liebe Design.",
+    "develop": "Ich liebe entwickeln.",
+    "view_more": "Mehr dazu"
   },
   "about": {
-    "title": "SOBRE MÍ",
-    "cv_text": "¿Te gustaría saber más acerca de mi trayectoria profesional?",
-    "cv_button": "Descargar CV",
+    "ref": "uber-mich",
+    "title": "ÜBER MICH",
+    "cv_text": "Möchtest du mehr über meinen beruflichen Werdegang erfahren?",
+    "cv_button": "Lebenslauf herunterladen",
     "concepts_key": {
       "concept_key_1": {
-        "title": "Diseño adaptativo",
-        "description": "El móvil gana cada día más protagonismo frente al ordenador. Por esa razón, procuro que mis proyectos sean compatibles con todos los dispositivos, siguiendo las tendencias."
+        "title": "Responsives Webdesign",
+        "description": "Handys werden immer beliebter als Computer.Deshalb versuche ich, Projekte mit allen Geräten kompatibel zu machen, den Trends folgend."
       },
       "concept_key_2": {
-        "title": "Simplicidad",
-        "description": "Para mí, el diseño es una pieza clave en un proyecto, por ello apuesto por interfaces atractivas para el usuario sin perder la simplicidad. Menos es más."
+        "title": "Einfachheit",
+        "description": "Ich betrachte das Design als einen wichtigen Teil eines Projekts und entscheide mich daher für attraktive Benutzeroberflächen, ohne dabei die Einfachheit zu verlieren. Weniger ist mehr."
       },
       "concept_key_3": {
-        "title": "Buenas prácticas",
-        "description": "Tanto para el trabajo en equipo como individual, considero muy importante construir un código de calidad: organizado, sencillo, testeado y reutilizable."
+        "title": "Best Practices",
+        "description": "Sowohl für die Team- als auch für die Einzelarbeit halte ich es für sehr wichtig, einen Qualitäts-Code zu erstellen: organisiert, einfach, getestet und wiederverwendbar."
       },
       "concept_key_4": {
-        "title": "Últimas tecnologías",
-        "description": "Me intereso por las nuevas tecnologías y apuesto por la formación continua. La última tecnología que he aprendido ha sido Gatsby, muy de moda hoy en día."
+        "title": "Neueste Technologien",
+        "description": "Ich interessiere mich für neue Technologien und glaube an kontinuierliche Weiterbildung. Die letzte Technologie, die ich gelernt habe, war Gatsby, die heutzutage sehr im Trend liegt."
       }
     },
-    "my_story": { 
-      "title": "Mi historia", 
-      "section_1": "Me gradué en Administración y Dirección de Empresas en la Universidad de Barcelona en 2012. Una vez finalizados mis estudios, inicié mi trayectoria profesional como contable y fui creciendo hasta alcanzar el puesto de Team manager.",
-      "section_2": "Seis años después, me di cuenta de que el ámbito de la contabilidad ya no me satisfacía. Necesitaba un nuevo desafío donde poder seguir creciendo como profesional.",
-      "section_3": "La programación comenzó a llamarme la atención cada vez más y finalmente decidí seguir ese camino. De modo que, a principios de 2019, renuncié a mi trabajo y comencé a aprender por mi cuenta. Además, de septiembre a diciembre de ese mismo año, estudié programación en un Bootcamp en Skylab para consolidar y ampliar mis conocimientos."
+    "my_story": {
+      "title": "Meine Geschichte",
+      "section_1": "Im Jahr 2012 erlangte ich einen Bachelor in Betriebswirtschaft und Management an der Universität von Barcelona. Nach Abschluss meines Studiums habe ich eine berufliche Laufbahn als Buchhalterin begonnen und bin stetig gewachsen, bis ich Team Manager wurde.",
+      "section_2": "Sechs Jahre später wurde mir klar, dass mich dieses Gebiet nicht mehr erfüllte. Ich brauchte eine neue Herausforderung, bei der ich mich beruflich weiterentwickeln konnte.",
+      "section_3": "Das Programmieren interessierte mich mehr und mehr, und ich verspürte ein unwiderstehliches Bedürfnis, dieses Gebiet zu erforschen. Deshalb kündigte ich im Anfang 2019 meinen Job und begann, auf eigene Faust zu lernen. Von September 2019 bis Dezember 2019 war ich in einem Programmier-Bootcamp in Skylab angemeldet, um mein Wissen zu festigen und zu erweitern."
     },
     "nowadays": {
-      "title":"Actualmente",
-      "section_1": "Hoy en día trabajo para Interficie, una compañía que desarrolla páginas de comercio electrónico y soluciones creativas para grandes empresas.",
-      "section_2": "El lenguaje que utilizo es JavaScript y mi stack tecnológico es el siguiente: React, Gatsby, Node.js, SQL y Express."
+      "title": "Heutzutage",
+      "section_1": "Ich arbeite derzeit bei Interficie: eine Firma, die E-Commerce-Sites und kreative Lösungen für große Unternehmen entwickelt.",
+      "section_2": "Die Programmiersprache, die ich verwende, ist JavaScript, und mein Technologiestack ist die folgende: React, Gatsby, Node, SQL und Express."
     },
     "passions": {
-      "title": "Pasiones", 
-      "section_1": "A parte de la programación, procuro seguir un estilo de vida saludable: presto mucha atención a lo que como y hago ejercicio regularmente. Además, me encanta bailar, hasta el punto de haber formado parte de una compañía de baile de salsa amateur."
+      "title": "Leidenschaften",
+      "section_1": "Außer dem Programmieren mag ich einen gesunden Lebensstil: Ich achte genau darauf, was ich esse, und ich treibe regelmäßig Sport. Ich liebe es auch zu tanzen, bis zu dem Punkt, dass ich einer Amateursalsa-Tanzkompanie beigetreten bin."
     }
   },
   "contact": {
-    "title":"CONTACTO"
+    "ref": "kontakt",
+    "title": "KONTAKT"
   },
   "confirmation": {
-    "url": "confirmacion",
-    "title": "¡Gracias!",
-    "message_1": "Tu mensaje se ha enviado correctamente.",
-    "message_2": "¡Contactaré contigo lo antes posible!",
-    "button_back": "Volver atrás"
+    "url": "/de/bestatigung",
+    "title": "Danke!",
+    "message_1": "Deine Nachricht wurde erfolgreich gesendet.",
+    "message_2": "Ich werde so bald wie möglich mit dir kontaktieren!",
+    "button_back": "Zurückgehen"
+  },
+  "error": {
+    "message": "Oops! Etwas ging schief.",
+    "button": "Zur Startseite"
   },
   "form": {
-    "name": "Nombre",
-    "email": "Correo electrónico",
-    "message": "Tu mensaje",
-    "name_error": "El nombre es obligatorio",
-    "email_error": "El correo electrónico es obligatorio",
-    "message_error": "El mensaje es obligatorio",
-    "submit_button": "Enviar",
-    "clear_button": "Borrar"
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Deine Nachricht",
+    "name_error": "Der Name ist Pflicht",
+    "email_error": "Die E-Mail ist Pflicht",
+    "message_error": "Die Nachricht ist Pflicht",
+    "submit_button": "Senden",
+    "clear_button": "Löschen"
+  },
+  "accessibility": {
+    "back_home": "Schaltfläche, mit der man zur Startseite zurückgehen kann.",
+    "more": "Pfeil, der sich nach unten bewegt und anzeigt, dass es mehr Inhalt gibt.",
+    "en": "Sprache auf Englisch wechseln.",
+    "es": "Sprache auf Spanisch wechseln.",
+    "ca": "Sprache auf Katalanisch wechseln.",
+    "de": "Sprache auf Deutsch wechseln.",
+    "home": "Zur Home.",
+    "about": "Zur Über mich.",
+    "projects": "Zur Projekte.",
+    "contact": "Zur Kontakt.",
+    "project_detail": "Beschreibung und Details zum Projekt, Quellcode, Demo ausprobieren...",
+    "cv": "Lebenslauf herunterladen.",
+    "github": "Link zu meiner Github-Seite.",
+    "email": "Eine E-Mail senden.",
+    "linkedin": "Link zu meiner Linkedin-Seite.",
+    "image_profile": "Profilbild.",
+    "sent": "Papierflugzeug-Animation beim Versenden eines Briefes.",
+    "image_project": "Hauptbild des Projekts.",
+    "github_link": "Link zum Quellcode auf Github.",
+    "project_link": "Link zum Projekt."
   },
   "projects": {
-    "title": "PROYECTOS",
-    "all": "TODOS", 
+    "ref": "projekte",
+    "title": "PROJEKTE",
+    "all": "ALLE",
     "demo": "Demo",
-    "source_code": "Código fuente",
-    "view": "Ver demo",
-    "features": "Características",
-    "learned": "Qué he aprendido",
-    "technologies": "Tecnologías",
+    "source_code": "Quellcode",
+    "view": "Demo ansehen",
+    "features": "Merkmale",
+    "learned": "Was ich lernte",
+    "technologies": "Technologien",
     "project_1": {
-      "url": "calculadora",
-      "title": "Calculadora",
-      "main": "En este proyecto he desarrollado una calculadora que realiza operaciones matemáticas sencillas.",
+      "url": "rechner",
+      "title": "Rechner",
+      "main": "In diesem Projekt habe ich einen Rechner entwickelt, der einfache mathematische Operationen ausführt.",
       "features": {
-        "feature_1": "Realiza operaciones básicas como suma, resta, multiplicación y división.",
-        "feature_2": "Permite operaciones con paréntesis, números enteros y decimales.",
-        "feature_3": "Dispone de función de borrado y de reset.",
-        "feature_4": "Puede acumular resultados para la siguiente operación.",
-        "feature_5": "Dispone de una pantalla informativa en caso de acciones o errores.",
-        "feature_6": "Si la expresión es demasiado larga, el tamaño de la letra de la pantalla se hace pequeña.",
-        "feature_7": "Está preparado para funcionar tanto con el ratón como con el teclado."
+        "feature_1": "Er führt grundlegende Operationen wie Addition, Subtraktion, Multiplikation und Division aus.",
+        "feature_2": "Er ermöglicht Operationen mit Klammern, ganzen Zahlen und Dezimalstellen.",
+        "feature_3": "Er hat Lösch- und Rücksetzfunktionen.",
+        "feature_4": "Er kann Ergebnisse für die nächste Operation akkumulieren.",
+        "feature_5": "Er verfügt über einen Informationsbildschirm für den Fall von Aktionen oder Fehlern.",
+        "feature_6": "Wenn der Ausdruck zu lang ist, wird die Schriftgröße des Bildschirms kleiner.",
+        "feature_7": "Er ist für die Arbeit mit Maus und Tastatur ausgelegt."
       },
       "learned": {
-        "learned_1": "A desarrollar lógica operacional.",
-        "learned_2": "A crear estructuras de cuadrícula con CSS Grid.",
-        "learned_3": "A acceder y manipular el DOM con JavaScript Vanilla.",
-        "learned_4": "A aplicar eventos de ratón y de teclado.",
-        "learned_5": "A crear efectos visuales con pseudoclases como \"hover\" y \"active\"."
+        "learned_1": "Operative Logik zu entwickeln.",
+        "learned_2": "Gitterstrukturen mit CSS Grid zu erstellen.",
+        "learned_3": "Mit Vanilla JavaScript auf DOM zuzugreifen und es zu manipulieren.",
+        "learned_4": "Maus- und Tastaturereignisse anzuwenden.",
+        "learned_5": "Visuelle Effekte mit Pseudoklassen wie \"hover\" und \"active\" zu erzeugen."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: JavaScript (ES6), HTML, CSS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_2": {
-      "url": "escapa-de-la-muerte",
-      "title": "Escapa de la muerte",
-      "main": "Este es un juego de horror en el que el protagonista y su amigo han sido secuestrados. El objetivo es rescatar al amigo y conseguir escapar juntos antes de que el asesino les encuentre.",
+      "url": "entkomme-vor-dem-tod",
+      "title": "Entkomme vor dem Tod",
+      "main": "Dies ist ein Horrorspiel, in dem der Protagonist und sein Freund verschleppt worden sind. Das Ziel ist es, den Freund zu retten und gemeinsam zu entkommen, bevor sie vom Mörder gefunden werden.",
       "features": {
-        "feature_1": "Los elementos detrás de las puertas son: amigo, asesino y salida.",
-        "feature_2": "Los personajes se colocan aleatoriamente en cada partida.",
-        "feature_3": "Es necesario encontrar primero al amigo para poder escapar, no será posible salir sin él aunque se encuentre la salida.",
-        "feature_4": "Según avanza el juego, aparecen mensajes que guían la historia.",
-        "feature_5": "Toparse con el asesino significa perder el juego."
+        "feature_1": "Die Elemente hinter den Türen sind: Freund, Mörder und Ausgang.",
+        "feature_2": "Diese Charaktere werden in jedem Spiel zufällig platziert.",
+        "feature_3": "Man muss den Freund zuerst finden, um zu entkommen, ohne ihn wird man nicht gehen können, auch wenn der Ausgang gefunden wird.",
+        "feature_4": "Im weiteren Verlauf des Spiels kommen Nachrichten zum Vorschein, die die Geschichte bestimmen.",
+        "feature_5": "Dem Killer in die Arme zu laufen bedeutet, das Spiel zu verlieren."
       },
       "learned": {
-        "learned_1": "A importar fuentes externas.",
-        "learned_2": "A manipular imágenes y crear composiciones con GIMP.",
-        "learned_3": "A renderizar condicionalmente elementos con JavaScript.",
-        "learned_4": "A añadir sonidos en el DOM."
+        "learned_1": "Externe Quellen zu importieren.",
+        "learned_2": "Mit GIMP Bilder zu manipulieren und Kompositionen zu erstellen.",
+        "learned_3": "Elemente mit JavaScript bedingt zu rendern.",
+        "learned_4": "Klänge im DOM hinzuzufügen."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: JavaScript (ES6), HTML, CSS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_3": {
-      "url": "pagina-personal",
-      "title": "Página personal",
-      "main": "Este proyecto es mi primera página web personal, creada con la finalidad de disponer de un espacio donde poder hablar un poco de mí y exponer mis propios proyectos.",
+      "url": "personliche-webseite",
+      "title": "Persönliche Webseite",
+      "main": "Dieses Projekt ist meine erste persönliche Webseite, die ich mit dem Ziel erstellt habe, eine Plattform zu haben, auf der ich ein wenig über mich selbst sprechen und meine eigenen Projekte vorstellen kann.",
       "features": {
-        "feature_1": "Se compone de cuatro secciones: inicio, sobre mi, proyectos y contacto.", 
-        "feature_2": "La página \"Sobre mi\" cuenta con una imagen mía y mi biografía.",
-        "feature_3": "Desde \"Proyectos\" puede accederse a todos mis proyectos disponibles.",
-        "feature_4": "La página \"Contacto\" tiene enlaces a Linkedin, GitHub y mi correo electrónico.",
-        "feature_5": "Es responsiva, puede visualizarse desde cualquier dispositivo."
-      },  
-      "learned": {
-        "learned_1": "A utilizar Bootstrap, una librería responsiva de CSS.",
-        "learned_2": "A utilizar Animate.css, una librería de animaciones avanzadas.",
-        "learned_3": "A centrar elementos tanto vertical como horizontalmente con CSS.",
-        "learned_4": "A crear varias páginas interconectadas con enlaces.",
-        "learned_5": "A aplicar media queries para crear una página responsiva priorizando los dispositivos móviles.",
-        "learned_6": "A utilizar Git con GitHub.",
-        "learned_7": "A crear un fichero README con Markdown.",
-        "learned_8": "A realizar despliegues de front-end en GitHub-pages."
+        "feature_1": "Es besteht aus 4 Teilen: Home, Über mich, Projekte und Kontakt.",
+        "feature_2": "Die \"Über mich\" Seite enthält meine Biographie zusammen mit einem Bild von mir.",
+        "feature_3": "Alle meine verfügbaren Projekte findest du unter \"Projekte\".",
+        "feature_4": "Die \"Kontakt\" Seite enthält Links zu Linkedin, GitHub und meiner E-Mail.",
+        "feature_5": "Diese Webseite ist responsiv, kann von jedem Gerät aus angezeigt werden."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS-Bootstrap",
-        "technologies_2": "Back-end: -"
+      "learned": {
+        "learned_1": "Bootstrap, die eine CSS responsive Programmbibliothek ist, zu verwenden.",
+        "learned_2": "Animate.css zu benutzen, eine fortgeschrittene Animationsbibliothek.",
+        "learned_3": "Elemente sowohl vertikal als auch horizontal mit CSS zu zentrieren.",
+        "learned_4": "Mehrere Webseiten zu erstellen, die durch Links miteinander verbunden sind.",
+        "learned_5": "Medienabfragen anzuwenden, um eine responsive Seite zu erstellen, die mobilen Geräten Priorität einräumt.",
+        "learned_6": "Git mit GitHub zu benutzen.",
+        "learned_7": "Eine README-Datei mit Markdown zu erstellen.",
+        "learned_8": "Front-End-Bereitstellungen in GitHub-Seiten durchzuführen."
+      },
+      "technologies": {
+        "technologies_1": "Front-End: JavaScript (ES6), HTML, CSS-Bootstrap",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_4": {
-      "url": "juego-matematico",
-      "title": "Juego matemático",
-      "main": "Esta es una versión alternativa al juego original \"10 Seconds Math\", creado por Michael Jakob con la finalidad de desafiar las habilidades matemáticas de una persona a contrarreloj. En esta versión, el tiempo añadido por respuesta correcta no son 10 segundos, sino que varía dependiendo de la dificultad.",
+      "url": "mathematik-spiele",
+      "title": "Mathematik-Spiele",
+      "main": "Es ist eine alternative Version des ursprünglichen \"10 Seconds Math\", das von Michael Jakob geschaffen wurde, um die mathematischen Fähigkeiten einer Person gegen die Zeit herauszufordern. In dieser Version ist die Zeit, die pro richtiger Antwort gewonnen wird, nicht 10 Sekunden, sie ändert sich je nach Schwierigkeitsgrad.",
       "features": {
-        "feature_1": "El usuario puede configurar la dificultad del juego limitando operaciones o las cifras máximas de cada número.",
-        "feature_2": "El juego comienza con 10 segundos para responder a la primera pregunta.",
-        "feature_3": "Cada respuesta correcta suma segundos dependiendo de la dificultad (4 puntos por cada división, 3 por cada multiplicación, 2 por resta y 1 por suma).",
-        "feature_4": "Es necesario responder correctamente para poder continuar.",
-        "feature_5": "El juego termina cuando se agota el tiempo."
+        "feature_1": "Der Benutzer kann den Schwierigkeitsgrad des Spiels einstellen, indem er die Operationen oder sogar die maximalen Ziffern jeder Zahl begrenzt.",
+        "feature_2": "Das Spiel beginnt mit 10 Sekunden für die Beantwortung der ersten Frage.",
+        "feature_3": "Für jede richtige Antwort werden je nach Schwierigkeitsgrad Sekunden addiert (4 Punkte für jede Division, 3 für jede Multiplikation, 2 für Subtraktion und 1 für Addition).",
+        "feature_4": "Es ist erforderlich, korrekt zu antworten, um fortzufahren.",
+        "feature_5": "Das Spiel ist zu Ende, wenn die Zeit abläuft."
       },
       "learned": {
-        "learned_1": "A correr el proyecto en un servidor local de Node.js (Serve).",
-        "learned_2": "A importar sonidos de una librería externa y sincronizarlos con el DOM.",
-        "learned_3": "A utilizar funciones asíncronas y \"callbacks\".",
-        "learned_4": "A reescribir el contenido dinámicamente en una sola página (SPA).",
-        "learned_5": "A añadir estilos con las pseudoclases \"before\" y \"hover\".",
-        "learned_6": "A crear un fichero \"gitignore\" para proteger otros ficheros.",
-        "learned_7": "A crear un fichero JSON con la configuración del proyecto."
+        "learned_1": "Das Projekt auf einem lokalen Node-Server auszuführen (Serve).",
+        "learned_2": "Klänge aus einer externen Programmbibliothek zu importieren und sie mit dem DOM zu synchronisieren.",
+        "learned_3": "Asynchrone Funktionen und \"callbacks\" zu verwenden.",
+        "learned_4": "Den Inhalt auf einer Einzelseite (SPA) dynamisch umzuschreiben.",
+        "learned_5": "Stile mit den Pseudoklassen \"before\" und \"hover\" hinzuzufügen.",
+        "learned_6": "Eine \"gitignore\" Datei zu erstellen, um andere Dateien zu schützen.",
+        "learned_7": "Eine JSON-Datei mit den Projekteinstellungen zu erstellen."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: JavaScript (ES6), HTML, CSS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_5": {
-      "url": "juego-de-parejas",
-      "title": "Juego de parejas",
-      "main": "Juego de parejas es un juego tradicional de memoria. Para ganar, se necesita recordar la posición de cada carta y emparejarla con su igual.",
+      "url": "matching-spiel",
+      "title": "Matching-Spiel",
+      "main": "Dies ist ein traditionelles Gedächtnisspiel. Um zu gewinnen, muss man sich die Position jeder Karte merken und sie mit ihrem Gleichen abgleichen.",
       "features": {
-        "feature_1": "Detrás de cada cofre se colocan aleatoriamente los personajes.",
-        "feature_2": "El jugador tiene que abrir dos cofres buscando que sean iguales.",
-        "feature_3": "Si los dos personajes son diferentes, los cofres se volverán a cerrar y se sumará un fallo.",
-        "feature_4": "Si los personajes son iguales, se quedarán visibles y se sumará un acierto.",
-        "feature_5": "La finalidad del juego es conseguir emparejar todos los personajes.",
-        "feature_6": "El contador informa de aciertos y fallos durante el juego.",
-        "feature_7": "Al final del juego aparece un resumen de los resultados."
+        "feature_1": "Die Zeichen werden zufällig hinter jeder Truhe platziert.",
+        "feature_2": "Der Spieler muss zwei Truhen öffnen, um sie gleich zu machen.",
+        "feature_3": "Wenn die beiden Zeichen unterschiedlich sind, schließen sich die Truhen wieder und es gilt als Fehlschlag.",
+        "feature_4": "Wenn die Zeichen gleich sind, bleiben sie sichtbar und es gilt als Treffer.",
+        "feature_5": "Das Ziel des Spiels ist es, alle Zeichen zu paaren.",
+        "feature_6": "Der Zähler zeigt sowohl Treffer als auch Fehlschläge während des Spiels an.",
+        "feature_7": "Eine Zusammenfassung der Ergebnisse wird am Ende des Spiels angezeigt."
       },
       "learned": {
-        "learned_1": "A manipular el DOM con jQuery.",
-        "learned_2": "A entender la lógica detrás de un juego de parejas.",
-        "learned_3": "A separar el código en diferentes ficheros para mantener un orden."
+        "learned_1": "Das DOM mit jQuery zu manipulieren.",
+        "learned_2": "Die Logik hinter einem Matching-Spiel zu verstehen.",
+        "learned_3": "Den Code in verschiedene Dateien aufzuteilen, um alles organisiert zu halten."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: JavaScript (ES6) con jQuery, HTML, CSS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: JavaScript (ES6) mit jQuery, HTML, CSS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_6": {
-      "url": "estructura-de-datos",
-      "title": "Estructura de Datos",
-      "main": "Las pilas (stacks) y las colas (queues) son dos tipos de estructura de datos lineal que podemos encontrar fácilmente en la vida real. En este proyecto, estoy mostrando ambos modelos en una representación gráfica y dinámica.",
+      "url": "datenstruktur",
+      "title": "Datenstruktur",
+      "main": "Stapelspeicher (Stack) und Warteschlangen (Queue) sind zwei Arten von linearen Datenstrukturen, die im wirklichen Leben leicht zu finden sind. In diesem Projekt zeige ich beide Modelle in einer dynamischen und grafischen Darstellung.",
       "features": {
-        "feature_1": "Stack (pila)",
-        "feature_2": "Cada vez que se añade un elemento, se coloca encima del anterior.",
-        "feature_3": "El último elemento que ha entrado es el que sale.",    
-        "feature_4": "Se conoce como LIFO (en inglés “último en entrar, primero en salir”).",
-        "feature_5": "Podemos asemejar el concepto con una pila de libros o de platos.",
-        "feature_6": "Queue (cola)",
-        "feature_7": "Los elementos se colocan en orden de llegada.",
-        "feature_8": "El primer elemento que se ha colocado, es el que sale.",
-        "feature_9": "Se conoce como FIFO (en inglés “primero en entrar, primero en salir”)",
-        "feature_10": "Podemos asemejar el concepto con una cola de supermercado."
+        "feature_1": "Stack (Stapelspeicher)",
+        "feature_2": "Jedes Mal, wenn ein Element hinzugefügt wird, wird es auf das vorhergehende Element gesetzt.",
+        "feature_3": "Das zuletzt eingegebene Element ist das zuletzt ausgegebene.",
+        "feature_4": "Dies wird als LIFO (Last In - First Out) bekannt.",
+        "feature_5": "Wir können das Konzept mit einem Bücher- oder Geschirrstapel vergleichen.",
+        "feature_6": "Queue (Warteschlange)",
+        "feature_7": "Die Elemente werden in der Reihenfolge ihres Eintreffens platziert.",
+        "feature_8": "Das erste Element, das platziert wurde, ist das, das herauskommt.",
+        "feature_9": "Dies wird als FIFO (First In - First Out) bekannt.",
+        "feature_10": "Wir können das Konzept mit einer Supermarkt-Warteschlange vergleichen."
       },
       "learned": {
-        "learned_1": "A practicar la programación orientada a objetos con el método constructor",
-        "learned_2": "A entender la teoría y la lógica detrás de los conceptos FIFO Y LIFO."
+        "learned_1": "Objektorientierte Programmierung mit Konstruktor-Funktionen zu praktizieren.",
+        "learned_2": "Die Theorie und Logik hinter FIFO und LIFO zu verstehen."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: JavaScript (ES6), HTML, CSS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_7": {
-      "url": "pasapalabra",
-      "title": "Pasapalabra",
-      "main": "Este juego es una versión del famoso juego español \"Pasapalabra\", en el que el concursante tiene que acertar una pregunta por cada letra del alfabeto en un tiempo determinado.",
+      "url": "das-alphabetspiel",
+      "title": "Das Alphabetspiel",
+      "main": "Dieses Spiel ist eine Version des berühmten spanischen Spiels \"Pasapalabra\", bei dem der Kandidat für jeden Buchstaben des Alphabets in einer bestimmten Zeit eine Frage richtig beantworten muss.",
       "features": {
-        "feature_1": "La partida se puede personalizar eligiendo un avatar femenino o masculino.",
-        "feature_2": "El juego transcurre a contrarreloj, se dispone únicamente de 150 segundos.",
-        "feature_3":"Se muestra una pregunta por letra y se debe contestar lo más rápido posible.",
-        "feature_4": "Si la respuesta es correcta, la letra deja de parpadear, se vuelve verde y se emite un sonido de acierto, sino, se vuelve roja y se emite un sonido de fallo.",
-        "feature_5": "Es posible pasar a otra pregunta y volver después para contestar.",
-        "feature_6": "El juego puede ser cancelado en cualquier momento.",
-        "feature_7": "Una vez finalizado el juego, se muestra la puntuación y aparece la opción de volver a jugar o ver el ranking.",
-        "feature_8":"El ranking muestra los últimos 10 mejores resultados."
+        "feature_1": "Das Spiel kann durch die Wahl eines männlichen oder weiblichen Avatars personalisiert werden.",
+        "feature_2": "Das Spiel wird gegen die Zeit gespielt, man hat nur 150 Sekunden.",
+        "feature_3": "Es wird eine Frage pro Buchstabe angezeigt, die so schnell wie möglich beantwortet werden muss.",
+        "feature_4": "Wenn die Antwort richtig ist, hört der Buchstabe auf zu blinken, wird grün und es ertönt ein Erfolgston, andernfalls wird er rot und es ertönt ein Misserfolgston.",
+        "feature_5": "Es ist möglich, zu einer anderen Frage überzugehen und später zurückzukommen, um sie zu beantworten.",
+        "feature_6": "Das Spiel kann jederzeit abgebrochen werden.",
+        "feature_7": "Sobald das Spiel beendet ist, wird der Punktestand angezeigt, und man kann wählen, ob man noch einmal spielen oder die Rangliste überprüfen möchte.",
+        "feature_8": "Die Rangliste zeigt die letzten 10 besten Ergebnisse."
       },
       "learned": {
-        "learned_1": "A utilizar SASS y convertirlo a CSS.",
-        "learned_2": "A construir y utilizar mixins con SCSS para utilizar funciones.",
-        "learned_3": "A implementar tipografía fluida y responsiva.",
-        "learned_4": "A sincronizar eventos del DOM con jQuery.",
-        "learned_5": "A alinear elementos con la combinación de posiciones absolutas y relativas.",
-        "learned_6": "A organizar y separar el código siguendo el MVC (modelo, vista, controlador)."
-      }, 
-      "technologies" : {
-        "technologies_1": "Front-end: JavaScript (ES6) con jQuery, HTML, CSS-SASS",
-        "technologies_2": "Back-end: -"
+        "learned_1": "SASS zu verwenden und es in CSS zu konvertieren.",
+        "learned_2": "Mixins mit SCSS zu erstellen und zu verwenden, um Funktionen zu nutzen.",
+        "learned_3": "Eine fließende und responsive Schrift zu implementieren.",
+        "learned_4": "DOM-Ereignisse mit jQuery zu synchronisieren.",
+        "learned_5": "Elemente durch die Kombination absoluter und relativer Positionen auszurichten.",
+        "learned_6": "Den Code nach dem MVC-Konzept (Model View Controller) zu organisieren und zu trennen."
+      },
+      "technologies": {
+        "technologies_1": "Front-End: JavaScript (ES6) mit jQuery, HTML, CSS-SASS",
+        "technologies_2": "Back-End: -"
       }
-    },  
+    },
     "project_8": {
-      "url": "juego-2048",
-      "title": "Juego 2048",
-      "main": "2048 es un juego de bloques deslizantes para un jugador, diseñado originalmente por Gabriele Cirulli. El objetivo del juego es deslizar bloques numerados en una cuadrícula para combinarlos, sumando sus valores hasta obtener uno solo con el número 2048.",
+      "url": "das-2048-spiel",
+      "title": "Das 2048 Spiel",
+      "main": "2048 ist ein Einzelspieler-Schiebeblockspiel, das ursprünglich von Gabriele Cirulli entwickelt wurde. Das Ziel des Spiels ist es, nummerierte Blöcke auf ein Gitter zu schieben, um sie zu kombinieren und ihre ZahlenWerte zu addieren, bis man einen einzigen mit der Nummer 2048 erhält.",
       "features": {
-        "feature_1": "Inicialmente se generan dos bloques con valor 2 o 4 de manera aleatoria.",
-        "feature_2": "Hay más probabilidad de que aparezca un 2 que un 4.",
-        "feature_3": "El juego se maneja con las flechas del teclado, indicando la dirección hacia donde se van a unir las bloques.",
-        "feature_4": "Si al desplazarse coincide que dos números son iguales, se sumarán formando un solo bloque con el doble de valor.",
-        "feature_5": "Cada vez que se realiza un movimiento, aparece un bloque aleatorio nuevo.",
-        "feature_6": "El juego finaliza cuando se alcanza el 2048 o no quede espacio disponible."  
+        "feature_1": "Zwei Blöcke mit einem Zahlenwert von 2 oder 4 werden anfänglich zufällig generiert.",
+        "feature_2": "Es gibt eine bessere Chance auf eine 2 als auf eine 4.",
+        "feature_3": "Das Spiel wird mit den Pfeilen auf der Tastatur gespielt, die die Richtung anzeigen, in der die Blöcke zusammenkommen.",
+        "feature_4": "Wenn zwei gleiche Zahlen beim Rutschen aufeinander treffen, werden sie zu einem einzigen Block mit dem doppelten Zahlenwert addiert.",
+        "feature_5": "Jedes Mal, wenn man einen Zug macht, erscheint ein neuer zufälliger Block.",
+        "feature_6": "Das Spiel endet, wenn man 2048 erreicht oder wenn es kein Platz mehr gibt."
       },
       "learned": {
-        "learned_1": "A entender la lógica y la dinámica detrás del juego.",
-        "learned_2": "A desarrollar la lógica con clases y prototipos de JavaScript.",
-        "learned_3": "A separar la lógica propia del juego de la del DOM.",
-        "learned_4": "A crear elementos de HTML y clases dinámicamente."
-      }, 
-      "technologies" : {
-        "technologies_1": "Front-end: JavaScript (ES6), HTML, CSS",
-        "technologies_2": "Back-end: -"
+        "learned_1": "Die Logik und Dynamik hinter dem Spiel zu verstehen.",
+        "learned_2": "Die Logik mit JavaScript-Klassen und -Prototypen zu entwickeln.",
+        "learned_3": "Die Spiellogik von der DOM-Logik zu trennen.",
+        "learned_4": "HTML-Elemente und Klassen dynamisch zu erstellen."
+      },
+      "technologies": {
+        "technologies_1": "Front-End: JavaScript (ES6), HTML, CSS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_9": {
-      "url": "gestor-de-tareas",
-      "title": "Gestor de tareas",
-      "main": "Este es mi primer proyecto desarrollado con React. Se trata de un gestor de tareas sencillo en el que se pueden añadir funciones avanzadas como prioridad o fecha y hora de la tarea.",
+      "url": "task-manager",
+      "title": "Task Manager",
+      "main": "Dies ist mein erstes mit React entwickeltes Projekt. Es ist ein einfacher Task-Manager, in dem man erweiterte Funktionen wie Priorität oder Datum und Uhrzeit hinzufügen kann.",
       "features": {
-        "feature_1": "Se pueden añadir tareas nuevas a través de un formulario.",
-        "feature_2": "Además del título y la descripción de la tarea, se puede añadir prioridad, fecha y hora.",
-        "feature_3": "Las tareas se ordenan por tiempo y se pueden eliminar en cualquier momento.",
-        "feature_4": "La fecha de vencimiento aparece azul si no ha vencido, o roja si ya ha vencido. Si la tarea ya está realizada, no tendrá color.",
-        "feature_5": "Cuando una tarea se marca como realizada, se desplaza hacia la zona de tareas realizadas.",
-        "feature_6": "Si una tarea se ha marcado como realizada por error, es posible revertir el movimiento.",
-        "feature_7": "Las tareas no se eliminarán cuando se reinicie la página."
+        "feature_1": "Neue Aufgaben können über ein Formular hinzugefügt werden.",
+        "feature_2": "Neben dem Titel und der Beschreibung der Aufgabe können auch Priorität, Datum und Uhrzeit hinzugefügt werden.",
+        "feature_3": "Die Aufgaben sind nach Zeit organisiert und können jederzeit gelöscht werden.",
+        "feature_4": "Das Ablaufdatum ist blau, wenn es nicht abgelaufen ist, oder rot, wenn es abgelaufen ist. Wenn die Aufgabe bereits abgeschlossen ist, hat sie keine Farbe.",
+        "feature_5": "Wenn eine Aufgabe als abgeschlossen markiert ist, wird sie in den abgeschlossenen Aufgabenabschnitt verschoben.",
+        "feature_6": "Wenn eine Aufgabe fälschlicherweise als abgeschlossen markiert wurde, ist es möglich, die Bewegung rückgängig zu machen.",
+        "feature_7": "Die Aufgaben verschwinden nicht, wenn die Seite aktualisiert wird."
       },
       "learned": {
-        "learned_1": "A construir un proyecto de React con componentes de clases.",
-        "learned_2": "A importar y exportar módulos en React.",
-        "learned_3": "A validar formularios.",
-        "learned_4": "A generar identificadores únicos con UUID.",
-        "learned_5": "A manejar el estado y pasar propiedades entre componentes.",
-        "learned_6": "A utilizar LocalStorage para la permanencia de datos.",
-        "learned_7": "A especificar los tipos de las propiedades con PropTypes."
+        "learned_1": "Ein React-Projekt mit Klassenkomponenten aufzubauen.",
+        "learned_2": "Module in React zu importieren und zu exportieren.",
+        "learned_3": "Formulare zu validieren.",
+        "learned_4": "Eindeutige Bezeichner mit UUID zu generieren.",
+        "learned_5": "Den Zustand zu verwalten und Eigenschaften zwischen Komponenten zu verschieben.",
+        "learned_6": "LocalStorage für die Datenremanenz zu verwenden.",
+        "learned_7": "Eigenschaftstypen mit PropTypes anzugeben."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: React (JavaScript), CSS-Bootstrap",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: React (JavaScript), CSS-Bootstrap",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_10": {
-      "url": "cazador-de-eventos",
-      "title": "Cazador de Eventos",
-      "main": "En esta página se puede obtener información sobre eventos de diferentes categorías y lugares. Además, dispone de sección de favoritos para que el usuario pueda guardarse los que más le gusten y consultarlos más tarde.", 
+      "url": "der-ereignis-jager",
+      "title": "Der Ereignis-Jäger",
+      "main": "Hier kann man sich über Ereignisse in verschiedenen Kategorien und an verschiedenen Orten informieren. Es gibt auch einen Favoritenbereich, damit die Benutzer ihre Favoriten speichern und später überprüfen können.",
       "features": {
-        "feature_1": "Se pueden realizar búsquedas por nombre de evento, ciudad o categoría.",
-        "feature_2":"Cada evento dispone de un enlace a la página de EventBrite para ver los detalles o comprar entradas.",
-        "feature_3": "Los eventos se pueden guardar en favoritos y consultar después.",
-        "feature_4": "Los eventos favoritos se sincronizan con cualquier listado de eventos, apareciendo diferenciados con un corazón rojo.",
-        "feature_5": "La sección de favoritos se mantiene aún reiniciando la página."
+        "feature_1": "Die Suche kann nach Ereignisname, Stadt oder Kategorie erfolgen.",
+        "feature_2": "Jedes Ereignis hat einen Link auf die Eventbrite-Seite, um Details anzuzeigen oder Tickets zu kaufen.",
+        "feature_3": "Ereignisse können als Favoriten gespeichert und später angesehen werden.",
+        "feature_4": "Favoritenereignisse werden mit jeder Ereignisliste synchronisiert und können durch ein rotes Herz unterschieden werden.",
+        "feature_5": "Der Favoritenbereich verbleibt auch dann, wenn man die Seite aktualisiert."
       },
       "learned": {
-        "learned_1": "A obtener datos de una API como EventBrite.",
-        "learned_2": "A dar estilos a la página con UIKit.",
-        "learned_3": "A realizar llamadas a la API con Axios.",
-        "learned_4": "A sincronizar favoritos con nuevas búsquedas. y guardarlos en LocalStorage."
+        "learned_1": "Daten von einer API wie Eventbrite zu erhalten.",
+        "learned_2": "Stile zur Seite mit UIKit hinzuzufügen.",
+        "learned_3": "API-Aufrufe mit Axios zu machen.",
+        "learned_4": "Favoriten mit neuen Suchen zu synchronisieren und sie in LocalStorage zu speichern."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: React (JavaScript), CSS-UIKit",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: React (JavaScript), CSS-UIKit",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_11": {
-      "url": "el-ascensor",
-      "title": "El ascensor",
-      "main": "Un ascensor tradicional que cada persona puede llamar desde la planta en la que se encuentre. Éste recordará los pisos en los que debe parar a recoger y a dejar pasajeros.",
+      "url": "der-aufzug",
+      "title": "Der Aufzug",
+      "main": "Ein konventioneller Aufzug, den jede Person von jedem Stockwerk aus anrufen kann, in dem sie sich befindet. Der Aufzug merkt sich die Stockwerke, auf denen er anhalten muss, um Fahrgäste ein- und aussteigen zu lassen.",
       "features": {
-        "feature_1": "El usuario hace clic en una de las plantas, de esta manera emula su posición pulsando el botón del ascensor.",
-        "feature_2": "El programa pregunta el nombre del pasajero y la planta de destino.",
-        "feature_3": "A la vez, otros usuarios pueden llamar al ascensor y éste aprovechará los viajes para recogerlos.",
-        "feature_4": "El ascensor irá dejando a los pasajeros en sus destinos según la cercanía al destino inicial, además de recoger a nuevos que se encuentren en el camino.",
-        "feature_5": "Se muestra un registro de toda actividad realizada en el ascensor."
+        "feature_1": "Die Benutzer klicken auf eines der Stockwerke und emulieren so ihre eigene Position, wobei sie den Aufzugknopf drücken.",
+        "feature_2": "Das System fragt nach dem Namen des Fahrgastes und nach dem Stockwerk, in das der Fahrgast gehen möchte.",
+        "feature_3": "Gleichzeitig können andere Benutzer den Aufzug anrufen und er wird die Fahrten nutzen, um sie abzuholen.",
+        "feature_4": "Der Aufzug wird die Fahrgäste je nach Nähe zum ursprünglichen Standort an ihrem Zielort absetzen und unterwegs neue Fahrgäste aufnehmen.",
+        "feature_5": "Eine Liste aller Aufzugsaktivitäten wird angezeigt."
       },
       "learned": {
-        "learned_1": "A dibujar elementos sencillos con CSS (nubes, sol, árboles, ascensor).",
-        "learned_2": "A aplicar animaciones de movimiento a los elementos.",
-        "learned_3": "A demostrar la asincronía de Node.js."
+        "learned_1": "Einfache Elemente mit CSS zu zeichnen (Wolken, Sonne, Bäume, Aufzug).",
+        "learned_2": "Bewegungsanimationen auf die Elemente anzuwenden.",
+        "learned_3": "Die Asynchronität von Node zu demonstrieren."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: JavaScript, HTML, CSS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: JavaScript, HTML, CSS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_12": {
       "url": "spotify-express",
       "title": "Spotify Express",
-      "main": "Este proyecto utiliza la API de Spotify para crear un buscador de artistas en el que se puede ver información de sus álbumes e incluso escuchar un avance de sus canciones.",
+      "main": "Dieses Projekt verwendet die Spotify-API, um eine Künstlersuchmaschine zu erstellen, mit der man Informationen über ihre Alben finden und sogar eine Vorschau ihrer Lieder anhören kann.",
       "features": {
-        "feature_1": "Las búsquedas se realizan por autor.",
-        "feature_2": "Cuando se selecciona un artista, es posible ver todos sus álbumes.",
-        "feature_3": "En cada álbum, aparecen las canciones que lo componen y un avance de 30 segundos de cada una.",
-        "feature_4": "Es posible volver al inicio desde cualquier parte de la página."
+        "feature_1": "Suchen werden nach Autor durchgeführt.",
+        "feature_2": "Wenn ein Künstler ausgewählt wird, ist es möglich, alle seine Alben zu sehen.",
+        "feature_3": "Auf jedem Album werden die darauf enthaltenen Lieder mit einer 30-sekündigen Vorschau angezeigt.",
+        "feature_4": "Es ist möglich, von jedem Teil der Seite zur Hauptseite zurückzugehen."
       },
       "learned": {
-        "learned_1": "A renderizar una página desde el lado del servidor con Express y Handlebars.",
-        "learned_2": "A almacenar datos secretos como las llaves de la API en un documento seguro con Dotenv.",
-        "learned_3": "A leer y entender documentación oficial de la API.",
-        "learned_4": "A desplegar un proyecto de back-end con Heroku."
+        "learned_1": "Eine Seite von der Serverseite aus mit Express und Handlebars zu rendern.",
+        "learned_2": "Geheime Daten wie API-Schlüssel in einem sicheren Dokument mit Dotenv zu speichern.",
+        "learned_3": "Die offizielle API-Dokumentation zu lesen und zu verstehen.",
+        "learned_4": "Ein Back-End-Projekt mit Heroku zu implementieren."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: Node.js con Express y Handlebars, CSS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: Node mit Express und Handlebars, CSS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_13": {
-      "url": "conecta-4",
-      "title": "Conecta 4",
-      "main": "Juego online del clásico Conecta 4 donde un jugador juega contra otro por turnos y la finalidad es conseguir formar una linea recta combinando cuatro fichas seguidas antes que el rival.",
+      "url": "vier-gewinnt",
+      "title": "Vier gewinnt",
+      "main": "Online-Spiel des traditionellen Vier gewinnt, bei dem eine Person abwechselnd gegen eine andere spielt. Das Ziel ist es, eine gerade Linie zu bilden, indem man vier Spielsteine in einer Reihe vor dem Gegner kombiniert.",
       "features": {
-        "feature_1": "El juego permite dos modalidades de juego: jugador contra jugador o jugador contra máquina.",
-        "feature_2": "Cuando se juega contra otro jugador, los turnos se alternan en el mismo ordenador, así que es necesario que los jugadores se encuentren físicamente uno junto al otro.",
-        "feature_3": "Cuando se juega contra la máquina, el primero en comenzar será el jugador, posteriormente, la máquina hará su jugada.",
-        "feature_4": "El juego finaliza cuando no se pueden realizar más movimientos o uno de los dos jugadores ha conseguido hacer cuatro en linea (horizontal, vertial o diagonal).",
-        "feature_5": "Es posible reiniciar el juego o salir de él en cualquier momento."
+        "feature_1": "Das Spiel hat zwei Spielmodus: Spieler gegen Spieler oder Spieler gegen artifizielle Intelligenz (AI).",
+        "feature_2": "Wenn gegen einen anderen Spieler gespielt wird, finden die Runden am gleichen Computer statt, daher ist es notwendig, dass die Spieler physisch nebeneinander stehen.",
+        "feature_3": "Wenn gegen die AI gespielt wird, startet der Spieler als erster, dann macht die artifizielle Intelligenz ihren Zug.",
+        "feature_4": "Die Spiel ist zu Ende, wenn keine Züge mehr ausgeführt werden können oder wenn einer der beiden Spieler es geschafft hat, vier in einer Reihe zu machen (horizontal, vertikal oder diagonal).",
+        "feature_5": "Es ist jederzeit möglich, das Spiel neu zu starten oder zu beenden."
       },
       "learned": {
-        "learned_1": "A manejar lógica de matrices multidimensionales.",
-        "learned_2": "A reproducir una inteligencia artificial sencilla.",
-        "learned_3": "A crear rutas con React Router.",
-        "learned_4": "A mantener el código limpio y uniforme con Eslint."
+        "learned_1": "Mit mehrdimensionaler Array-Logik zu arbeiten.",
+        "learned_2": "Eine einfache artifizielle Intelligenz zu simulieren.",
+        "learned_3": "Routen mit React Router zu erstellen.",
+        "learned_4": "Mit Eslint einen konsistenten und \"sauberen\" Code zu halten."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: React (JavaScript), CSS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: React (JavaScript), CSS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_14": {
-      "url": "tienda-de-patos",
-      "title": "Tienda de patos",
-      "main": "Tienda de patos es un comercio electrónico SPA que muestra informción sobre patos de goma. Este proyecto fue desarrollado durante el Bootcamp de Skylab de 3 maneras diferentes haciendo incapié en la refactorización continua.",
+      "url": "das-entengeschaft",
+      "title": "Das Entengeschäft",
+      "main": "Dies ist ein E-Commerce SPA, das Informationen über Gummienten zeigt. Dieses Projekt wurde während des Skylab Bootcamps auf 3 verschiedene Arten entwickelt, wobei der Schwerpunkt auf kontinuierlichem Refactoring lag.",
       "features": {
-        "feature_1": "Es necesario disponer de una cuenta para acceder a la tienda.",
-        "feature_2": "Se incluyen las funcionalidades de registro y logueo.",
-        "feature_3": "Al realizar una búsqueda, aparecerán todos los patos que coincidan con el criterio.",
-        "feature_4": "Se puede ver más detalle de sobre cualquier producto pulsando en la imagen.",
-        "feature_5": "Existe un apartado de favoritos para guardar los productos seleccionados."
+        "feature_1": "Man braucht ein Konto, um auf das Geschäft zuzugreifen.",
+        "feature_2": "Registrierungs- und Anmeldefunktionen sind enthalten.",
+        "feature_3": "Wenn eine Suche durchgeführt wird, erscheinen alle Enten, die den Kriterien entsprechen.",
+        "feature_4": "Man kann mehr Details zu jedem Produkt sehen, indem man auf das Bild klickt.",
+        "feature_5": "Es gibt einen Favoritenbereich mit dem man die ausgewählten Produkte speichern kann."
       },
       "learned": {
-        "learned_1": "A refactorizar código continuamente.",
-        "learned_2": "A desarrollar un logueo y un registro consumiendo una API que juega el papel de base de datos.",
-        "learned_3": "A manejar errores mediante componentes.",
-        "learned_4": "A separar la lógica según responsabilidades.",
-        "learned_5": "A renderizar la aplicación desde el lado del servidor con Express y Pug."
+        "learned_1": "Code kontinuierlich zu refaktorisieren.",
+        "learned_2": "Eine Anmeldung und Registrierung zu entwickeln, indem eine API verwendet wurde, die als Datenbank funktioniert.",
+        "learned_3": "Fehler durch die Verwendung von Komponenten zu behandeln.",
+        "learned_4": "Die Logik nach Belangen zu trennen.",
+        "learned_5": "Die Anwendung von der Serverseite aus mit Express und Pug zu rendern."
       },
-      "technologies" : {
-        "technologies_1": "Front-end 1: Node.js con Express y Pug, CSS-SASS",
-        "technologies_2": "Front-end 2: React (JavaScript), CSS-SASS",
-        "technologies_3": "Front-end 3: JavaScript, HTML, CSS-SASS",
-        "technologies_4": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End 1: Node mit Express und Pug, CSS-SASS",
+        "technologies_2": "Front-End 2: React (JavaScript), CSS-SASS",
+        "technologies_3": "Front-End 3: JavaScript, HTML, CSS-SASS",
+        "technologies_4": "Back-End: -"
       }
     },
     "project_15": {
-      "url": "comete-el-mundo",
-      "title": "Cómete el mundo",
-      "main": "Éste es un proyecto realizado en grupo durante el Bootcamp de Skylab. La aplicación muestra información acerca de restaurantes de diferentes categorías en varias partes del mundo. Debido a un bloqueo inesperado de acceso a España, es necesario acceder mediante una VPN desde otro país (ej. EEUU).",
+      "url": "die-welt-fressen",
+      "title": "Die Welt fressen",
+      "main": "Dies ist ein Gruppenprojekt, das während des Skylab Bootcamps entwickelt wurde. Die Anwendung zeigt Informationen über verschiedene Arten von Restaurants in vielen Orten der Welt. Aufgrund einer unerwarteten Zugangssperre nach Spanien ist es notwendig, von einem anderen Land (z.B. USA) aus über ein VPN zuzugreifen.",
       "features": {
-        "feature_1": "El usuario puede realizar búsquedas por ciudad y/o tipo de cocina o nombre del restaurante aún sin haber iniciado sesión.",
-        "feature_2": "Se puede ver el detalle de cada restaurante pulsando en la imagen.",
-        "feature_3": "La funcionalidad de guardar favoritos únicamente está disponible para usuarios registrados.",
-        "feature_4": "Cuando el usuario inicia sesión, la página recuerda el último lugar donde estaba navegando.",
-        "feature_5": "Al salir de la cuenta, se borra cualquier dato guardado excepto los favoritos."
+        "feature_1": "Benutzer können nach Stadt, Art der Küche oder Restaurantname suchen, auch wenn sie nicht eingeloggt sind.",
+        "feature_2": "Man kann die Details jedes Restaurants sehen, indem man auf das Bild klicken.",
+        "feature_3": "Der Favoritenbereich ist nur für angemeldete Benutzer verfügbar.",
+        "feature_4": "Wenn sich der Benutzer einloggt, speichert die Webseite die zuletzt besuchte Seite.",
+        "feature_5": "Wenn sich der Benutzer ausloggt, werden alle gespeicherten Daten gelöscht, mit Ausnahme der Favoriten."
       },
       "learned": {
-        "learned_1": "A trabajar en un equipo de 3 personas.",
-        "learned_2": "A manejar ramas y solicitudes (Pull Requests) de GitHub.",
-        "learned_3": "A crear un temporizador con React.",
-        "learned_4": "A añadir funcionalidades adicionales solo para usuarios registrados.",
-        "learned_5": "A documentar el proyecto con UML.",
-        "learned_6": "A acceder a una API con limitaciones por país mediante una VPN."
+        "learned_1": "In einem Team von drei Personen zu arbeiten.",
+        "learned_2": "GitHub-Branches und Pull Requests zu verwalten.",
+        "learned_3": "Einen Timer mit React zu erstellen.",
+        "learned_4": "Weitere Funktionen nur für registrierte Benutzer aufzunehmen.",
+        "learned_5": "Das Projekt mit UML zu dokumentieren.",
+        "learned_6": "Mit einem VPN auf eine API mit Länderbeschränkungen zuzugreifen."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: React (JavaScript), CSS-SASS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: React (JavaScript), CSS-SASS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_16": {
       "url": "wheely",
       "title": "Wheely",
-      "main": "Este es mi proyecto final y primer proyecto Full Stack, realizado en el Bootcamp de Skylab. La idea nace de una necesidad real en las autoescuelas de agilizar la tarea de reservas de prácticas en la que tanto alumno como profesor pueden hacer la gestión 100% online además de un seguimiento del alumno, control de créditos disponibles, etc.",
+      "main": "Dies ist mein letztes Projekt und mein erstes Full Stack-Projekt, das im Skylab Bootcamp gemacht wurde. Die Idee entspringt einem echten Bedarf in Fahrschulen, die Aufgabe der Fahrstundenbuchung zu beschleunigen. Auf diese Weise können sowohl die Schüler als auch die Lehrer die Aufgabe 100% online erledigen, ebenso wie die Überwachung der Schüler, die Kontrolle der verfügbaren Kredite, usw.",
       "features": {
-        "feature_1": "Estudiantes, profesores y personal de administración disponen de cuentas con funcionalidades diferentes.",
-        "feature_2": "Estudiante:",
-        "feature_3": "Puede consultar y modificar sus datos personales y créditos disponibles.",
-        "feature_4": "Puede reservar prácticas seleccionando cualquier profesor, día y hora. ",
-        "feature_5": "Puede cancelar una reserva con 24 horas de antelación.",
-        "feature_6": "Tanto profesor como alumno, reciben un correo de confirmación en cada reserva o cancelación de práctica.",
-        "feature_7": "Puede consultar las reservas pendientes y las prácticas realizadas.",
-        "feature_8": "Puede sopesar su progresión con las valoraciones de los profesores.",
-        "feature_9": "Cuenta para pruebas: ana@ana.com // contraseña: 123.",
-        "feature_10": "Profesor:",
-        "feature_11": "Puede consultar y modificar sus datos personales.",
-        "feature_12": "Puede consultar y filtrar sus reservas.",
-        "feature_13": "Al terminar la práctica, el profesor emite una evaluación del alumno.",
-        "feature_14": "Puede consultar pero no modificar su horario de trabajo.",
-        "feature_15": "Cuenta para pruebas: toni@toni.com // contraseña: 123.",
-        "feature_16": "Administrador:",
-        "feature_17": "Puede añadir, modificar, consultar y eliminar cualquier usuario.",
-        "feature_18": "Puede añadir créditos a los alumnos.",
-        "feature_19": "Puede gestionar y editar el horario laboral de cada profesor.",
-        "feature_20": "Puede acceder a todas las reservas realizadas.",
-        "feature_21": "Puede ver la progresión de todos los alumnos."
+        "feature_1": "Studenten, Lehrer und das administrative Personal haben Konten mit unterschiedlichen Funktionalitäten.",
+        "feature_2": "Studenten:",
+        "feature_3": "Sie können seine persönlichen Daten und verfügbaren Kredite einsehen und bearbeiten.",
+        "feature_4": "Sie können Fahrstunden bei jedem Lehrer, an jedem Tag und zu jeder Uhrzeit buchen.",
+        "feature_5": "Sie können eine Reservierung 24 Stunden im Voraus stornieren.",
+        "feature_6": "Sowohl Lehrer als auch Studenten erhalten bei jeder Buchung oder Stornierung einer Fahrschule eine Bestätigungs-E-Mail.",
+        "feature_7": "Sie können seine anhängigen Buchungen und abgeschlossenen Fahrstunden einsehen.",
+        "feature_8": "Sie können seinen Fortschritt mit der Beurteilung der Lehrer vergleichen.",
+        "feature_9": "Demo-Konto: ana@ana.com // Kennwort: 123.",
+        "feature_10": "Lehrer:",
+        "feature_11": "Sie können seine persönlichen Daten einsehen und bearbeiten.",
+        "feature_12": "Sie können seine Buchungen einsehen und sortieren.",
+        "feature_13": "Nach jeder Fahrstunde gibt der Lehrer dem Studenten eine Beurteilung.",
+        "feature_14": "Sie können seinen Arbeitszeitplan konsultieren, aber nicht verändern.",
+        "feature_15": "Demo-Konto: toni@toni.com // Kennwort: 123.",
+        "feature_16": "Administrator:",
+        "feature_17": "Er kann jeden Benutzer hinzufügen, modifizieren, konsultieren und löschen.",
+        "feature_18": "Er kann den Studenten Kredite hinzufügen.",
+        "feature_19": "Er kann den Arbeitszeitplan jedes Lehrers organisieren und bearbeiten.",
+        "feature_20": "Er kann auf alle getätigten Buchungen zugreifen.",
+        "feature_21": "Er kann den Fortschritt aller Studenten sehen."
       },
       "learned": {
-        "learned_1": "A desarrollar un back-end con Node.js Express",
-        "learned_2": "A agrugar todas las rutas en un router.",
-        "learned_3": "A vincular una base de datos con MongoDB y esquematizarla con Mongoose.",
-        "learned_4": "A utilizar React Hooks en el front-end.", 
-        "learned_5": "A realizar TDD tests en el back-end con Mocha Chai y en el front-end con Jest.", 
-        "learned_6": "A enviar correos utilizando la librería Nodemailer.",
-        "learned_7": "A manejar reservas, cancelaciones y calendarios en tiempo real con Moment.", 
-        "learned_8": "A emular un servicio de pago con créditos.",
-        "learned_9": "A mostrar un menú de hamburguesa en dispositivos móviles.",
-        "learned_10": "A conectar el front-end con el back-end desplegados en producción.",
-        "learned_11": "A redactar documentación técnica y funcional.",
-        "learned_12": "A cumplir con el contrato, fechas de entrega (2 semanas y media), manejar expectativas, control del estrés y priorización.",
-        "learned_13": "A exponer el proyecto en público."
+        "learned_1": "Ein Back-End mit Node Express zu entwickeln.",
+        "learned_2": "Alle Routen auf einem Router zu gruppieren.",
+        "learned_3": "Eine Datenbank mit MongoDB zu verknüpfen und sie mit Mongoose zu schematisieren.",
+        "learned_4": "React Hooks im Front-End zu benutzen.",
+        "learned_5": "TDD-Tests im Back-End mit Mocha Chai und im Front-End mit Jest durchzuführen.",
+        "learned_6": "E-Mails mit Hilfe der Nodemailer-Bibliothek zu senden.",
+        "learned_7": "Buchungen, Stornierungen und Echtzeit-Kalender mit Moment zu verwalten.",
+        "learned_8": "Einen kreditbasierten Zahlungsdienst zu emulieren.",
+        "learned_9": "Ein Hamburger-Menü auf Mobilgeräten anzuzeigen.",
+        "learned_10": "Das Front-End mit dem Back-End zu verbinden, die für die Produktion entwickelt werden.",
+        "learned_11": "Technische und funktionelle Dokumentation zu schreiben.",
+        "learned_12": "Den Vertrag und die Fristen zu respektieren (zweieinhalb Wochen), sowie mit Erwartungen, Stressbewältigung und Priorisierung zu handhaben.",
+        "learned_13": "Das Projekt öffentlich zu präsentieren."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, Mocha Chai",
-        "technologies_2": "Back-end: Node.js con Express, MongoDB, test con Jest"
+      "technologies": {
+        "technologies_1": "Front-End: React Hooks (JavaScript), CSS-SASS, Mocha Chai",
+        "technologies_2": "Back-End: Node mit Express, MongoDB, Test mit Jest"
       }
     },
     "project_17": {
       "url": "kasaz",
       "title": "Kasaz",
-      "main": "Kasaz es una inmobiliaria online donde se pueden buscar apartamentos personalizando los criterios de búsqueda.",
+      "main": "Kasaz ist eine Online-Immobilienagentur, bei der man nach Wohnungen suchen kann, indem man seine Suchkriterien anpasst.",
       "features": {
-        "feature_1": "El usuario puede buscar apartamentos filtrando según combinaciones de los siguientes criterios:",
-        "feature_2": "- Localización.",
-        "feature_3": "- Precio mínimo y/o máximo.",
-        "feature_4": "- Metros cuadrados.",
-        "feature_5": "- Habitaciones.",
-        "feature_6": "- Lavabos."
+        "feature_1": "Benutzer können nach Wohnungen suchen, indem sie nach Kombinationen der folgenden Kriterien sortieren können:",
+        "feature_2": "- Standort.",
+        "feature_3": "- Mindest- und/oder Höchstpreis.",
+        "feature_4": "- Quadratmeter.",
+        "feature_5": "- Zimmer.",
+        "feature_6": "- Badezimmer."
       },
       "learned": {
-        "learned_1": "A desarrollar un proyecto Full Stack en un plazo de 4 días.",
-        "learned_2": "A importar y exportar la base de datos de MongoDB con Compass y Terminal.",
-        "learned_3": "A importar carpetas como módulos de NPM.",
-        "learned_4": "A redactar instrucciones para correr el proyecto en local y testearlo.",
-        "learned_5": "A combinar la lógica de filtros múltiples."
+        "learned_1": "Ein Full Stack-Projekt in nur 4 Tagen zu entwickeln.",
+        "learned_2": "Die MongoDB-Datenbank mit Compass und Terminal zu importieren und zu exportieren.",
+        "learned_3": "Ordner als NPM-Module zu importieren.",
+        "learned_4": "Anweisungen zu schreiben, um das Projekt lokal durchzuführen und zu testen.",
+        "learned_5": "Multifilter-Logik zu kombinieren."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, test Mocha Chai",
-        "technologies_2": "Back-end: Node.js con Express, MongoDB, test con Jest"
+      "technologies": {
+        "technologies_1": "Front-End: React Hooks (JavaScript), CSS-SASS, Test Mocha Chai",
+        "technologies_2": "Back-End: Node mit Express, MongoDB, Test mit Jest"
       }
     },
     "project_18": {
-      "url": "repositorios-de-github",
-      "title": "Repositorios de GitHub",
-      "main": "Este proyecto muestra información sobre los repositorios y datos públicos de cualquier usuario de GitHub.",
+      "url": "github-repositorien",
+      "title": "Github-Repositorien",
+      "main": "Dieses Projekt zeigt Informationen über die Repositories und öffentlichen Daten aller GitHub-Benutzer an.",
       "features": {
-        "feature_1": "Al introducir un nombre de usuario de GitHub, se muestran los siguientes datos del usuario:",
-        "feature_2": "- Avatar, nombre y apellido, nombre de usuario y descripción.",
-        "feature_3": "- Un listado de todos los repositorios públicos",
-        "feature_4": "- Enlaces a GitHub de cada repositorio.",
-        "feature_5": "- Stars y forks."
+        "feature_1": "Wenn man einen GitHub-Benutzernamen eingibt, werden die folgenden Benutzerdetails angezeigt:",
+        "feature_2": "- Avatar, Vor- und Nachname, Benutzername und Beschreibung.",
+        "feature_3": "- Eine Liste aller öffentlichen Repositories.",
+        "feature_4": "- Links zu den GitHubs der jeweiligen Repositorien.",
+        "feature_5": "- Stars und Forks."
       },
       "learned": {
-        "learned_1": "A consumir la API de GitHub y entender la documentación oficial.",
-        "learned_2": "A realizar llamadas a la API con AJAX."
+        "learned_1": "Die GitHub-API zu benutzen und die offizielle Dokumentation zu verstehen.",
+        "learned_2": "API-Aufrufe mit AJAX zu machen."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: JavaScript Vanilla, HTML, CSS-SASS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: JavaScript Vanilla, HTML, CSS-SASS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_19": {
       "url": "kanban",
       "title": "Kanban",
-      "main": "Este proyecto Full Stack reproduce un Kanban. Kanban es un sistema visual para gestionar el trabajo y las tareas a medida que avanza en un proceso. Es realmente fácil de usar porque las tareas sólo se tienen que arrastrar y soltar en la columna deseada.",
+      "main": "Bei diesem Full Stack-Projekt wird ein Kanban durchgeführt. Kanban ist ein visuelles System zur Verwaltung von Arbeit und Aufgaben, die in einem Prozess ablaufen. Es ist einfach zu verwenden, Aufgaben werden gezogen und dann in der gewünschten Spalte abgelegt.",
       "features": {
-        "feature_1": "Funciona mediante un sistema de usuarios, es necesario estar registrado para poder acceder.",
-        "feature_2": "Cada usuario dispone de 4 columnas en su cuenta para manejar las tareas: pendientes, en curso, para revisar y realizadas.",
-        "feature_3": "Para cambiar de estado una tarea, es tan sencillo como arrastrarla a la columna que se desee.",
-        "feature_4": "También es posible reordenar las tareas dentro de la misma columna.",
-        "feature_5": "Cada tarea se puede eliminar individualmente.",
-        "feature_6": "La columna de tareas realizadas incorpora una función de vaciado para eliminarlas todas a la vez."
+        "feature_1": "Es arbeitet mit einem Benutzersystem, man muss sich anmelden, um darauf zuzugreifen.",
+        "feature_2": "Jeder Benutzer hat 4 Spalten in seinem Konto, um die Aufgaben zu verwalten: TODO (ausstehend), DOING (im Prozess), REVIEW (zu überarbeiten) und DONE (abgeschlossen).",
+        "feature_3": "Um den Status einer Aufgabe zu ändern, muss man sie nur in die gewünschte Spalte ziehen.",
+        "feature_4": "Es ist auch möglich, die Aufgaben innerhalb der gleichen Spalte zu organisieren.",
+        "feature_5": "Jede Aufgabe kann einzeln gelöscht werden.",
+        "feature_6": "Die Spalte für abgeschlossene Aufgaben enthält eine Entleerungsfunktion, um sie alle auf einmal zu entfernen."
       },
       "learned": {
-        "learned_1": "A implementar Drag and Drop con React.",
-        "learned_2": "A utilizar funciones avanzadas de React Hooks (useRef, usEffect, useState).",
-        "learned_3": "A crear un sistema de usuarios."
+        "learned_1": "Drag and Drop mit React zu implementieren.",
+        "learned_2": "Fortgeschrittene React Hooks-Funktionen (useRef, usEffect, useState) zu verwenden.",
+        "learned_3": "Ein Benutzersystem zu erstellen."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS",
-        "technologies_2": "Back-end: Node.js con Express, MongoDB"
+      "technologies": {
+        "technologies_1": "Front-End: React Hooks (JavaScript), CSS-SASS",
+        "technologies_2": "Back-End: Node mit Express, MongoDB"
       }
     },
     "project_20": {
       "url": "canvas",
       "title": "Canvas",
-      "main": "Canvas es una plantilla de gestión estratégica empresarial para documentar modelos de negocio. Es un cuadro visual con elementos que describen la propuesta de valor, infraestructura, clientes y finanzas de una empresa o producto.",
+      "main": "Canvas ist eine Vorlage für die strategische Unternehmensführung zur Dokumentation von Unternehmensmodellen. Es ist ein visuelles Diagramm mit Elementen, die das Nutzenversprechen, die Infrastruktur, die Kunden und die Finanzen eines Unternehmens oder eines Produkts beschreiben.",
       "features": {
-        "feature_1": "Se utiliza en la gestión estratégica empresarial para documentar modelos de negocio.",
-        "feature_2": "Es un CRUD: es posible añadir, editar, consultar y eliminar notas.",
-        "feature_3": "Puede verse una explicación de cada sección haciendo clic en el \"?\" de la parte superior.",
-        "feature_4": "El diseño es responsivo, es compatible con el tamaño de todos los dispositivo.",
-        "feature_5": "El diseño es adaptable, cada contenedor se adapta a su contenido."
+        "feature_1": "Es wird in strategischen Unternehmensführungen zur Dokumentation von Unternehmensmodellen verwendet.",
+        "feature_2": "Es handelt sich um einen CRUD: man kann Notizen erstellen, lesen, bearbeiten und löschen.",
+        "feature_3": "Eine Erklärung zu jedem Abschnitt ist verfügbar, wenn man auf das \"?\" oben klickt.",
+        "feature_4": "Das Webdesign ist responsiv, kompatibel mit der Größe aller Geräte.",
+        "feature_5": "Das Webdesign ist auch anpassungsfähig, jeder Behälter passt sich seinem Inhalt an."
       },
       "learned": {
-        "learned_1": "A crear ventanas modales con React.",
-        "learned_2": "A maquetar de manera totalmente responsiva con una combinación de Grid y Flex.",
-        "learned_3": "A entender la utilidad y funcionamiento del modelo de negocio Canvas."
+        "learned_1": "Modale Fenster mit React zu erstellen.",
+        "learned_2": "Mit einer Kombination aus Grid und Flex völlig responsiv zu gestalten.",
+        "learned_3": "Die Nützlichkeit und Funktionsweise von Canvas zu verstehen."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, test Mocha Chai",
-        "technologies_2": "Back-end: Node.js con Express, MongoDB, test con Jest"
+      "technologies": {
+        "technologies_1": "Front-End: React Hooks (JavaScript), CSS-SASS, Test Mocha Chai",
+        "technologies_2": "Back-End: Node mit Express, MongoDB, Test mit Jest"
       }
     },
     "project_21": {
-      "url": "tienda-de-zumos",
-      "title": "Tienda de zumos",
-      "main": "Este proyecto es una simulación de una tienda de zumos. La finalidad ha sido aprender React Redux con Sagas y Thunks.",
+      "url": "das-saftgeschaft",
+      "title": "Das-Saftgeschäft",
+      "main": "Dieses Projekt ist eine Simulation eines Saftgeschäfts. Das Ziel war es, React Redux mit Sagas und Thunks zu lernen.",
       "features": {
-        "feature_1": "Se trata de un CRUD, el usuario puede: ",
-        "feature_2": "- Crear productos.",
-        "feature_3": "- Consultar productos.",
-        "feature_4": "- Modificar productos.",
-        "feature_5": "- Eliminar productos."
+        "feature_1": "Es handelt sich um einen CRUD, der Benutzer kann: ",
+        "feature_2": "- Produkte erstellen.",
+        "feature_3": "- Produkte konsultieren.",
+        "feature_4": "- Produkte ändern.",
+        "feature_5": "- Produkte löschen."
       },
       "learned": {
-        "learned_1": "A manejar el estado de manera global con React Redux.",
-        "learned_2": "A controlar la asincronía de Redux con los middlewares Redux-thunk y Redux-saga.",
-        "learned_3": "A mostrar ventanas de alerta de manera sencilla con Sweetalert2.",
-        "learned_4": "A emular un back-end con una API REST falsa con JSON-Server."
+        "learned_1": "Den Status mit React Redux global zu verwalten",
+        "learned_2": "Die Asynchronität von Redux mit Redux-Thunk- und Redux-Saga-Middlewares zu kontrollieren.",
+        "learned_3": "Warnfenster mit Sweetalert2 einfach anzuzeigen.",
+        "learned_4": "Ein Back-End mit einer gefälschten REST-API mit JSON-Server zu emulieren."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: React Hooks Redux (JavaScript), CSS-SASS",
-        "technologies_2": "Back-end: Emulado con JSON-Server"
+      "technologies": {
+        "technologies_1": "Front-End: React Hooks Redux (JavaScript), CSS-SASS",
+        "technologies_2": "Back-End: mit JSON-Server emuliert"
       }
     },
     "project_22": {
-      "url": "hotel-paraiso",
-      "title": "Hotel Paraíso",
-      "main": "Hotel Paraíso es una página de ejemplo de páginas corporativas para hoteles donde se muestra información del hotel y detalle de las habitaciones.",
+      "url": "das-paradies-hotel",
+      "title": "Das Paradies-Hotel",
+      "main": "Das Paradies-Hotel ist ein Beispiel für Unternehmensseiten für Hotels, auf denen die Informationen über das Hotel und die Zimmerdetails angezeigt werden.",
       "features": {
-        "feature_1": "La página dispone de una barra de navegación con las diferentes secciones a mostrar.", 
-        "feature_2": "Si se pulsa en una habitación, se abre otra página con el detalle."
+        "feature_1": "Die Seite hat eine Navigationsleiste mit den verschiedenen Abschnitten, zu denen man gelangen kann.",
+        "feature_2": "Wenn man auf einen Zimmer klickt, öffnet sich eine weitere Seite mit dem Detail."
       },
       "learned": {
-        "learned_1": "A crear una página web renderizada desde el servidor con Gatsby.",
-        "learned_2": "A realizar consultas con GraphQL a través de una sola llamada a la API.",
-        "learned_3": "A implementar CSS dentro del componente con Styled-components.",
-        "learned_4": "A mejorar el SEO.",
-        "learned_5": "A utilizar un CMS para almacenar y consultar información de la página con DatoCMS.",
-        "learned_6": "A desplegar la aplicación en Netlify.",
-        "learned_7": "Cómo analizar y realizar una auditoría del rendimiento y el SEO de la página."
+        "learned_1": "Eine serverseitig gerenderte Webseite mit Gatsby zu erstellen.",
+        "learned_2": "GraphQL-Abfragen mit einem einzigen API-Aufruf auszuführen.",
+        "learned_3": "CSS in der Komponente mit Styled-Components zu implementieren.",
+        "learned_4": "SEO zu verbessern",
+        "learned_5": "Ein CMS zu verwenden, um Seiteninformationen mit DatoCMS zu speichern und zu lesen",
+        "learned_6": "Die Anwendung auf Netlify zu implementieren.",
+        "learned_7": "Seitenleistung und SEO zu analysieren und zu prüfen."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: Gatsby con React (JavaScript), GraphQL, CSS-styled-components, DatoCMS",
-        "technologies_2": "Back-end: -"
+      "technologies": {
+        "technologies_1": "Front-End: Gatsby mit React (JavaScript), GraphQL, CSS-Styled-Components, DatoCMS",
+        "technologies_2": "Back-End: -"
       }
     },
     "project_23": {
-      "url": "portafolio-multilenguaje",
-      "title": "Portafolio multilenguaje",
-      "main": "Esta página web personal ha sido desarrollada expresamente para colaborar en el trabajo de fin de grado de mi hermana sobre traducciones tecnológicas.",
+      "url": "mehrsprachiges-portfolio",
+      "title": "Mehrsprachiges Portfolio",
+      "main": "Dies ist mein Portfolio, hier findet man alle meine persönlichen Projekte sowie deren Details, Links zu Demos, Quellcode, meine Biographie oder meinen Lebenslauf. Die Webseite wurde in 4 Sprachen übersetzt, da sie ausdrücklich für die Mitarbeit am Bachelor-Abschlussprojekt meiner Schwester über technologische Übersetzungen entwickelt wurde.",
       "features": {
-        "feature_1": "La página es multilenguaje: inglés, castellano, catalań y alemán.",
-        "feature_2": "Traducciones a cargo de la traductora Yolanda Moreno.",
-        "feature_3": "El diseño inicial se basa en una sola página en la que se muestra mi biografía, mis proyectos y datos de contacto.", 
-        "feature_4": "Al final de la página se incluye un formulario que permite enviarme un mensaje.",
-        "feature_5": "Se puede ver el detalle de cada proyecto haciendo clic en él."
+        "feature_1": "Die Webseite ist mehrsprachig: Englisch, Spanisch, Katalanisch und Deutsch.",
+        "feature_2": "Die Übersetzungen wurden von Yolanda Moreno bereitgestellt.",
+        "feature_3": "Das Design basiert auf einer einzigen Seite, auf der meine Biographie, meine Projekte und meine Kontaktdaten angezeigt werden.",
+        "feature_4": "Mein Lebenslauf kann in allen vier Sprachen heruntergeladen werden.",
+        "feature_5": "Zu jedem Projekt gibt es Informationen darüber, welche Merkmale es hat, was ich bei der Entwicklung gelernt habe, Links zum Quellcode und eine Demo.",
+        "feature_6": "Du kannst mit mir Kontakt aufnehmen, indem du das Formular in der Kontaktbereich ausfüllst oder auch per Post oder soziale Netzwerke."
       },
       "learned": {
-        "learned_1": "A preparar un proyecto para ser traducido en cuatro idiomas.",
-        "learned_2": "A generar páginas dinámicamente a través de una plantilla.",
-        "learned_3": "A desarrollar la lógica y estilos de carrusel de múltiples elementos.",
-        "learned_4": "A añadir un formulario vinculado a un back-end para enviar correos."
+        "learned_1": "Ein Projekt vorzubereiten, das in vier Sprachen übersetzt werden soll.",
+        "learned_2": "Seiten mittels einer Vorlage dynamisch zu erstellen.",
+        "learned_3": "Statische und dynamische Abfragen mit GraphQL durchzuführen.",
+        "learned_4": "Mit Hilfe des Intersection Observer den aktiven Menübereich auszuwählen, wenn ich durch die Seite blättere.",
+        "learned_5": "Ein Formular hinzuzufügen, das mit einem Back-End verbunden ist, um E-Mails zu versenden.",
+        "learned_6": "Optionen zum Herunterladen von Dateien hinzuzufügen.",
+        "learned_7": "Aspekte der Barrierefreiheit zu berücksichtigen.",
+        "learned_8": "Die Seite in Google mit Google Search Console zu indexieren und für jedes Projekt einen anderen SEO anzugeben."
       },
-      "technologies" : {
-        "technologies_1": "Front-end: Gatsby con React (JavaScript), GraphQL, CSS-SASS",
-        "technologies_2": "Back-end: Node.js con Express"
+      "technologies": {
+        "technologies_1": "Front-End: Gatsby mit React (JavaScript), GraphQL, CSS-SASS",
+        "technologies_2": "Back-End: Node mit Express"
       }
     }
   }

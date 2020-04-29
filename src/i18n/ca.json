@@ -13,7 +13,7 @@
   "about": {
     "ref": "sobre-mi",
     "title": "SOBRE MI",
-    "cv_text": "¿T'agradaria coneixer més sobre la meva trajectoria professional?",
+    "cv_text": "T'agradaria coneixer més sobre la meva trajectoria professional?",
     "cv_button": "Descarregar CV",
     "concepts_key": {
       "concept_key_1": {
@@ -42,7 +42,7 @@
     "nowadays": {
       "title": "Actualment",
       "section_1": "Avui dia treballo per a Interficie, una companyia que desenvolupa pàgines de comerç electrònic i solucions creatives per a grans empreses.",
-      "section_2": "El llenguatge que utilitzo és JavaScript i el meu stack tecnològic és el següent: React, Gatsby, Node.js, SQL i Express."
+      "section_2": "El llenguatge que utilitzo és JavaScript i el meu stack tecnològic és el següent: React, Gatsby, Node, SQL i Express."
     },
     "passions": {
       "title": "Passions",
@@ -75,26 +75,26 @@
     "clear_button": "Esborrar"
   },
   "accessibility": {
-    "back_home": "Botón que permite volver a la página principal.",
-    "more": "Flecha que se mueve hacia abajo indicando que hay más contenido.",
-    "en": "Cambiar el idioma a inglés.",
-    "es": "Cambiar el idioma a español.",
-    "ca": "Cambiar el idioma a catalán.",
-    "de": "Cambiar el idioma a alemán.",
-    "home": "Ir al apartado Inicio.",
-    "about": "Ir al apartado Sobre mi.",
-    "projects": "Ir al apartado Proyectos.",
-    "contact": "Ir al apartado Contacto.",
-    "project_detail": "Ver descripción y detalles del proyecto, código fuente, probar demo...",
-    "cv": "Descargar Curriculum Vitae.",
-    "github": "Enlace a mi página en Github.",
-    "email": "Enviar un email.",
-    "linkedin": "Enlace a mi página en Linkedin.",
-    "image_profile": "Fotografía de perfil.",
-    "sent": "Animación de avión de papel enviando una carta.",
-    "image_project": "Imagen principal de proyecto.",
-    "github_link": "Enlace al código fuente en Github.",
-    "project_link": "Enlace al proyecto."
+    "back_home": "Botó que permet tornar a la pàgina principal.",
+    "more": "Fletxa que es mou cap avall i indica que hi ha més contingut.",
+    "en": "Canviar l’idioma a anglès.",
+    "es": "Canviar l’idioma a espanyol.",
+    "ca": "Canviar l’idioma a català.",
+    "de": "Canviar l’idioma a alemany.",
+    "home": "Anar a l’apartat Inici.",
+    "about": "Anar a l’apartat Sobre mi.",
+    "projects": "Anar a l’apartat Projectes.",
+    "contact": "Anar a l’apartat Contacte.",
+    "project_detail": "Veure descripció i detalls del projecte, codi font, provar demo...",
+    "cv": "Descarregar Curriculum Vitae.",
+    "github": "Enllaç a la meva pàgina de Github.",
+    "email": "Enviar un correu electrònic.",
+    "linkedin": "Enllaç a la meva pàgina de Linkedin.",
+    "image_profile": "Fotografia de perfil.",
+    "sent": "Animació d’avió de paper que envia una carta.",
+    "image_project": "Imatge principal del projecte.",
+    "github_link": "Enllaç al codi font a Github.",
+    "project_link": "Enllaç al projecte."
   },
   "projects": {
     "ref": "projectes",
@@ -191,7 +191,7 @@
         "feature_5": "El joc acaba quan s'esgota el temps."
       },
       "learned": {
-        "learned_1": "A executar el projecte a un servidor local de Node.js (Serve).",
+        "learned_1": "A executar el projecte a un servidor local de Node (Serve).",
         "learned_2": "A importar sons d'una llibreria externa i a sincronitzar-los amb el DOM.",
         "learned_3": "A utilitzar funcions asíncrones i \"callbacks\".",
         "learned_4": "A reescriure el contingut de manera dinàmica en una sola pàgina (SPA).",
@@ -321,7 +321,7 @@
         "learned_3": "A validar formularis.",
         "learned_4": "A generar identificadors únics amb UUID.",
         "learned_5": "A controlar l'estat i a passar propietats entre components.",
-        "learned_6": "A utilitzar LocalStorage per a la permanència de dades.",
+        "learned_6": "A utilitzar LocalStorage per a la persistència de dades.",
         "learned_7": "A especificar els tipus de les propietats amb PropTypes."
       },
       "technologies": {
@@ -365,7 +365,7 @@
       "learned": {
         "learned_1": "A dibuixar elements senzills amb CSS (núvols, sol, arbres, ascensor).",
         "learned_2": "A aplicar animacions de moviment als elements.",
-        "learned_3": "A demostrar l'asincronia de Node.js."
+        "learned_3": "A demostrar l'asincronia de Node."
       },
       "technologies": {
         "technologies_1": "Front-end: JavaScript, HTML, CSS",
@@ -389,7 +389,7 @@
         "learned_4": "A desplegar un projecte de back-end amb Heroku."
       },
       "technologies": {
-        "technologies_1": "Front-end: Node.js amb Express i Handlebars, CSS",
+        "technologies_1": "Front-end: Node amb Express i Handlebars, CSS",
         "technologies_2": "Back-end: -"
       }
     },
@@ -434,7 +434,7 @@
         "learned_5": "A renderitzar l'aplicació des de la part del servidor amb Express i Pug."
       },
       "technologies": {
-        "technologies_1": "Front-end 1: Node.js amb Express i Pug,CSS-SASS",
+        "technologies_1": "Front-end 1: Node amb Express i Pug,CSS-SASS",
         "technologies_2": "Front-end 2: React (JavaScript), CSS-SASS",
         "technologies_3": "Front-end 3: JavaScript, HTML, CSS-SASS",
         "technologies_4": "Back-end: -"
@@ -492,8 +492,8 @@
         "feature_21": "Pot veure la progressió de cadascun dels alumnes."
       },
       "learned": {
-        "learned_1": "A desenvolupar un back-end amb Node.js Express",
-        "learned_2": "A afegir totes les rutes a un encaminador.",
+        "learned_1": "A desenvolupar un back-end amb Node Express.",
+        "learned_2": "A agrupar totes les rutes a un encaminador.",
         "learned_3": "A vincular una base de dades amb MongoDB i a esquematitzar-la amb Mongoose.",
         "learned_4": "A utilitzar React Hooks en el front-end.",
         "learned_5": "A efectuar TDD tests al back-end amb Mocha Chai i al front-end amb Jest.",
@@ -508,7 +508,7 @@
       },
       "technologies": {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, Mocha Chai",
-        "technologies_2": "Back-end: Node.js amb Express, MongoDB, test amb Jest"
+        "technologies_2": "Back-end: Node amb Express, MongoDB, test amb Jest"
       }
     },
     "project_17": {
@@ -532,7 +532,7 @@
       },
       "technologies": {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, test Mocha Chai",
-        "technologies_2": "Back-end: Node.js amb Express, MongoDB, test amb Jest"
+        "technologies_2": "Back-end: Node amb Express, MongoDB, test amb Jest"
       }
     },
     "project_18": {
@@ -542,7 +542,7 @@
       "features": {
         "feature_1": "Quan s'introdueix un nom d'usuari de GitHub, es mostren les següents dades de l'usuari:",
         "feature_2": "- Avatar, nom i cognom, nom d'usuari i descripció.",
-        "feature_3": "- Un llistat de tots els repositoris públics",
+        "feature_3": "- Un llistat de tots els repositoris públics.",
         "feature_4": "- Enllaços a GitHub de cada repositori.",
         "feature_5": "- Stars i forks."
       },
@@ -574,7 +574,7 @@
       },
       "technologies": {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS",
-        "technologies_2": "Back-end: Node.js amb Express, MongoDB"
+        "technologies_2": "Back-end: Node amb Express, MongoDB"
       }
     },
     "project_20": {
@@ -595,7 +595,7 @@
       },
       "technologies": {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, test Mocha Chai",
-        "technologies_2": "Back-end: Node.js amb Express, MongoDB, test amb Jest"
+        "technologies_2": "Back-end: Node amb Express, MongoDB, test amb Jest"
       }
     },
     "project_21": {
@@ -635,7 +635,7 @@
         "learned_4": "A millorar el SEO.",
         "learned_5": "A utilitzar un CMS per a emmagatzemar i consultar informació de la pàgina amb DatoCMS.",
         "learned_6": "A desplegar l'aplicació en Netlify.",
-        "learned_7": "Com analitzar i realitzar una auditoria del rendiment i el SEO de la pàgina."
+        "learned_7": "A analitzar i realitzar una auditoria del rendiment i el SEO de la pàgina."
       },
       "technologies": {
         "technologies_1": "Front-end: Gatsby amb React (JavaScript), GraphQL, CSS-styled-components, DatoCMS",
@@ -648,12 +648,11 @@
       "main": "Aquest és el meu Portafolis on trobaràs un llistat de tots els meus projectes personals i detalls sobre ells, a més d'enllaços a demos, codi font, la meva biografia o el meu currículum. Ha estat traduïda a 4 idiomes, ja que ha estat expressament desenvolupada per a col·laborar en el Treball de Fi de Grau de la meva germana sobre traduccions tecnològiques.",
       "features": {
         "feature_1": "La pàgina és multillenguatge: anglès, castellà, català i alemany.",
-        "feature_2": "Traduccions a càrrec de la traductora Yolanda Moreno.",
+        "feature_2": "Traduccions a càrrec de Yolanda Moreno.",
         "feature_3": "El disseny es basa en una sola pàgina en la qual es mostra la meva biografia, els meus projectes i dades de contacte.",
         "feature_4": "El meu currículum està disponible per a descarregar als quatre idiomes.",
         "feature_5": "Cadascun dels projectes mostra informació sobre quines característiques té, què he après en desenvolupar-ho, així com enllaços al codi font i a una demo.",
-        "feature_6": 
-        "Es pot contactar amb mi emplenant el formulari en la secció de contacte o bé per correu o xarxes socials."
+        "feature_6": "Es pot contactar amb mi emplenant el formulari en la secció de contacte o bé per correu o xarxes socials."
       },
       "learned": {
         "learned_1": "A preparar un projecte per a ser traduït en quatre idiomes.",
@@ -661,11 +660,13 @@
         "learned_3": "A realitzar crides estàtiques i dinàmiques amb GraphQL.",
         "learned_4": "A seleccionar l'apartat de menú actiu en desplaçar-se per la pàgina mitjançant \"Intersection Observer\" (observador d'interseccions).",
         "learned_5": "A afegir un formulari vinculat a un back-end per a enviar correus electrònics.",
-        "learned_6": "A afegir opcions per a descarregar fitxers."
+        "learned_6": "A afegir opcions per a descarregar fitxers.",
+        "learned_7": "A tenir en compte aspectes d'Accessibilitat.",
+        "learned_8": "A indexar la pàgina a Google amb Google Search Console i a especificar un SEO diferent per a cada projecte."
       },
       "technologies": {
         "technologies_1": "Front-end: Gatsby amb React (JavaScript), GraphQL, CSS-SASS",
-        "technologies_2": "Back-end: Node.js amb Express"
+        "technologies_2": "Back-end: Node amb Express"
       }
     }
   }

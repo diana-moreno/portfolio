@@ -15,6 +15,11 @@
     "lang": "ca"
   },
   {
+    "image": "portfolio",
+    "url": "de/mehrsprachiges-portfolio/",
+    "lang": "de"
+  },
+  {
     "image": "paradise-hotel",
     "url": "paradise-hotel/",
     "lang": "en"
@@ -28,6 +33,11 @@
     "image": "paradise-hotel",
     "url": "ca/hotel-paradis/",
     "lang": "ca"
+  },
+  {
+    "image": "paradise-hotel",
+    "url": "de/das-paradies-hotel/",
+    "lang": "de"
   },
   {
     "image": "juice-store",
@@ -45,6 +55,11 @@
     "lang": "ca"
   },
   {
+    "image": "juice-store",
+    "url": "de/das-saftgeschaft/",
+    "lang": "de"
+  },
+  {
     "image": "canvas",
     "url": "canvas/",
     "lang": "en"
@@ -58,6 +73,11 @@
     "image": "canvas",
     "url": "ca/canvas/",
     "lang": "ca"
+  },
+  {
+    "image": "canvas",
+    "url": "de/canvas/",
+    "lang": "de"
   },
   {
     "image": "kanban",
@@ -75,6 +95,11 @@
     "lang": "ca"
   },
   {
+    "image": "kanban",
+    "url": "de/kanban/",
+    "lang": "de"
+  },
+  {
     "image": "github-repositories",
     "url": "github-repositories/",
     "lang": "en"
@@ -88,6 +113,11 @@
     "image": "github-repositories",
     "url": "ca/repositoris-de-github/",
     "lang": "ca"
+  },
+  {
+    "image": "github-repositories",
+    "url": "de/github-repositorien/",
+    "lang": "de"
   },
   {
     "image": "kasaz",
@@ -105,6 +135,11 @@
     "lang": "ca"
   },
   {
+    "image": "kasaz",
+    "url": "de/kasaz/",
+    "lang": "de"
+  },
+  {
     "image": "wheely",
     "url": "wheely/",
     "lang": "en"
@@ -118,6 +153,11 @@
     "image": "wheely",
     "url": "ca/wheely/",
     "lang": "ca"
+  },
+  {
+    "image": "wheely",
+    "url": "de/wheely/",
+    "lang": "de"
   },
   {
     "image": "duck-store",
@@ -135,6 +175,11 @@
     "lang": "ca"
   },
   {
+    "image": "duck-store",
+    "url": "de/die-welt-fressen/",
+    "lang": "de"
+  },
+  {
     "image": "eat-the-world",
     "url": "eat-the-world/",
     "lang": "en"
@@ -148,6 +193,11 @@
     "image": "eat-the-world",
     "url": "ca/menja-t-el-mon/",
     "lang": "ca"
+  },
+  {
+    "image": "eat-the-world",
+    "url": "de/das-entengeschaft/",
+    "lang": "de"
   },
   {
     "image": "connect-4",
@@ -165,6 +215,11 @@
     "lang": "ca"
   },
   {
+    "image": "connect-4",
+    "url": "de/devier-gewinnt/",
+    "lang": "de"
+  },
+  {
     "image": "spotify-express",
     "url": "spotify-express/",
     "lang": "en"
@@ -178,6 +233,11 @@
     "image": "spotify-express",
     "url": "ca/spotify-express/",
     "lang": "ca"
+  },
+  {
+    "image": "spotify-express",
+    "url": "de/spotify-express/",
+    "lang": "de"
   },
   {
     "image": "the-lift",
@@ -195,6 +255,11 @@
     "lang": "ca"
   },
   {
+    "image": "the-lift",
+    "url": "de/der-aufzug/",
+    "lang": "de"
+  },
+  {
     "image": "events-hunter",
     "url": "events-hunter/",
     "lang": "en"
@@ -208,6 +273,11 @@
     "image": "events-hunter",
     "url": "ca/caçador-d-esdeveniments/",
     "lang": "ca"
+  },
+  {
+    "image": "events-hunter",
+    "url": "de/der-ereignis-jager/",
+    "lang": "de"
   },
   {
     "image": "task-manager",
@@ -225,6 +295,11 @@
     "lang": "ca"
   },
   {
+    "image": "task-manager",
+    "url": "de/task-manager/",
+    "lang": "de"
+  },
+  {
     "image": "2048-game",
     "url": "2048-game/",
     "lang": "en"
@@ -238,6 +313,11 @@
     "image": "2048-game",
     "url": "ca/joc-2048/",
     "lang": "ca"
+  },
+  {
+    "image": "2048-game",
+    "url": "de/das-2048-spiel/",
+    "lang": "de"
   },
   {
     "image": "the-alphabet-game",
@@ -255,6 +335,11 @@
     "lang": "ca"
   },
   {
+    "image": "the-alphabet-game",
+    "url": "de/das-alphabetspiel/",
+    "lang": "de"
+  },
+  {
     "image": "data-structure",
     "url": "data-structure/",
     "lang": "en"
@@ -268,6 +353,11 @@
     "image": "data-structure",
     "url": "ca/estructura-de-dades/",
     "lang": "ca"
+  },
+  {
+    "image": "data-structure",
+    "url": "de/datenstruktur/",
+    "lang": "de"
   },
   {
     "image": "matching-game",
@@ -285,6 +375,11 @@
     "lang": "ca"
   },
   {
+    "image": "matching-game",
+    "url": "de/matching-spiel/",
+    "lang": "de"
+  },
+  {
     "image": "few-seconds-math-game",
     "url": "few-seconds-math-game/",
     "lang": "en"
@@ -298,6 +393,11 @@
     "image": "few-seconds-math-game",
     "url": "ca/joc-matematic/",
     "lang": "ca"
+  },
+  {
+    "image": "few-seconds-math-game",
+    "url": "de/mathematik-spiele/",
+    "lang": "de"
   },
   {
     "image": "personal-website",
@@ -315,6 +415,11 @@
     "lang": "ca"
   },
   {
+    "image": "personal-website",
+    "url": "de/personliche-webseite/",
+    "lang": "de"
+  },
+  {
     "image": "escape-from-death",
     "url": "escape-from-death/",
     "lang": "en"
@@ -330,6 +435,11 @@
     "lang": "ca"
   },
   {
+    "image": "escape-from-death",
+    "url": "de/entkomme-vor-dem-tod/",
+    "lang": "de"
+  },
+  {
     "image": "calculator",
     "url": "calculator/",
     "lang": "en"
@@ -343,5 +453,10 @@
     "image": "calculator",
     "url": "ca/calculadora/",
     "lang": "ca"
+  },
+  {
+    "image": "calculator",
+    "url": "de/rechner/",
+    "lang": "de"
   }
 ]

@@ -4,8 +4,8 @@
     "title": "HOME",
     "greeting": "Hello, I am ",
     "author": "Diana Moreno",
-    "author_position": "I am a Full Stack Web Developer.",
-    "creative": "I am a creative mind.",
+    "author_position": "I'm a Full Stack Web Developer.",
+    "creative": "I'm a creative mind.",
     "design": "I love design.",
     "develop": "I love to develop.",
     "view_more": "See more"
@@ -13,7 +13,7 @@
   "about": {
     "ref": "about-me",
     "title": "ABOUT ME",
-    "cv_text": "¿Would you like to know more about my professional career?",
+    "cv_text": "Would you like to know more about my professional career?",
     "cv_button": "Download CV",
     "concepts_key": {
       "concept_key_1": {
@@ -22,11 +22,11 @@
       },
       "concept_key_2": {
         "title": "Simplicity",
-        "description": "I consider design to be a key part of a project, and therefore I opt for attractive user interfaces without losing simplicity.  Less is more."
+        "description": "I consider design to be a key part of a project, and therefore I opt for attractive user interfaces without losing simplicity. Less is more."
       },
       "concept_key_3": {
         "title": "Best practices",
-        "description": "For both team and individual work, I consider very important to build a quality code:  organized, simple, tested and reusable."
+        "description": "For both team and individual work, I consider very important to build a quality code: organized, simple, tested and reusable."
       },
       "concept_key_4": {
         "title": "Latest technology",
@@ -42,7 +42,7 @@
     "nowadays": {
       "title": "Nowadays",
       "section_1": "I am currently working for Interficie: a company that develops custom e-commerce and creative solutions for a big companies.",
-      "section_2": "I am focused on JavaScript and my technology stack is as follows: React, Gatsby, Node.js, SQL and Express."
+      "section_2": "I am focused on JavaScript and my technology stack is as follows: React, Gatsby, Node, SQL and Express."
     },
     "passions": {
       "title": "Passions",
@@ -75,26 +75,26 @@
     "clear_button": "Delete"
   },
   "accessibility": {
-    "back_home": "Botón que permite volver a la página principal.",
-    "more": "Flecha que se mueve hacia abajo indicando que hay más contenido.",
-    "en": "Cambiar el idioma a inglés.",
-    "es": "Cambiar el idioma a español.",
-    "ca": "Cambiar el idioma a catalán.",
-    "de": "Cambiar el idioma a alemán.",
-    "home": "Ir al apartado Inicio.",
-    "about": "Ir al apartado Sobre mi.",
-    "projects": "Ir al apartado Proyectos.",
-    "contact": "Ir al apartado Contacto.",
-    "project_detail": "Ver descripción y detalles del proyecto, código fuente, probar demo...",
-    "cv": "Descargar Curriculum Vitae.",
-    "github": "Enlace a mi página en Github.",
-    "email": "Enviar un email.",
-    "linkedin": "Enlace a mi página en Linkedin.",
-    "image_profile": "Fotografía de perfil.",
-    "sent": "Animación de avión de papel enviando una carta.",
-    "image_project": "Imagen principal de proyecto.",
-    "github_link": "Enlace al código fuente en Github.",
-    "project_link": "Enlace al proyecto."
+    "back_home": "Button that allows you to return to the home page.",
+    "more": "Arrow that moves downwards showing there is more content.",
+    "en": "Change language to English.",
+    "es": "Change language to Spanish.",
+    "ca": "Change language to Catalan.",
+    "de": "Change language to German.",
+    "home": "Go to the Home page.",
+    "about": "Go to the About me page.",
+    "projects": "Go to the Projects page.",
+    "contact": "Go to the Contact page.",
+    "project_detail": "See description and details of the project, source code, try demo...",
+    "cv": "Download Curriculum Vitae.",
+    "github": "Link to my Github page.",
+    "email": "Send an Email.",
+    "linkedin": "Link to my Linkedin page.",
+    "image_profile": "Profile picture.",
+    "sent": "Paper plane animation sending a letter.",
+    "image_project": "Main picture of the project.",
+    "github_link": "Link to source code on Github.",
+    "project_link": "Link to the project."
   },
   "projects": {
     "ref": "projects",
@@ -102,7 +102,7 @@
     "all": "ALL",
     "demo": "Demo",
     "source_code": "Source code",
-    "view": "Try demo",
+    "view": "See demo",
     "features": "Features",
     "learned": "What I learned",
     "technologies": "Technologies",
@@ -136,7 +136,7 @@
       "title": "Escape from Death",
       "main": "This is a horror game in which the protagonist and his friend have been kidnapped. The aim is to rescue the friend and get away together before they're found by the killer.",
       "features": {
-        "feature_1": "The elements behind the doors are:  friend, killer and exit.",
+        "feature_1": "The elements behind the doors are: friend, killer and exit.",
         "feature_2": "These characters are placed randomly in each game.",
         "feature_3": "You must find the friend first in order to escape, it will not be possible to leave without him even if the exit is found.",
         "feature_4": "As the game goes on, messages that guide the story emerge.",
@@ -191,7 +191,7 @@
         "feature_5": "The game is over when time runs out."
       },
       "learned": {
-        "learned_1": "How to run the project on a local Node.js server (Serve).",
+        "learned_1": "How to run the project on a local Node server (Serve).",
         "learned_2": "How to import sounds from an external library and synchronize them with the DOM.",
         "learned_3": "How to use asynchronous functions and \"callbacks\".",
         "learned_4": "How to dynamically rewrite the content on a single page (SPA).",
@@ -238,7 +238,7 @@
         "feature_4": "This is known as LIFO (Last In, First Out).",
         "feature_5": "We can compare the concept with a pile of books or dishes.",
         "feature_6": "Queue",
-        "feature_7": " Elements are placed in order of arrival.",
+        "feature_7": "Elements are placed in order of arrival.",
         "feature_8": "The first element that has been placed, is the one that comes out.",
         "feature_9": "This is known as FIFO (First In, First Out).",
         "feature_10": "We can compare the concept with a supermarket queue."
@@ -287,7 +287,7 @@
         "feature_1": "Two blocks with a value of 2 or 4 are initially generated randomly.",
         "feature_2": "There's a better chance of a 2 than a 4.",
         "feature_3": "The game is played with the arrows on the keyboard, which indicate the direction where blocks will join.",
-        "feature_4": "If two equal numbers match when scrolling, they will be added together to form a single block with twice the value.",
+        "feature_4": "If two equal numbers match when sliding, they will be added together to form a single block with twice the value.",
         "feature_5": "Every time you make a move, a new random block will appear.",
         "feature_6": "The game ends when 2048 is achieved or no space is left."
       },
@@ -307,10 +307,10 @@
       "title": "Task Manager",
       "main": "This is my first project developed with React. It is a simple task manager in which you can add advanced features such as priority or date and time.",
       "features": {
-        "feature_1": " New tasks can be added through a form.",
+        "feature_1": "New tasks can be added through a form.",
         "feature_2": "Priority, date and time also can be added, besides the title and description of the task.",
         "feature_3": "Tasks are organized by time and can be deleted at any moment.",
-        "feature_4": "The expiration date is blue if it is not expired, or red if it is expired.  If the task is already done, it will have no colour.",
+        "feature_4": "The expiration date is blue if it is not expired, or red if it is expired. If the task is already done, it will have no colour.",
         "feature_5": "When a task is marked as completed, it moves into the completed tasks section.",
         "feature_6": "If a task has been marked as completed by mistake, it is possible to reverse the movement.",
         "feature_7": "Tasks will not disappear when the page is refreshed."
@@ -321,7 +321,7 @@
         "learned_3": "How to validate forms.",
         "learned_4": "How to generate unique identifiers with UUID.",
         "learned_5": "How to manage the state and move properties between components.",
-        "learned_6": "How to use LocalStorage for data permanence.",
+        "learned_6": "How to use LocalStorage for data remanence.",
         "learned_7": "How to specify property types with PropTypes."
       },
       "technologies": {
@@ -344,7 +344,7 @@
         "learned_1": "How to get data from an API like Eventbrite.",
         "learned_2": "How to add styles to the page with UIKit.",
         "learned_3": "How to make API calls with Axios.",
-        "learned_4": "To synchronize favourites with new searches and save them in LocalStorage."
+        "learned_4": "How to synchronize favourites with new searches and save them in LocalStorage."
       },
       "technologies": {
         "technologies_1": "Front-end: React (JavaScript), CSS-UIKit",
@@ -389,7 +389,7 @@
         "learned_4": "How to deploy a back-end project with Heroku."
       },
       "technologies": {
-        "technologies_1": "Front-end: Node.js with Express and Handlebars, CSS",
+        "technologies_1": "Front-end: Node with Express and Handlebars, CSS",
         "technologies_2": "Back-end: -"
       }
     },
@@ -434,9 +434,9 @@
         "learned_5": "How to render the application from the server side with Express and Pug."
       },
       "technologies": {
-        "technologies_1": "Front-end 1:  Node.js with Express and Pug, CSS-SASS",
-        "technologies_2": "Front-end 2:  React (JavaScript), CSS-SASS",
-        "technologies_3": "Front-end 3:  JavaScript, HTML, CSS-SASS",
+        "technologies_1": "Front-end 1: Node with Express and Pug, CSS-SASS",
+        "technologies_2": "Front-end 2: React (JavaScript), CSS-SASS",
+        "technologies_3": "Front-end 3: JavaScript, HTML, CSS-SASS",
         "technologies_4": "Back-end: -"
       }
     },
@@ -467,7 +467,7 @@
     "project_16": {
       "url": "wheely",
       "title": "Wheely",
-      "main": "This is my final project and my first Full Stack project, done at the Skylab Bootcamp. The idea arises from a real need in driving schools to speed up the task of booking practices. In this way, both students and teachers can carry out the task 100% online, as well as student monitoring, controlling available credits, etc.",
+      "main": "This is my final project and my first Full Stack project, done at the Skylab Bootcamp. The idea arises from a real need in driving schools to speed up the task of booking practices. This way, both students and teachers can carry out the task 100% online, as well as student monitoring, controlling available credits, etc.",
       "features": {
         "feature_1": "Students, teachers and administration staff have accounts with different functionalities.",
         "feature_2": "Student:",
@@ -492,7 +492,7 @@
         "feature_21": "Can see the progression of all the students."
       },
       "learned": {
-        "learned_1": "How to develop a back-end with Node.js Express.",
+        "learned_1": "How to develop a back-end with Node Express.",
         "learned_2": "How to group all the routes on a router.",
         "learned_3": "How to link a database with MongoDB and schematize it with Mongoose.",
         "learned_4": "How to use React Hooks in the front-end.",
@@ -508,7 +508,7 @@
       },
       "technologies": {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, Mocha Chai",
-        "technologies_2": "Back-end: Node.js with Express, MongoDB, test with Jest"
+        "technologies_2": "Back-end: Node with Express, MongoDB, test with Jest"
       }
     },
     "project_17": {
@@ -532,7 +532,7 @@
       },
       "technologies": {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, test Mocha Chai",
-        "technologies_2": "Back-end: Node.js with Express, MongoDB, test with Jest"
+        "technologies_2": "Back-end: Node with Express, MongoDB, test with Jest"
       }
     },
     "project_18": {
@@ -547,7 +547,7 @@
         "feature_5": "- Stars and forks."
       },
       "learned": {
-        "learned_1": "To consume the GitHub API and understand the official documentation.",
+        "learned_1": "How to consume the GitHub API and understand the official documentation.",
         "learned_2": "How to make API calls with AJAX."
       },
       "technologies": {
@@ -574,7 +574,7 @@
       },
       "technologies": {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS",
-        "technologies_2": "Back-end: Node.js with Express, MongoDB"
+        "technologies_2": "Back-end: Node with Express, MongoDB"
       }
     },
     "project_20": {
@@ -595,7 +595,7 @@
       },
       "technologies": {
         "technologies_1": "Front-end: React Hooks (JavaScript), CSS-SASS, test Mocha Chai",
-        "technologies_2": "Back-end: Node.js with Express, MongoDB, test with Jest"
+        "technologies_2": "Back-end: Node with Express, MongoDB, test with Jest"
       }
     },
     "project_21": {
@@ -643,8 +643,8 @@
       }
     },
     "project_23": {
-      "url": "multilingual-portfolio",
-      "title": "Multilingual Portfolio",
+      "url": "multi-language-portfolio",
+      "title": "Multi-language Portfolio",
       "main": "This is my Portfolio, in it you will find all my personal projects as well as details about them, links to demos, source code, my biography or my curriculum. The page has been translated into 4 languages, since it has been developed expressly to collaborate in my sister's Bachelor's Degree Final Project on technological translations.",
       "features": {
         "feature_1": "This is a multi-language website: English, Spanish, Catalan and German.",
@@ -660,11 +660,13 @@
         "learned_3": "How to perform static and dynamic queries with GraphQL.",
         "learned_4": "How to select the active menu section when scrolling through the page using the Intersection Observer.",
         "learned_5": "How to add a back-end linked form to send emails.",
-        "learned_6": "How to provide options for downloading files."
+        "learned_6": "How to provide options for downloading files.",
+        "learned_7": "How to take into account Accessibility issues.",
+        "learned_8": "How to index the page in Google with the Google Search Console and to specify a different SEO for each project."
       },
       "technologies": {
         "technologies_1": "Front-end: Gatsby with React (JavaScript), GraphQL, CSS-SASS",
-        "technologies_2": "Back-end: Node.js with Express"
+        "technologies_2": "Back-end: Node with Express"
       }
     }
   }

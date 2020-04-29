@@ -3,7 +3,7 @@
     "name": "home",
     "url_en": "/",
     "title_en": "Diana Moreno - Portfolio",
-    "description_en": "This is my Portfolio, in it you will find all my personal projects as well as details about them, links to demos, source code, my biography or my curriculum. The page has been translated into 4 languages.",
+    "description_en": "This is my Portfolio where you will find all my personal projects as well as details about them, links to demos, source code, my biography or my curriculum. The page has been translated into 4 languages.",
     "alternateLanguage_en": "es",
     "alternateUrl_en": "/es/",
     "url_es": "/es/",
@@ -15,13 +15,18 @@
     "title_ca": "Diana Moreno - Portfoli",
     "description_ca": "Aquest és el meu Portafolis on trobaràs un llistat de tots els meus projectes personals i detalls sobre ells, a més d'enllaços a demos, codi font, la meva biografia o el meu currículum. Ha estat traduïda a 4 idiomes.",
     "alternateLanguage_ca": "en",
-    "alternateUrl_ca": "/"
+    "alternateUrl_ca": "/",
+    "url_de": "/de/",
+    "title_de": "Diana Moreno - Portfoli",
+    "description_de": "Dies ist mein Portfolio, in dem man alle meine persönlichen Projekte findet, sowie deren Details, Links zu Demos, Quellcode, meine Biographie oder meinen Lehrplan. Die Webseite wurde in 4 Sprachen übersetzt.",
+    "alternateLanguage_de": "en",
+    "alternateUrl_de": "/"
   },
   {
     "name": "confirmation",
     "url_en": "/confirmation/",
     "title_en": "Diana Moreno - Portfolio",
-    "description_en": "This is my Portfolio, in it you will find all my personal projects as well as details about them, links to demos, source code, my biography or my curriculum. The page has been translated into 4 languages.",
+    "description_en": "This is my Portfolio where you will find all my personal projects as well as details about them, links to demos, source code, my biography or my curriculum. The page has been translated into 4 languages.",
     "alternateLanguage_en": "es",
     "alternateUrl_en": "/es/confirmacion/",
     "url_es": "/es/confirmacion/",
@@ -33,7 +38,12 @@
     "title_ca": "Diana Moreno - Portfoli",
     "description_ca": "Aquest és el meu Portafolis on trobaràs un llistat de tots els meus projectes personals i detalls sobre ells, a més d'enllaços a demos, codi font, la meva biografia o el meu currículum. Ha estat traduïda a 4 idiomes.",
     "alternateLanguage_ca": "en",
-    "alternateUrl_ca": "/confirmation/"
+    "alternateUrl_ca": "/confirmation/",
+    "url_de": "/de/bestatigung/",
+    "title_de": "Diana Moreno - Portfoli",
+    "description_de": "Dies ist mein Portfolio, in dem man alle meine persönlichen Projekte findet, sowie deren Details, Links zu Demos, Quellcode, meine Biographie oder meinen Lehrplan. Die Webseite wurde in 4 Sprachen übersetzt.",
+    "alternateLanguage_de": "en",
+    "alternateUrl_de": "/confirmation/"
   },
   {
     "name": "portfolio",
@@ -59,6 +69,15 @@
     "lang": "ca",
     "title": "Portafolis multillenguatge",
     "description": "Aquesta pàgina web personal ha estat desenvolupada expressament per a col·laborar en el treball de fi de grau de la meva germana sobre traduccions tecnològiques.",
+    "alternateLanguage": "en",
+    "alternateUrl": "multilingual-portfolio/"
+  },
+  {
+    "name": "portfolio",
+    "url": "de/mehrsprachiges-portfolio/",
+    "lang": "de",
+    "title": "Mehrsprachiges Portfolio",
+    "description": "Dies ist mein Portfolio, hier findet man alle meine persönlichen Projekte sowie deren Details, Links zu Demos, Quellcode, meine Biographie oder meinen Lebenslauf. Die Webseite wurde in 4 Sprachen übersetzt, da sie ausdrücklich für die Mitarbeit am Bachelor-Abschlussprojekt meiner Schwester über technologische Übersetzungen entwickelt wurde.",
     "alternateLanguage": "en",
     "alternateUrl": "multilingual-portfolio/"
   },
@@ -90,6 +109,15 @@
     "alternateUrl": "paradise-hotel/"
   },
   {
+    "name": "paradise-hotel",
+    "url": "de/das-paradies-hotel/",
+    "lang": "de",
+    "title": "Das Paradies-Hotel",
+    "description": "Das Paradies-Hotel ist ein Beispiel für Unternehmensseiten für Hotels, auf denen die Informationen über das Hotel und die Zimmerdetails angezeigt werden.",
+    "alternateLanguage": "en",
+    "alternateUrl": "paradise-hotel/"
+  },
+  {
     "name": "juice-store",
     "url": "juice-store/",
     "lang": "en",
@@ -113,6 +141,15 @@
     "lang": "ca",
     "title": "Botiga de sucs",
     "description": "El següent projecte és una simulació d'una botiga de sucs. La finalitat ha estat aprendre React Redux amb Sagas i Thunks.",
+    "alternateLanguage": "en",
+    "alternateUrl": "juice-store/"
+  },
+  {
+    "name": "juice-store",
+    "url": "de/das-saftgeschaft/",
+    "lang": "de",
+    "title": "Das-Saftgeschäft",
+    "description": "Dieses Projekt ist eine Simulation eines Saftgeschäfts. Das Ziel war es, React Redux mit Sagas und Thunks zu lernen.",
     "alternateLanguage": "en",
     "alternateUrl": "juice-store/"
   },
@@ -144,6 +181,15 @@
     "alternateUrl": "canvas/"
   },
   {
+    "name": "canvas",
+    "url": "de/canvas/",
+    "lang": "de",
+    "title": "Canvas",
+    "description": "Canvas ist eine Vorlage für die strategische Unternehmensführung zur Dokumentation von Unternehmensmodellen. Es ist ein visuelles Diagramm mit Elementen, die das Nutzenversprechen, die Infrastruktur, die Kunden und die Finanzen eines Unternehmens oder eines Produkts beschreiben.",
+    "alternateLanguage": "en",
+    "alternateUrl": "canvas/"
+  },
+  {
     "name": "kanban",
     "url": "kanban/",
     "lang": "en",
@@ -167,6 +213,15 @@
     "lang": "ca",
     "title": "Kanban",
     "description": "El següent projecte Full Stack reprodueix un Kanban. Kanban és un sistema visual per a gestionar el treball i les tasques a mesura que avança en un procés. És realment fàcil d'utilitzar perquè les tasques només s'han d'arrossegar i deixar anar en la columna desitjada.",
+    "alternateLanguage": "en",
+    "alternateUrl": "kanban/"
+  },
+  {
+    "name": "kanban",
+    "url": "de/kanban/",
+    "lang": "de",
+    "title": "Kanban",
+    "description": "Bei diesem Full Stack-Projekt wird ein Kanban durchgeführt. Kanban ist ein visuelles System zur Verwaltung von Arbeit und Aufgaben, die in einem Prozess ablaufen. Es ist einfach zu verwenden, Aufgaben werden gezogen und dann in der gewünschten Spalte abgelegt.",
     "alternateLanguage": "en",
     "alternateUrl": "kanban/"
   },
@@ -198,6 +253,15 @@
     "alternateUrl": "github-repositories/"
   },
   {
+    "name": "github-repositories",
+    "url": "de/github-repositorien/",
+    "lang": "de",
+    "title": "Github-Repositorien",
+    "description": "Dieses Projekt zeigt Informationen über die Repositories und öffentlichen Daten aller GitHub-Benutzer an.",
+    "alternateLanguage": "en",
+    "alternateUrl": "github-repositories/"
+  },
+  {
     "name": "kasaz",
     "url": "kasaz/",
     "lang": "en",
@@ -221,6 +285,15 @@
     "lang": "ca",
     "title": "Kasaz",
     "description": "Kasaz és una immobiliària en línia on es poden buscar apartaments mitjançant la personalització dels criteris de cerca.",
+    "alternateLanguage": "en",
+    "alternateUrl": "kasaz/"
+  },
+  {
+    "name": "kasaz",
+    "url": "de/kasaz/",
+    "lang": "de",
+    "title": "Kasaz",
+    "description": "Kasaz ist eine Online-Immobilienagentur, bei der man nach Wohnungen suchen kann, indem man seine Suchkriterien anpasst.",
     "alternateLanguage": "en",
     "alternateUrl": "kasaz/"
   },
@@ -252,6 +325,15 @@
     "alternateUrl": "wheely/"
   },
   {
+    "name": "wheely",
+    "url": "de/wheely/",
+    "lang": "de",
+    "title": "Wheely",
+    "description": "Dies ist mein letztes Projekt und mein erstes Full Stack-Projekt, das im Skylab Bootcamp gemacht wurde. Die Idee entspringt einem echten Bedarf in Fahrschulen, die Aufgabe der Fahrstundenbuchung zu beschleunigen. Auf diese Weise können sowohl die Schüler als auch die Lehrer die Aufgabe 100% online erledigen, ebenso wie die Überwachung der Schüler, die Kontrolle der verfügbaren Kredite, usw.",
+    "alternateLanguage": "en",
+    "alternateUrl": "wheely/"
+  },
+  {
     "name": "eat-the-world",
     "url": "eat-the-world/",
     "lang": "en",
@@ -279,11 +361,20 @@
     "alternateUrl": "eat-the-world/"
   },
   {
+    "name": "eat-the-world",
+    "url": "de/die-welt-fressen/",
+    "lang": "de",
+    "title": "Die Welt fressen",
+    "description": "Dies ist ein Gruppenprojekt, das während des Skylab Bootcamps entwickelt wurde. Die Anwendung zeigt Informationen über verschiedene Arten von Restaurants in vielen Orten der Welt.",
+    "alternateLanguage": "en",
+    "alternateUrl": "eat-the-world/"
+  },
+  {
     "name": "duck-store",
     "url": "duck-store/",
     "lang": "en",
     "title": "Duck Store",
-    "description": "",
+    "description": "Duck Store is an e-commerce SPA that shows information about rubber ducks. This project was developed during the Skylab Bootcamp in 3 different ways focusing on continuous refactoring.",
     "alternateLanguage": "es",
     "alternateUrl": "es/tienda-de-patos/"
   },
@@ -304,7 +395,15 @@
     "description": "Botiga d'ànecs és un comerç electrònic SPA que presenta informació sobre ànecs de goma. Aquest projecte va ser desenvolupat durant el Bootcamp de Skylab de 3 maneres diferents fent èmfasis en la refacció contínua.",
     "alternateLanguage": "en",
     "alternateUrl": "duck-store/"
-    
+  },
+  {
+    "name": "duck-store",
+    "url": "de/das-entengeschaft/",
+    "lang": "de",
+    "title": "Das Entengeschäft",
+    "description": "Dies ist ein E-Commerce SPA, das Informationen über Gummienten zeigt. Dieses Projekt wurde während des Skylab Bootcamps auf 3 verschiedene Arten entwickelt, wobei der Schwerpunkt auf kontinuierlichem Refactoring lag.",
+    "alternateLanguage": "en",
+    "alternateUrl": "duck-store/"
   },
   {
     "name": "connect-4",
@@ -330,6 +429,15 @@
     "lang": "ca",
     "title": "Connecta 4",
     "description": "Joc en línia del clàssic Connecta 4 on un jugador s'enfronta un altre per torns i la finalitat és aconseguir formar una línia recta combinant quatre fitxes seguides abans que el rival.",
+    "alternateLanguage": "en",
+    "alternateUrl": "connect-4/"
+  },
+  {
+    "name": "connect-4",
+    "url": "de/vier-gewinnt/",
+    "lang": "de",
+    "title": "Vier gewinnt",
+    "description": "Online-Spiel des traditionellen Vier gewinnt, bei dem eine Person abwechselnd gegen eine andere spielt. Das Ziel ist es, eine gerade Linie zu bilden, indem man vier Spielsteine in einer Reihe vor dem Gegner kombiniert.",
     "alternateLanguage": "en",
     "alternateUrl": "connect-4/"
   },
@@ -361,6 +469,15 @@
     "alternateUrl": "spotify-express/"
   },
   {
+    "name": "spotify-express",
+    "url": "de/spotify-express/",
+    "lang": "de",
+    "title": "Spotify Express",
+    "description": "Dieses Projekt verwendet die Spotify-API, um eine Künstlersuchmaschine zu erstellen, mit der man Informationen über ihre Alben finden und sogar eine Vorschau ihrer Lieder anhören kann.",
+    "alternateLanguage": "en",
+    "alternateUrl": "spotify-express/"
+  },
+  {
     "name": "the-lift",
     "url": "the-lift/",
     "lang": "en",
@@ -384,6 +501,15 @@
     "lang": "ca",
     "title": "L'ascensor",
     "description": "Un ascensor tradicional que cada persona pot cridar des de la planta en la qual es trobi. Aquest recordarà els pisos en els quals ha de parar a recollir i a deixar passatgers.",
+    "alternateLanguage": "en",
+    "alternateUrl": "the-lift/"
+  },
+  {
+    "name": "the-lift",
+    "url": "de/der-aufzug/",
+    "lang": "de",
+    "title": "Der Aufzug",
+    "description": "Ein konventioneller Aufzug, den jede Person von jedem Stockwerk aus anrufen kann, in dem sie sich befindet. Der Aufzug merkt sich die Stockwerke, auf denen er anhalten muss, um Fahrgäste ein- und aussteigen zu lassen.",
     "alternateLanguage": "en",
     "alternateUrl": "the-lift/"
   },
@@ -415,6 +541,15 @@
     "alternateUrl": "events-hunter/"
   },
   {
+    "name": "events-hunter",
+    "url": "de/der-ereignis-jager/",
+    "lang": "de",
+    "title": "Der Ereignis-Jäger",
+    "description": "Hier kann man sich über Ereignisse in verschiedenen Kategorien und an verschiedenen Orten informieren. Es gibt auch einen Favoritenbereich, damit die Benutzer ihre Favoriten speichern und später überprüfen können.",
+    "alternateLanguage": "en",
+    "alternateUrl": "events-hunter/"
+  },
+  {
     "name": "task-manager",
     "url": "task-manager/",
     "lang": "en",
@@ -438,6 +573,15 @@
     "lang": "ca",
     "title": "Gestor de tasques",
     "description": "Aquest és el meu primer projecte desenvolupat amb React. Es tracta d'un gestor de tasques senzill en el qual es poden afegir funcions avançades com ara la prioritat o la data i l'hora de la tasca.",
+    "alternateLanguage": "en",
+    "alternateUrl": "task-manager/"
+  },
+  {
+    "name": "task-manager",
+    "url": "de/task-manager/",
+    "lang": "de",
+    "title": "Task Manager",
+    "description": "Dies ist mein erstes mit React entwickeltes Projekt. Es ist ein einfacher Task-Manager, in dem man erweiterte Funktionen wie Priorität oder Datum und Uhrzeit hinzufügen kann.",
     "alternateLanguage": "en",
     "alternateUrl": "task-manager/"
   },
@@ -469,6 +613,15 @@
     "alternateUrl": "2048-game/"
   },
   {
+    "name": "2048-game",
+    "url": "de/das-2048-spiel/",
+    "lang": "de",
+    "title": "Das 2048 Spiel",
+    "description": "2048 ist ein Einzelspieler-Schiebeblockspiel, das ursprünglich von Gabriele Cirulli entwickelt wurde. Das Ziel des Spiels ist es, nummerierte Blöcke auf ein Gitter zu schieben, um sie zu kombinieren und ihre ZahlenWerte zu addieren, bis man einen einzigen mit der Nummer 2048 erhält.",
+    "alternateLanguage": "en",
+    "alternateUrl": "2048-game/"
+  },
+  {
     "name": "the-alphabet-game",
     "url": "the-alphabet-game/",
     "lang": "en",
@@ -492,6 +645,15 @@
     "lang": "ca",
     "title": "Passaparaula",
     "description": "Aquest joc és una versió del famós joc espanyol \"Pasapalabra\", en el qual el concursant ha d'encertar una pregunta per cada lletra de l'alfabet en un temps determinat.",
+    "alternateLanguage": "en",
+    "alternateUrl": "the-alphabet-game/"
+  },
+  {
+    "name": "the-alphabet-game",
+    "url": "de/das-alphabetspiel/",
+    "lang": "de",
+    "title": "Das Alphabetspiel",
+    "description": "Dieses Spiel ist eine Version des berühmten spanischen Spiels \"Pasapalabra\", bei dem der Kandidat für jeden Buchstaben des Alphabets in einer bestimmten Zeit eine Frage richtig beantworten muss.",
     "alternateLanguage": "en",
     "alternateUrl": "the-alphabet-game/"
   },
@@ -523,6 +685,15 @@
     "alternateUrl": "data-structure/"
   },
   {
+    "name": "data-structure",
+    "url": "de/datenstruktur/",
+    "lang": "de",
+    "title": "Datenstruktur",
+    "description": "Stapelspeicher (Stack) und Warteschlangen (Queue) sind zwei Arten von linearen Datenstrukturen, die im wirklichen Leben leicht zu finden sind. In diesem Projekt zeige ich beide Modelle in einer dynamischen und grafischen Darstellung.",
+    "alternateLanguage": "en",
+    "alternateUrl": "data-structure/"
+  },
+  {
     "name": "matching-game",
     "url": "matching-game/",
     "lang": "en",
@@ -546,6 +717,15 @@
     "lang": "ca",
     "title": "Joc de parelles",
     "description": "Joc de parelles és un joc tradicional de memòria. Per a guanyar, es necessita recordar la posició de cada carta i aparellar-la amb la que és igual.",
+    "alternateLanguage": "en",
+    "alternateUrl": "matching-game/"
+  },
+  {
+    "name": "matching-game",
+    "url": "de/matching-spiel/",
+    "lang": "de",
+    "title": "Matching-Spiel",
+    "description": "Dies ist ein traditionelles Gedächtnisspiel. Um zu gewinnen, muss man sich die Position jeder Karte merken und sie mit ihrem Gleichen abgleichen.",
     "alternateLanguage": "en",
     "alternateUrl": "matching-game/"
   },
@@ -577,6 +757,15 @@
     "alternateUrl": "few-seconds-math-game/"
   },
   {
+    "name": "few-seconds-math-game",
+    "url": "de/mathematik-spiele/",
+    "lang": "de",
+    "title": "Mathematik-Spiele",
+    "description": "Es ist eine alternative Version des ursprünglichen \"10 Seconds Math\", das von Michael Jakob geschaffen wurde, um die mathematischen Fähigkeiten einer Person gegen die Zeit herauszufordern. In dieser Version ist die Zeit, die pro richtiger Antwort gewonnen wird, nicht 10 Sekunden, sie ändert sich je nach Schwierigkeitsgrad.",
+    "alternateLanguage": "en",
+    "alternateUrl": "few-seconds-math-game/"
+  },
+  {
     "name": "personal-website",
     "url": "personal-website/",
     "lang": "en",
@@ -600,6 +789,15 @@
     "lang": "ca",
     "title": "Pàgina personal",
     "description": "Aquest projecte és la meva primera pàgina web personal, creada amb la finalitat de disposar d'un espai on poder parlar una mica sobre mi i exposar els meus projectes.",
+    "alternateLanguage": "en",
+    "alternateUrl": "personal-website/"
+  },
+  {
+    "name": "personal-website",
+    "url": "de/personliche-webseite/",
+    "lang": "de",
+    "title": "Persönliche Webseite",
+    "description": "Dieses Projekt ist meine erste persönliche Webseite, die ich mit dem Ziel erstellt habe, eine Plattform zu haben, auf der ich ein wenig über mich selbst sprechen und meine eigenen Projekte vorstellen kann.",
     "alternateLanguage": "en",
     "alternateUrl": "personal-website/"
   },
@@ -631,6 +829,15 @@
     "alternateUrl": "escape-from-death/"
   },
   {
+    "name": "escape-from-death",
+    "url": "de/entkomme-vor-dem-tod/",
+    "lang": "de",
+    "title": "Entkomme vor dem Tod",
+    "description": "Dies ist ein Horrorspiel, in dem der Protagonist und sein Freund verschleppt worden sind. Das Ziel ist es, den Freund zu retten und gemeinsam zu entkommen, bevor sie vom Mörder gefunden werden.",
+    "alternateLanguage": "en",
+    "alternateUrl": "escape-from-death/"
+  },
+  {
     "name": "calculator",
     "url": "calculator/",
     "lang": "en",
@@ -654,6 +861,15 @@
     "lang": "ca",
     "title": "Calculadora",
     "description": "En aquest projecte he desenvolupat una calculadora que realitza operacions matemàtiques senzilles.",
+    "alternateLanguage": "en",
+    "alternateUrl": "calculator/"
+  },
+  {
+    "name": "calculator",
+    "url": "de/rechner/",
+    "lang": "de",
+    "title": "Rechner",
+    "description": "In diesem Projekt habe ich einen Rechner entwickelt, der einfache mathematische Operationen ausführt.",
     "alternateLanguage": "en",
     "alternateUrl": "calculator/"
   }

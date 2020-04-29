@@ -29,7 +29,7 @@ const ProjectPage = ({ data, pageContext, location }) => {
   const currentProject = projectsData[projectIndex]
 
   return (
-    <Layout seoData={seoData}>
+    <Layout seoData={seoData} lang={lang}>
       <Languages location={location} lang={lang} />
       <Menu lang={lang} />
       <div className={styles.main}>
@@ -56,7 +56,7 @@ const ProjectPage = ({ data, pageContext, location }) => {
                   <p><strong>{t('projects.source_code', lang)}</strong></p>
                   <ul>
                     {currentProject.github_link.map((elem, i) =>
-                      <li>
+                      <li key={i}>
                         <a
                           aria-label={t('accessibility.github_link', lang)}
                           target="_blank"

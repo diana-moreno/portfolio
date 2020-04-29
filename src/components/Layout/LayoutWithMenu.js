@@ -10,7 +10,7 @@ const LayoutWithMenu = ({ seoData, children, location, lang }) => {
   return (
     <div className='main_container'>
       <Seo seoData={seoData} />
-      <Languages location={location} lang={lang}/>
+      <Languages location={location} lang={lang} />
       <Menu lang={lang} indexMenu={undefined} />
       <main>{children}</main>
       <Footer lang={lang} />
