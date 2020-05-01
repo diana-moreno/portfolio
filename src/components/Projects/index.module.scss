@@ -24,7 +24,7 @@
   padding: 0.3rem 0rem;
   background-color: none;
   text-align: center;
-  
+
   &:hover {
     background-color: $button-blue;
     color: $letter-light;
@@ -74,7 +74,7 @@
   cursor: pointer;
   transition: all 0.35s;
   width: 100%;
-  
+
   &:hover {
     transform: scale(1.1, 1.1) rotate(0deg);
     transition: all 0.35s;
@@ -88,7 +88,7 @@
 .title_section {
   text-align: center;
   color: $letter-dark;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   h1 {
     margin-bottom: 1rem;
   }

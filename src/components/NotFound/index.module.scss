@@ -30,19 +30,19 @@
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
-    transition: background-color .2s ease;
+    transition: background-color 0.2s ease;
   }
   .not_found_button:hover {
     background-color: #e99394;
   }
 }
-
 .bubble {
   background-color: $button-blue;
   border-radius: 50%;
   box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
   position: absolute;
-  &:before, &:after {
+  &:before,
+  &:after {
     content: '';
     background-color: $button-blue;
     border-radius: 50%;

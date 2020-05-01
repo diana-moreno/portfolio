@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import Layout from "../../components/Layout"
+import Layout from '../../components/Layout'
 import Menu from '../../components/Menu'
-import Languages from "../../components/Languages"
-import Home from "../../components/Home"
-import About from "../../components/About"
-import Projects from "../../components/Projects"
-import Contact from "../../components/Contact"
+import Languages from '../../components/Languages'
+import Home from '../../components/Home'
+import About from '../../components/About'
+import Projects from '../../components/Projects'
+import Contact from '../../components/Contact'
 import curriculum from '../../data/cv_es.pdf'
 import { t } from '../../i18n'
 
@@ -15,18 +15,18 @@ const lang = 'es'
 const IndexPage = ({ location }) => {
   const { image, projectsImg, seoJson } = useStaticQuery(graphql`
     query {
-      image: file(relativePath: {eq: "profile.png"}) {
+      image: file(relativePath: { eq: "profile.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      projectsImg: allFile(filter: {relativeDirectory: {eq: "projects"}}) {
+      projectsImg: allFile(filter: { relativeDirectory: { eq: "projects" } }) {
         edges {
           node {
             name
-            publicURL,
+            publicURL
             childImageSharp {
               fixed(height: 200, width: 270) {
                 ...GatsbyImageSharpFixed
@@ -34,7 +34,7 @@ const IndexPage = ({ location }) => {
             }
           }
         }
-      },
+      }
       seoJson(name: { eq: "home" }) {
         url_es
         title_es
@@ -52,7 +52,7 @@ const IndexPage = ({ location }) => {
     titleSeo: seoJson.title_es,
     description: seoJson.description_es,
     alternateLanguage: seoJson.alternateLanguage_es,
-    alternateUrl: seoJson.alternateUrl_es,
+    alternateUrl: seoJson.alternateUrl_es
   }
 
   // Intersection Observer
@@ -60,7 +60,7 @@ const IndexPage = ({ location }) => {
 
   // simple function to use for callback in the intersection observer
   const changeNav = (entries, observer) => {
-    entries.forEach((entry) => {
+    entries.forEach(entry => {
       // verify the element is intersecting
       if (entry.isIntersecting && entry.intersectionRatio) {
         if (entry.target.id === t('home.ref', lang)) {
@@ -96,51 +96,36 @@ const IndexPage = ({ location }) => {
   let projectsElem
   let constantElem
 
-  useEffect(
-    () => {
-      const observer = new IntersectionObserver(changeNav, options)
-      homeElem = homeRef.current
-      aboutElem = aboutRef.current
-      projectsElem = projectsRef.current
-      constantElem = contactRef.current
+  useEffect(() => {
+    const observer = new IntersectionObserver(changeNav, options)
+    homeElem = homeRef.current
+    aboutElem = aboutRef.current
+    projectsElem = projectsRef.current
+    constantElem = contactRef.current
 
-      const sections = [homeElem, aboutElem, projectsElem, constantElem]
-      sections.forEach((section) => {
-        observer.observe(section)
-      })
-    },
-    [homeElem]
-  )
+    const sections = [homeElem, aboutElem, projectsElem, constantElem]
+    sections.forEach(section => {
+      observer.observe(section)
+    })
+  }, [homeElem])
 
   return (
-    <Layout seoData={seoData} lang={lang} >
-      <Languages 
-        location={location} 
-        lang={lang} 
+    <Layout seoData={seoData} lang={lang}>
+      <Languages location={location} lang={lang} />
+      <Home lang={lang} homeRef={homeRef} />
+      <Menu lang={lang} indexMenu={indexMenu} />
+      <About
+        lang={lang}
+        aboutRef={aboutRef}
+        imageProfile={imageProfile}
+        curriculum={curriculum}
       />
-      <Home 
-        lang={lang} 
-        homeRef={homeRef} 
+      <Projects
+        lang={lang}
+        projectsRef={projectsRef}
+        projectsImg={projectsImg}
       />
-      <Menu 
-        lang={lang} 
-        indexMenu={indexMenu} 
-      />
-      <About 
-        lang={lang} 
-        aboutRef={aboutRef} 
-        imageProfile={imageProfile} 
-        curriculum={curriculum} 
-      />
-      <Projects 
-        lang={lang} 
-        projectsRef={projectsRef} 
-        projectsImg={projectsImg} 
-      />
-      <Contact 
-        lang={lang} 
-        contactRef={contactRef} 
-      />
+      <Contact lang={lang} contactRef={contactRef} />
     </Layout>
   )
 }

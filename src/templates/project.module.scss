@@ -1,14 +1,15 @@
 @import '../styles/variables';
 
 body {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   color: $letter-dark;
-  -webkit-tap-highlight-color: transparent
+  -webkit-tap-highlight-color: transparent;
 }
 p {
   line-height: 1.5rem;
 }
-input:focus, button:focus {
+input:focus,
+button:focus {
   outline: transparent;
 }
 .main {
@@ -98,7 +99,7 @@ input:focus, button:focus {
     ul {
       display: flex;
       list-style: none;
-      margin-left: 0;  
+      margin-left: 0;
       li {
         padding-left: 0;
         padding: 0.4rem 0.2rem 0 0.2rem;
@@ -109,7 +110,7 @@ input:focus, button:focus {
             width: 2.5rem;
             height: 2.5rem;
           }
-        } 
+        }
       }
     }
   }
@@ -122,7 +123,7 @@ input:focus, button:focus {
   color: $letter-light;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  transition: background-color .2s ease;
+  transition: background-color 0.2s ease;
 }
 .button_demo:hover {
   background-color: $button-blue-hover;

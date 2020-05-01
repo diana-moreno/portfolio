@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 
 .success {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,10 +13,9 @@
     margin-bottom: 0;
     width: 16rem;
     height: auto;
-
   }
   h1 {
-    font-family: "Raleway";
+    font-family: 'Raleway';
     margin-bottom: 1rem;
   }
   p {
@@ -33,15 +32,15 @@
   .title_section {
     text-align: center;
     color: $letter-dark;
-    font-family: "Raleway";
+    font-family: 'Raleway';
     h1 {
       margin-bottom: 1rem;
     }
-  }  
+  }
   .goBack {
     position: relative;
     padding: 0.5rem 1rem;
-    border:  none;
+    border: none;
     background-color: transparent;
     cursor: pointer;
     outline: none;
@@ -51,10 +50,9 @@
     font-weight: 700;
     width: fit-content;
     text-decoration: none;
-    transition: background-color .2s ease;
+    transition: background-color 0.2s ease;
   }
   .goBack:hover {
     background-color: $button-blue-hover;
   }
 }
-

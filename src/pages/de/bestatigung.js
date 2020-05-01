@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import Confirmation from "../../components/Confirmation"
+import Confirmation from '../../components/Confirmation'
 import LayoutWithMenu from '../../components/Layout/LayoutWithMenu'
 
 const lang = 'de'
@@ -24,18 +24,19 @@ const ConfirmationPage = ({ location }) => {
     titleSeo: seoJson.title_de,
     description: seoJson.description_de,
     alternateLanguage: seoJson.alternateLanguage_de,
-    alternateUrl: seoJson.alternateUrl_de,
+    alternateUrl: seoJson.alternateUrl_de
   }
 
   return (
-    <LayoutWithMenu 
-      seoData={seoData} 
-      location={location} 
-      indexMenu={undefined} 
-      lang={lang} 
+    <LayoutWithMenu
+      seoData={seoData}
+      location={location}
+      indexMenu={undefined}
+      lang={lang}
     >
       <Confirmation lang={lang} />
     </LayoutWithMenu>
-)}
+  )
+}
 
 export default ConfirmationPage

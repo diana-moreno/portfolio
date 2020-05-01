@@ -10,7 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 2;
-    
+
     &__list {
       display: flex;
       background-color: $background-blue;
@@ -80,7 +80,7 @@
       text-align: center;
       a {
         text-decoration: none;
-        color: $letter-light;  
+        color: $letter-light;
       }
     }
   }
@@ -153,7 +153,7 @@
 }
 .hamburger_inner_contrast::before,
 .hamburger_inner_contrast::after {
-  content: "";
+  content: '';
   display: block;
 }
 .hamburger_inner_contrast::before {
@@ -175,7 +175,7 @@
 }
 .hamburger__spin .hamburger_inner_contrast::after {
   transition: bottom 0.1s 0.25s ease-in,
-  transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 .hamburger__spin.is_active .hamburger_inner_contrast {
   transform: rotate(225deg);
@@ -191,7 +191,7 @@
   bottom: 0;
   transform: rotate(-90deg);
   transition: bottom 0.1s ease-out,
-  transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .white_hamburguer,
 .white_hamburguer::before,

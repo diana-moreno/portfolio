@@ -10,7 +10,5 @@ import React from 'react'
 // import './src/styles/global.scss'
 
 export const wrapRootElement = ({ element }) => (
-  <React.Fragment>
-    {element}
-  </React.Fragment>
+  <React.Fragment>{element}</React.Fragment>
 )
