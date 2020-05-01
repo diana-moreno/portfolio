@@ -66,7 +66,7 @@ Others: Git, Github
 
 ## Audits
 
-Gatsby it's great! It allows me to achieve those punctuations in Audits analysis:
+Gatsby rocks! It allowed me to achieve those punctuations in Audits analysis:
 
 Desktop
 
