@@ -24,12 +24,12 @@ export const Seo = ({ seoData }) => {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
-      {/* <meta
+      <meta
         property="og:image"
         content={
           'https://dianamoreno.netlify.com/static/23b24d90b547890826ad5695714a93ef/57bf2/profile.png'
         }
-      /> */}
+      />
       <meta name="keywords" content={keywords} />
       <title>{titleSeo}</title>
       <link rel="alternate" hrefLang={alternateLanguage} href={alternateUrl} />
