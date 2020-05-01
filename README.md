@@ -8,26 +8,24 @@ This is my Portfolio, in it you will find all my personal projects as well as de
 
 You can run the deployed project here: https://dianamoreno.netlify.app
 
-
 ## Features
-  - This is a multi-language website: English, Spanish, Catalan and German.
-  - Translations provided by Yolanda Moreno.
-  - The design is based on a single page showing my biography, my projects and contact details.
-  - My curriculum can be downloaded in all four languages.
-  - Each of the projects shows information about what features it has, what I learned in developing it, links to the source code and a demo.
-  - You can contact me by filling out the form in the contact section or else by mail or social networks."
 
+- This is a multi-language website: English, Spanish, Catalan and German.
+- Translations provided by Yolanda Moreno.
+- The design is based on a single page showing my biography, my projects and contact details.
+- My curriculum can be downloaded in all four languages.
+- Each of the projects shows information about what features it has, what I learned in developing it, links to the source code and a demo.
+- You can contact me by filling out the form in the contact section or else by mail or social networks."
 
 ## What I learned?
 
-  - How to prepare a project to be translated into four languages.
-  - How to dynamically generate pages through a template.
-  - How to perform static and dynamic queries with GraphQL.
-  - How to select the active menu section when scrolling through the page using the Intersection Observer.
-  - How to add a back-end linked form to send emails.
-  - How to provide options for downloading files.
-  - Improve SEO, create a sitemap and index it in Google with Google Search Console.
-
+- How to prepare a project to be translated into four languages.
+- How to dynamically generate pages through a template.
+- How to perform static and dynamic queries with GraphQL.
+- How to select the active menu section when scrolling through the page using the Intersection Observer.
+- How to add a back-end linked form to send emails.
+- How to provide options for downloading files.
+- Improve SEO, create a sitemap and index it in Google with Google Search Console.
 
 ## Technical Description
 
@@ -36,7 +34,6 @@ Frontend: Gatsby with React (javascript), CSS-SASS-modules
 Backend: Node with Express
 
 Others: Git, Github
-
 
 ## Usage
 
@@ -66,3 +63,15 @@ Others: Git, Github
 **Optional:**
 
 - If you want, you can check the backend in this repository but it's not necessary to run locally: https://github.com/diana-moreno/portfolio-api.git.
+
+## Audits
+
+Gatsby it's great! It allows me to achieve those punctuations in Audits analysis:
+
+Desktop
+
+![Desktop](./src/images/audit_desktop.png)
+
+Mobile
+
+![Mobile](./src/images/audit_mobile.png)
