@@ -54,7 +54,7 @@
     "title": "CONTACTE"
   },
   "confirmation": {
-    "url": "/ca/confirmacio",
+    "url": "/ca/confirmacio/",
     "title": "Gràcies!",
     "message_1": "El teu missatge s'ha enviat correctament.",
     "message_2": "Em posaré en contacte amb tu al més aviat possible!",

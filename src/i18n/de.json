@@ -54,7 +54,7 @@
     "title": "KONTAKT"
   },
   "confirmation": {
-    "url": "/de/bestatigung",
+    "url": "/de/bestatigung/",
     "title": "Danke!",
     "message_1": "Deine Nachricht wurde erfolgreich gesendet.",
     "message_2": "Ich werde so bald wie möglich mit dir kontaktieren!",

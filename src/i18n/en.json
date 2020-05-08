@@ -54,7 +54,7 @@
     "title": "CONTACT"
   },
   "confirmation": {
-    "url": "confirmation",
+    "url": "confirmation/",
     "title": "Thank you!",
     "message_1": "Your message has been sent successfully.",
     "message_2": "I will contact you as soon as possible!",
