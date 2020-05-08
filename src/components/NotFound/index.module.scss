@@ -6,17 +6,19 @@
   align-items: center;
   flex-direction: column;
   color: $letter-dark;
-  margin: 4rem 1rem;
+  margin: 0 1rem;
   text-align: center;
   h1 {
     z-index: 1;
     font-size: 7rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border-bottom: 1px solid;
+    margin-top: 0;
   }
   p {
     z-index: 1;
     font-size: 18px;
+    margin-bottom: 3rem;
   }
   .not_found_button {
     z-index: 1;
@@ -34,61 +36,5 @@
   }
   .not_found_button:hover {
     background-color: #e99394;
-  }
-}
-.bubble {
-  background-color: $button-blue;
-  border-radius: 50%;
-  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
-  position: absolute;
-  &:before,
-  &:after {
-    content: '';
-    background-color: $button-blue;
-    border-radius: 50%;
-    box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
-    position: absolute;
-  }
-  &:nth-child(1) {
-    top: 15vh;
-    left: 15vw;
-    height: 11vmin;
-    width: 11vmin;
-    &:before {
-      width: 10vmin;
-      height: 10vmin;
-      bottom: -23vh;
-      right: 3vmin;
-    }
-  }
-  &:nth-child(2) {
-    top: 20vh;
-    left: 38vw;
-    height: 10vmin;
-    width: 10vmin;
-    &:before {
-      width: 5vmin;
-      height: 5vmin;
-      bottom: -10vh;
-      left: -8vmin;
-    }
-  }
-  &:nth-child(3) {
-    top: 12vh;
-    right: 30vw;
-    height: 10vmin;
-    width: 10vmin;
-  }
-  &:nth-child(4) {
-    top: 25vh;
-    right: 18vw;
-    height: 11vmin;
-    width: 11vmin;
-    &:before {
-      width: 7vmin;
-      height: 7vmin;
-      bottom: -10vmin;
-      left: -15vmin;
-    }
   }
 }
