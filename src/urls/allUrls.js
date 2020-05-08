@@ -86,7 +86,7 @@ const allUrls = [
   {
     id: 'github-repositories',
     url_en: '/github-repositories/',
-    url_es: '/es/github-repositories/',
+    url_es: '/es/repositorios-de-github/',
     url_ca: '/ca/repositoris-de-github/',
     url_de: '/de/github-repositorien/',
   },
@@ -143,7 +143,7 @@ const allUrls = [
     id: 'events-hunter',
     url_en: '/events-hunter/',
     url_es: '/es/cazador-de-eventos/',
-    url_ca: '/ca/caçador-d-esdeveniments/',
+    url_ca: '/ca/cacador-d-esdeveniments/',
     url_de: '/de/der-ereignis-jager/',
   },
   {
