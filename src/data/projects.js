@@ -316,8 +316,8 @@ const projects = [
     title: 'projects.project_13.title',
     main: 'projects.project_13.main',
     image: 'connect-4',
-    project_link: 'https://diana-moreno.github.io/connect-4',
-    github_link: ['https://github.com/diana-moreno/connect-4'],
+    project_link: 'https://diana-moreno.github.io/four-in-a-row',
+    github_link: ['https://github.com/diana-moreno/four-in-a-row'],
     features: [
       { text: 'projects.project_13.features.feature_1', underline: false },
       { text: 'projects.project_13.features.feature_2', underline: false },
