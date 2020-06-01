@@ -1,5 +1,38 @@
 const projects = [
   {
+    project: 24,
+    technology: ['react', 'javascript', 'all'],
+    url: 'projects.project_24.url',
+    title: 'projects.project_24.title',
+    main: 'projects.project_24.main',
+    image: 'digital-pet',
+    project_link: 'https://custom-tamagotchi.netlify.com',
+    github_link: [
+      'https://github.com/diana-moreno/tamagotchi-vanilla',
+      'https://github.com/diana-moreno/tamagotchi-react',
+    ],
+    features: [
+      { text: 'projects.project_24.features.feature_1', underline: false },
+      { text: 'projects.project_24.features.feature_2', underline: false },
+      { text: 'projects.project_24.features.feature_3', underline: false },
+      { text: 'projects.project_24.features.feature_4', underline: false },
+      { text: 'projects.project_24.features.feature_5', underline: false },
+    ],
+    learned: [
+      'projects.project_24.learned.learned_1',
+      'projects.project_24.learned.learned_2',
+      'projects.project_24.learned.learned_3',
+      'projects.project_24.learned.learned_4',
+      'projects.project_24.learned.learned_5',
+      'projects.project_24.learned.learned_6',
+    ],
+    technologies: [
+      'projects.project_24.technologies.technologies_1',
+      'projects.project_24.technologies.technologies_2',
+      'projects.project_24.technologies.technologies_3',
+    ],
+  },
+  {
     project: 23,
     technology: ['react', 'node', 'all'],
     url: 'projects.project_23.url',

@@ -46,6 +46,42 @@
     "alternateUrl_de": "/confirmation/"
   },
   {
+    "name": "digital-pet",
+    "url": "digital-pet/",
+    "lang": "en",
+    "title": "Digital pet",
+    "description": "Esta es una versión personalizada de un Tamagotchi, la mascota digital portátil de los años 90, construida en un curso de Brian Holt en Frontend Masters.",
+    "alternateLanguage": "es",
+    "alternateUrl": "es/mascota-digital/"
+  },
+  {
+    "name": "digital-pet",
+    "url": "es/mascota-digital/",
+    "lang": "es",
+    "title": "Mascota digital",
+    "description": "Esta es una versión personalizada de un Tamagotchi, la mascota digital portátil de los años 90, construida en un curso de Brian Holt en Frontend Masters.",
+    "alternateLanguage": "en",
+    "alternateUrl": "digital-pet/"
+  },
+  {
+    "name": "digital-pet",
+    "url": "ca/mascota-digital/",
+    "lang": "ca",
+    "title": "Mascota digital",
+    "description": "Esta es una versión personalizada de un Tamagotchi, la mascota digital portátil de los años 90, construida en un curso de Brian Holt en Frontend Masters.",
+    "alternateLanguage": "en",
+    "alternateUrl": "digital-pet/"
+  },
+  {
+    "name": "digital-pet",
+    "url": "de/digitales-haustier/",
+    "lang": "de",
+    "title": "Digitales Haustier",
+    "description": "Esta es una versión personalizada de un Tamagotchi, la mascota digital portátil de los años 90, construida en un curso de Brian Holt en Frontend Masters.",
+    "alternateLanguage": "en",
+    "alternateUrl": "digital-pet/"
+  },
+  {
     "name": "portfolio",
     "url": "multilingual-portfolio/",
     "lang": "en",

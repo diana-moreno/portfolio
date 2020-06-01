@@ -643,8 +643,8 @@
       }
     },
     "project_23": {
-      "url": "multi-language-portfolio",
-      "title": "Multi-language Portfolio",
+      "url": "multilingual-portfolio",
+      "title": "Multilingual Portfolio",
       "main": "This is my Portfolio, in it you will find all my personal projects as well as details about them, links to demos, source code, my biography or my curriculum. The page has been translated into 4 languages, since it has been developed expressly to collaborate in my sister's Bachelor's Degree Final Project on technological translations.",
       "features": {
         "feature_1": "This is a multi-language website: English, Spanish, Catalan and German.",

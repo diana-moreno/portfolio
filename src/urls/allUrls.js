@@ -49,6 +49,13 @@ const allUrls = [
     url_de: '/de/404/',
   },
   {
+    id: 'digital-pet',
+    url_en: '/digital-pet/',
+    url_es: '/es/mascota-digital/',
+    url_ca: '/ca/mascota-digital/',
+    url_de: '/de/digitales-haustier/',
+  },
+  {
     id: 'portfolio',
     url_en: '/multilingual-portfolio/',
     url_es: '/es/portafolio-multilenguaje/',

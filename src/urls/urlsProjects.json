@@ -1,5 +1,25 @@
 [
   {
+    "image": "digital-pet",
+    "url": "digital-pet/",
+    "lang": "en"
+  },
+  {
+    "image": "digital-pet",
+    "url": "es/mascota-digital/",
+    "lang": "es"
+  },
+  {
+    "image": "digital-pet",
+    "url": "ca/mascota-digital/",
+    "lang": "ca"
+  },
+  {
+    "image": "digital-pet",
+    "url": "de/digitales-haustier/",
+    "lang": "de"
+  },
+  {
     "image": "portfolio",
     "url": "multilingual-portfolio/",
     "lang": "en"

@@ -668,6 +668,31 @@
         "technologies_1": "Front-end: Gatsby con React (JavaScript), GraphQL, CSS-SASS",
         "technologies_2": "Back-end: Node con Express"
       }
+    },
+    "project_24": {
+      "url": "mascota-digital",
+      "title": "Mascota digital",
+      "main": "Esta es una versión personalizada de un Tamagotchi, la mascota virtual portátil de los años 90, construida en un curso de Brian Holt en Frontend Masters.\n El proyecto se desarrolla con Javascript vainilla y el objetivo es refactorizar el código con otras tecnologías.\n En mi caso, decidí hacerlo con React pero evitando utilizar create-react-app y configurar un proyecto desde cero con Webpack, Redux y TypeScript.",
+      "features": {
+        "feature_1": "La mascota tiene ciclos de sueño dependiendo de la duración del dia y la noche, el usuario no puede interactuar con ello.",
+        "feature_2": "Cada cierto tiempo, nos indicará que tiene hambre pidiendo alimento.",
+        "feature_3": "Una vez alimentada, hará sus necesidades esperando a ser limpiadas.",
+        "feature_4": "Si ambas necesidades no son cubiertas en un breve espacio de tiempo, la mascota morirá.",
+        "feature_5": "Se puede cambiar a modo lluvia y modo normal siempre que se desee."
+      },
+      "learned": {
+        "learned_1": "A arrancar un proyecto desde cero con Webpack.",
+        "learned_2": "A configurar CSS y SCSS módulos con Webpack.",
+        "learned_3": "A configurar TypeScript con Webpack.",
+        "learned_4": "A obtener un mayor intendimiento sobre las 'closures' de Javascript con la función 'requestsAnimationFrame'.",
+        "learned_5": "A realizar animaciones avanzadas con sprites.",
+        "learned_6": "A construir código en Javascript Vanilla y refactorizarlo a React con TypeScript y Redux."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React con TypeScript configurado desde cero con Webpack, Redux y SCSS módulos.",
+        "technologies_2": "Front-end: Javascript Vanilla",
+        "technologies_3": "Backend: -"
+      }
     }
   }
 }
