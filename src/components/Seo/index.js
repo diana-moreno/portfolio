@@ -31,6 +31,7 @@ export const Seo = ({ seoData }) => {
         }
       />
       <meta name="keywords" content={keywords} />
+      <meta name="mobile-wep-app-capable" content="yes"></meta>
       <meta name="apple-mobile-web-app-capable" content="yes"></meta>
       <title>{titleSeo}</title>
       <link rel="alternate" hrefLang={alternateLanguage} href={alternateUrl} />
