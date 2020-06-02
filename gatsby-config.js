@@ -27,13 +27,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Diana Moreno`,
+        name: `Diana Moreno Portfolio`,
         short_name: `Diana Moreno`,
         start_url: `/`,
         background_color: `#1b242f`,
+        description: `Diana Moreno's Portfolio where you will find all personal projects, links to demos, source code, biography and curriculum.`,
         theme_color: `#151b22`,
         display: `standalone`,
-        // display: `minimal-ui`,
         icon: `src/assets/favicon.svg`, // This path is relative to the root of the site.
         cache_busting_mode: 'none',
       },
