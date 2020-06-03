@@ -36,6 +36,7 @@ export const Seo = ({ seoData }) => {
       <title>{titleSeo}</title>
       <link rel="alternate" hrefLang={alternateLanguage} href={alternateUrl} />
       <link rel="canonical" href={url} />
+      <link rel="no-on-ios" href="manifest.json"></link>
     </Helmet>
   )
 }
