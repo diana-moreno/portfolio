@@ -29,8 +29,11 @@ module.exports = {
       options: {
         name: `Diana Moreno Portfolio`,
         short_name: `Diana Moreno`,
-        start_url: `/`,
-        scope: `/`,
+        // start_url: `/`,
+        // scope: `/`,
+        start_url: 'moreno.netlify.com',
+        scope: 'moreno.netlify.com',
+        stay_in_app: ['moreno.netlify.com'],
         background_color: `#1b242f`,
         description: `Diana Moreno's Portfolio where you will find all personal projects, links to demos, source code, biography and curriculum.`,
         theme_color: `#151b22`,
