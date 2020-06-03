@@ -684,7 +684,7 @@
         "learned_1": "A arrancar un proyecto desde cero con Webpack.",
         "learned_2": "A configurar CSS y SCSS módulos con Webpack.",
         "learned_3": "A configurar TypeScript con Webpack.",
-        "learned_4": "A obtener un mayor intendimiento sobre las 'closures' de Javascript con la función 'requestsAnimationFrame'.",
+        "learned_4": "A obtener un mayor entendimiento sobre las 'closures' de Javascript con la función 'requestsAnimationFrame'.",
         "learned_5": "A realizar animaciones avanzadas con sprites.",
         "learned_6": "A construir código en Javascript Vanilla y refactorizarlo a React con TypeScript y Redux."
       },

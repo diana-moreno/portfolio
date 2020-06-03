@@ -668,6 +668,31 @@
         "technologies_1": "Front-end: Gatsby amb React (JavaScript), GraphQL, CSS-SASS",
         "technologies_2": "Back-end: Node amb Express"
       }
+    },
+    "project_24": {
+      "url": "mascota-digital",
+      "title": "Mascota digital",
+      "main": "Aquesta és una versión personalitzada d'un Tamagotchi, la mascota virtual portàtil dels anys 90, construïda a un curs de Brian Holt a Frontend Masters.\n El projecte es desenvolupa amb JavaScript Vanilla se desarrolla con Javascript Vanilla i l'objectiu és la refacció del codi amb altres tecnologies.\n En el meu cas, vaig decidir fer-ho amb React, però he evitat utilitzar create-react-app i configurar un projecte des de zero amb Webpack, Redux i TypeScript.",
+      "features": {
+        "feature_1": "La mascota té cicles de son segons la durada del dia i la nit, l'usuari no pot interactuar amb això.",
+        "feature_2": "Cada cert temps, ens indicarà que té gana i ens demanarà menjar.",
+        "feature_3": "Una cop alimentada, farà les seves necessitats i esperarà a que siguin netejades.",
+        "feature_4": "Si totes dues necessitats no són cobertes en un breu espai de temps, la mascota morirà.",
+        "feature_5": "Es pot canviar a mode pluja i mode normal sempre que es desitgi."
+      },
+      "learned": {
+        "learned_1": "A executar un projecte des de zero amb Webpack.",
+        "learned_2": "A configurar CSS i SCSS mòduls amb Webpack.",
+        "learned_3": "A configurar TypeScript amb Webpack.",
+        "learned_4": "A obtenir un major enteniment sobre les 'closures' de JavaScript amb la funció 'requestsAnimationFrame'.",
+        "learned_5": "A realitzar animacions avançades amb sprites.",
+        "learned_6": "A construir codi a JavaScript Vanilla i reconstruir-lo a React amb TypeScript i Redux."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React amb TypeScript, configurat des de zero amb Webpack, Redux i SCSS mòduls.",
+        "technologies_2": "Front-end: JavaScript Vanilla",
+        "technologies_3": "Back-end: -"
+      }
     }
   }
 }

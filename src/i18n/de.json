@@ -668,6 +668,31 @@
         "technologies_1": "Front-End: Gatsby mit React (JavaScript), GraphQL, CSS-SASS",
         "technologies_2": "Back-End: Node mit Express"
       }
+    },
+    "project_24": {
+      "url": "digitales-haustier",
+      "title": "Digitales Haustier",
+      "main": "Das Projekt ist eine angepasste Version eines Tamagotchi, das portable virtuelle Haustier der 90er Jahre, das in einem Kurs von Brian Holt bei Frontend Masters gebaut wurde.\n Dieses wird mit Vanilla Javascript entwickelt und das Ziel ist es, den Code mit anderen Technologien zu refaktorisieren.\n Ich beschloss, es mit React zu erstellen, verzichtete aber auf die Verwendung von create-react-app und erstellte ein Projekt von Anfang an mit Webpack, Redux und TypeScript.",
+      "features": {
+        "feature_1": "Das Haustier hat Schlafzyklen, die von der Länge des Tages und der Nacht abhängen, mit denen der Benutzer nicht interagieren kann.",
+        "feature_2": "Von Zeit zu Zeit gibt es an, dass es hungrig ist und bittet um Nahrung.",
+        "feature_3": "Sobald es gefüttert ist, wird es sich entlasten und darauf warten, geputzt zu werden.",
+        "feature_4": "Wenn beide Bedürfnisse nicht in kurzer Zeit erfüllt werden, wird das Haustier sterben.",
+        "feature_5": "Man kann jederzeit in den Regen- und Normalmodus wechseln."
+      },
+      "learned": {
+        "learned_1": "Ein Projekt mit Webpack von Anfang an zu beginnen.",
+        "learned_2": "CSS- und SCSS-Module mit Webpack zu konfigurieren.",
+        "learned_3": "TypeScript mit Webpack zu konfigurieren.",
+        "learned_4": "JavaScript 'closures' mit der Funktion 'requestsAnimationFrame' besser zu verstehen.",
+        "learned_5": "Fortgeschrittene Animationen mit Sprites zu erstellen.",
+        "learned_6": "Code mit Vanilla JavaScript zu erstellen und ihn mit TypeScript und Redux in React umzuwandeln."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React mit TypeScript, von Anfang an konfiguriert mit Webpack, Redux und SCSS-Modulen.",
+        "technologies_2": "Front-end: JavaScript Vanilla",
+        "technologies_3": "Back-end: -"
+      }
     }
   }
 }

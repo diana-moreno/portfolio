@@ -668,6 +668,31 @@
         "technologies_1": "Front-end: Gatsby with React (JavaScript), GraphQL, CSS-SASS",
         "technologies_2": "Back-end: Node with Express"
       }
+    },
+    "project_24": {
+      "url": "digital-pet",
+      "title": "Digital pet",
+      "main": "This is a customized version of a Tamagotchi, the portable virtual pet of the 1990s, built at a Brian Holt course at Frontend Masters.\n The project is developed with Vanilla Javascript with the aim of refactoring the code with other technologies.\n I decided to do it with React and not to use create-react-app and set up a project from scratch with Webpack, Redux and TypeScript.",
+      "features": {
+        "feature_1": "The pet has sleep cycles depending on the length of the day and night, which the user cannot interact with.",
+        "feature_2": "From time to time, it will tell us that it is hungry and will ask for food.",
+        "feature_3": "Once fed, it will answer the call of nature and will be waiting to be cleaned.",
+        "feature_4": "If both needs are not covered in a short period of time, the pet will die.",
+        "feature_5": "You can switch to rain mode and normal mode whenever you want."
+      },
+      "learned": {
+        "learned_1": "How to start a project from scratch with Webpack.",
+        "learned_2": "How to configure CSS and SCSS modules with Webpack.",
+        "learned_3": "How to configure TypeScript with Webpack.",
+        "learned_4": "How to acquire a better understanding of JavaScript 'closures' with the 'requestsAnimationFrame' function.",
+        "learned_5": "How to make advanced animations with sprites.",
+        "learned_6": "How to build code in Vanilla JavaScript and refactor it into React with TypeScript and Redux."
+      },
+      "technologies": {
+        "technologies_1": "Front-end: React with TypeScript, configured from scratch with Webpack, Redux and SCSS modules.",
+        "technologies_2": "Front-end: JavaScript Vanilla",
+        "technologies_3": "Back-end: -"
+      }
     }
   }
 }
