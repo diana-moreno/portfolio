@@ -17,7 +17,7 @@ export const Seo = ({ seoData }) => {
       <html lang={lang} />
       <meta
         name="google-site-verification"
-        content="lUmWWReT0AR_WC7mboNPBzcawIlRr23cOtEMn33Fp_k"
+        content="iNeSQUq9QyrgRIAZg8mDwM8LXE67hqYyXO8l0aY4eT4"
       />
       <meta property="og:title" content={titleSeo} />
       <meta name="description" content={description} />
