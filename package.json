@@ -3,7 +3,7 @@
   "private": true,
   "description": "Personal portfolio",
   "version": "0.1.0",
-  "author": "Diana Moreno <d7@hotmail.es>",
+  "author": "Diana Moreno <dianamorenoarranz@gmail.com>",
   "dependencies": {
     "@react-hook/intersection-observer": "^2.0.10",
     "dotenv": "^8.2.0",

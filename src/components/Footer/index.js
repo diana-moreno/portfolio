@@ -27,7 +27,7 @@ const Footer = ({ lang }) => {
         </a>
         <a
           aria-label={t('accessibility.email', lang)}
-          href="mailto:d7@hotmail.es"
+          href="mailto:dianamorenoarranz@gmail.com"
         >
           <EmailIcon />
         </a>
