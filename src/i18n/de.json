@@ -50,10 +50,10 @@
     }
   },
   "translations": {
-    "ref": "translations",
-    "title": "TRANSLATIONS",
-    "introduction": "This page has been translated into several languages, it can be consulted in Spanish, Catalan, English and German. A little information about the translator:",
-    "text": "I studied Translation and Interpretation at the Pompeu Fabra University (in Barcelona). My intention is to specialize in the world of technology, such as audiovisual translation, videogames or software localization. I also did my Final Year Project on websites localization, so I have some knowledge on the subject. I have done two Erasmus: in 2017 and in 2019 in German-speaking countries (Germany and Austria, respectively). When translating, I rely on CAT tools such as Memsource, Déjà Vu X3 or MemoQ. I believe that technology is human' s best ally! "
+    "ref": "ubersetzungen",
+    "title": "ÜBERSETZUNGEN",
+    "introduction": "Diese Seite wurde in mehrere Sprachen übersetzt, du kannst sie auf Spanisch, Katalanisch, Englisch und Deutsch konsultieren. Einige Informationen über die Übersetzerin:",
+    "text": "Ich habe an der Universität Pompeu Fabra (in Barcelona) Übersetzen und Dolmetschen studiert. Meine Absicht ist es, mich auf die Welt der Technologie zu spezialisieren, wie zum Beispiel audiovisuelle Übersetzung, Videospiele oder Softwarelokalisierung. Ich habe auch mein Abschlussprojekt über die Lokalisierung von Websites durchgeführt, so dass ich über einige Kenntnisse auf diesem Gebiet verfüge. Im Jahr 2017 und 2019 habe ich zwei Erasmus-Programme in deutschsprachigen Ländern (Deutschland und Österreich) gemacht. Beim Übersetzen verlasse ich mich auf CAT-Tools wie Memsource, Déjà Vu X3 oder MemoQ. Ich glaube, dass die Technologie der beste Freund des Menschen ist!"
   },
   "contact": {
     "ref": "kontakt",
@@ -100,7 +100,8 @@
     "sent": "Papierflugzeug-Animation beim Versenden eines Briefes.",
     "image_project": "Hauptbild des Projekts.",
     "github_link": "Link zum Quellcode auf Github.",
-    "project_link": "Link zum Projekt."
+    "project_link": "Link zum Projekt.",
+    "translations": "Link zu Übersetzungen"
   },
   "projects": {
     "ref": "projekte",
