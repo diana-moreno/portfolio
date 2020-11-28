@@ -100,7 +100,8 @@
     "sent": "Animación de avión de papel enviando una carta.",
     "image_project": "Imagen principal del proyecto.",
     "github_link": "Enlace al código fuente en Github.",
-    "project_link": "Enlace al proyecto."
+    "project_link": "Enlace al proyecto.",
+    "translations": "Enlace a Traducciones"
   },
   "projects": {
     "ref": "proyectos",
