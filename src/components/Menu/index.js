@@ -42,8 +42,16 @@ const Menu = ({ lang, indexMenu }) => {
           </li>
           <li className={indexMenu === 3 ? styles.active : ''}>
             <Link
-              aria-label={t('accessibility.contact', lang)}
+              aria-label={t('accessibility.translations', lang)}
               to={allUrls[4][`url_${lang}`]}
+            >
+              {t('translations.title', lang)}
+            </Link>
+          </li>
+          <li className={indexMenu === 4 ? styles.active : ''}>
+            <Link
+              aria-label={t('accessibility.contact', lang)}
+              to={allUrls[5][`url_${lang}`]}
             >
               {t('contact.title', lang)}
             </Link>
@@ -103,9 +111,18 @@ const Menu = ({ lang, indexMenu }) => {
             </li>
             <li className={indexMenu === 3 ? styles.active : ''}>
               <Link
-                aria-label={t('accessibility.contact', lang)}
+                aria-label={t('accessibility.translations', lang)}
                 onClick={toggleMenu}
                 to={allUrls[4][`url_${lang}`]}
+              >
+                {t('translations.title', lang)}
+              </Link>
+            </li>
+            <li className={indexMenu === 4 ? styles.active : ''}>
+              <Link
+                aria-label={t('accessibility.contact', lang)}
+                onClick={toggleMenu}
+                to={allUrls[5][`url_${lang}`]}
               >
                 {t('contact.title', lang)}
               </Link>

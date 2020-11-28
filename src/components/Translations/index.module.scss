@@ -1,0 +1,72 @@
+@import '../../styles/variables';
+
+.translations {
+  max-width: 1450px;
+  margin: 0rem auto;
+  padding: 5rem 0;
+}
+.title_section {
+  text-align: center;
+  color: $letter-dark;
+  font-family: 'Raleway';
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+.title_section_line {
+  width: 5rem;
+  border-bottom: 5px solid $red;
+  margin: 0 auto;
+}
+.translations_introduction {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 1rem 1rem 0 1rem;
+}
+.translations_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  @media only screen and (max-width: 650px) {
+    margin-top: -4rem;
+  }
+}
+.translations_image_container {
+  padding: 2rem;
+  @media only screen and (max-width: 650px) {
+    margin: 3rem 0;
+  }
+  .translations_image {
+    z-index: 1;
+    border-radius: 50%;
+    height: 18rem;
+    width: 18rem;
+  }
+}
+.translations_text_wrapper {
+  max-width: 36rem;
+  font-style: italic;
+  background: whitesmoke;
+  padding: 2rem;
+}
+.translations_text {
+  margin-bottom: 0;
+  
+}
+.translations_text:before {
+  content:open-quote;
+  font-size: 3rem;
+}
+.translations_link {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: #57c1c7;
+}
+.translations_sign {
+  text-align: right;
+  margin-bottom: 0;
+  font-style: normal;
+}

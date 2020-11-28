@@ -28,6 +28,13 @@ const allUrls = [
     url_de: '/de/#projekte',
   },
   {
+    id: 'translations',
+    url_en: '/#translations',
+    url_es: '/es/#traducciones',
+    url_ca: '/ca/#traduccions',
+    url_de: '/de/#ubersetzungen',
+  },
+  {
     id: 'contact',
     url_en: '/#contact',
     url_es: '/es/#contacto',
