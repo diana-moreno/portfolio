@@ -50,10 +50,10 @@
     }
   },
   "translations": {
-    "ref": "translations",
-    "title": "TRANSLATIONS",
-    "introduction": "This page has been translated into several languages, it can be consulted in Spanish, Catalan, English and German. A little information about the translator:",
-    "text": "I studied Translation and Interpretation at the Pompeu Fabra University (in Barcelona). My intention is to specialize in the world of technology, such as audiovisual translation, videogames or software localization. I also did my Final Year Project on websites localization, so I have some knowledge on the subject. I have done two Erasmus: in 2017 and in 2019 in German-speaking countries (Germany and Austria, respectively). When translating, I rely on CAT tools such as Memsource, Déjà Vu X3 or MemoQ. I believe that technology is human' s best ally! "
+    "ref": "traducciones",
+    "title": "TRADUCCIONES",
+    "introduction": "Esta página ha sido traducida a varios idiomas, se puede consultar en castellano, catalán, inglés y alemán. A continuación, una breve descripción de la traductora:",
+    "text": "Estudié Traducción e Interpretación en la Universidad Pompeu Fabra (en Barcelona). Mi intención es especializarme en el mundo de la tecnología, como la traducción audiovisual, los videojuegos o la localización de software. También hice mi Trabajo de Fin de Grado sobre localización de páginas web, por lo que tengo algunos conocimientos sobre el tema. He realizado dos Erasmus, en 2017 y en 2019, en países de habla alemana (Alemania y Austria, respectivamente). Cuando traduzco, confío en las herramientas TAO como Memsource, Déjà Vu X3 o MemoQ. ¡Considero que la tecnología es el mejor aliado del ser humano! "
   },
   "contact": {
     "ref": "contacto",
