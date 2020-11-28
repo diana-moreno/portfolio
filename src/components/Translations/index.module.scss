@@ -30,14 +30,11 @@
   align-items: center;
   padding: 1rem;
   @media only screen and (max-width: 650px) {
-    margin-top: -4rem;
+    margin-top: -3rem;
   }
 }
 .translations_image_container {
   padding: 2rem;
-  @media only screen and (max-width: 650px) {
-    margin: 3rem 0;
-  }
   .translations_image {
     z-index: 1;
     border-radius: 50%;
