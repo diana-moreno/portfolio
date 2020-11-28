@@ -48,7 +48,6 @@ Translations.propTypes = {
   lang: PropTypes.string.isRequired,
   translationsRef: PropTypes.shape({ current: PropTypes.any }),
   imageProfile: PropTypes.object.isRequired,
-  curriculum: PropTypes.string.isRequired
 }
 
 export default Translations
