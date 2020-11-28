@@ -3,7 +3,7 @@
 .menu {
   display: none;
 }
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 824px) {
   .menu {
     display: block;
     position: -webkit-sticky;
@@ -37,7 +37,7 @@
     color: $red !important;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 824px) {
   .menu_hamburger {
     display: block;
     background: $background-blue;
@@ -85,7 +85,7 @@
     }
   }
 }
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 824px) {
   .menu_hamburger {
     display: none;
   }
