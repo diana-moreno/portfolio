@@ -5,6 +5,7 @@ import Menu from '../../components/Menu'
 import Languages from '../../components/Languages'
 import Home from '../../components/Home'
 import About from '../../components/About'
+import Translations from '../../components/Translations'
 import Projects from '../../components/Projects'
 import Contact from '../../components/Contact'
 import curriculum from '../../data/cv_de.pdf'
@@ -13,9 +14,16 @@ import { t } from '../../i18n'
 const lang = 'de'
 
 const IndexPage = ({ location }) => {
-  const { image, projectsImg, seoJson } = useStaticQuery(graphql`
+  const { image, yoliImage, projectsImg, seoJson } = useStaticQuery(graphql`
     query {
       image: file(relativePath: { eq: "profile.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      yoliImage: file(relativePath: { eq: "yoli.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
@@ -46,6 +54,7 @@ const IndexPage = ({ location }) => {
   `)
 
   const imageProfile = image.childImageSharp.fluid
+  const yoliProfile = yoliImage.childImageSharp.fluid
   const seoData = {
     lang: lang,
     url: seoJson.url_de,
@@ -72,8 +81,11 @@ const IndexPage = ({ location }) => {
         if (entry.target.id === t('projects.ref', lang)) {
           setIndexMenu(2)
         }
-        if (entry.target.id === t('contact.ref', lang)) {
+        if (entry.target.id === t('translations.ref', lang)) {
           setIndexMenu(3)
+        }
+        if (entry.target.id === t('contact.ref', lang)) {
+          setIndexMenu(4)
         }
       }
     })
@@ -88,12 +100,14 @@ const IndexPage = ({ location }) => {
   const homeRef = React.useRef()
   const aboutRef = React.useRef()
   const projectsRef = React.useRef()
+  const translationsRef = React.useRef()
   const contactRef = React.useRef()
 
   // create the refs after them achieve value
   let homeElem
   let aboutElem
   let projectsElem
+  let translationsElem
   let constantElem
 
   useEffect(() => {
@@ -101,9 +115,10 @@ const IndexPage = ({ location }) => {
     homeElem = homeRef.current
     aboutElem = aboutRef.current
     projectsElem = projectsRef.current
+    translationsElem = translationsRef.current
     constantElem = contactRef.current
 
-    const sections = [homeElem, aboutElem, projectsElem, constantElem]
+    const sections = [homeElem, aboutElem, projectsElem, translationsElem, constantElem]
     sections.forEach(section => {
       observer.observe(section)
     })
@@ -124,6 +139,11 @@ const IndexPage = ({ location }) => {
         lang={lang}
         projectsRef={projectsRef}
         projectsImg={projectsImg}
+      />
+      <Translations
+        lang={lang}
+        translationsRef={translationsRef}
+        imageProfile={yoliProfile}
       />
       <Contact lang={lang} contactRef={contactRef} />
     </Layout>

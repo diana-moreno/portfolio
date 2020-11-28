@@ -49,6 +49,12 @@
       "section_1": "A part de la programació, procuro seguir un estil de vida saludable: presto molta atenció al que menjo i faig exercici amb freqüència. A més, m'encanta ballar, fins al punt d'haver format part d'una companyia de ball de salsa amateur."
     }
   },
+  "translations": {
+    "ref": "translations",
+    "title": "TRANSLATIONS",
+    "introduction": "This page has been translated into several languages, it can be consulted in Spanish, Catalan, English and German. A little information about the translator:",
+    "text": "I studied Translation and Interpretation at the Pompeu Fabra University (in Barcelona). My intention is to specialize in the world of technology, such as audiovisual translation, videogames or software localization. I also did my Final Year Project on websites localization, so I have some knowledge on the subject. I have done two Erasmus: in 2017 and in 2019 in German-speaking countries (Germany and Austria, respectively). When translating, I rely on CAT tools such as Memsource, Déjà Vu X3 or MemoQ. I believe that technology is human' s best ally! "
+  },
   "contact": {
     "ref": "contacte",
     "title": "CONTACTE"

@@ -36,7 +36,7 @@ const Translations = ({ lang, translationsRef, imageProfile }) => {
               <p className={styles.translations_text}>
                 {t('translations.text', lang)}
               </p>
-              <p className={styles.translations_sign}>- <a className={styles.translations_link} href="https://www.linkedin.com/in/yolanda-moreno-arranz/" target='_blank'>Yolanda Moreno</a></p>
+              <p className={styles.translations_sign}><a className={styles.translations_link} href="https://www.linkedin.com/in/yolanda-moreno-arranz/" target='_blank'>- Yolanda Moreno</a></p>
             </div>
           </Slide>
         </div>

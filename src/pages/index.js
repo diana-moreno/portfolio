@@ -144,7 +144,6 @@ const IndexPage = ({ location }) => {
         lang={lang}
         translationsRef={translationsRef}
         imageProfile={yoliProfile}
-        curriculum={curriculum}
       />
       <Contact lang={lang} contactRef={contactRef} />
     </Layout>
