@@ -8,7 +8,7 @@
     "@react-hook/intersection-observer": "^2.0.10",
     "dotenv": "^8.2.0",
     "flat": "^5.0.0",
-    "gatsby": "^2.19.7",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-offline": "^3.0.32",
