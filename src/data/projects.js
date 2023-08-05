@@ -153,7 +153,7 @@ const projects = [
     title: 'projects.project_19.title',
     main: 'projects.project_19.main',
     image: 'kanban',
-    project_link: 'https://diana-moreno.github.io/kanban',
+    project_link: 'https://kanban2.netlify.app',
     github_link: ['https://github.com/diana-moreno/kanban'],
     features: [
       { text: 'projects.project_19.features.feature_1', underline: false },
