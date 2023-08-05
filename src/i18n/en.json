@@ -496,7 +496,7 @@
         "feature_18": "Can add credit to students.",
         "feature_19": "Can manage and edit each teacher's work schedule.",
         "feature_20": "Can access all bookings made.",
-        "feature_21": "Can see the progression of all the students."
+        "feature_21": "Can see the progression of all the students. Account for testing: admin@admin.com // password: 123."
       },
       "learned": {
         "learned_1": "How to develop a back-end with Node Express.",

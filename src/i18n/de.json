@@ -496,7 +496,7 @@
         "feature_18": "Er kann den Studenten Kredite hinzufügen.",
         "feature_19": "Er kann den Arbeitszeitplan jedes Lehrers organisieren und bearbeiten.",
         "feature_20": "Er kann auf alle getätigten Buchungen zugreifen.",
-        "feature_21": "Er kann den Fortschritt aller Studenten sehen."
+        "feature_21": "Er kann den Fortschritt aller Studenten sehen. Demo-Konto: admin@admin.com // Kennwort: 123."
       },
       "learned": {
         "learned_1": "Ein Back-End mit Node Express zu entwickeln.",

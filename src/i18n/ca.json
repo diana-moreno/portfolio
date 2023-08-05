@@ -496,7 +496,7 @@
         "feature_18": "Pot agregar crèdits als alumnes.",
         "feature_19": "Pot gestionar i editar l'horari laboral de cada professor.",
         "feature_20": "Pot accedir a totes les reserves realitzades.",
-        "feature_21": "Pot veure la progressió de cadascun dels alumnes."
+        "feature_21": "Pot veure la progressió de cadascun dels alumnes. Compte per a proves: admin@admin.com // contrasenya: 123."
       },
       "learned": {
         "learned_1": "A desenvolupar un back-end amb Node Express.",
