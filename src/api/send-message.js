@@ -1,5 +1,5 @@
 export default function(name, email, message) {
-  const API_URL = 'https://sendmeanemail.herokuapp.com'
+  const API_URL = 'https://portfolio-email-api.onrender.com'
 
   fetch(`${API_URL}/contact`, {
     method: 'POST',
